@@ -112,7 +112,7 @@ impl VerseMutation {
         ctx: &Context<'_>,
         lyrics: String,
         reference: String,
-        song_id: i32,
+        song_reference: String
     ) -> Result<VerseDTO, Error> {
         let db = ctx.data::<DbConnection>().unwrap();
 
@@ -124,7 +124,7 @@ impl VerseMutation {
             id: ActiveValue::NotSet,
             lyrics: ActiveValue::Set(lyrics.clone()),
             reference: ActiveValue::Set(reference),
-            song_id: ActiveValue::Set(song_id),
+            song_reference: ActiveValue::Set(song_reference),
         };
 
         let inserted_verse = new_verse.insert(&db.connection).await?;
@@ -152,7 +152,7 @@ impl VerseMutation {
         id: i32,
         lyrics: String,
         reference: String,
-        song_id: i32,
+        song_reference: String,
     ) -> Result<VerseDTO, Error> {
         let db = ctx.data::<DbConnection>().unwrap();
 
@@ -171,7 +171,7 @@ impl VerseMutation {
         let mut updated_verse: verses::ActiveModel = verse;
         updated_verse.lyrics = Set(lyrics.clone());
         updated_verse.reference = Set(reference);
-        updated_verse.song_id = Set(song_id);
+        updated_verse.song_reference = Set(song_reference);
 
         let updated_verse = updated_verse.update(&db.connection).await?;
         let related_song = updated_verse.find_related(Song).one(&db.connection).await?;
