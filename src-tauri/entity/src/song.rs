@@ -1,3 +1,4 @@
+use std::fmt;
 use sea_orm::entity::prelude::*;
 use serde::{Deserialize, Serialize};
 
@@ -13,6 +14,7 @@ pub struct Model {
     pub category_id: i32,  // Foreign key to the Post model
     pub author_id: i32,
     pub reference: String,
+    pub content: Option<String>,
   #[sea_orm(ignore)]
     pub category: Option<category::Model>,
   #[sea_orm(ignore)]
@@ -33,7 +35,12 @@ impl Related<super::category::Entity> for Entity {
         Relation::Category.def()
     }
 }
-
+impl fmt::Display for Model {
+    fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
+        // Customize so only `x` and `y` are denoted.
+        write!(f, "x: {}",self.category.clone().unwrap().name)
+    }
+}
 impl Related<super::author::Entity> for Entity {
     fn to() -> RelationDef {
         Relation::Author.def()
