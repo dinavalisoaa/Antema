@@ -1,0 +1,22254 @@
+INSERT INTO types (name) VALUES ('FJKM');INSERT INTO types (name) VALUES ('Katolika');INSERT INTO types (name) VALUES ('FLM');INSERT INTO author (name) VALUES ('FJKM');INSERT INTO category (type_id, name) VALUES (1, 'FFPM');INSERT INTO category (type_id, name) VALUES (1, 'Fihirana Fanampiny');INSERT INTO category (type_id, name) VALUES (1, 'Antema');INSERT INTO category (type_id, name) VALUES (1, 'Tsanta');INSERT INTO category (type_id, name) VALUES (1, 'Salamo');INSERT INTO category (type_id, name) VALUES (1, 'Fifohazana');INSERT INTO category (type_id, name) VALUES (1, 'Jobily');INSERT INTO category (type_id, name) VALUES (1, 'STK');UPDATE sqlite_sequence SET seq = 9 WHERE name = 'category';UPDATE sqlite_sequence SET seq = 4 WHERE name = 'types';UPDATE sqlite_sequence SET seq = 2 WHERE name = 'author';INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF1',
+             '',
+             1
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('1', 'Andriananahary masina indrindra!\nNy anjelinao izay mitoetra Aminao\nMifamaly hoe : Masina indrindra\nAndriananahary, Telo Izay Iray.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('1', 'Andriananahary masina indrindra!\nNa tsy hita aza izao ny voninahitrao!\nMasina indrindra Hianao irery.\nAndriananahary, Telo Izay Iray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('1', 'Zava-manana aina samy mankalaza\nSady manambara Anao Izay Tompony izao;\nHianao irery no mitahy azy,\nAndriananahary, Telo Izay Iray.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('1', 'Andriananahary feno hatsarana!\nHe ny fitahianao izay mpanomponao.\nTsara dia tsara ny omenao azy\nAndriananahary, Telo Izay Iray.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('1', 'Andriananahary masina indrindra!\nIzahay mpanomponao ta-hankalaza Anao;\nFeno fahendrena, feno fiantrana,\nAndriananahary, Telo Izay Iray.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF2',
+             '',
+             2
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('2', 'Misaora an''i Zanahary\n''Zao olona tontolo izao;\nDia mankalazà Azy,\nFa anton''izao rehetra izao', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('2', 'Izay zavatra nomeny\nMahafaly, mahasoa;\nToy ny andro fararano,\nToy ny andro mipoaka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('2', 'Dia ampitomboy ny sainay\nHahalala ny teninao,\nHahafantatra marina\nIzay sitraky ny fonao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF3',
+             '',
+             3
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('3', 'Isaorana anie Andriamanitsika\nFa fitahiam-be Omeny ho antsika\nHatreo ambohoka\nKa mandraka antitra,\nIsika henika\nNy soan''ny lanitra', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('3', 'Tsy mety tapitra na lany ny hareny,\nTsy hita faritra ny sisa izay homeny;\nFanahy sambatra\nSy fo miadana\nNo efa santatra\nIzay ananana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('3', 'Ny Ray sy Zanaka sy ny Fanahy koa,\nDerain''ny masina ho Tompo iray tokoa;\nAndriamanitray\nBe fahasoavana\nNo anateranay\nIzay fisaorana.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF4',
+             '',
+             4
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('4', 'Mamy ny fitianao,\nRy Jehovah Tomponay!\nFoinao ny Zanakao,\nHo Mpanavotra anay.\nTsy mba misy tokinay\nAfatsy ny Zanakao.\nKa misaotra Anao izahay\nNoho ny fitianao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('4', 'Mamy ny fitianao,\nMahafaly fo tokoa;\nIzahay avelanao\nMba hibebaka avokoa.\nLasa lavitra izahay,\nNefa notadiavinao;\nEfa ratsy izahay,\nNefa tsy nafoinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('4', 'Mamy ny fitianao,\nIzay andraisanao anay\nHOnina ao an-dapanao\nRaha ho faty izahay\nNoho ny rastsy izay natao,\nLoza no anjaranay,\nNefa namboaranao\nParadisa izahay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('4', 'Mamy re, ry Tomponay!\nIzao fitianao izao,\nKa indreto izahay\nAvy mba hisaotra Anao.\nRaiso re izao saotra izao,\nFa fanati-tsitrapo;\nTsy mba mendrika ho Anao,\nNefa vokatry ny fo.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF5',
+             '',
+             5
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('5', 'Jehovah, Ray an-danitra,\nMpamelona anay\nTsinjovy ny mpanomponao,\nTsarovy izahay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('5', 'Jehovah, Ray mamindra fo!\nHenoy ny hatakay;\nEkeo sy raso ho Anao\nNy dera entinay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('5', 'Jehovah, Ray mahari-po!\nVonoy ny helokay;\nDiovy ny fanahinay,\nVelomy izahay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('5', 'Jehovah Ray! Ny antranao\nNo itokianay;\nAmbara-pahafatinay\nHisaoranay Hianao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF6',
+             '',
+             6
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('6', 'Avia, miondreha,\nRy vazan-tany ô!\nFa lehibe Jehovah,\nSy masina tokoa;\nMiankohofa tsara,\nManatona Azy ''zao\nHaneho fanajana\nILay Mpanao anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('6', 'Andriananahary,\nManaiky izahay\nFa Aminao ny hery\nTsy hay toherina.\nTsy misy maharara\nNy tianao hatao,\nFa Hianao Mpitondra\nIzao rehetra izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('6', 'Re any lavitra any\nIzao ny herinao,\nKa isam-bazan-tany\nHiondrika Aminao;\nMpanjaka sy Mpitsara\nMahery Hianao;\nMiadana ny tany\nMiankina aminao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF7',
+             '',
+             7
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('7', 'Misaora an''Andriamanitra\nIzay nanao ny lanitra.\nNamorona ny tany koa\nSy ''zay rehetra mahasoa', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('7', 'Derao ny voninahiny,\nAnkalazao ny heriny,\nJereo ny fitiavany\nTsy tambonao tononina.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('7', 'Dia avy izahay izao,\nRy Tompo be fitia ô!\nMiondrika eo imasonao\nMidera ny Anaranao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('7', 'Isaorana mandrakizay\nHianao, Andriamanitray!\nNy haja be indrindra izao\nAtolotray mpanomponao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF8',
+             '',
+             8
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('8', 'Dera, Laza, Hery, Haja,\nHo an''Andriamanitra\nTompon''aina, Zanahary,\nRain''ny voninahitra,\nIzy no mpanao antsika,\nSady ivelomana;\nFototr''aina, foto-tsoa,\nIzy ivavahana.\nHihira isika hoe : Haleloia!\nDera ho an''Andriamanitra\n:,:Dia Haleloia! Haleloia! :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('8', 'Ray Tsitoha, tsy miova,\nTia sy mamindra fo,\nMahasoa isan''andro,\nIzy no isaorana;\nVatolampy tsy mifindra,\nTokin''olombelona;\nFiarova-mahavonjy,\nIzy itokiana\nHihira isika hoe : Haleloia!\nDera ho an''Andriamanitra\n:,:Dia Haleloia! Haleloia! :,:', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF9',
+             '',
+             9
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('9', 'Ry Tompo Zanaharinay!\nManati-tsaotra izahay,\nF''efa novelominao,\nKa tratr''izao maraina izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('9', 'Ny aizina efa lasa izao,\nmazava no naposakao;\nLevony koa ny otanay,\nKa hazavao ny hevitray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('9', 'Ny asanay hatao anio\nAtrehonao ka mba tahio,\nHatao ho voninahitrao,\nHandrasanay ny antranao', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('9', 'Derainay Hianao, ry Ray!\nDerainay Jeso Tomponay,\nDerainay ny Fanahy koa,\nDerainay fa mpanisy soa', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF10',
+             '',
+             10
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('10', 'Ry Tomponay Tsitoha ô!\nMpanao izao tontolo izao,\nAnkalazainay Hianao\nFa lehibe ny herinao,', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('10', 'Ny hiran''ny anjelinao\nManerana ny lanitra,\nManehoeho fatratra\nNy hobin''ny voaavotra;', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('10', 'Fa masina, fa masina,\nFa masina i Jehovah!\nKa heniky ny lazanao\nNy tany sy ny lanitrao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('10', 'Ireo mpitory irakao\nMihoby eo anilanao,\nNahefa fanompoana,\nMihira ny fisaorana', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('10', 'Izao olonao rehetra izao\nDia mino sy manaiky Anao\nHo Ray Tsy miova sady to,\nMahery ny mpamindra fo.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('10', 'Ny Zanakao nirahinao\nSy ny Fanahy Masinao\nIsaoranay Anao, ry Ray,\nFa foto-pamonjena anay!', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('10', 'Ry Kristy ô, Mpanjakanay\nMitovy hery amin-dRay', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF11',
+             '',
+             11
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('11', 'Endrey ny voninahitrao\nRy Ray Tsitoha ô!\nEndrey ny fiandriananao\nHajainay eram-po.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('11', 'Ny herinao, ny andronao,\nDia mandrakizay!\nNy lanitra mitsaoka Anao\nRy Andriamanitray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('11', 'Ny tavanao mamiratra\nNy fahamasinanao\nSy hery tapitr’ohatra\nNy fahendrenao soa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('11', 'Endrey, matahotra aho izao,\nRy Tompo Masina ô!\nMangovitra eo imasonao\nSao dia lavinao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('11', 'Na dia ambony Hianao,\nDia nidina amiko\nNitondra fihavanana,\nKa dia mba tiako.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('11', 'Koa aiza re no misy ray\nMitovy Aminao :\nMikarakara tsara anay\nIzay natsanganao.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('11', 'O, mahagaga Hianao,\nRy Tompo tia anay,\nNy fonay dia hatoky Anao\nAmbara-podinay.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF12',
+             '',
+             12
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('12', 'Jehovah ô, derainay  Hianao!\nAnkalazainay ny Anaranao!\n:,: Izao rehetra izao manaja\nAnao\nFa Rainay ho mandrakizay :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('12', 'Mpanjakanay sy Tompo\nMasina\nOmenay eram-po ny hasina\n:,: Izao rehetra izao mihoby\nAnao\nFa Rainay ho mandrakizay :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('12', 'Ry Masina manerinerina,\nJehovah be fitia sy marina!\n:,: Izao rehetra izao misaotra\nAnao\nFa Rainay ho mandrakizay :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('12', 'Manerana izao tontolo izao\nNy laza sy ny voninahitrao,\n:,: Izao rehetra izao hanoa\nAnao\nFa Rainay ho mandrakizay :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('12', 'Andriananahary Masina ô!\nTanteraka ny fiandriananao,\n:,: Izao rehetra izao mitsaoka\nAnao\nFa Rainay ho mandrakizay :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF13',
+             '',
+             13
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('13', 'Misaora ny Mpahary,\nTsarovinao ny asany\nMisaora ny Mpahary\nDerao ny soa vitany!\nNy helokao rehetra\nDia voavelany,\nFa tsy mba misy fetra\nNy fitiavany :\nNy Zanany nafoiny\nMba ho mpamonjinao,\nKa hianao nantsoiny\nHandray ny aim-baovao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('13', 'Ny toky izay nomeny,\nSy ny fahasoavana,\nMaharitra ireny\nTsy manam-pahataperana,\nAvelany tokoa\nNy hatezerany,\nKa tsy mba hahavoa\nAntsika olony,\nFa Izy mahalala\nNy toetsika atý,\nKa tena Ray mandala\nAntsika zanany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('13', 'He, toy ny voninkazo\nNy ain’ny olombelona,\nTsy ela dia malazo\nKa tena mora levona,\nFa Jeso manan-kery\nHamoha fasana,\nTsy hisy izay ho very\nNy olo-masina;\nIsika vovotany\nNo namboariny\nHiombom-panjakana\nSy laza aminy.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('13', 'Misaora ny Mpahary,\nRy tany sy ny lanitra!\nRy zava-boahary,\nDerao Andriamanitra!\nRy irany mahery\nManao ny sitrany,\nRy zanany izay very,\nKanefa hitany,\nMisaora Azy àry,\nFa heniky ny soa,\nMisaora ny Mpahary,\nO, ry fanahiko!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF14',
+             '',
+             14
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('14', 'O, ry tany rehetra, avia izao\nHidera ny Tompo\nMpanavotra anao\nNy Tompo miantso\nantsika hankao\nAnatrehany, mba\nhohasoaviny ao :\nDera, laza anie\nVoninahi-dehibe,\nHo Anao, ry Tomponay\nTsitoha ô !\nAmen.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('14', 'He, Jehovah miantra \nantsika izao,\nKa dia manolotra\nantsika indray\nNy endriny mbamin’ny\naina vaovao;\nEny, Izy Manaiky\ntokoa ho Ray\nDera, laza anie\nVoninahi-dehibe,\nHo Anao, ry Tomponay\nTsitoha ô !\nAmen.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('14', 'Asandrato ny feo hihoby\nhoe :\nIsaorana mandrakizay\nHianao,\nRy Tompo Mahery,\nIzay manome\nHo anay olom-bery\nny aina vaovao;\nDera, laza anie\nVoninahi-dehibe,\nHo Anao, ry Tomponay\nTsitoha ô !\nAmen', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF15',
+             '',
+             15
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('15', 'Avia hankalaza\nNy Tompo lehibe,\nFa feno hery, haja,\nJehovah Masina e\nAndeha mitambara,\nRy vazan-tany ô !\nMiankohofa tsara\nHanaja Azy izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('15', 'Ry Tomponay Tsitoha\nIndreto izahay,\nManondrika ny loha,\nMidera Anao, ry Ray\nNy fonay sy ny hery,\nFanahy, saina koa,\nOmena Anao irery,\nKa anjakao tokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('15', 'Mpanjaka tena hendry\nHianao, ry Tomponay,\nKa tena mahakendry\nIzay hahasoa anay;\nNa misy toa mangidy\nNy fitondranao soa\nNy saina sy safidy\nManaiky Anao tokoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('15', 'Manerana ny tany\nIzao ny lazanao,\nKa be tsy hita lany\nNy voninahitrao;\nKoa hira fiderana\nVentesinay izao\nHaleloia, Hosana!\nMba raiso ho Anao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF16',
+             '',
+             16
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('16', 'Avia ry vazan-tany ô!\nSy mponina ao an-danitra \nMiraisa feo ka mihirà\nNy fanavotan-dehibe,\n:,: Izay amonjena marobe,\nDia vita re ka miderà :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('16', 'Avia ry  fiangonana  ô!\nMba asandrato re ny feo\nHidera ny Mpanavotra;\nNa atý an-efitra aza izao,\n:,: Hirao am-pandehanana\nNy hira soan’i Ziona :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('16', 'Avia ry voavonjy ô!\nKa mifalia avokoa,\nFa afa-doza hianareo;\nMiraisa feo, ka mihirà,\n:,: Derao, derao, fa mendrika\nIlay nanavotra anareo :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('16', 'Avia ry olom-bery ô!\nIzay mandre ny teny soa\nHoe : « Manatòna Ahy izao »\nAnio ny Tompo mba fidio;\n:,: Ny fitiavany valio;\nNy fiderany koa hirao :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF17',
+             '',
+             17
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('17', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('17', 'Haja sy voninahitra\nOmena an’Andriamanitra,\nFa Izy ihany no mahefa\n:,: Izay sitrakin’ny fony :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('17', 'Masina, tsy azo haratsina,\nMahery, tsy azo resena ;\nMarina, tsy azo laingaina;\n:,: Hendry, tsy azo fitahina :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('17', 'Ny am-po toy ny am-bava;\nNy maizina toy ny mazava\nNy takona toy ny miseho;\n:,: Tsy misy àry tsy hitany :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('17', 'Tsy miova ny fombany;\nLehibe ka tsy oharina;\nTia, tsy azo arovana;\n:,: Miantra, tsy azo ferana :,:', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('17', 'Saotra amam-bavaka atao\nDera sy laza ho Azy;\nIzy no ivavahana\n:,: Fa anton’izao tontolo\nizao :,:', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF18',
+             '',
+             18
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('18', 'Ny feonay rehetra izao\nDia entinay midera Anao,\nRy Andriananaharinay!\nNa ambany aza izahay,\n:,: Dia tianao :,:\nRy Andriananaharinay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('18', 'Ny andronay rehetra izao\nDia entinay manoa Anao,\nRy Tompo sy Mpanjakanay!\nSatria izao dia fantatray\n:,: Fa tianao :,:\nRy Tompo sy Mpanjakanay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('18', 'Ny hevitray rehetra izao\nDia enti-mankalaza Anao,\nRy Tompo Mpanasoa anay!\nMpitahy ny fanahinay,\n:,: Fa tianao :,:\nRy Tompo Mpanasoa anay!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('18', 'Ny herinay rehetra izao\nDia iasanay ho Anao,\nRy Aronay sy Tanjakay!\nMiezaka tokoa izahay,\n:,: Fa tianao :,:\nRy Aronay sy Tanjakay!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('18', 'Rehefa alainao izahay,\nKa tapitra ny andronay,\nHamantana any Aminao\nIzahay arý an-danitrao,\n:,: Fa tianao :,:\nHamantana any Aminao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF19',
+             '',
+             19
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('19', 'Misaotra Anao izahay izao,\nJehovah Ray!\nFa efa notohizanao\nNy andronay,\nKa tonga atý an-tranonao\nIndray izahay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('19', 'Misaotra Anao izahay izao,\nRy Mpanome!\nNy soa avy Aminao\nTsy lany re,\nFa isan-andro misy izao\nKa maro be.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('19', 'Misaotra Anao ‘zahay izao,\nRy Rainay soa!\nNy helokay navelanao\nNefa iza moa\nNo mahalaza izay natao ?\nFa be tokoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('19', 'Misaotra Anao ‘zahay izao,\nRy mora fo!\nNy mafy tsy sakananao\nFa mba hanjo,\nFa be ny fanirianao\nAnay hadio.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('19', 'Misaotra Anao ‘zahay izao,\nRy Tomponay!\nAo aminao an-danitrao\nHonenanay,\nFa misy fitsaharana ao\nMandrakizay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF20',
+             '',
+             20
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('20', 'Tsaroanay tokoa izao\nNy soa be noraisainay\nTsy tapaka avy taminao\nRy Andriananaharinay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('20', 'Ny lasa itodihana\nDia mampiseho avokao\nNy tanam-pitiavana\nMiahy sady manasoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('20', 'He! koa ity andronay ity,\nIzay diavinay izao,\nDia voahodidina erý\nNy fitahiana aminao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('20', 'Dia tokinay tokoa izao\nFa mbola ho arovanao\nAnio, ampitso, rahatrizay,\nIzay miankina Aminao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('20', 'Ka dia mba velomy re\nAtý anatinay ny fo\nHahay misaotra Anao anie\nRy Rainay be famindram-po!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF21',
+             '',
+             21
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('21', 'Derao Andriamanitra\nRy vazan-tany efitra,\nFa izy no mamindra fo,\nKa mety manome ny zo,\nNaniraka ny Zanany\nHanavotra ny olony!\nNy sandriny tsy toha re,\nFa manan-kery lehibe.\nMalaza ny Anarany,\nFa lehibe ny asany.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('21', 'Ny zavatra rehetra e\nNy ranomasin-dehibe,\nIreo tendrombohitra,\nNy saha feno ahitra,\nNy hazo sy ny vorona\nNy vato sy ny zavona,\nNy voninkazo manitra,\nNy endriky ny lanitra\nDia samy tsy mijanona\nMidera ny mpamorona.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('21', 'Ry olona navotana\nMba mitsangàna faingana,\nKa miderà ny Tomponao,\nIzay nanavotra anao,\nFa he, ny voninahiny\nManerana ny taniny\nTendreo ny valihanao\nKa miventesa hira vao :\nRy voavonjy ô, derao ny Ray\nMpamorona anao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF22',
+             '',
+             22
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('22', 'Ry Rainay Izay namorona\nIzao rehetra izao,\nNy hita sy ny takona\n:,: Dia asan-tananao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('22', 'Ny volana aman-kitana,\nNy biby marobe,\nNy ala maitso mavana\n:,: Hitsaoka Anao anie :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('22', 'Ny tany sy ny lanitra,\nNy ranomasina,\nIreo tendrombohitra\n:,: Manolo-kasina :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('22', 'Ny ory sy ny mpanana,\nDia fototra iray,\nFa samy asan-tanana\n:,: Nataonao Tomponay :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('22', 'Dia saotra no atolotray,\nAnao, ka raisonao,\nFa fanomezan-ko anay\n:,: Ny asan-tananao :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF23',
+             '',
+             23
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('23', 'Tsy misy zava-mahasoa,\nAndriamanitra ô!\nIzay tsy nataonao ho anay\nMba hifalianay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('23', 'Tsy misy singan’ahitra,\nNa ravin-kazo koa,\nIzay tsy amantaranay\nFa hendry Hianao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('23', 'Ny kintana mazava erý\nManeho avokoa\nFa sitrakao hanafaka\nNy aizina aminay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('23', 'Izay rehetra tazanay\nDia voninahitrao;\nIzay rehetra takona\nMilaza izany koa.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('23', 'Ny tany sy ny lanitra\nNataon’ny herinao\nDia azo ianarana\nNy famindramponao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF24',
+             '',
+             24
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('24', 'Ny lanitra ao ambony ao,\n:,: Andriamanitra ô!\nIzay rehetra vitanao\nDia mahagaga anay. (in-3)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('24', 'Ny volana aman-kitana,\n:,: Ny masoandro koa,\nNy tany aman-danitra,\nMitory avokoa. (in-3)', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('24', 'Ny andro amana alina,\n:,: Milaza aminay\nFa hendry Andriamanitra,\nJehovah Tomponay. (in-3)', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('24', 'Ny tenanay, fanahy koa,\n:,: Dia avy taminao\nKa mampiseho tsara koa\nNy voninahitrao. (in-3)', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('24', 'Izay rehetra vitanao,\n:,: Atý sy any koa\nMiara mankalaza Anao\nFa Tompony tokoa. (in-3)', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF25',
+             '',
+             25
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('25', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('25', 'Andriamanitra hendry,\n:,: Loharanon-tsaina  :,:\n:,: Ka manolo-pahendrena\nIzay manaiky Azy :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('25', 'Andriamanitra mahay,\n:,: Izao rehetra izao :,:\n:,: Ka Izy no akana saina\nHahahendry antsika :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('25', 'Ary isika mila saina,\n:,: Hanitsy antsika :,:\n:,: Amin’ny fianarana\nHanarahana Azy :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('25', 'Izy no ihavian’\n:,: Ny soa rehetra :,:\n:,: Hiainana mandrakizay,\nKa Izy no omen-tsaotra :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF26',
+             '',
+             26
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('26', 'Jehovah tsy mba manadino\nNy mpanompony manoa,\nFa hotsarovany ireo mino\nNofidiny ho Azy koa.\nManerinerina ambony\nNy fiandrianany;\nKanefa kosa re ny fony\nMitsinjo izay ambany.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('26', 'Izaho dia ravoravo\nKa midera Azy izao;\nFahasoavanao, Ry Avo,\nNo namonjy hatrizao,\nFahavokisan’ny fanahy\nAry fisandratana\nNo hotantaninao ho ahy :\nNy foko mankalaza.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('26', 'O, mifalia ry Israely,\nFa vonjen’ny sandriny;\nMba matokia dia hahery\nAntsoy ny Anarany :\nMpanomponao ity mitalaho,\nKa henoy ny hatako,\nO, ry Mahery, inty aho!\nNy sitrakao ekeko.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF27',
+             '',
+             27
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('27', 'Fitiavana tokoa re,\nny Ray an-danitra\nFa manolo-java-tsoa\nTena mahasambatra\nHo antsika izay mpanota,\nOry, osa, rera-po,\nIzy masina sy to\nTa-hanaisotra ny ota\nNoho ny fanavotana\nVitan’i Jesosy e!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('27', 'Tsy ho very, ry mahantra\nSy miferin’aina izao,\nFa ny Ray Izay feno antra,\nAoka mba hinoanao.\nSambatra ny voavela\nHeloka tokoa re,\nFa Jesosy manome\nFanavaozam-po sy lela,\nHira fideram-baovao\nNo ho re an-dalalanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('27', 'O, ry Rainay be fitia,\nMba ampio izahay,\nTsy ho kivy, tsy hania\nAo am-pandehananay,\nFa handroso mba hankany\nAminao an-danitra.\nRy Andriamanitra,\nBe ny loza atý an-tany\nFa ny ranomasonay\nFaohinao rahatrizay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF28',
+             '',
+             28
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('28', 'Zanahary tsy mba tia\nNy fahaverezanao\nIzy, Rainao be fitia,\nTsy mba mahafoy anao.\nNy famoizam-po ario,\nFa Jesosy itokio,\nMba hatoninao anio\nIlay be fahasoavana!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('28', 'Izy dia nitady ela,\nVao nahita anao izao;\nMifalia, tsy ho ela\nDia hody hianao.\nHe, ry ondry saiky very,\nOry, osa, feno fery,\nNy Mpamonjy manan-kery\nHahasitrana anao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('28', 'Ny ao an-danitra mifaly,\nRaha misy miova fo,\nAry any ny anjely\nMiramirana avokoa.\nFo marary dia tsaboiny,\nAhiahim-po vonoiny,\nFiadanana lazainy;\nSambatra isika re!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF29',
+             '',
+             29
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('29', '( Hira Paska )', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('29', 'Ry foko, mitsangàna izao\nKa miderà ny Tomponao,\nAndriamanitsika.\nNasehony ny heriny.\nNy fasana levoniny\nTsy hahatàna antsika.\nDerao! Hobio!\nHaleloia sy hosana,\nFanjakana :\nAzy Tompom-pahefana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('29', 'He! vitanao Mpanavotra\nNy lova mahasambatra :\nNy fasana resenao.\nMahazo toky fatratra,\nNy mitomany, sasatra :\nNy lanitra vohanao.\nJeso Kristy\nIzay nitsangana maraina\nTompon’aina :\nAndro Paska, arahabaina.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('29', 'Derao ny voninahiny!\nAnkalazao ny heriny,\nFa resy re satana.\nRy tany sy ry lanitra,\nDerao Andriamanitra\nAkaro ny hosana.\nRaiso Tompo,\nRaisonao ny voninahitra\nAman-dera :\nHo anao, ry Zanakondry.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF30',
+             '',
+             30
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('30', 'Paradisako ry Jeso,\nFifaliako Hianao;\nLanitry ny foko eto\nSy Edenako vaovao!\nParadisa soan’ny foko\nEto an-tany Hianao;\nEny, fanaperan-tsoako\nAo an-danitra vaovao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('30', 'Volafotsy, volamena,\nVatosoako Hianao.\nZava-tsoako sy harena\nMiafina ao an-danitra ao.\nParadisa soan’ny foko\nEto an-tany Hianao;\nEny, fanaperan-tsoako\nAo an-danitra vaovao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('30', 'Zo sy hajako tokoa\nHianao Mpanavotro.\nHaingo sarobidy koa,\nSatro-boninahitro.\nParadisa soan’ny foko\nEto an-tany Hianao;\nEny, fanaperan-tsoako\nAo an-danitra vaovao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('30', 'Zavatra rehetra ho ahy\nHianao, ry Jeso tia;\nFianinan’ny fanahy,\nFiadanako doria.\nParadisa soan’ny foko\nEto an-tany Hianao;\nEny, fanaperan-tsoako\nAo an-danitra vaovao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF31',
+             '',
+             31
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('31', 'Misaotra Anao izahay, ry Ray,\nFa sitrakao homena ho anay\nNy Zanakao malalanao;\nIlay tokanao no he natolotrao.\nAtolotray ny saotranay,\nO! Raisonao anie Jehovah\nRay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('31', 'Misaotra Anao, Jesosinay,\nNy fitiavanao tsarovanay :\nNalatsakao ny rànao soa\nHanavotra aina ny\nmpanota voa;\nAtolotray ny saotranay\nKa raisonao e, ry Jesosinay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('31', 'Misaotra Anao, Fanahy koa,\nMamelona sy monina\nao am-po.\nHavaozy ao anaty ao\nHo tonga lapanao madio\nsy vao\nAtolotray ny saotranay\nKa raiso, ry Fanahy tokinay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF32',
+             '',
+             32
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('32', 'Misaotra Anao izahay\nJehovah Tompo ô!\nFa efa naharay\nNy soa taminao.\nKa lalandava no\nIsaoranay Anao\nHo eo am-bavanay tokoa\nNy teninao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('32', 'Fa reharehanay\nSy famonjena koa\nNy Tompo tia anay,\nTsy manam-paharoa.\nNy fandresena soa,\nNy fiononam-po\nDia avy taminao,\nKa hery manavao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('32', 'Ny olo-mino Anao\nSy ireo mpanomponao\nNa velona na maty,\nDia misaotra Anao.\nKa sambatra tokoa\nFa manana Anao\nIzahay, ry reharehan’\nNy Fanahy ô!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF33',
+             '',
+             33
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('33', 'Tompo ô, tsy takatray\nNy hasoan’ny antranao ;\nZava-mahagaga anay\nNy fitiavanao.\nHe, mpanota izahay,\nNefa hasoavinao;\nAvotr’aina azonay,\nMisaotra no atao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('33', 'Tompo ô, Mpanjakanay,\nFatratra ny herinao :\nTs’isy zavatra izay\nMahasakana Anao!\nNefa mora fo Hianao\nFa mandefitra aminay,\nKoa dia misaotra Anao\nFa afaka izahay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('33', 'Tompo Andriamanitray,\nAvy izahay izao :\nRaiso ny fiainanay;\nAnao, ka anjakao.\nTompo ô, tsy takatray\nNy hasoan’ny antranao;\nZava-mahagaga  anay\nNy fitiavanao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF34',
+             '',
+             34
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('34', 'Tompo ô, Tsitoha\nZanaharinay,\nAsan-tànanao re\nIzao rehetra izao.\nMahagaga indrindra\nNy fahaizanao\nEntinao mitondra\nSy miasa ao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('34', 'Hianao, Jehovah\nAo mandrakizay\nNa miovaova\nIzao rehetra izao.\nMahagaga indrindra\nNy fitiavanao\nTsy mba mety miova\nNy mandao anay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('34', 'Ray niandohana\nfony fahizay;\nMbola hiafarana \nkoa rahatrizay.\nRaiso moramora\nre ny Zanakao.\nRaha tonga ny ora\nhiantsoanao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF35',
+             '',
+             35
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('35', 'Isaoranay, ry Ray,\nNy fitiavanao ;\nFa indro azonay\n:,: Ny taombaovao :,:\nRy Tompo ô, ambeno,\nIzao fifaliana izao\nKa aoka re ho feno\nNy hasoavanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('35', 'Ny taona vao lasa\nNipaoka olon-tsoa\nIreny mba nikasa\n:,: Mba ho tafita koa :,:\nNy fitondràna anefa\nAfeninao, ry Ray!\nKa nony miantefa\nVao sina izahay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('35', 'Fanahy ô, avia\nHitari-dàlana e!\nMandroso izao ny dia\n:,: Hamaky rano be :,:\nNy herinao tsy lefy\nNo tanjaky ny fo\nKa ampy mba ho fefy,\nRaha avy ny manjo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('35', 'Itoero, Jeso tia\nNy sambonay re!\nNa tony na maria,\n:,: ‘Ty ranomasim-be :,:\nRaha Hianao no hita\nTsy fefika izahay\nAmbara-piampita\nArý an-tratran-dRay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF36',
+             '',
+             36
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('36', 'Moa ho haiko tantaraina\nNy hasoavanao ?\nMifamatra tamin’aina\nNy fitiavanao.\nNy vahoaka sesehena.\nIzay nahazo famonjena\nNo hidera Ilay Mpamonjy soa.\nJeso no derao, Jeso no derao :\nIzay nataony ambarao :\nJeso no derao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('36', 'Fiadanana nafoin''i Jeso Tomponay,\nF''efa tonga ny fotoana,\nSitraky ny Ray\nOlom-bery nozahany\nNy fatorany vahany\nHajambana koa nalany\nTsy ho ao\nJeso no derao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('36', 'Hoderaina lalandava\nNy Anaranao,\nFa ny aizina nisava\nEo imasonao :\nNa tsy tian’ny sasany aza\nNy Anaranao malaza,\nIzaho kosa hankalaza Azy re.\nJeso no derao, Jeso no derao :\nIzay nataony ambarao :\nJeso no derao.\n\n\nJESOSY KRISTY\nTOMPO\n1. NY FIHAVIANY\nSY NY FIVERENANY', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF37',
+             '',
+             37
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('37', 'Mihainoa, ry Ziona ô!\nAvy ny Mpanjakanao!\nRe hatrany lavitra\nFa hobin’ny olona.\nMifalia hianao\nIndro Izy, ka tsenao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('37', 'Indro Ilay miakatra\nMila tsy ho fantatra\nHo Mpanjaka marina,\nFa mietry lalina;\nIzy no Mpanjakanao,\nRy Ziona ka derao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('37', 'Mandrosoa, Tompo ô!\nMba hanjaka amiko !\nFaly re ny olonao\nRaha tonga Hianao,\nO, hosana, Tomponay!\nRy Ilay nandrasanay!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF38',
+             '',
+             38
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('38', 'He, hosana!\nIsaorana anie ny Mesia,\nIzay nalefan’ny Tompo,\nKa hosana no asandratray;\n:,: Ilay nirahinao, ry Tompo :,:\n:,: No derainay :,:\n:,: Ka hosana \nno asandratray :,:', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF39',
+             '',
+             39
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('39', 'Faingàna, ry Mpanjaka!\nHandray ny lovanao;\nFaingàna re mba haka\nNy tany ho Anao;\nAvia hampifaly\nNy malahelo fo;\nAfaho ny mijaly\nSy azon’ny manjo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('39', 'Avia, fa misento\nAtý ny olonao;\nNy fanjakana ento,\nFa Tompo Hianao.\nTsy hisy hitomany\nEo anatrehanao.\nHiadana ny tany\nIzay alehanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('39', 'Ny tendrombohitra avo,\nNy lohasaha koa,\nHo tonga ravoravo\nSy tretrika avokoa;\nNy be tsy haka an-kery,\nNy kely afa-po;\nTsy hisy izay ho very\nTsy hisy izay hanjo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('39', 'Mpanjaka sy Mpiaro\nMahery Hianao;\nNy firenena maro\nHitoky Aminao;\nHo avy lalandava\nIzao rehetra izao\nHitondra harem-bevava\nHo eo an-tongotrao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('39', 'Faingàna, ry Mpamonjy,\nRy Tompo be fitia ,\nNy olonao tra-bonjy\nMiantso hoe : Avia!\nAnao ny fiderana,\nAnao ny laza be,\nAnao ny fanjakana\nSy arahaba e!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF40',
+             '',
+             40
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('40', 'Tonga ny fahazavan’i Ziona,\nRavo ny tany izay maizina teo\nTapitra koa ny andro misaona,\nAry ny tany miadana izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('40', 'Tonga ny fahazavan’i Ziona,\nEfa nandrasana izay ela izay,\nIzao dia tapitra ny\nfanompoana,\nKa ampodina ny babo indray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('40', 'He misy rano izay miboiboika\nAny an-efitra maina sy lao,\nFeno ny hobiny ny lohasaha,\nManakoako ny hira vaovao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('40', 'Indro ny tany sy nosy rehetra\nDia mankalaza ny Tompo\nizao,\nNy fanjakany dia tsy\nmanam-petra,\nMiravoravo ny tany vaovao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF41',
+             '',
+             41
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('41', 'Indro Jeso mandondona\nEo am-baravaram-po,\nInjao ny feony mifona\nMba haneho indrafo,\nAoka izy hovohàna,\nFa mitondra famelàna\nHampahery sy hitana\nNy fanahinao sy fo', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('41', 'Efa novidiny lafo\nMba ho afaka hianao;\nIzy hiara-misakafo\nSy hifaly aminao;\nFahasoavana zaraina,\nLova ampanantenaina,\nIray ny vatsy, iray ny aina\n‘Ndrey, ny hasambaranao!', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF42',
+             '',
+             42
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('42', 'Vohay ny varavaram-po!\nIlay Mpanjaka manan-jo,\nMpamonjy izao tontolo izao\nNo tonga hanasoa anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('42', 'Ny teny fanasana atao\nMitondra tena aim-baovao,\nNy fahoriana manjo\nAfahan’ny famindrampo.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('42', 'Mba mihainoa, maneke,\nFa sambatra izay mandre,\nKa anjakan’ny Tompo to,\nIzay feno antra, mora fo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('42', 'Ny andron’aina mitatao\nNo mahafaly fo izao,\nMamiratra sy manome\nFanantenana lehibe.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('42', 'Ny vavahady mba vohay!\nFinaritra izay mandray,\nFa tonga ilay Mpanjaka soa\nHanao ny asany tokoa.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('42', 'Sokafany ny fo izao,\nRy Jeso, mba hidiranao,\nNy fahasoavano anie\nHananay harena be.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('42', 'Atolotray, ry Tompo ô!\nMba hahatamana Anao ny fo,\nNy famonjena vitanao\nNo iankinanay izao.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF43',
+             '',
+             43
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('43', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('43', 'Manenoa, ry farara!\nHorohoroy, ry tany!\nKa miantsoa ny maty,\nFa akaiky ny Mpitsara;\n:,: Indro! Kristy :,:\nAvy amin-drahona!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('43', 'Ny feony no hampifoha\nNy any am-pasana;\nNy teniny no hamory\nNy velona rehetra;\n:,: Samy handray :,:\nNy valin’ny nataony.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('43', 'Ny tsy mino hilazany :\n“Mialà voaozona,\nMandehana, mitoera\nAo amin’ny maizina”\n:,: Ry mpanota :,:\nAny ny anjaranao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('43', 'Fa ny mino hilazany :\n“Avia, notahina,\nMandrosoa, mankanesa\nHo amin’ny mazava”\n:,: Io, ry mpino :,:\nIndro! ny anjaranao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF44',
+             '',
+             44
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('44', 'Indro Jeso, mba vohay;\nMba vohay!\nAvy ho Sakaizanao;\nMba vohay!\nIlay Malala fahizay,\nSady sitraky ny Ray\nTonga ho anao indray\nKa vohay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('44', 'Indro Jeso, mba vohay;\nMba vohay!\nTompo tia ka mba hajao;\nMba vohay!\nHonina aminao etý,\nHo sakaiza hatrerý\nHo anao mandrakizay\nKa vohay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('44', 'Indro Jeso, mba vohay;\nMba vohay!\nMbola tia ka mba vohay;\nMba vohay!\nTena tia ka tsy mandao,\nRaha ela sao dia lao;\nMoa ho lavinao izao\nKa vohay!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('44', 'Eo am-baravaranao;\nMba vohay!\nTsy manoa an-ditra izao;\nMba vohay!\nHe! mandona mora re,\nNa dia Tompo lehibe;\nEfa niandry ela be\nKa vohay!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF45',
+             '',
+             45
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('45', 'He, tonga ho antsika\nNy Tompo mora fo,\nMpamonjy, Havantsika,\nIlay mamindra fo;\nAndeha mba hifaly\nIsika, ry zareo!\nNahazo Mpampifaly,\nKa manandrata feo', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('45', 'Hajao ny Tompontsika,\nMpanjaka lehibe,\nAndriamanitsika,\nMpanala rofy be;\nAvia mba hidera,\nRy mino tsara fo!\nAvia manatera\nNy saotra ao am-po.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('45', 'Ry Tompo Zanahary!\nMihira izahay,\nFa teny mahafaly\nNo tonga ho anay;\nNy andro famonjena\nNo andro sitrakay;\nFanahy manantena\nNo ifalianay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('45', 'Ry Tomponay! mandraisa\nNy haja entinay;\nTsy volamena anefa,\nFa saotra aterinay;\nRy Jeso Tompo soa!\nIsaoranay Hianao,\nFa lehibe tokoa\nNy fitiavanao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF46',
+             '',
+             46
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('46', 'O, ry Mpanefa ny toky rehetra,\nMoa ho ela vao tonga ny\nfetra ?\nTena andrasanay ny\nfihavianao;\n:,: Aza ela, re :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('46', 'He! izahay fa vahiny mandala,\nIndro manenjika ny fahavalo;\nKoa henoy re ny senton’ny\nolonao;\n:,: Aza ela, re :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('46', 'He! ny voavotrao dia miandry,\nNa izahay na ireo nodimandry;\nTompo, Tsinjovy ny fasan’ny\nolonao;\n:,: Aza ela, re :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('46', 'Ary ny zavatra eto an-tany\nSamy miara-misento ihany,\nKa manantena ny mba \nhihavianao;\n:,: Aza ela, re :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('46', 'Mbola ho ela ve Ilay \nantenaina ?\nTsia, fa akaiky izao ny\nmaraina;\nKoa andrandrao sy antsoy\nny Tompo hoe :\n:,: Aza ela, re :,:', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('46', '«Tsy mbola ho ela, fa faingana\nAho,\nAry hanafaka ny mitalaho».\n« Eny, avia, faingàna,\nry Tompo ô! »\n:,: Aza ela, re :,:', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF47',
+             '',
+             47
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('47', 'Ry Ziona, mihainoa!\nInjay feo mafy mampifoha\nNy ampakarina izao :\nMbola alim-be ihany,\nFa ny fotoana no lany,\nKa avy ny malalanao;\nAntsoiny hianao\nAlao ny jironao\nKa velomy;\nDia miaingà hivoaka,\nHitsena ny mpampakatra!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('47', 'He, Ziona ravoravo,\nFa reny izao ny antso avo\nKa velona ny hobiny :\nIndro, avy Kristy Tompo,\nHanafaka anay mpanompo,\nHalainy hampakariny.\nHe, faly re ny fo!\nAvia Tompo ô!\nO, hosana!\nMihaingo izao hitsena Anao,\nRy Kristy, ny malalanao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('47', 'Hira, hoby, fiderana\nAsandratray mba hitsenana\nAnao, Jesosy Tompo ô!\nTsy mba misy mitomany,\nFa mirana izay mankany\nAm-pampakaram-badinao;\nMahafinaritra ny hiran-danitra\nHaleloia!\nIlaozanay ny trano lay,\nMiakatra ny dianay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF48',
+             '',
+             48
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('48', 'Hevero, ry mpanota ô,\nNy andro fitsarana!\nHiverina ny Tomponao\nHamaly fahotana;\nNy lanitra hahorona,\nNy tany dia hodorana,\nFa avy Ilay Mahery.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('48', 'Trompetra no ho levona\nHotsofin’ny anjely;\nHisokatra ny fasana,\nHivory izay niely;\nNy maty dia hatsangana,\nIsika koa hakarina\nHanatrika ny Tompo.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('48', 'Ny boky hovelarina,\nFa io no manambara\nNy asa izay miafina,\nHandraisana anjara;\nKa aza mba mihevitra\nHahazo mihodivitra\nFa fantatry ny Tompo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('48', 'Ry Tompo ô! hazoninay\nNy tenim-panekena,\nKa mba arovy izahay\nHitana famonjena;\nNy ranao sy Fanahinao\nNo tokinay raha avy izao\nNy andro fitsarana.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF49',
+             '',
+             49
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('49', 'Mba jereo ny Tompontsika\nAvy ao an-danitra,\nIndro, avy amin-kery\nAo amin’ny rahona\n:,: Haleloia :,:\nAmbarao ny heriny.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('49', 'Izay rehetra fahavalo\nEfa resiny tokoa;\nMifalia ry anjely!\nMihobia, ry olona!\n:,: Haleloia :,:\nAmbarao ny lazany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('49', 'Fony mbola teto Izy\nSatro-tsilo nentiny;\nIzao ny satro-bolamena\nMendrika ny lohany\n:,: Haleloia :,:\nAmbarao ny derany.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('49', 'Voaeso mafy Izy ,\nBe ny fahoriany;\nFa izao, asandratara Izy,\nAmbarao ny hajany!\n:,: Haleloia :,:\nHe, ny voninahiny!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF50',
+             '',
+             50
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('50', 'Mifohaza, ry matory ,\nFa re ny feon’ny Mpamory\nMiantso izao tontolo izao!\nMiangà, ry vovontany,\nFa he! Jesosy avy any\nAn-danitra hitsara anao.\nRy mbola velona!\nRy ao am-pasana!\nMitsangàna!\nMiandrandra ny lanitra,\nFa ny atý dia tapitra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('50', 'Kristy Tompo avy any,\nKa dia mangovitra ny tany\nFa be ny voninahiny.\nNa ny ratsy na ny tsara\nHanatrika ilay Mpitsara,\nMiandry ny anjarany\nZarainy roa izao\nNy tafavory ao;\nKa ny tsara\nHoraisiny ao Aminy,\nNy ratsy dia ariany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('50', 'Jeso ô! izahay mifaly,\nNa dia be ny mampijaly\nSy mahaketraka atý;\nHianao mahay manova\nNy fahorianay ho lova\nMahafinaritra erý.\nRy fasa-maizina ô!\nRy fahavaloko!\nAiza moa ny herinao,\nny sabatrao ?\nJesosy no Mpandresy izao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF51',
+             '',
+             51
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('51', 'Raha tonga anio ny Tompo,\nAmin-kery lehibe,\nKa arahin’ny mpanompo \nSy anjely marobe;\nMoa ho faly hianao\nKa hidera ny Mpamonjy\nIzay nanavotra aina anao ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('51', 'He! ho simba sy ho rava\nIzao rehetra àry izao,\nKa hifankahita tava\nNy natao sy ny Mpanao,\nMoa ho faly hianao\nKa hidera ny Mpamonjy\nIzay nanavotra aina anao ?', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('51', 'Maso maro no mijery\nIlay nijaly fahizay,\nFa ny mino Azy  ihany\nNo ho faly rahatrizay :\nMoa ho faly hianao\nKa hidera ny Mpamonjy\nIzay nanavotra aina anao ?', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('51', 'Rehefa tonga re ny Tompo\nMba hitsara izay natao,\nHitomany ny tsy mino,\nFa hanatrika Azy ao :\nMoa ho faly hianao\nKa hidera ny Mpamonjy\nIzay nanavotra aina anao ?', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('51', 'O! avia re, ry Tompo!\nMba hanjaka aminay,\nHahatonga anay mpanompo\nHiara-paly Aminao :\nO! avia, ô! avia,\nFa ny olonao rehetra\nDia maniry indrindra Anao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF52',
+             '',
+             52
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('52', 'Efa akaiky Jeso Tompo\nIlay Mpamonjinao,\nIndro, tamy Kristy Tompo,\nAvy ho anao;\nDia tano mafy tsara\nIzay anananao;\nLova soa, tsara fara,\nIndro, ho anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('52', 'Efa akaiky ny Mpamonjy\nTa-handray anao;\nJeso Kristy mahavonjy\nNo sakaizanao;\nDia tano mafy tsara\nIzay anananao;\nLova soa, tsara fara,\nIndro, ho anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('52', 'Efa akaiky ny Mpitsara,\nIzay hitsara anao;\nJeso Kristy raiso tsara\nMba ho havanao;\nDia tano mafy tsara\nIzay anananao;\nLova soa, tsara fara,\nIndro, ho anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('52', 'Aza mba mangataka andro\nHibebahanao;\nHe, mazava anio ny andro\nMba hidiranao :\nDia tano mafy tsara\nIzay anananao;\nLova soa, tsara fara,\nIndro, ho anao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF53',
+             '',
+             53
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('53', 'Miposaka ny vonjy,\nEndrey ny hafaliana!\nJesosy no Mpamonjy,\nAndriam-piadanana\nIlay Zanaky ny Avo\nDia nidina tatý\nHahatonga antsika lavo\nHo Zanaka arý,\nManangana olom-bery\nHandova lanitra,\nKa dera, laza, hery\nHo an’Andriamanitra!', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF54',
+             '',
+             54
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('54', 'Jesosy Mpamonjy,\nIlay Tompon’ny aina, no hita\nNidina teto an-tany\nhamonjy antsika :\nO, mba derao!\nIzy Mpanavotra anao,\nKa mifalia, ry mino!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('54', 'Indro ny tenin’anjely \nmilaza ny soa!\nTeraka Jeso Mpamonjy\nantsika tokoa :\nO, mba derao!\nTonga ny andro vaovao,\nAndron’ny Filazantsara.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('54', 'Dia iventesonao hira\nvaovao re, izany!\nTonga Jesosy hamonjy\nizay mitomany :\nO, mba derao!\nAfaka isika izao!\nIzy Mpisolo antsika!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('54', 'Tonga ny Tompon’ny tompo\nhisolo ny ory,\nKa mifohaza, ry olona\nmbola matory :\nO, mba derao!\nAmin’ny feo vaovao,\nJeso, izay Tompo mahery!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF55',
+             '',
+             55
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('55', 'Ny andron’ny fahasoavana\nMiposaka ho antsika\nManerana izao tontolo izao,\nNy tarany efa hita,\nKa ravo ny olombelona,\nFa lasa ny alintsika.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('55', 'Niova terý ny alina,\nFa teraka ny Mpamonjy,\nMamiratra re ny lanitra,\nMiseho izao ny vonjy,\nKa lasa tokoa ny aizina,\nMihoby ny voavonjy.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('55', 'Na dia ho nahay nihira re\nNy hazo an-ala rehetra,\nKa afa-mikalo ny ravina\nHidera ny Avo indrindra,\nTsy ampy ho fanandratana\nNy Tompon’ny ain-drehetra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('55', 'Ny feon’ny olonao izao\nMisandratra, ry Jehovah,\nHidera ny fitiavanao\nSy ny indrafonao soa\nNiaro ny fiangonanao\nHatramin’ny fahagola.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('55', 'Ho an’ny tanindrazanay\nIzahay re, ry Ray Tsitoha,\nKa hiditra ao an-tranon-dRay\nNomanin’Ilay Mpialoha;\nNy olonao dia ho tafaray\nHidera Anao tokoa!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF56',
+             '',
+             56
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('56', 'Manatona Anao izao,\nRy Jeso, ny madinikao,\nAmpandrosoy ny dianay,\nFa ta-hahita Anao izahay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('56', 'Hidera ny Anaranao\nNo zava-tianay hatao;\nMiravoravo izahay\nFa teraka ny Tomponay', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('56', 'Ny lanitra nilaozanao,\nHanavotra ny olonao,\nHo zanak’Andriamanitra\nHifaly ao an-danitra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('56', 'Tsy takatray heverina\nNy fitiavan-dalina,\nIzay nitiavanao anay,\nKa dia misaotra Anao izahay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('56', 'Tariho, Tompo, izahay,\nAmbinonao ny dianay,\nFa samy ta-handray Anao\nIzahay mivory eto izao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('56', 'O, ry Sakaiza maminay,\nMba te-ho olonao izahay\nHipetraka eo anilanao,\nFa mamy ny fitianao.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('56', 'Raha manana Anao izahay,\nTsy hisy hatahoranay,\nFa zaza voamarikao\nHo isan’ny arovanao.', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('56', 'Raha ao an-danitra vaovao,\nIzahay sy ny anjelinao\nHisaotra sy hidera Anao\nHanatrika ny tavanao.', '8', '8');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF57',
+             '',
+             57
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('57', 'Izao Noely mamy izao\nNo ihobiantsika,\nFa noresen’ny aim-baovao\nNy fahafatesantsika :\nNy Zanak’Andriamanitra,\nIzay Tompom-boninahitra,\nNandao ny lapan-dRainy,\nNateraka ho olona\nHamonjy sy hamelona\nAntsika sombin’ainy.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('57', 'Velomy ny fisaorana,\nNa kely monja aza,\nKa aoka izay navotana\nHiara-hankalaza\nNy Zanak’Andriamanitra,\nNiala tao an-danitra\nHanafaka alahelo;\nRy voavonjy ô! derao Jesosy\nIlay Mpanjakanao;\nHe, gaina izao ny helo!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('57', 'Izao Andriamanitra\nDia faly amintsika :\nJesosy, Tompon-danitra,\nNo tonga namantsika;\nHo re hatrany lavitra\nFa foin’Andriamanitra\nIlay sitraky ny fony\nHitondra fahoriana,\nHiari-pijaliana\nHo solon’ny mpikomy.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('57', 'Na dia tratry ny manjo,\nIzay mampiferin’aina,\nIzaho tsy hamoy fo,\nFa manna-kantenaina;\nJesosy dia Zokiko,\nKa tsy hohadinoiko,\nFa Izy tia ahy;\nNy tenim-piadanany\nNo hery anohanany\nNy foko, izay manahy.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('57', 'Haleloia, fa tapitra\nNy fahoriantsika!\nDerao Andriamanitra,\nIzay efa tia antsika!\nO, ry fanahiko, derao\nJesosy, Izay Mpamonjinao,\nHarena tsy ho lany,\nHaleloia, Haleloia!\nFa azo ny Mpanavotra,\nAnao ny fanjakany!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF58',
+             '',
+             58
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('58', 'Alina masina\nTonga ny Mpanavotra;\nIndro teraka ao Betlehema\nNy Mpanjakan’ny Jerosalema,\n:,: Izay Mpamonjy anao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('58', 'Alina masina\nNy anjely midina\nKa miara-mihoby hoe :\nIndro ny fiadanam-be,\n:,: Jeso teraka izao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('58', 'Alina masina\nNisehoan’ny Zanaka;\nNy mazava niposaka,\nKa ny tahotra afaka;\n:,: Mifalia izao :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF59',
+             '',
+             59
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('59', 'O! mihobia, fa teraka\nJesosy Tompo, Zanaka,\nMesia nantenaina,\nMpamonjy sitraky ny Ray\nHo avotra mandrakizay,\nKa mendri-koderaina!\nRenao izao\nNy anjely mampiely\nTeny soa :\nKristy teraka tokoa!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('59', 'He! tonga ny Mpanavotra\nHanafaka ny tahotra\nMamatotra ny tany,\nMitondra fiadanana,\nKa tena mampihavana\nNy lanitra aman-tany.\nIndro tonga\nNy Mpamonjy mahavonjy\nNy mpanota,\nKa manaisotra ny ota.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('59', 'Omeo voninahitra\nNy Ray, Andriamanitra,\nIzay Tompom-pamonjena!\nNy Zanaka no raisonao,\nFa fananganana anao\nNy lova dia homena,\nAmen, Amen!\nTeny soa mamy koa,\nIsika lavo koa,\nTonga zanaky ny Avo!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF60',
+             '',
+             60
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('60', 'He, faly ny fanahiko,\nFa avy Ilay Malalako,\nDia Jeso tonga zaza,\nKa mety ho Mpamonjiko,\nNa dia tsy mendrika aza\nIzaho, ry Jesosy ô!\n:,: Raiso ho Anao! :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('60', 'Ry Jeso Zazakely ô,\nIriko mafy Hianao,\nAvia re, ry Zaza,\nNy foko itoeranao\nNa dia ratsy aza\nKa tsy mba mendrika Anao,\n:,: Ry Jesosy ô :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('60', 'Endrey ny fitiavanao,\nRy Ray, namoy ny Zanakao;\nIzahay, izay fahavalo\nKa ivesaran-keloka,\nAvelanao hivalo\nKa hiditra ao an-danitra.\n:,: Enga ka ho ao! :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('60', 'Endrey ny fifaliana\nTsy tratry ny fisainana\nAtaon’ireo anjely\nManerana ny lanitra!\nFa any ny Noely\nHitohy tsy ho tapitra,\n:,: Enga ka ho ao! :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF61',
+             '',
+             61
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('61', 'Tany Betlehema fahiny\nNisy Zaza teraka;\nTonga toy ny mpivahiny,\nNefa tena Zanaka,\nIzy no Jesosinay,\nKa mba raiso ho anao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('61', 'Ao ny lapa feno haja\nNisy Azy fahizay;\nSaotra, dera aman-daza\nTeo anatrehan-dRay,\nIzany no nilaozany\nHamonjena ny atý.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('61', 'Zaza tsy nanota izy,\nNefa Zaza toa anao;\nKoa raisinao rankizy,\nMba ho tena havanao;\nAry mba arahonao\nIzay fanaony hitanao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('61', 'Raha hianao tomany,\nIzy hampangina anao,\nIzy koa hampahamamy\nIzay fifalianao;\nMatokia Hianao,\nIzy no Sakaizanao!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('61', 'Nefa mba henoy, ry zaza!\nAo an-danitra Izy izao,\nFa ho avy  indray hitsara\nAn’izao tontolo izao;\nKoa mba fidionao\nIzy ho Mpamonjinao!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF62',
+             '',
+             62
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('62', 'He, teraka any Betlehema,\nAo Betlehema,\nNy Tompon’i Jerosalema.\n:,: Haleloia! :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('62', 'Ny vilona :,: nandriany :,:\nNihoby ny anjeliny.\n:,: Haleloia! :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('62', 'Ny magy dia :,: nanatitra :,:\nNy miora sy ny hanitra\n:,: Haleloia! :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('62', 'Voaisotra :,: ny helokao :,:\nFa tonga ny Mpanavotrao.\n:,: Haleloia! :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('62', 'Isika dia :,: noraisiny :,:\nHiombon-dova aminy.\n:,: Haleloia! :,:', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('62', 'Isika koa :,: hianatra :,:\nNy fideran’ny lanitra.\n:,: Haleloia! :,:', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('62', 'Isika ao :,: an-danitra :,:\nHo velona finaritra.\n:,: Haleloia! :,:', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('62', 'Ho naman’ny :,: anjelinao :,:\nIzahay, ry Jeso Tompo ô!\n:,: Haleloia! :,:', '8', '8');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('62', 'Hidera ny :,: Anaranao :,:\nManatrika ny tavanao.\n:,: Haleloia! :,:', '9', '9');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF63',
+             '',
+             63
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('63', 'Tany finaritra,\nTarafin-danitra,\nIty tanin’ny mpivahiny ity\nKa fihobiana\nNo andehanana\nMankany Paradisa arý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('63', 'Andro mihelina\nIlay sasakalina,\nNefa tsarovan’ny olona\nSatria ny lanitra\nTsy lefy hanitra;\nMamelon-kira velona.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('63', 'Anjely marobe\nNo indray mihira hoe :\n« O! mifalia ry reraka!\nFa fiadanana\nNo andehanana;\nKristy Mpamonjy teraka! »', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF64',
+             '',
+             64
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('64', 'Injany hiran-danitra\nMisasak’alina;\nLokanga volamena e,\nTendren’ny masina!\nNy tany dia nangina re,\nNandre ny hira vao :\nHo an’ny olona anie\nNy fiadanana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('64', 'Ny hiran’ny anjely re\nTsy mba mitsahatra.\nAry ambony rahona\nIreo masina\nMitendry ny lokangany\nAm-pihobiana!\nHo an’ny olona anie \nNy fiadanana!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('64', 'O! ry mivesatra entana,\nRy malahelo ô!\nMba andrandrao ny lanitra,\nHenoy ny hira vao!\nNy hiran’ny anjely re\nDia mampiadam-po.\nO! mitsahara hianao\nHihaino azy izao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('64', 'Ny andron’olombelona,\nHe fandalovana!\nKanefa hisy tany vao\nIzay haharitra.\nEndrey ny fiadanana\nArý rahatrizay!\nNy hiran’ny anjely\nHiredona indray!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF65',
+             '',
+             65
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('65', 'Ry Betlehema kely ô!\nSondrian-tory ve ?\nKanefa injay miseho ao\nNy hazavana be.\nNy toky sy ny tahotra\nMihaona ankehitrio,\nFa Kristy Ilay Mpanavotra\nNo teraka anio.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('65', 'Ry kintana maraina ô!\nFitarik’andro soa.\nTorio fa tonga aty izao\nIlay Mpanjaka soa!\nKa he! ny voninahitra\nHo an’Andriamanitra!\nFiadanana tsy tapitra\nHo an’ny olona.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('65', 'Endrey, mangina fatratra\nNy fampidinana\nNy fitahian-danitra\nAm-po ny olona!\nTsy misy tabataba re,\nFa horakoraka.\nKanefa Kristy tonga anie\nAm-po mangoraka!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('65', 'Rankizy hendry sy madio\nTsarovy Kristy izao\nFa izy tonga atý anio,\nMba ho Mpamonjinao.\nNa misy aza ny manjo.\nIzao Noely izao\nNo saino fatratra ao am-po\nHampionona anao!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('65', 'Ry Zaza Masina sy soa,\nRy Zanak’i Maria,\nRy Tomponay, Mpamonjy\nkoa,\nMidina re atý.\nNy feon’ny lanitra no re,\nIndray Noely izay,\nNitondra teny soa hoe :\nHianao no avotray!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF66',
+             '',
+             66
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('66', 'Ry olona ô, avia!\nRy tany, mifalia!\nMba henoy ny teninay;\nTeraka ny Tomponay;\nAo an-tranon’omby ao,\nHandeha, mitsaoka Azy izao\nTeraka ny Tompo!\nTeraka Jeso!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('66', 'Ry olona ô, avia!\nRy tany mifalia!\nMba henoy, ry havanay!\nMisy zaza hitanay\nZanak’Andriamanitra\nHamoha indray ny lanitra.\nTeraka ny Tompo!\nTeraka Jeso!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('66', 'Ry kristiana ô, hobio,\nFa afaka hianao anio;\nResy izao ny rafinao,\nAfaka ota hianao,\nFahasoavan-dehibe\nNo ho anjaranao anie;\nTeraka ny Tompo!\nTeraka Jeso.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF67',
+             '',
+             67
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('67', 'Avia ry mino!\nHifaly sy hihoby,\nAvia, avia hankany\nBetlehema :\nTeraka Jeso,\nTompon’ny anjely;\nAvia hitsaoka Azy (in-3)\nIzay Tomponao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('67', 'Tompon’ny tompo,\nAndriananahary,\nNefa mba zana-behivavy koa;\nZanak’i Maria,\nNefa Zanahary;\nAvia hitsaoka Azy (in-3)\nIzay Tomponao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('67', 'Derao, ry anjely,\nMihobia mafy,\nRy mponina an-danitra ao\nAmbony ao!\nDera sy laza\nAtolory Azy;\nAvia hitsaoka Azy (in-3)\nIzay Tomponao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('67', 'He, arahaba,\nTonga aty an-tany\nNy Tompo, Mpamonjy sy\nMpanjaka koa,\nTenin’ny Rainy\nVoatafy nofo,\nAvia hitsaoka Azy (in-3)\nIzay Tomponao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF68',
+             '',
+             68
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('68', 'Re tokoa ny feon’anjely,\nIrak’Andriamanitra;\nHe, ny teny mahafaly\nAvy ao an-danitra.\nEntiny ny teny tsara,\nHo ety an-tany izao;\nVoninahitra aman-dera,\nTompo, no omena Anao!\n(in-3)\nVoninahitra aman-dera,\nTompo no omena Anao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('68', 'Teraka any Betlehema\nIlay Mpanjaka manan-jo\nKa misatro-diadema,\nVoninahi-tsy ho lo,\nMisy ‘zao ety an-tany\nFihavanana tokoa,\nHafalian-tsy holany\nFitahia-mahasoa. (in-3)\nHafalian-tsy ho lany,\nFitahia-mahasoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('68', 'Be ny lazanao, ry Tompo!\nTsara ny Anaranao,\nZovy re no tsy hanompo ?\nIza no handà Anao ?\nHasina sy arahaba\nNo aterina aminao;\nFanjakana tsy ho rava,\nRy Mpanjaka! no Anao (in-3)\nFanjakana tsy ho rava\nRy Mpanjaka! no Anao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF69',
+             '',
+             69
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('69', 'Zaza masina sy soa,\nNefa ory Hianao,\nKa nanetry tena koa\nSy nandao ny lapanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('69', 'Teraka ory sy nahantra,\nTrano tsy nandrianao,\nFa tsy nisy izay niantra,\nBe ny fahorianao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('69', 'Fihinanam-bilon’omby\nNo natao fandrianao,\nFa ny trano be tsy omby,\nNisy olo-maro tao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('69', 'Nofonosin-damban-jaza,\nTonga zazabodo re,\nNefa Tompo manan-daza\nSy Mpanjaka lehibe.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('69', 'Efa halan’olo-maro,\nNefa kosa tiako;\nDia avia, ry Mpamonjy!\nHonina ato amiko.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF70',
+             '',
+             70
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('70', 'Iza moa io Zazakely\n:,: Ao Betlehema :,:\nAnkalazain’ny anjely\nMisasaka alim-be ?\nInjao! Mihira avokoa\nRy mponina ao an-danitra,\nKa iza re io zaza soa ?\nMoa zanak’Andriamanitra\nIo no Mpanjaka voatendry,\nSady mahery no hendry\nZanak’Andriamanitsika,\nKoa hobio sy ifalio!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('70', 'Izy no Jeso Mpanjaka,\n:,: Ka mihobia! :,:\nIzy mamory sy maka,\nAvia, mihobia!\nOmeo voninahitra,\nKa mitehafa tanana;\nHobio ry tendrombohitra\nSy lohasaha mavana!\nIo no Mpanjaka voatendry,\nSady mahery no hendry\nZanak’Andriamanitsika,\nKoa hobio sy ifalio!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('70', 'Izy no Tompo nahary,\n:,: Ka maneke! :,:\nZanaky ny Zanahary,\nKa dia maneke!\nRy hazo ao an-ala ô!\nSamia re manandra-peo;\nRy voninkazo tsara ô!\nAtero fofo-manitra!\nIo no Mpanjaka voatendry,\nSady mahery no hendry\nZanak’Andriamanitsika,\nKoa hobio sy ifalio!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('70', 'Efitra sy tany foana!\n:,: O! mihirà! :,:\nLemaka ary havoana!\nFalia, mihirà;\nRy ranomasin-dehibe,\nRy voronkely tsara feo,\nIzao rehetra marobe,\nAvia mankalaza re!\nIo Mpanjaka voatendry,\nSady mahery no hendry\nZanak’Andriamanitsika,\nKoa hobio sy ifalio!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF71',
+             '',
+             71
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('71', 'Mihainoa! Mihainoa!\nNy feon''anjely sambatra,\nMilaza fa vao teraka\nNy Zanak''Andriamanitra,\nMihainoa izao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('71', 'Mifalia! Mifalia!\nRy zanak''olombelona,\nFa tonga Ilay Mpanavotra\nAntsika izay nifatotra,\nMifalia izao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('71', 'Mba omeo! Mba omeo!\nNy fonao fa angatahiny;\nNy tenany natolony\nAnao izay malalany;\nMba omeo izao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('71', 'Matokia! Matokia!\nKa manaraha Azy izao;\nIlay Mpamonjy be fitia\nNanetry tena ho anao;\nMatokia izao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF72',
+             '',
+             72
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('72', 'Teraka Jesosy Tomponay,\nTaitra ny olona fahizay,\nNisy anjely nihira teo,\nMahafinaritra, tsara feo,\nSady milaza soa aminay,\nDia hihira anio izahay\nFiv: Taona fahasambaranay,\nVolana fifalianay,\nAndro firavoravoana Anao,\nJesosy, Zanaka Masina ô!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('72', 'Teraka Jesosy be fitia,\nIndro kintana tonga teo,\nAvy hanoro ny Zaza soa:\nFaly ny Magy, fa Io tokoa,\nIo no Mpanjaka mandrakizay\nDia nanaja androtr''izay:\nFiv: Taona fahasambaranay,\nVolana fifalianay,\nAndro firavoravoana Anao,\nJesosy, Zanaka Masina ô!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('72', 'Teraka Jesosy Zaza soa,\nZaza Malalan''ny Ray tokoa;\nTonga hamonjy io Zaza io,\nTeraka ao Betlehema anio;\nEnto ''zahay, Fanahy, hankao.\nAndronay mahafaly izao:\nFiv: Taona fahasambaranay,\nVolana fifalianay,\nAndro firavoravoana Anao,\nJesosy, Zanaka Masina ô!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('72', 'Sambatra manana Anao ho Ray,\nFaly sy ravo tokoa izahay;\nJesosy Tompo nirahinao,\nTonga ho nofo ny Zanakao;\nTeraka ho Mpanavotra anay\nAvy hifaly eto ''zahay:\nFiv: Taona fahasambaranay,\nVolana fifalianay,\nAndro firavoravoana Anao,\nJesosy, Zanaka Masina ô!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF73',
+             '',
+             73
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('73', 'Indro Zazakely\nZanak''i Maria,\nTompon''ny anjely,\nNefa nankaty,\nIo no Zazalahy,\nZanaky ny Ray.\nTonga mba hitahy:\nIzy no anay.\nFiv: Mihirà, ry tany,\nSy ny mponina eo.\nHafalian-tsy lany,\nManandrata feo!\nJeso no deraina,\nFa Mpanjaka soa;\nHe! Ny fanjakany\nLehibe tokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('73', 'Zaza nantenaina\nFony ela be,\nSady Tompon''aina\nManan-kery be,\nMihirà, ry tany!\nEny, mifalia:\nHoy ny mpaminany,\nIzy no Mesia:\nFiv: Mihirà, ry tany,\nSy ny mponina eo.\nHafalian-tsy lany,\nManandrata feo!\nJeso no deraina,\nFa Mpanjaka soa;\nHe! Ny fanjakany\nLehibe tokoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('73', 'Jeso Zaza hendry,\nMasina sy to,\nTompo voatendry,\nMpanadio ny fo,\nAoka mba hijery\nZao tontolo izao,\nZaza manan-kery,\nIndro, mba hajao:\nFiv: Mihirà, ry tany,\nSy ny mponina eo.\nHafalian-tsy lany,\nManandrata feo!\nJeso no deraina,\nFa Mpanjaka soa;\nHe! Ny fanjakany\nLehibe tokoa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF74',
+             '',
+             74
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('74', 'Tany Betlehema fahiny,\nTao an-tranon''omby re;\nNisy Zazakely soa,\nTampofoan-dreniny,\nJeso Kristy Zaza io,\nZanak''i Maria madio.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('74', 'Nahafoy ny Rainy Izy\nSy nandao ny lanitra,\nTsy nandà ny trano ratsy,\nNefa Andriamanitra:\nToe-pahantrana re\nAn''ny Tompo lehibe.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('74', 'Fony Izy mbola Zaza\nDia nanaiky sy nanoa,\nAry tia reny Izy,\nSy nanetry tena koa,\nZaza Kristiana e!\nManaraha Azy re!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('74', 'Ka ho hitantsika Izy\nNoho ny fitiavany:\nFa ''Lay Zazakely tsara\nNo mba Tompon-danitra,\nKa isika zanany\nDia hankany aminy.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('74', 'Nefa tsy mba tranon''omby.\nItoerany izao,\nFa nankao an-danitra Izy.\nSy mitafy laza ao;\nKa ho sambatra any koa\nTahaka Azy ny zaza soa.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF75',
+             '',
+             75
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('75', 'Andro malaza sady soa tokoa\n''Lay andro ''zay nisehoan''i Jeso:\n''Zay nantenain''ny mpaminany koa\nMba hampiseho fihavanana,\nFiv : Mifalia sy mihobia mafy,\nEfa tonga ny Mpanavotrao;\nAvia, ka miderà,\nDerao io Zaza io,\n;,: Hobio, hobio,\nFa Tompontsika io.:,;', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('75', 'Anjely maro no nihoby tao;\nMpiandry ondry nitsaoko Azy koa.\nNy olon-kendry koa nanasina Azy,\nAndeha mba hankalaza Azy izao:\nFiv : Mifalia sy mihobia mafy,\nEfa tonga ny Mpanavotrao;\nAvia, ka miderà,\nDerao io Zaza io,\n;,: Hobio, hobio,\nFa Tompontsika io.:,;', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('75', 'Dera sy haja no atolotray\nAnao, ry Jeso ''zay teraka anie:\nKa mba mandraisa ny fanatitray\nHo zava-mani-pofona tokoa:\nFiv : Mifalia sy mihobia mafy,\nEfa tonga ny Mpanavotrao;\nAvia, ka miderà,\nDerao io Zaza io,\n;,: Hobio, hobio,\nFa Tompontsika io.:,;', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF76',
+             '',
+             76
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('76', 'Miderà anio, ry mino,\nNy Mpanavotra anareo!\nManandrata feo hidera\nAn’i Kristy, Tompo soa;\nZanaky ny vehivavy,\nNefa Andriananahary;\nTeraka ho olona,\nMba hanavotra anareo;\nTeraka any Betlehema\n‘Lay Mpanavotra anareo!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('76', 'Taitra ny mpiandry ondry,\nAry koa nivadi-po,\nTamin’ny anjely maro\nTonga tany aminy.\nFa isika tsy ho taitra,\nFa ho faly sy ho ravo;\nSitraky ny Tompo soa\nNidina nankatý;\nTeraka any Betlehema\nJeso Kristy ,Tompo soa!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('76', 'Aza taitra, matokia,\nManatòna, mihainoa,\nMazotoa, ka avia,\nManeke ny Tompo soa,\nArahaba, Tomponay ô!\nTompom-pihavananay,\nTeraka ho Tomponay;\nTompon’ny fiainanay;\nArahaba, Tomponay!\nRy Mpanavo-dehibe!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF77',
+             '',
+             77
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('77', 'Tonga indray re ny Noely,\nAndro tsara sady soa;\nJeso Tompon’ny anjely,\nNefa nietry tena koa.\nIndro tonga Zazakely,\nHo sakaizanay tokoa,\nSy hamory  ‘zay miely,\nHody amin-dRainy koa!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('77', 'He, ny fonay ravoravo,\nRy Noely maminay,\nFa ny Zanaky ny Avo,\nNo nomeny ho anay,\nMba hanarina ny lavo,\nSady ho fiainanay;\nFeno sy mitafotafo\n‘Zany hasambaranay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('77', 'O! ry androm-pamonjena,\nArahaba, hianao!\nOlo-maro sesehena\nNo mifaly aminao,\nAvy koa mba hitsena\n‘Lay Mpamonjy soa ’zahay,\nKa ny fonay no homena\nAn’i Kristy Havanay!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF78',
+             '',
+             78
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('78', 'Be ny voninahitrao,\nJeso Kristy Tompo!\nLanitra nonenanao,\nMaro no nanompo,\nBe ny mahasambatra,\nFaly re ny fonao;\nNanam-boninahitra\nTao an-dapan-dRainao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('78', 'Fa ny voninahitra\nEfa nialanao;\nNy haren’ny lanitra\nTsy mba nojerenao,\nTeraka ho olona\nHianao nahery,\nKa avy mba hanavotra\nNy mpanota very.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('78', 'Eny, tonga Hianao\nHonina amin-tany,\nHahazoan ‘ny olonao\nSoa tsy ho lany.\nSarotra ny lalanao,\nBe ny zava-mafy,\nLoza no nanjo Anao,\nMaro no nandrafy.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('78', 'Saotra no aterinay,\nVavaka aman-dera,\nRavo ny fanahinay,\nKa avy mba hihira,\nVitanao ny asanao\nNamonjenao aina,\nKa indro ny Anaranao\nVelona ao an-tsaina!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF79',
+             '',
+             79
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('79', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('79', 'Sambasamba, Zanahary\nTamy ny nampidinanao\nNy Zanakao, malalanao,\nMba hisolo ny helokay.\n:,: Tamy ny nampidinanao\nNy Zanakao malalanao,\nMba hisolo ny helokay :,:', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF80',
+             '',
+             80
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('80', 'He, ny hoby ao an-danitra,\nFa Mpamonjy re no teraka,\nIo no Zanak’Andriamanitra,\n‘Lay Tanteraka.\nMifalia, mihobia,\nFa tonga ho anao ny Tompo\ntia\nKa mba hirao sy lazao\nNy famonjena azonao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('80', 'Zava-mahagaga fatratra\nNy fitiavan’Andriamanitra,\nNy mpanota tafasaraka\nTonga sambatra!\nMifalia, mihobia,\nFa tonga ho anao ny Tompo\ntia\nKa mba hirao sy lazao\nNy famonjena azonao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('80', 'O! ry tany izay asandratra,\nKa vangian’ny Tompon-\ndanitra,\nInona ary no atolotra\nNy Mpanavotra ?\nMifalia, mihobia,\nFa tonga ho anao ny Tompo\ntia\nKa mba hirao sy lazao\nNy famonjena azonao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF81',
+             '',
+             81
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('81', 'Tao an-tsahan’i Betlehema,\n‘Reo mpiandry ny ondry re,\nNo vangian’ny Serafima\nSy anjely maro be.\nVoninahitra ho an’\nAndriamanitra,\nHo an’Andriamanitra!\nVoninahitra ho an’\nAndriamanitra ,\nAmin’ny avo!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('81', '‘Njany ny hiran’ny anjely,\n‘Zay niredona tokoa\nIndro tonga Imanoely\nZaza masina sy soa.\nVoninahitra ho an’\nAndriamanitra,\nHo an’Andriamanitra!\nVoninahitra ho an’\nAndriamanitra ,\nAmin’ny avo!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('81', 'Nofo notafin’ny Teny,\nLanitra nilaozany;\n‘Ndao isika izao hankany,\nBe tokoa ny lazany.\nVoninahitra ho an’\nAndriamanitra,\nHo an’Andriamanitra!\nVoninahitra ho an’\nAndriamanitra ,\nAmin’ny avo!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('81', 'Voninahitra ao ambony\nHo an’Andriamanitra,\nKa ny hira no redony\nSolon-java-manitra.\nVoninahitra ho an’\nAndriamanitra,\nHo an’Andriamanitra!\nVoninahitra ho an’\nAndriamanitra ,\nAmin’ny avo!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF82',
+             '',
+             82
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('82', 'He, Zaza mahasambatra\nNo omena ho antsika!\nVirjina no niteraka\nIlay Andriantsika\nIzay Zanak’Andriamanitra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('82', 'Nandao ny voninahitra\nHanavotra ny very;\nKa saotra no aterinay,\nRy Jeso Kristy Tomponay,\nMpamonjy manan-kery!', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF83',
+             '',
+             83
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('83', 'Ry Jeso ô! Hianao no\nmahavonjy\nIzay rehetra hiankina aminao;\nTonga tatý hitady sy hamonjy\nIzay mpanota very Hianao.\nHe! ry mpanota very atý!\nÔ! mankanesa ho any aminy.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('83', 'Na dia Zana-Janahary aza,\nNa dia Tompo aza Hianao,\nTsy mba nitandro hery\naman-daza,\nTonga olona ory Hianao\nHe! ry mpanota very atý!\nÔ! mankanesa ho any aminy.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('83', 'Tamin’ny dianao nanaovan-\ntsoa,\nTsy nahalala sasatra Hianao;\nFa Hianao tsy nanana tokoa\n‘Zay nametrahanao ny lohanao\nHe! ry mpanota very atý!\nÔ! mankanesa ho any aminy.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('83', 'Dia nolatsaina sy nalam-\nbaraka\nSy novonoin’olon-dozabe,\nKa dia maty Hianao Mpanjaka\nHo fanavotana olo-maro-be\nHe! ry mpanota very atý!\nÔ! mankanesa ho any aminy.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('83', 'Ny fasanao nambenan’ny\nmahery,\nNefa tsy ela tao ny\nTomponay,\nVelona indray hamonjy\nolom-bery,\nVelon-kanao fifonan-ko anay.\nHe! ry mpanota very atý!\nÔ! mankanesa ho any aminy.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF84',
+             '',
+             84
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('84', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('84', 'He! be ny hasoavana,\nFa tonga ny fotoana,\nKa Kristy Tompo teraka\nHamonjy sy hanavotra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('84', 'Ny fahotan’ny olona\nDia lova tamin-drazana :\nIsika trany avokoa,\nKa very re ny aina soa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('84', 'Inty ny zaza masina e,\nIzay neken’ny Rainy hoe :\n“Ny Zanako Malalako,\n‘Zay mamiko sy sitrakao”', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('84', 'Ny dera eran-danitra\nOmeo an’Andriamanitra\n‘Zay nahafoy ny Zanany\nHanavotra ny olony.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF85',
+             '',
+             85
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('85', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('85', 'Avelao isika\nIzay te ho tia\nNy Mpanavotra antsika\nHanaraka Azy.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('85', 'Aoka ho fantatsika\nNy fitiavany\nSy ny anton’ny asany\nHiderantsika azy.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('85', 'Be ny fiantrany,\nNijery ny ory,\nTratran-dRainy nialany\nHo teraka olona.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('85', 'Be ny fiantrany,\nNijaly ka maty\nHamonjeny ny mpanota,\nKa Izy hisaorana.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF86',
+             '',
+             86
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('86', 'Jereo ny Mpamonjy\nIzay miakatra\nHo ao Jerosalema\nHanao ny avotra;\nNa dia be ny ratsy\nMikendry Azy ao,\nNy mba hamonjy azy\nNo tiany hatao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('86', 'Tsy biby manan-daza\nNo nitaingenany\nTsy ny hitady laza\nNo nihaviany,\nKanefa manan-kery\nHandresy ho anao.\nNy ratrany irery\nNo aina ho anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('86', 'Ilay voasatro-tsilo\nNoho ny helokao\nDia mety sy maniry\nMba ho Mpanjakanao\nNy rany sarobidy\nOmeny ho anao;\nNy lanitra nihidy\nMisokatra aminao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('86', 'Ampio mba ho haiko\nHatolotra Anao,\nJesosy ô ny aiko\nHo voninahitrao;\nVelariko ny foko\nEo anoloanao,\nTsy misy tsy ho foiko\nMba hodiovinao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('86', 'Hosana! ry Mpamonjy,\nHiraiko ho Anao\nFa mamin’ny tra-bonjy\nNy fiderana Anao.\nHosana, Tompo tsara!\nSoava dia izao!\nHandresy ny devoly\nNo anton-dianao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF87',
+             '',
+             87
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('87', 'Nitomany ny Mpamonjy\nFa tsy nety ho tra-bonjy\nIsraely olony.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('87', 'Izy dia nanambara\nTaminy ny teny tsara\nFeno fitiavana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('87', 'Ka ny jamba, kilemaina\nMoana sy very saina,\nDia nositraniny.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('87', 'He! ny soa efa vita\nNefa nody tsy nahita\nNy ankamaroany.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('87', 'Ary lotika ny fony,\nKoa halany ‘lay ony\nFeno rano velona.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('87', 'Ry Mpamonjiko malala!\nAoka aho hahalala\nNy fitomanianao.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('87', 'Ary hahalala koa\nFa ny soa mahavoa\nRaha tsy ho raisina.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF88',
+             '',
+             88
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('88', 'Ilay ora tao Getsemane\nTsy mba hadino re,\nRaha Hianao no tsembo-dra,\nRy Tompon’avotra\n:,: Tsahiviko :,:\nNy fahorianao,\nRaha tsinjoko ny ady be,\nIlay tao Getsemane.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('88', 'Nafoin-dRay irery tao,\nNilaozan-kavanao\nHandraisana anay indray\nHo zanaky ny Ray.\n:,: Tsahiviko :,:\nNy fahorianao,\nRaha tsinjoko ny ady be,\nIlay tao Getsemane.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('88', 'Nandroso mba hijaly tao,\nRy Tompo, Hianao;\nFadiranovana sy may\nHanavotra anay.\n:,: Tsahiviko :,:\nNy fahorianao,\nRaha tsinjoko ny ady be,\nIlay tao Getsemane.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('88', 'Fa vinitra Jehovah Ray\nNoho ny ditranay;\nNinianay nolavina\nNy didy masina.\n:,: Tsahiviko :,:\nNy fahorianao,\nRaha tsinjoko ny ady be,\nIlay tao Getsemane.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('88', 'Ka Hianao nasiana\nHo solo-voina;\nNy dinitrao, ry Tomponay,\nDia valin’otanay.\n:,: Tsahiviko :,:\nNy fahorianao,\nRaha tsinjoko ny ady be,\nIlay tao Getsemane.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('88', 'Fa sitrakao ho afaka\nNy olo-meloka;\nEndrey ny fitiavanao\nAnay navotanao!\n:,: Tsahiviko :,:\nNy fahorianao,\nRaha tsinjoko ny ady be,\nIlay tao Getsemane.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('88', 'Raha mila hangatsia-po\nIzaho, Tompo ô,\nMba ampisaino aho re\nNy tao Getsemane!\n:,: Tsahiviko :,:\nNy fahorianao,\nRaha tsinjoko ny ady be,\nIlay tao Getsemane.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF89',
+             '',
+             89
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('89', 'He, mijaly ny Mpamonjy\nAo Getsemane izao!\nO, ry te-ho voavonjy,\nManaraha Azy ao;\nIndro ny Mpanavotrao,\nFa mitady ho anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('89', 'Ory ao ny Tompon’aina\nMafy re ny adiny\nKa misento mitaraina,\nToy ny ra ny dininy.\nRy mpanota mijere,\nMihevera ka hendre!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('89', 'Indro tonga ny anjely,\nMba hampahatanjaka\nAn’i Jeso, Izay nijaly\nAmim-panaintainana.\nRy Mpamonjy tia ô!\nMamindrà fo amiko.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF90',
+             '',
+             90
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('90', 'Tsy haiko ny milaza re,\n‘Lay fahorianao\nIrery tao Getsemane\nRy Tompo masina ô!\nTarihonao ny saiko e\nHo ao Getsemane.\nHahita ny fitiavanao\nIzao tontolo ‘zao.\nFitiavana ahy re,\nRy Tompo masina ô!\nNo niaretanao\nIzao mangidy ‘zao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('90', 'Nangorohoro mafy re,\nNy fonao, Jeso tia!\nNy tsembokao’zay nitete,\nNanjary toy ny ra!\nEndrey, ny fahorianao\nNangotraka tokoa!\nTsy maintsy nosotroinao\nIlay kapoaka tao!\nFitiavana ahy re,\nRy Tompo masina ô!\nNo niaretanao\nIzao mangidy ‘zao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('90', 'Ho ahy re, ho ahy re,\nNo niaretanao\nIrery tao Getsemane\nJeso malala ô!\nSintoninao ny foko ê\nHo ao Getsemane.\nHahita izay niaretanao.\nHo tena tia Anao!\nFitiavana ahy re,\nRy Tompo masina ô!\nNo niaretanao\nIzao mangidy ‘zao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF91',
+             '',
+             91
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('91', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('91', 'O, fitiavan-dalina,\nNasehonao ilay alina\nIzay namadihana Anao,\nRy Jeso, fototr’aim-baovao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('91', 'Mangoraka erý ny fo,\nSy ory ny fanahiko ,\nRaha mba tsaroako izao\nNy loza izay nanjo Anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('91', 'Fadiranovana Hianao,\nNangotraka ny adinao;\nNy dinitrao nanjary ra\nNoho ny fahoriana.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('91', 'Izany niaretanao\nNoho ny fitiavanao,\nKa nentinao ny heloko,\nIzay tokony ho nentiko.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('91', 'Namita fanekem-baovao\nHo famonjena Hianao ,\nNasianao kase izay\nMaharitra mandrakizay.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('91', 'Misaotra Anao ry Tompo ô!\nFa ravo ny fanahiko\nHandray ny fanomezanao\nEo amin’ny latabatrao.', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('91', 'Ny teninao inoako,\nKa raisiko ho ao am-po;\nNy zava tsoa atolotrao\nDia ranao sy ny tenanao.', '8', '8');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('91', 'Ry Jeso, amboaronao\nNy fonay ho fonenanao,\nKa Hianao ho tianay\nIzao sy ho mandrakizay.', '9', '9');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF92',
+             '',
+             92
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('92', 'Ry voasatro-tsilo,\nRy voakapoka!\nIndrisy be ny loza\nManafotra Anao!\nNitsaohan’ny anjely\nFahiny Hianao.\nFa henatra sy latsa\nAnjaranao izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('92', 'Atolotro, ry Jeso,\nNy foko ho Anao,\nHiaraka hitondra\nNy fahorianao.\nRaha henatra sy loza\nNo ho anjarako,\nDia Hianao Mpamonjy,\nNo ifaliako.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('92', 'Tsarovy aho, Tompo,\nRaha tratry ny manjo!\nTsy mendrika aho, nefa\nMba amindraonao fo!\nNy ratranao no misy\nFanasitranana.\nNy ranao ahitana\nNy fiadanana.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF93',
+             '',
+             93
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('93', 'Nampalahelo mafy re\nNy fahorian-dehibe\n‘Zay niaretanao.\nNalaim-baraka Hianao,\nNiaritra ka tsy nandao\n‘Lay asa masinao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('93', 'Ny henatra aman-tahotra\nMangeja anay voavotra,\nFa diso izahay.\nAvia, Tompo , mamonje\nMeteza izao ka maneke\nHanavotra indray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('93', 'Ampio ny olonao, Jeso\nHahay handray Anao am-po\nFa mila vonjy izao.\nMonena hanatanjaka\nNy ory sy ny reraka,\nIzay manantena Anao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF94',
+             '',
+             94
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('94', 'Gologota no jereo,\nAo ny hazo fijaliana;\nIndro re, mihantona eo\nJeso, sady harabiana.\nMoa mba fantatrao, ry fo,\nNy fitiavan’i Jesosy,\n‘Zay nandefitra tokoa,\nAry koa ninia ho resy ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('94', 'Famonjena ho anao\nNo netezany hihafy,\nKa hijaly toa izao\nSy hiharitra ny mafy.\nHe, ny rany nitete\nVokatry ny fanomboana;\nVetivety foana re\nDia ho faty ao ny Tompo.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('94', 'Mitsangana, miaingà,\nNdeha mankany Gologota;\nAo no latsaka ny ra\nHamonjena ny mpanota;\nIo no hany mahadio,\nAntoka tsy hay ravàna\nEny, samy afak’io\n‘Zay rehetra fahotàna!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF95',
+             '',
+             95
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('95', 'Ny hazo nijalianao,\nRy Jeso Tomponay!\nManeho ny fitianao.\nDia iankinanay, (in-3) | *\nManeho ny fitiavanao.  |', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('95', 'Mitazana ny masonay,\nMangoraka ny fo;\nNa meloka aza izahay.\nNy teninao ho to. (in-3) | *\nNa meloka aza izahay.     |', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('95', 'Ny avotr’aina vitanao\nNo itokianay;\nNy entanay voaesotrao.\nKa afaka izahay. (in-3) | *\nNy entanay voaesotrao. |', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('95', 'Ny hazo nihomboanao\nDia voninahitray;\nNy nanalam-baraka Anao\nNo isandratanay! (in-3)   | *\nNy nanalam-baraka Anao. |\n\n*) Ho an’ny feony (1) ihany', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF96',
+             '',
+             96
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('96', 'Ilay havoana\nNatao hoe Kalvary,\nNo tany namonoana,\nNy Tompo Jesosy;\nO! tsarovy re!\nMaty ory tao\nJeso Tompo lehibe\nHanavotra anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('96', 'Jereo ny Tomponao,\nTazanonao irý,\nKa andrandrao ny masonao,\nFa io no Kalvary!\nO! tsarovy re!\nMaty ory tao\nJeso Tompo lehibe\nHanavotra anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('96', 'Hevero Kalvary,\nFa tao ny Tomponao;\nTsarovinao ny nentiny\nMba hamonjena anao!\nO! tsarovy re!\nMaty ory tao\nJeso Tompo lehibe\nHanavotra anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('96', 'Tsinjovy Kalvary,\nFa Jeso Tomponao,\nNijaly tany raha tetý,\nKa maty Izy tao!\nO! tsarovy re!\nMaty ory tao\nJeso Tompo lehibe\nHanavotra anao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF97',
+             '',
+             97
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('97', '‘Lay fonao tia tao Gologota\nNo velona ao an-tsaiko izao.\nNy fonao ‘zay mitady\nmpanota,\nNo voaratra indrindra tao.\nRy fo malala, nihafy loatra,\nLavitra ny mpangoraka Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('97', 'Indro ny lefona koa mamely\nKa notrobarana Hianao!\nHe! malahelo ireo anjely,\nFa naharary re ny fonao!\nIo no fitia tsy misy toa azy,\nZaran’izao rehetra izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('97', 'Efa hisoka ny antoandro,\nMenatra izao tontolo izao;\nTsy ela intsony dia maizina\nandro\nKalvary ‘zay nihantonanao!\nFa izaho tsy mba hangataka\nandro\nHampiantrano ny tenanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('97', 'Tsy sasatra na valaka koa,\nNy fonao tia, ry Tompo ô;\nMenatra izao ity foko tsy soa.\nTsy hahavaly tokoa Anao;\nNefa ampio aho hanaiky,\nHanatontosa ‘zay sitrakao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF98',
+             '',
+             98
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('98', 'Indro ny Tompo Jesosy,\njereo,\nTena nihafy tokoa!\nHe! fa nivesatra eso, jereo,\nMba hamonjena anao!\nIndro Jeso, jereo Jeso.\nIzy izao dia mihevitra anao,\nIndro Jeso, jereo!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('98', 'Indro ny Tompo Jesosy,\njereo,\nEfa voahombo tokoa!\nHe! fa nijaly tsy meloka teo,\nMba hamonjena anao!\nIndro Jeso, jereo Jeso.\nIzy izao dia mihevitra anao,\nIndro Jeso, jereo!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('98', 'Indry ny lefo-mandoza\njereo,\nNenti-namely ny Tompo!\nHe! fa ny rany nirotsaka teo,\nMba hamonjena anao!\nIndro Jeso, jereo Jeso.\nIzy izao dia mihevitra anao,\nIndro Jeso, jereo!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF99',
+             '',
+             99
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('99', 'Ry fitiavan’i Jesosy!\n‘Zay voahombo ho anay,\nOny be sy mahavonjy,\nAoka ho lasanao ‘zahay!\nTompo, Zanakondry tsara,\nAmpy re ilay ranao,\nTsy helohin’ny Mpitsara\n‘Zay mpanota afakao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('99', 'Fa misento ny fanahy,\n‘Zay etý an-tany ‘zao;\nMalahelo sy manahy,\nSao ho voan’izay natao.\nTompo, Zanakondry tsara,\nAmpy re ilay ranao,\nTsy helohin’ny Mpitsara\n‘Zay mpanota afakao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('99', 'Ny mpanota dia ho very,\nRaha tsy mba miova izao.\nFa hahazo tena hery,\nRaha mino tsara Anao!\nTompo, Zanakondry tsara,\nAmpy re ilay ranao,\nTsy helohin’ny Mpitsara\n‘Zay mpanota afakao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('99', 'Enga anie ka mba hiely\nHo an’izao tontolo izao\nIlehy Ony mahafaly,\nManadio sy manavao!\nTompo, Zanakondry tsara,\nAmpy re ilay ranao,\nTsy helohin’ny Mpitsara\n‘Zay mpanota afakao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF100',
+             '',
+             100
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('100', 'Moa mba efa misy va\nFahoriana toy izao!\nJeso ‘Lay Mpanisy soa,\nTompo sy Mpanjaka koa\nEntina tsy meloka,\nEntina any Kalvary ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('100', 'He, ny lanivoany\nVoatsindron-defona!\nTongotra aman-tanany\nVoafantsika avokoa,\nEny, fa ny ainy koa,\nFoiny tany Kalvary.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('100', 'Mafy ‘zay ry Jeso ô!\nMafy nefa zakanao,\nNy fitiavanao anay!\nNo niaretanao izay\nMenatra aho, Jeso ô\nRaha hadino Kalvary.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('100', 'Taomy aho Jeso ô!\nMba ho any Kalvary,\nKa ny foko tsy madio\nMba diovinao anio!\nEnto aho, Jeso ô!\nEnto any Kalvary.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF101',
+             '',
+             101
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('101', 'Ny hazo fijaliana,\nRy Jeso Tomponay,\nDia tena fitoriana\nFa tianao ’zahay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('101', 'Ny hazo fijaliana\nDia manambara izao\nFa be ny fahoriana\nNihatra taminao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('101', 'Ny hazo fijaliana\nNo mampiseho koa\nFa tokony hariana\nNy ota mahavoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('101', 'Isaoranay dia isaoranay\nHianao, ry Tomponay,\nFa be ny fitiavana\nNataonao taminay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF102',
+             '',
+             102
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('102', 'Reharehako ny hazo\nNijalian’i Kristy;\nManda fiarovana avo\nIalofako atý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('102', 'Azon-doza maro aho\nTery koa ny làlana;\nTsy ilaozan’i Jesosy\nMpanome fiadanana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('102', 'Raha lany re ny andro\nMampiadana indray,\nTsy hadinoko ny hazo\nNentin’ny Mpamonjinay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('102', 'Ny anjara atý an-tany\nTsy mba mahavesatra\nNoho ny hazo fijalianao\nHazo mahasambatra.\nAmen!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF103',
+             '',
+             103
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Ny hazo-fijaliana\nTsy maintsy hotsarovana;\nHenoy, ry fanahiko,\nNy tenin’ny Mpamonjinao!\n\nVakiteny 1', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Ny teny voalohany\nMihevitra ny rafiny :\n« Mba mamelà ny helony,\nFa jamba ny fanahiny! »', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Izaho koa Jeso ô!\nDia jamba sady ratsy fo;\nKa mba jereo sy iantrao,\nFa te ho tonga olonao.\n\nVakiteny 2', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Ilay meloka tanilany\nNaniry mba ho raisiny,\nNomeny toky tsara io :\n« Ho any Paradisa anio! »', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Raha avy ny anjarako,\nKa tapitra ny androko,\nMba raiso aho Tompo ô,\nHo any Paradisanao!\n\nVakiteny 3', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Dia hitany ny reniny\nTomany teo akaikiny,\nToy ny tsindronin-defona\nKa feno fisentoana.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Dia Jaona no natolony\nHo zanany ho solony :\n« Mba raisonao, ry Jaona ô\nHo reninao ny reniko! »', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Tsarovy aho, Tompo ô!\nRaha ao am-pahoriako,\nIraho ny mpianatrao\nHanampy ny mpanomponao!\n\nVakiteny 4', '8', '8');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Ny teniny fahefatra\nNo tena mampangovitra;\nNiantso Izy, hoe : « Ry Ray,\nNahoana Aho no afoy ? »', '9', '9');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Izao no dia nandaozana\nAnao tam-pahoriana;\nHahafaka ny tahotro,\nRaha tonga ny fotoako.\n\nVakiteny 5', '10', '10');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Ny otako izay nentiny\nNahory ny fanahiny,\nKa nitarainany hoe :\n« Mangetaheta Aho re! »', '11', '11');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Mangidy, ry Jesosy ô,\nNy loza niaretanao,\nKa aoka mba ho mamiko\nNy avotra, izay vitanao!\n\nVakiteny 6', '12', '12');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Hoy  Izy indray :\n« Tanteraka! »\nHe! teny mahasambatra.\nTanteraka ny asany,\nVoavotra ny olony.\n\nVakiteny 7', '13', '13');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Ny teny farany indray\nNilaza ny rahatrizay :\n« Atolotro ny aiko izao,\nRy Ray, ho eo an-tànanao! »', '14', '14');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('103', 'Izany dia mamiko\nHiorina ao anatiko,\nKa teny hotononiko\nEo amim-pahafatesako!', '15', '15');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF104',
+             '',
+             104
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('104', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('104', 'Raha mijery ny hazo\nNijalian’i Jesosy,\nTsy misy izay malaza\nNa izay mirehareha.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('104', 'Aza miavonavona,\nFa indro ny Mpanavotra;\nNy dian’i Jesosy Kristy\nNo arahina isan-andro.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('104', 'Indro! ny rany mandeha,\nVoahombo ny tànany,\nNijaly, ka dia maty\nNisolo olo-meloka.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('104', 'Raha ahy ‘zao tany izao\nSy ny aminy rehetra,\nTsy ho azoko havaly\nNy fitiavan’i Jeso.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('104', 'Ny foko omeko Azy,\nFanahiko hatolotro;\nTsy mba mendrika Azy ‘zany\nFa Jeso no mety mandray.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF105',
+             '',
+             105
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('105', 'Tsinjovy   ilay havoana\nArý Jerosalema,\nFa io Golgota!\nMba tadidio ange!\nFa tao, nivesatra ny ota\nNy Tompo Masina\nNijaly sy nolavina\nKa novonoina!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('105', 'Tsy takatra heverina\nNy entan-dehibe,\nIzay nentin’ny Mpisolo\nKa mba diniho re!\nFa nentiny daholo\nNy heloka natao\nFa tonga Izy hanavao\nIzao tontolo izao', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('105', 'Ny helotsika koa izao\nDia nivesarany,\nKa manaraha Azy,\nMba ho mpianany!\nRaha tao Golgota Izy,\nNy rany nitete,\nKa vita ho antsika re\nNy vonjy lehibe!\nNy Ho resy sy ho faty.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF106',
+             '',
+             106
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('106', 'Indro, ny Fitiavana nijaly\nTeo amin’ny hazo-fijaliana;\nAry ny ratsy nivonona hifaly,\nHandresy ny Zanaka-lahy\nTokana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('106', 'Indro, ny Fitiavana mahery,\nNitondra ny heloky ny olony;\nIzy niady hanafaka ny very,\nNy ainy no avotra ka natolony.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('106', 'Izy nijaly mafy tao Golgota,\nVoahombo ny tongotra\naman-tanany;\nIzy nisolo antsika izay\nmpanota\nKa fadiranovana ny fanahiny.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('106', 'O, ry Mpamonjy, mba hazony\naho\nHijery ny hazo-fijaliana!\nOlona meloka aho ka afaho,\nHialoka amin’ny fitiavanao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF107',
+             '',
+             107
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('107', 'Maniry mafy aho ry Jeso\nTompo ô,\nHialoka eo ambany hazo-\nfijalianao;\nTsy misy toeran-kafa re izay\ntena mamiko,\nNy hazo-fijalianao no\nfiarovako.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('107', 'Ny hazo-fijalianao no\nitazanako\nNy tenanao Izay nijaly mba\nho avotro;\nKa dia kotsan-dranomasom-\npitiavana\nNy tavako, ry Tompo ô, fa\nafa-keloka!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('107', 'Am-pototry ny hazo izay\nnijalianao\nNo itoerako hohazavain’ny\ntavanao;\nAtaoko fatiantoka ny zava-\nmora lo,\nNy hazo-fijalianao no\ntombon-dahiko!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF108',
+             '',
+             108
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('108', 'Ny hazo-fijalianao,\nRy Jeso Tompo maminay,\nDia an’izao tontolo izao\nKa famonjena ho anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('108', 'Mivelatra eo ka hitanay\nIzany fitiavana;\nKa ampianaro izahay\nHo be fitia toa   Anao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('108', 'He! latsaka eo ho avotray\nNy ranao masina sy soa;\nKa mba sasao re izahay\nHo olonao madio tokoa!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('108', 'Voatolotra eo mba ho anay\nNy famonjena vitanao;\nKa mba tariho izahay\nHandray ny fahasoavanao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('108', 'Mamiratra eo ka tazanay\nNy lanitra fonenanao;\nKa mba tantano izahay\nHo mendrika ho mponina ao!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('108', 'Ndrey, tena mahafinaritra\nNy miara-monina   aminao;\nKa ampio izahay hiaritra\nNy hazo-fijalianao.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF109',
+             '',
+             109
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('109', 'Nahafoy ny aiko Aho,\nHanavotako anao,\nKa nalatsako ny rako,\nNisoloako anao;\nHe! ny aiko no nomeko,\nRy mpanota very e!\nAiza   izay afoinao re,\nMba ho Ahy Tomponao ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('109', 'Lapan-dRaiko ao ambony,\nVoninahi-dehibe,\nNo nilaozako hamonjy\nSy hanafa-doza anao,\n‘Zay voafitak’i Satana\nSy nozoin-doza be!\nAiza   izay afoinao re,\nMba ho Ahy Tomponao ?', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('109', 'Soa be sy mahagaga\nNo atolotro anao;\nFamonjena tsy vidina,\nFamelana otanao.\nFitiavan-tsy voafetra\nLova ao an-danitra ao!\nAiza   izay afoinao re,\nMba ho Ahy Tomponao ?', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('109', 'Indro, Tompo! fa omeko\nHo Anao ny tenako,\nKa tsy misy ‘zay tsy foiko\n‘Zay rehetra tianao!\nEso, latsa, tsy ahoako\nFa ny ho mpanomponao\nNo ho zavatra kendreko,\nRaiso re ny zanakao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF110',
+             '',
+             110
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('110', 'Nomeko ho anao\nNy rako masina,\nHanavotra anao,\nIzay tsy marina!\n:,: Ka dia mba inona izao\nNo Ahy taminao ? :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('110', 'Nafoiko ho anao\nNy zava-tsoa be,\nMba hanatonanao\nNy Raiko lehibe!\n:,: Ka dia mba inona izao\nNo Ahy taminao ? :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('110', 'Izaho Tomponao\nNijaly mafy re,\nHanafaka anao,\nMpanota lehibe!\n:,: Ka dia mba inona izao\nNo Ahy taminao ? :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('110', 'Ny vonjy lehibe\nNataoko ho anao,\nNy rako nitete\nHandio ny otanao!\n:,: Ka dia mba inona izao\nNo Ahy taminao ? :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('110', 'Jesosy Tompo ô!\nIzao no teniko :\nAtolotro Anao\nNy aiko sy ny fo!\n:,: Izany no isaorako\nAnao Mpamonjiko! :,:', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('110', 'Ny foko raisonao,\nOneno hatretý,\nAtaovy lapanao\nNa eto na arý!\n:,: Dia tano aho, Tompo ô,\nMba ho fanananao! :,:', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF111',
+             '',
+             111
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('111', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('111', 'Indro ny Mpamonjy,\nMpanavotra antsika,\nIzy no manontany hoe :\n“ Tianao va Aho ? ”', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('111', 'Izaho no Mpamonjy\nSy mpisolo anao;\nNy rako manontany hoe :\n“ Tianao va Aho ? ”', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('111', 'Ny fitiavako\nTsy mety miova\nKa mba manontany hoe :\n“ Tianao va Aho ? ”', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('111', 'Ry Jeso Tompoko!\nMalahelo ‘zahay,\nNy fitiavanay Anao\nMbola tsy toy inona.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('111', 'Aelezo ao am-po\nNy fitiavanao,\nHahazoanay hamaly :\n“ Tianay Hianao ”', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF112',
+             '',
+             112
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('112', 'Tsy dia ny hahazo soa\nArý an-danitra\nNo itiavako Anao,\nRy Andriamanitra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('112', 'Tsy noho ny atahorako\nNy fijaliana,\nFa noho ny fitiavanao,\nNo itiavako.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('112', 'Voahombo, voalefona,\nVoalatsa Hianao;\nNahinjitra ny tànanao\nTambony hazo teo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('112', 'Izaho no niaretanao\nNy fijaliana;\nNy ranao nanavotana ahy\nIzay fahavalonao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('112', 'Ka moa tsy fitiavana\nHavaliko Anao ?\nNy foko no atolotro\nAnao, ry Tompo ô!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('112', 'Ry Jeso Kristy masina  ô!\nDeraiko Hianao,\nFa Hianao Mpanjakako\nSy Andriamanitro!', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF113',
+             '',
+             113
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('113', 'Jeso, Zanahary!\nMasina sy to,\nNanome ny ainao\nNoho ny olonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('113', 'Tsy niaro loza\nTamin-tenanao,\nFa mba tonga ory\nNoho ny olonao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('113', 'Nentinao ny ratsy,\nSoa nolavinao,\nLapa nialanao,\nNoho ny olonao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('113', 'Jeso Tomponay ô!\nTompo masina,\nManomezà soa\nNy mpanomponao!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('113', 'Mamelà ny ota,\nManovà ny fo,\nDiovy ny maloto;\nAoka ho olonao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('113', 'Tompo ô, Tsitoha\nVatolampinay!\nSaotra aman-dera\nRaiso ho Anao!', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF114',
+             '',
+             114
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('114', 'Jeso no niala aina\nHanavotany anao,\n:,: Iza re no tsy hanaiky\nAzy izao ? :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('114', 'Fa ny lapany ambony\nNialany fahizay,\n:,: Hamonjeny olom-bery,\nVery tokoa :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('114', 'Fa izay manatona  Azy,\nKa mibebaka ao am-po\n:,: Tsy hariany akory,\nKa matokia! :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('114', 'Mba avia, ry havanay ô!\nManeke ny Tomponao,\n:,: Maneke ny Tompon’aina\nHo Tomponao! :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('114', 'Iantrao, ry Tomponay ô!\nNy mialoka aminao,\n:,: Raisonao ‘zahay mpanota\nHo olonao! :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF115',
+             '',
+             115
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('115', 'Jeso Tompo lehibe,\nIraky ny Rainy,\nNolatsain’ny maro be,\nTsy mba nohajainy!\nJeso tia, Jeso tia,\nMaty voahombo;\nMaty tany Kalvary,\nMaty re ny Tompo!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('115', 'Ory loatra fahizay,\nZanak’ondry mora,\nMaty mba ho solonay,\nSady voakora!\nJeso tia, Jeso tia,\nMaty voahombo;\nMaty tany Kalvary,\nMaty re ny Tompo!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('115', 'Nalahelo, be nanjo,\nNefa tsy nanota,\nFa nijaly sitrapo\nTany Gologota!\nJeso tia, Jeso tia,\nMaty voahombo;\nMaty tany Kalvary,\nMaty re ny Tompo!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('115', 'Jeso no Mpamonjy tia,\nNahafoy ny ainy,\nMba hamory ‘zay mania,\nHody amin-dRainy!\nJeso tia, Jeso tia,\nMaty voahombo;\nMaty tany Kalvary,\nMaty re ny Tompo!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF116',
+             '',
+             116
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('116', 'Miaingà, ry fo sy saina,\nMba ho any Golgota,\nMaty tao ny Tompon’aina,\nVita tao ny avotra.\nRy mahantra, ry mania,\nSady raiki-tahotra,\nNy Mpamonjy be fitia\nHahitanao avotra!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('116', 'Fa ny ainao ry Mpamonjy,\nNisoloanao anay\nHahazoanay ny vonjy\nSy hahafa-trosa anay!\nVatofantsiky ny aiko,\nHianao, Mpamonjy ô!\nRavoravo izao ny saiko\nAfakao ny heloko!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('116', 'Ny manjo atý an-tany,\nTsy mba hatahorako,\nFa izaho dia ho any\nAmin’ny Mpanavotro,\nTombon-dahiko tokoa\nNy fahafatesana,\nHahatrarako ny soa,\nDia ny fiainana!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF117',
+             '',
+             117
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('117', '(Hiraina in-3 no fanao ity)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('117', 'O, ry Zanakondry,\nHe! Hianao nijaly;\nOry, voahombo,\nAnefa tsy namaly;\nNy helokay nalainao,\nKa maty re ny ainao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('117', 'Mba iantrao izahay, ry Jeso!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('117', 'Ampiadanonao izahay re!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF118',
+             '',
+             118
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('118', 'Mba jereo ny Zanakondry\nVoahombo sady ory,\nNefa Tompo masina.\nHe! ny Rainay tsy namaly,\nRaha ny Zanany nijaly\nTamim-panaintainana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('118', 'He! ny Marina nijaly!\nMba hahaizako mifaly,\nIzay no niaretany.\nO! ry foko, mangovita,\nManatòna mba hahita\nNy fahafatesany!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('118', 'Eny, ry Mpamonjy tsara\nMba meteza hanambara\nNy harem-pitiavanao;\nDia hafanao ny foko.\nMba hahaizako hanompo\nSy hanaraka Anao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('118', 'Aoka aho hitomany,\nRaha mihevitra izany\nFahoriana nentinao.\nAzoko ny famonjena;\nO! ry foko, manenena\nNoho ny ratsy vitanao!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('118', 'Tompo, manampia ahy,\nMba harisika am-panahy,\nHanompoako Anao\nRaha mbola atý an-tany\nAza afoy fa mba tohany\nTsy hisaraka aminao!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF119',
+             '',
+             119
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('119', 'Hianao, ry Tompon’aiko,\nMaty noho ny otako,\nTsy mba takatry ny saiko\nIzany fijalianao\nNefa sitrakao nijaly\nHahazoako mifaly;\nRy Jesosy, Hianao\nNo isaorako izao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('119', 'Safotry ny fandatsana\nHianao, Mpanavotra\nHandovako fanjakana\nFeno voninahitra.\nVoaratra, voaeso,\nAry voasatro-tsilo\nNoho ny hadisoako,\nKoa dia isaorako!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('119', 'Tianao izahay mpanota,\nHelokay no nentinao;\nResinao ny tambin’ota\nIzahay nafahanao;\nVoaloanao ny trosa.\nIzahay mpanota kosa,\nTonga olom-potsinao,\nKa derainay Hianao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF120',
+             '',
+             120
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('120', 'Ry mino ô, avia re!\nHiara-mankalaza\nIlay Mpanjaka lehibe,\nFa tena mahagaga\nSy sarobidy anie\nNy fahasoavan-dehibe\nNomeny ho antsika.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('120', 'Tsy asa soa vitako\nNo tokiko anefa,\nFa ny Andriamanitro\nNo tsy nisalasala\nHanafaka ny otako,\nNomeny mba ho avotro\nNy Zanany malala!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('120', 'Jesosy faly eram-po\nHamonjy ahy very,\nKa azoko ny indrafo.\nIzay vitan’Izy irery\nIzaho tena afa-po.\nTsy misy atahorako,\nIzaho tsy ho very.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('120', 'Jesosy Kristy Tompo ô!\nIzaho ta-hamaly\nNy teny fiantsoanao :\n« Mba manatòna Ahy!\nIzaho dia ho anao,\nHo Ahy kosa hianao »\nKa manampia ahy.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('120', 'Ny ranao soa nitete\nNo nanadio ahy\nNy ainao sarobidy re\nNo nanavotana ahy\nMba hitokiako anie\nNy famonjena lehibe\nNatolotrao ho ahy.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('120', 'Isaorana  eram-po anie\nNy Tompo Zanahary,\nFa Izy efa nanome\nNy Zanany nijaly,\nKa ny devoly lozabe,\nNy Ho resy sy ho faty.\n\n\nota sy ny heloka', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF121',
+             '',
+             121
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('121', 'Ry Jesosy, ampombay\nFiadanana maharo\nFo sy saina izahay,\nKa mba ampahafantaro,\nRaha ny holatrao jerena,\nFa Anao ny fandresena!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('121', 'Ry Mpandresy, ambarao\nAminay ny vokatr’ady :\nFamonjena, aim-baovao\nNo andramany sahady :\nRaha ny tafika miseho,\nFiadanam-po omeo!', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF122',
+             '',
+             122
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('122', 'Hitako izao, sakaiza,\nNy fahasambarana,\nKa ny foko faly, ravo,\nManam-piadanana.\nTeo am-pototry ny hazo\nNijalian’ny Tompoko,\nTeo aho no nahazo\nFamelana heloka.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('122', 'He! ny indrafo niriko,\nEfa azoko tokoa,\nKa Jesosy no fidiko,\nFa  Izy fototry ny soa,\nHe! ny rany sarobidy,\nNanadio ny otako\nIzaho efa voavidy.\nLanitra no lovako.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('122', 'Tena soa mahagaga\nIzao nomenao ahy izao,\nFa izaho izay mpanota,\nDia nohavaninao;\nKa izaho dia hidera\nIzato fitiavanao\nAry koa hanambara,\nJeso ô! ny herinao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('122', 'Ry Mpamonjy ô! mba raiso\nIzao fisaorako izao;\nKa izay rehetra ahy\nDia atolotro Anao,\nRaha tonga re ny fetra\nHialako sasatra,\nEnto aho hitoetra,\nEo anilanao arý.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF123',
+             '',
+             123
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('123', 'Velona Jesosy,\nNitsangana tokoa;\nNy kristiana marobe,\nMihoby sy mihira hoe!\n:,: Dera ho Anao,\nry Mpandresy! :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('123', 'Velona Jesosy,\nNy helo dia resy,\nTanteraka ny avotra,\nKa afaka ny heloka!\n:,: Dera ho Anao,\nry Mpandresy! :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('123', 'Velona Jesosy,\nKa velona isika,\nHiara-monina  Aminy,\nHohazavain’ny tavany!\n:,: Dera ho Anao,\nry Mpandresy! :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF124',
+             '',
+             124
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('124', 'Nitsangana ny Tompo,\nNeken’ny Ray ny avotra,\nKa ravo ny mpanompo :\nMisokatra ny lanitra!\nIlay Tompom-pandresena\nNandrava fasana,\nAndriam-pamonjena,\nTolory hasina!\nJesosy no Mpanjaka\nAm-boninahitra,\nHiarahako mizaka\nNy zon’ny lanitra!', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF125',
+             '',
+             125
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('125', 'Indro, Jeso velona,\nAfaka ny olom-bery,\nRava re ny fasana,\nDia nivoaka Ilay Mahery;\nKa ny horohorontany\nDia nahato izany!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('125', 'Resinao ny rafinay,\nRy Jesosy manan-kery,\nKa mpandresy izahay,\nVoavonjinao ny very,\nMatinao ny helok’ota,\nVelona izahay mpanota!', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF126',
+             '',
+             126
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('126', 'Endrey, izato fahasambarana :\nJesosy dia  velona  indray!\nNy foko mandre fitsaharana\nNoho Izy natsangan’ny Ray,\nTsy any am-pasana  intsony\nFa hitako velona koa\n:,: Ilay Tompon’ny hery\nambony\nMamiratra sy manan-jo! :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('126', 'He, velona Izy! Hafarany\nIzaho izao hampandre\nIreo izay tia  ny Anarany\nNy fampiononana be,\nAnjely no mendri-kilaza;\nIzaho, mpanompo tsy soa,\n:,: Nirahin’ny Tompo malaza,\nKa ravo sy tretrika koa! :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('126', 'Endrey, izato fahasambarana,\nFa velona mandrakizay\nNy Tompo Izay nifankazarana,\nKa faly ny foko indray!\nNy fasana izay nampisaona\nNo fampiononana koa,\n:,: Fa tao izahay tafahaona\nKa ravo dia  ravo ny fo! :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF127',
+             '',
+             127
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('127', 'Tahaka ny masoandro miseho\nToy ny heriny izay mahaleo,\nNa dia takon’ny rahona tao;\nTahaka izany Jesosy\nMpamonjy,\nIzy nitsangana velona indray\nRy olombelona, izay voavonjy\nMba miderà Azy \nmandrakizay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('127', 'Saotra aman-dera sy laza sy\nhery,\nAoka ho Azy hatramin’izao\nIzay nanafaka ny olom-bery,\nIndro ny fasana vaky sy lao.\nIzy nanafaka ny vavahady :\nAiza, ry fahafatesana ô!\nAiza ny herinao sahy miady\nAmin’ny mino sy amin’ny to ?', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('127', 'Jeso Mpamonjy ô! mba\nhasoavy\nKa mba arovy ny mino Anao,\nKa ny Fanahinao aoka ho avy,\nMba hanazava ny fonay izao;\nAry tantano izahay tsy hania,\nFa Hianao no Mpiaro anay!\nO! ry Mpamonjy anay, mba\navia,\nKa mba vonjeo, fa miandry\nizahay!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('127', 'Jeso, izahay te-hisaotra tokoa\nNoho ny soa nomenao anay;\nTeraka teto nitondra ny soa,\nDia  ny fiainana  mandrakizay\nSaotra omenay Anao izay\nnijaly,\nNefa natsangan’ny Rainao\nindray;\nRahatrizay izahay dia  hifaly\nAny an-danitra mandrakizay!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF128',
+             '',
+             128
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('128', 'Efa velona ny Tompo\nFa nitsangana tokoa;\nResiny ny fahavalo\nIlay mpihaza aina soa;\nVelona ny Tomponao,\nResiny ny rafinao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('128', 'Matokia, ry mpanota,\nAn’i Jeso Avotrao,\nFa ny ota nahadiso\nAfaka tokoa izao;\nVelona ny Tomponao,\nAfany ny helokao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('128', 'Eny, fa nitsangana ela\nJeso Kristy Tomponao,\nKa mamoha vavahady\nAny mba hidiranao,\nVelona ny Tomponao,\nKa  efa nialoha anao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF129',
+             '',
+             129
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('129', 'Any naraina\n:,: Ilay Avotr’aina :,:\nNatsangan-dRay;\nResy ny ota\n:,: Ka ny mpanota :,:\nMihoby indray.\nAny naraina, …sns.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('129', 'Hira hiraina\n:,: ny Tompon’aina :,:\nIsaoranay;\nOry ny fony\n:,: mba hamitony :,:\nNy sentonay.\nHira hiraina, …sns.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('129', 'Faly ny very\n:,: tsy manan-kery :,:\nNy helokay;\nJesosy Tompo\n:,: dia mampanompo :,:\nNy rafinay.\nFaly ny very, …sns.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('129', 'Hisy maraina\n:,: ny Tompon’aina :,:\nHo avy indray;\nIzy hizara\n:,: ny lova tsara :,:\nHomena anay.\nHisy maraina, …sns.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF130',
+             '',
+             130
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('130', 'Hobio, ry olombelona!\nJesosy dia velona,\nNy fasana dia rava;\nMisokatra ny lanitra,\nDia resin’ny mazava.\nJeso Kristy\nNo deraina sy hajaina.\nFa Mpamonjy,\nTompon’aina mahavonjy.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('130', 'He! misy làlana indray\nHo ao an-danitra, izay\nMiandry ao ambony;\nFa vitan’ny Mpanavotra\nNy vonjy mahasambatra,\nKa sitraky ny fony\nHandray izay\nMitomany, mba ho any\nAmin-dRainy;\nFa izany dia hainy!', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF131',
+             '',
+             131
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('131', 'Tonga ny andro malaza,\nizay mahafaly,\nIndro nandresy Jesosy\nIlay vao nijaly;\nVelona indray Izy,\nnatsangan’ny Ray,\nAoka isika hifaly!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('131', 'Efa nahery Jesosy,\nka resy Satana;\nMenatra mafy ireo\nfahavalo nitana;\nKa mba zahao :\nrava ny fasana izao,\nRava, fa tsy nahatana!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('131', 'Helo sy fahafatesana,\nresy tokoa,\nary ny tambin’ny ota\ndia efa naloa;\nJeso, Izay maty ka\nvelona indray,\nTompon’ny aina tokoa!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('131', 'Mba mihobia,\nry olona mino rehetra;\nAn’i Jesosy ny hery\nizay tsy voafetra;\nIzy nanao làlana tsara\nvaovao\nResy ny ratsy rehetra.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('131', 'Faly Isika fa manana\nfanantenana,\nMbola hiantso Jesosy hoe :\n« Mitsangàna! »\nAmin’izay, velona\nmandrakizay\nNy nodimandry tra-bonjy.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF132',
+             '',
+             132
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('132', 'Indro, fa velona\nJesosy Tompon’aina!\nFoana ny fasana\nResy izao Satana.\nIza  indray no hitomany,\nRaha nahare izany ?\nRy foko sasatra\nManahy fatratra,\nHeveronao izao;\nHo afaka ny sentonao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('132', 'Indro, fa velona\nJesosy Tompon’aina!\nIzy nitsangana;\nRavo ny fo sy saina.\nJeso Tompo nolatsaina\nTonga loharanon’aina,\nRy havana, andrandrao\nNy lanitra izao :\nJesosy velona,\nKa azo ny fiainana!', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF133',
+             '',
+             133
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('133', 'Efa namangy ny olony\nJeso, izay Tompon’ny aina\nLasa ny alina maizina,\n:,: Tonga indray ny maraina :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('133', 'Maty ny Tompo, nalevina\nNidina nita ny ony,\nNefa nitsangana velona\n:,: Koa tsy maty intsony :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('133', 'Ory ny fon’ny sakaizany,\nAiza Ilay nantenaina ?\nHitany nefa tsy fantany,\n:,: Jeso, Izay \nTompon’ny aina :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('133', 'Teniny tsy mba mivadika\nAmin’ny olona ory.\nTonga ny Tompo mitsidika\n:,: Ireo mpianany vory :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('133', 'Tonga ny taom-pamangiana,\nTondraka ny famonjena.\nVelona ny fihobiana,\n:,: Aina vaovao no nomena :,:', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('133', 'Teraka ny fifaliana,\nTonga ny Filazan-tsara,\nAndron’ny fitomaniana\n:,: Mody ho Pasaka tsara :,:', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF134',
+             '',
+             134
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('134', 'Mifaly tokoa ny foko izao\nFa misy manambara\nNy Filazantsara,\n:,: O, mba raisonao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('134', 'Nitsangana Jeso,\nHaleloia re!\nHenoy teny soa\nKa dia minoa\n:,: Fa marina re! :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('134', 'He ! rava ny fasana, ka mijere,\nFa efa niala\nNy Tompo malala,\n:,: Fa velona e! :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('134', 'Ny fahafatesana resy tokoa,\nKa tsy mba mijaly\nNy mino, fa faly\n:,: Sy tretrika am-po :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('134', 'Misaotra, midera Anao\nizahay\nRy Jeso Mpamonjy,\n:,: Ho mandrakizay :,:', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('134', 'Haleloia!\nTsara ny Pasaka e!\nNy Tompon’ny aina\nIzao hoderaina,\n:,: Haleloia re! :,:', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF135',
+             '',
+             135
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('135', 'Foana ny fasanao,\nJeso Tompon’aina;\nTo tokoa ny teninao\nKa notontosaina.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('135', 'Foana ny fasanao,\nTompo mana-kery,\nGaga teo ny rafinao,\nResy ‘lay Mahery!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('135', 'Foana ny fasanao,\nFa efa novohana;\nMaito ny fatoranao,\nTsy mba nahatana!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('135', 'Foana ny fasanao,\nZanaky ny Avo!\nAina no nasehonao,\nZava-maharavo!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF136',
+             '',
+             136
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('136', 'Ry Jeso, Tompon’aina!\nNalevina Hianao,\nKanefa he, deraina,\nFa velona ao izao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('136', 'Ny fasana nivoha\nNoho ny herinao,\nFa tsy mba nahatoha\nNy voninahitrao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('136', 'Ireo miaramila\nNahery sy nahay\nDia tsy mba nahatana\nAnao Mpanjakanay!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('136', 'Nitsangana tokoa,\nHo tena santatray,\nHianao, ry Tompo soa\nSy Kapiteninay!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF137',
+             '',
+             137
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('137', 'Vita  izao ny fandresena :\nHaleloia, haleloia!\nAzo koa ny famonjena :\nHaleloia!\nResy re ny fasana\nSy ny fahafatesana\nFahavalo farany;\nFa Jeso nitsangana\nTonga fanafahana :\nHaleloia! (in-3)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('137', 'To izao izay nambara :\nHaleloia! haleloia!\nFa ny fototra nivaha\nHaleloia!\nFoana ny fasana,\nJeso re nitsangana\nTamin-kery lehibe,\nKa torio ry mino e!\nEran-tany, mba ho re :\nHaleloia! (in-3)', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('137', 'Dia venteso ny hosana :\nHaleloia! haleloia!\nAoka tsy hihambahamba\nHaleloia!\nFa  efa velona tokoa\nIlay Mpamonjy\ntsy mba roa,\n‘Zay nisolo voina anao;\nIzy no nisantatra\nNy fiainan-tsambatra :\nHaleloia! (in-3)', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF138',
+             '',
+             138
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('138', '‘Ty ny andro maharavo,\nOra fifalianay;\n‘Lay Mpanarina ny lavo\nNo niady ho anay.\nHaleloia!\nHo Anao Mpanjakanay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('138', 'Azonao ny fandresena,\nRy Mpamonjy velona!\nVitanao ny famonjena.\nTafantsagana Hianao.\nHaleloia!\nHo Anao Mpanjakanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('138', 'Resinao ny fahotana;\nVoavoha ny fasanao\nTorotoro re Satana;\nAfaka ny olonao.\nHaleloia!\nHo Anao Mpanjakanay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('138', 'Ry Mpandresy\nfandozana!\nRaisonao ny hajanay\nRy Mpamonjy,\nmitantàna,\nTano ho Anao ‘zahay!\nHaleloia!\nHo Anao Mpanjakanay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF139',
+             '',
+             139
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('139', 'Haleloia! haleloia!\nHaleloia!\nHe! vita re ny ady izao!\nNy ota efa resy re,\nNy feo mifaly no atao,\nHaleloia!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('139', 'Fahafatesana no tao\nFa Kristy naharesy izao,\nNy fandreseny no derao,\nHaleloia!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('139', 'Ny andro nijaliana e!\nNisolo fifaliam-be,\nKa mihirà izay mandre :\nHaleloia!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('139', 'Ny gadra voatapany,\nNy efitra efa ravany;\nKa miderà ny heriny\nHaleloia!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('139', 'Ry Tompo ô! ny fiainanao,\nMamelona ny olonao,\nKa hoderaina Hianao :\nHaleloia!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF140',
+             '',
+             140
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('140', 'Haleloia! haleloia!\nMiderà ny Tomponao,\nManandratra feo hidera\nAn’i Jeso Kristy ‘zao\nFa nijaly mafy Izy,\nNefa indro velona Izy\nAo an-danitra tokoa!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('140', 'Eny, velona  ny Tompo,\nMba ho santatsika koa\nKa ho velona ny mino\nSy hitsangana tokoa;\nDia  handray ny lova soa\nSatro-bolamena koa,\nKa hidera ny Mpamonjy\nSy ho sambatra avokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('140', 'Haleloia! haleloia!\nHaja, hery, saotra anie\nNo hatolotra ny Tompo,\n‘Zay Mpandresy lehibe,\nHoderaina lalandava\nFa Mpanjaka manan-jo,\nHaleloia! haleloia!\nHoderaina eram-po!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF141',
+             '',
+             141
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('141', 'Efa resy izao na dia ny fasana\naza\nKa asandrato re ny hira sy ny\nfeo\nJesosy nampikoy ‘lay rafy \n‘zay nandoza,\n“Ry fahafatesana ô! aiza\nmoa ny herinao ?”', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('141', 'Lasa ilay tahotrao, ry foko\n‘zay malemy\nFa torotoro ‘zao ny\nfahavalonao,\nTsy nahatohitra ny sandrin’i\nJesosy\n“Ry fahafatesana ô! aiza\nmoa ny herinao ?”', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('141', 'Efa lasa tokoa ny ozona\nrehetra,\nNasehon’i Jeso miharihary\nizao,\nNy fitiavany izay tsy misy\nfetra!\n“Ry fahafatesana ô! aiza\nmoa ny herinao ?”', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('141', 'Kristy no santatra : ny làlana\nmankany\nHo ao an-tranon-dRay,\nmivoha tsara izao,\nNy fifaliana manerana ny\ntany!\n“Ry fahafatesana ô! aiza\nmoa ny herinao ?”', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('141', 'Kristy no fiainana : izay\nmatahotra Azy\nOmeny tanjaka, fanahy, fo\nvaovao,\nKa atony velona, Mpandresy\ntahaka Azy.\n“Ry fahafatesana ô! aiza\nmoa ny herinao ?”', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF142',
+             '',
+             142
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('142', 'Tafatsangana tokoa,\nHaleloia!\nJeso Kristy Tomposoa,\nHaleloia!\nMaty nefa velona\nHaleloia! \nMihirà, ry olona,\nHaleloia!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('142', 'Foana ny fasana,\nHaleloia!\nIndro, Jeso velona,\nHaleloia!\nToky tsy mamitaka,\nHaleloia! \nMihirà, ry olona,\nHaleloia!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('142', 'Andro lehibe tokoa,\nHaleloia!\nAndro fihobiana,\nHaleloia!\nAfaka ny tahotra,\nHaleloia! \nMihirà, ry olona,\nHaleloia!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('142', 'Haja, laza, aterinay\nHaleloia!\nJeso ô, Mpanjakanay,\nHaleloia!\nRaiso re ny saotranay,\nHaleloia! \nRaiso koa ny tenanay\nHaleloia!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF143',
+             '',
+             143
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('143', 'Vita izao ny fandresena,\nHaleloia!\nJeso Kristy no hobiana,\nHaleloia!\nAzo re famonjena,\nHaleloia! \nVerinay tarý Edena\nHaleloia!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('143', 'Ka izao dia arahabaina,\nHaleloia!\n‘Lay Mpanjakanay\nhajaina,\nHaleloia!\nKa na zovy mitaraina\nHaleloia! \nMisy vonjy azo maina\nHaleloia!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('143', 'Betlehema niandohana,\nHaleloia!\nKalvary niafarana,\nHaleloia!\nFasana tsy nahatana,\nHaleloia!\nToro teo ‘lay menarana\nHaleloia!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('143', 'Saro-bidy re ny rany!\nHaleloia!\nNy fitiavany tsy lany\nHaleloia!\nNy fatoranay vahany,\nHaleloia! \nKa hobionareo, ry tany\nHaleloia!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF144',
+             '',
+             144
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('144', 'O! avia, mba hidera,\nAndro jobily anio;\nKa faingàna, manatera\nSaotra, laza, ka hobio\nIndro, tonga ny anjely\nKa ny vato mikodia!\nTantaraina mba hiely :\nVelona (in-3)\nNy Tomponao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('144', 'Ifalio ny famonjena,\nAndro jobily anio;\nAfaka ny firenena,\nVoavonjy androtr’io\nGaga teo ny mpanakora\nSy ny rafy marobe\nKa miaiky moramora :\nVelona (in-3)\nNy Tomponao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('144', 'Mba venteso re ny hira\nAndro jobily anio;\nResy ny mpaniratsira\nKa ny tahotrao ario\nHe! ny fasana efa foana\nTsy nahazona  Azy tao\nTsy naharitra hateloana\nVelona (in-3)\nNy Tomponao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('144', 'Efa resy ‘zao  Satana\nAndro jobily anio;\nNy fatoranao vahana\nKa hobio sy ifalio!\n‘Lay Mpamonjy nolatsaina\nVelona ho avotrao,\nIo no mendrika\nhoderaina\nVelona (in-3)\nNy Tomponao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF145',
+             '',
+             145
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('145', 'Efa velona tokoa\nHianao, ry Tomponay!\nKa ny herinao tsy toha\nNo manjaka hatrizay;\nFa ny fasana, ny ota\nNoresenao avokoa.\nTantaraina mba hiely :\n:,: ‘Zay no tokinay mpanota\nTanjakay sy hery koa :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('145', 'Efa velona tokoa\nHianao, ry Tomponay!\nLasa nanamboatra koa\nFitoerana ho anay :\nTany tsy mba misy ota\nTsy hidiran’ny manjo;\n:,: Tany soa sy madio\nMaharavoravo fo :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('145', 'Efa velona tokoa\nHianao, ry Tomponay!\nKa misolo vava koa\nSy mifona ho anay;\nNy Fanahinao omena,\nMba hitari-dalana\nHe! ny sentonay dia renao,\nJeso tena Havana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('145', 'Efa velona tokoa\nHianao, ry Tomponay!\nAry mbola ho avy koa,\nAvy mba handray anay\nMaminay, ry Tompo tsara;\nHiara-monina Aminao\nEny, tena manan-jara\n‘Zay mby eo akaikinao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF146',
+             '',
+             146
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('146', '(Hira Paska)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('146', 'Anao ny dera,\nry Zanaky ny Ray ;\nAnao ny fandresena,\nRy Mpanjakanay\nNy fasana nivoha,\nNoho ny herinao\nNy Anaranao Tsitoha\nTsy voatana tao.\nAnao ny dera,\nry Zanaky ny Ray\nAnao ny fandresena,\nRy Mpanjakanay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('146', 'Hianao nandresy,\nlao re ny fasana;\nNy fanjakan’ny ota koa\nho lasana\nNy herin’i Satana,\nvato nikodia,\nNy Anaranao nandresy\nHaharitra doria,\nAnao ny dera,\nry Zanaky ny Ray\nAnao ny fandresena,\nRy Mpanjakanay!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('146', 'He, ravo aho :\nIzy no santatra;\nIzaho koa hifoha,\nMba ho sambatra;\nNy fandresen’i Jeso,\nLovako tokoa;\nNy Anarany Tsitoha\nHanangana  ahy koa.\nAnao ny dera,\nry Zanaky ny Ray\nAnao ny fandresena,\nRy Mpanjakanay!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF147',
+             '',
+             147
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('147', 'Lasa ny Mpanavotsika\nAo an-danitra arý,\nMba hanoman-trano tsara,\nHitoerantsika ao.\n:,: Mifalia :,:\nHo tafiditra ao tokoa!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('147', 'Lasa ny Mpisorontsika,\nAo an-danitra arý,\nHo Mpisolovava koa,\nHo an’olo-marobe.\n:,: Matokia :,:\nTsy ho very hianao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('147', 'Lasa ny Mpanjakantsika\nAo an-danitra arý,\nMba handray ny fanjakana\nMety ho anjarany.\n:,: Mihobia :,:\nAsandrato re ny feo.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF148',
+             '',
+             148
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('148', 'Ry varavaran-danitra ô!\nAmpandrosoy ny Tomponao,\nFa fandresena lehibe\nNo efa vitany tatý', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('148', 'Moa iza izao Mpanjaka\nizao ?\nMpandresy iza re izao ?\nNy lazany manerana\nNy tany sy ny lanitra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('148', 'Io no Kristy Mpamonjy soa\nNisolo olo-meloka,\nKa satro-boninahitra\nNo mendrika ny lohany.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('148', 'Anjaranao, ry foko ô!\nHanompo sy hanaraka\n‘Lay Kapiteny lehibe\nNialoha ao an-danitra ao!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('148', 'Ry Kristy ô! Mpanavotray!\nIrinay mba ho hita koa\nIzany voninahitrao\nSy ny fiandriananao!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('148', 'Raha tapitra ny andronay,\nVohay ny varavaranao,\nNy trano namboarinao\nHonenanay mandrakizay.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF149',
+             '',
+             149
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('149', 'Efa lasa Jeso Tompo,\nHanamboatra izao\nFitoera-mahafaly\nIza re no tsy hankao ?\nFa ao ankoatr’i Jordana,\nAo an-danitra ao ambony,\nMisy fitsaharan-tsara\nHo an’ny madio.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('149', 'Tany tsy idiran’ota,\nTany masina sy soa,\nKa izay rehetra hankany\nDia ho masina avokoa!\nFa ao ankoatr’i Jordana,\nAo an-danitra ao ambony,\nMisy fitsaharan-tsara\nHo an’ny madio.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('149', 'Fa izay matoky tena,\nNy tsy mety mino koa,\nTsy havelany hankany,\nFa ho laviny tokoa!\nFa ao ankoatr’i Jordana,\nAo an-danitra ao ambony,\nMisy fitsaharan-tsara\nHo an’ny madio.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('149', 'Ny mandao ny fomba ratsy,\nNy mahazo fo vaovao,\nNy navotan’i Jesosy,\nDia  izy no hankao!\nFa ao ankoatr’i Jordana,\nAo an-danitra ao ambony,\nMisy fitsaharan-tsara\nHo an’ny madio.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('149', 'Ry mpanota saiky very!\nMibebaha re anio;\nManiria hovonjena,\nKa ny fahotana ario!\nFa ao ankoatr’i Jordana,\nAo an-danitra ao ambony,\nMisy fitsaharan-tsara\nHo an’ny madio.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF150',
+             '',
+             150
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('150', 'He! tsara ny fonenanao,\nAndriamanitra ô!\nZiona tendrombohitrao,\nTanàna masina;\nKa iza no hiakatra ao ?\nIzay mahitsy fo,\nIzay madio tànana,\nIzay manao ny to,\nKa mino ny Mpanavotra,\nIreo hiakatra ao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('150', 'Mba misandrata faingana,\nRy varavarana!\nHidiran’ny Mpanjakanay\nBe voninahitra.\nMoa iza izao Mpanjaka izao ?\nAndriamanitra\nMahery sy mandresy koa,\nMpanjaka masina;\nHe, Izy ‘Lay Mpanjakanay\nBe voninahitra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('150', 'Miantranoa, Tompo ô!\nMba hifalianay;\nVoavoatra ny tranonao,\nMidira aminay!\nJehovah no Mpanjakanay,\nMpanjaka tianay :\nNy hery, voninahitra,\nSy ny fisaorana,\nAnao tokoa, ry Tomponay,\nMandrakizay doria!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF151',
+             '',
+             151
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('151', 'Miakara, miakara,\nRy Mpanjaka lehibe!\nVitanao ny famonjena\n‘Zay nalehanao tatý,\nMihobia, ry anjely!\nKa derao ny Tomponao,\nVoninahitra sy haja\nAtolory Azy izao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('151', 'Miakara, miakara,\nRy Mpandresy lehibe!\nEso, latsa, fahoriana\nNo anjaranao tatý;\n‘Zao ny lanitra miandry,\nMiandry hiverenanao;\nRenao ao ny feo manako,\nFeno fanajana Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('151', 'Miakara, ry Mpamonjy!\nRavo ny navotanao;\nIzahy atý an-tany,\nFaly te-hidera Anao;\nRaisonao ny fiderana\n‘Zay atolotray izao;\nHaleloia! Haleloia!\nHo Anao Mpanavotray!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF152',
+             '',
+             152
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('152', 'Niakatra ao :,: an-danitra :,:\nNy Zanak’Andriamanitra,\n:,: Haleloia! :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('152', 'Ka monina ao :,: an-danitra :,:\nJesosy Tompon-danitra,\n:,: Haleloia! :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('152', 'Izao zavatra :,: rehetra izao :,:\nRy Jeso ô, hazoninao,\n:,: Haleloia! :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('152', 'Isaoranay :,: ry Tompo ô :,:\nNy herinao sy indrafo!\n:,: Haleloia! :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('152', 'Fa ny devoly resinao\n:,: he resinao! :,:\nNy ratsy nofongoranao,\n:,: Haleloia! :,:', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('152', 'Ry tany sy :,: ry lanitra :,:\nDerao Andriamanitra!\n:,: Haleloia! :,:', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF153',
+             '',
+             153
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('153', 'Ao an-dapany, Jesosy\nDia derain’ny tapitrisa,\nFa ny lanitra sy tany\nDia samy mankamamy\n:,: Ilay Mpandresy mora fo! :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('153', 'Jeso Tompo dia ho avy\nHo Mpitsara atý an-tany,\nNa ny ratsy na ny tsara\nSamy hanana anjara,\n:,: Valin’ny natao tatý! :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('153', 'Ry Mpiantra be fitia,\nIantrao izahay mania;\nRaiso ho Anao, tahio,\nHafanao, ampifalio,\n:,: Ento any Aminao! :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF154',
+             '',
+             154
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('154', 'Izao Jesosy Tompontsika\nDia nasandratry ny Ray\nAo an-tsezam-panjakany;\nIzay rehetra nialany\n:,: Voarainy  indray :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('154', 'Tsy hadinony anefa\nIzay nilaozany tatý,\nFa omeny ny Fanahy\nMba hitondra sy hitahy\n:,: Ny mpianany :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('154', 'Ao anilan-dRainy Izy\nManam-boninahitra,\nKa miderà Azy any\nIzay rehetra anjakany\n:,: Eran-danitra :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('154', 'Tompom-pitsarana Izy,\nSamy mba hatsangany,\nNa ny ratsy na ny tsara,\nKa homeny izay anjara\n:,: Valin’asany :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('154', 'He! hohitantsika Izy,\nDia ny tena endriny,\nKa ny lova soa homena\nIzay nandray ny famonjena\n:,: Voatendriny :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF155',
+             '',
+             155
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('155', 'An-tsezam-panjakany,\nAmbony kintana,\nNo lapan’i Jesosy\nIlay nasandratra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('155', 'Atý an-tany iva,\nAnilam-pasana,\nNo ipetrahantsika\nZoim-pahoriana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('155', 'Kanefa mety  ihany\nNy monina atý,\nHiomana ho any\nAn-danitra  arý.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('155', 'Isika tsy kamboty,\nNa dia nilaozany;\nNomeny ny Fanahy\nHo solon-tenany.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('155', 'Ny fahoriantsika,\nDia efa maivana,\nNy fahafatesantsika\nDia afa-tsindrona.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('155', 'Ny ain’i Jeso Tompo\nIainantsika atý;\nTsy ela dia hiseho\nIndray ny tenany.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('155', 'Ka hira no venteso\nRy havany izao,\nNy senton’alahelo\nMba atsaharonao!', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF156',
+             '',
+             156
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('156', 'Jeso Mpanjaka tokana\nNa aiza misy olona :\nNy fanjakany hanerana\nNy tany sy ny lanitra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('156', 'Vavaka sy fisaorana\nHakarin’ny navotana;\nHaharitra tsy tapitra\nHanolo-boninahitra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('156', 'Ny firenen-drehetra anie\nHidera ny fitiavam-be;\nNy zaza aza hanatitra\nNy hajam-boninahitra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('156', 'Ny tany izay alehany\nDia feno fitahiany;\nNy voagadra afaka,\nMiadana ny reraka.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('156', 'Izao rehetra izao anie,\nHanatitra fisaoram-be\nHo an’ny Tompo tokana,\nIzay Mpanjakan-danitra.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF157',
+             '',
+             157
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('157', 'Hobio, ry tra-bonjy,\nFa indro ny Mpamonjy\nMiakatra indray;\nTsijonvy Izy any\nMandray ny fanjakany\nAo an-kavanan-dRay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('157', 'Ny hiran’ny anjely,\nManako sy miely\nArý an-danitra;\nInjay, ry Ray Tsitoha,\nMiarahaba koa,\nMandray ny Zanaka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('157', 'O, miaingà, ry foko,\nFa aza mitoloko\nAtý an-tany izao;\nMiandrandrà, jereo\nIlay voahombo teo!\nTsitoha Izy ao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('157', 'Naharitra ny mafy,\nNiady sy nihafy\nNy Tomponao tatý!\nTahafonao izany,\nFa he! ny fanjakany\nMiandry anao arý!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF158',
+             '',
+             158
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('158', 'Raha  afaka entana aho atý\nKa tody any an-danitra arý,\nNy hanakaiky Ilay Tompo tia\nNo hifaliako mandrakizay.\nSatriko re ny hanome\nSaotra tokoa eran’ny fo\nAn’Ilay maty fa velona\nindray,\nHatrehiko ao anilan’ny Ray.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('158', '‘Ndrey ny haren’izao antrany\nizao!\nIzay handovako ilay tany\nvaovao!\nFa ny hahita ny tavany ao\nNo hiadanako mandrakizay.\nSatriko re ny hanome\nSaotra tokoa eran’ny fo\nAn’Ilay maty fa velona\nindray,\nHatrehiko ao anilan’ny Ray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('158', 'Hava-malala hihaonako ao,\nHobin-tra-bonjy hiaraha-\nmanao;\nMamy indrindra anefa izao;\nKristy hatrehiko\nmandrakizay.\nSatriko re ny hanome\nSaotra tokoa eran’ny fo\nAn’Ilay maty fa velona\nindray,\nHatrehiko ao anilan’ny Ray.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF159',
+             '',
+             159
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('159', 'Satrohy voninahitra,\nAnjely masina ô!\nIlay voasatro-tsilo teo,\nDia Jeso, Jeso, Jeso,\nTompo tokana!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('159', 'Ry afa-pahoriana,\nIzay ao an-dapany!\nNombany tao an-dalana,\nKa saotra, laza, hery,\nAoka ho Azy re!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('159', 'Taranaky ny lavo ô,\nIzay natsangany,\nEkeo Izy eram-po,\nKa saotra, laza, hery,\nAoka ho Azy re!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('159', 'Ry firenena marobe\nAmbany lanitra!\nMiankohofa, maneke\nFa Jeso, Jeso, Jeso,\nNo Mpanjaka re!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF160',
+             '',
+             160
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('160', 'Kristy Mpanjaka,\nMendrika  hoderaina\nIzy no mitàna\nAntsika ho velona  aina,\nDerao, derao\nIlay Mpanjakanao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('160', 'Kristy Mpanjaka,\nMendrika  ho hajaina;\nIzy no mifona\nHo antsika novonjena\nHajao, hajao\nIlay Mpanjakanao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('160', 'Kristy Mpanjaka,\nMendrika  ho hobiana;\nIzy no hitsena\nNy olo-notahiana,\nHobio, hobio\nIlay Mpanjakanao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF161',
+             '',
+             161
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('161', 'Mivelatra eo imasoko\nNy fiandrianan-dehibe\nItoeran’ny Mpamonjiko,\nDia Jeso Ilay nandresy re.\nFa niakatra  Izy ka nandao\nIty tany fandalovana;\nManjaka ao an-dapany,\nKa feno voninahitra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('161', 'Anjely no manotrona\nArahin’ny olo-masina\nIreo dia mandohalika\nAm-panajana fatratra,\nNy Tompo eo afovoany,\nMamiratra ny tavany,\nKa feno hasambarana\nIzay mahazo taratra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('161', 'Kanefa tsy mipetraka\nHo endriky ny lanitra\n‘Lay Zanak’Andriamanitra\nFa miasa tsy mijanona.\nRenao va ny fifonany,\nHo an’ny Fiangonany\n‘Zay novidiny tamin-dRà,\nKa tiany hampakarina ?', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('161', 'Ekeo, ry Fiangonana ô!\n‘Lay hany Mpanalàlana\n‘Zay mandohalika amin-dRay,\nKa mitomany hoa anao!\nRy Tompo aza sasatra,\nIfony lalandava e!\n‘Zahay izay navotanao.\nFa te-hankao an-danitra!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF162',
+             '',
+             162
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('162', 'Amen, Jeso no Mpifehy\nAmen, ny Fanahiny,\nAmen, Amen re ny teny\nMbamin’ny fandraisany\nAmen, ny batisany,\nAmen, ny fiainany.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('162', 'Amen, Jeso no Mpanjaka,\nAmen, ny Anarany;\nAmen, Jeso tonga maka\nAhy ho anjarany\nAmen, Amen ary to\nIzy, Izay inoako!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('162', 'Amen, ny fanantenana\nZavatra maharitra;\nAmen re, ny fifindrana,\nRaha  mankao an-danitra\nAmen, ny fiadanana,\nAmen, ny fiainana!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('162', 'Aoka  isika hihira Amen,\nAmen ho mandrakizay!\nJeso, mba valio Amen,\nDia  ho faly izahay;\nAmen, no ho hiranay\nRaha  mby Aminao izahay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF163',
+             '',
+             163
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('163', 'He, Jesosy Tokintsika!\nTompon’ny fiainana\nTonga eto amintsika\nOlon-kovangiana.\nIzy no hitory teny\nSoa, mahavelona,\nFa ny ainy no nomeny\nMba ho solo-voina.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('163', 'Andrandraonao ka andraso\nNy Mazava lehibe\nDia  Ilay tsy hita maso,\nMpanazava, Mpanome;\nFa ny ainao dia ho very,\nRaha tsy arahinao\nIlay Mpanjaka manan-kery\nIzay nanavotra anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('163', 'Eto afovoantsika\nIlay Mazava tokana;\nSambatra izay mahita\nAzy fa ho velona.\nRy Jesosy, iresaho\nIzahay mpianatrao\nHafanao sy hatanjaho\nNy finoanay Anao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF164',
+             '',
+             164
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('164', 'Jesosy irery  ihany :\nFilazantsara soa!\nNentin’ireo mpanompo,\ntorina aminao\nMaizina avokoa izao rehetra\nizao,\nNefa he, ny mazava naposaka\naminao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('164', 'Jesosy irery  ihany :\nno ivavahana,\nNy Anarany irery no\nfanavotana,\nNy olona rehetra no \nhandohalika\nEtý an-tany ka hatrany \nan-danitra!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('164', 'Jesosy tsy miova\nomaly sy anio\nAry mandrakizay,\nfa tsy mamitaka,\nMifona ho antsika eo\nan-kavanan-dRay\nJESOSY IRERY IHANY re\nno isaorana!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF165',
+             '',
+             165
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('165', 'Haleloia! Miderà!\n:,: Asandrato re ny feo :,:\nMiderà ny Ray Tsitoha,\n:,: ‘Zay Mpamorona anareo :,:\nFa Mpanjaka manan-jo,\nHaleloia! Haleloia!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('165', 'Haleloia! Mihirà!\n:,: Lehibe sy masina :,:\n‘Lay Mpahary anareo.\n:,: Ao ny ranomasina :,:\nSy ny biby marobe\n‘Ndray mihoby! Haleloia!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('165', 'Raiso re, ry Tompo ô!\n:,: Ny mpanota toa anay :,:\n‘Zay miantoraka Aminao\n:,: Mba henoy ny vavakay :,:\nHo fanatitra madio,\n‘Zay atolotray anio.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF166',
+             '',
+             166
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('166', 'Derao ny Tompo lehibe,\nNahary izao rehetra izao;\nHaleloia! Haleloia!\nNy lanitra sy ny tany koa,\nSamia midera avokoa;\nAsandrato izao ny dera :\nHaleloia!\nHaleloia! Haleloia!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('166', 'Ry fo voadion’ny rany soa;\nAnkalazao ny Tompo tia;\nHaleloia! Haleloia!\nRy voavela heloka ô!\nTsarovy re ny indrafo,\nAsandrato izao ny dera :\nHaleloia!\nHaleloia! Haleloia!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('166', 'Miraisa fo ka miderà,\nFa Izy niahy hatrizay\nHaleloia! Haleloia!\nDerao ny Ray sy Zanaka\nSy ny Fanahy Masina\nAsandrato izao ny dera :\nHaleloia!\nHaleloia! Haleloia!\nAmena!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF167',
+             '',
+             167
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('167', 'Midera ny Anaranao\n‘Zahay, ry Tompo ô!\nKa hira no Ventesinay\nHoe : haja, saotra, hery,\nMba raiso ho Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('167', 'He! voahombo Hianao\nNisolo heloka,\nKa mendrika hanaovanay\nHoe : haja, saotra, hery,\nMba raiso ho Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('167', 'Endrey! ny fitiavanao\nEndrey! ny herinao,\nTra-pamonjena izahay,\nKa haja, saotra, hery,\nMba raiso ho Anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('167', 'Raha tonga ao an-danitra\n‘Zahay mpanomponao,\nHitohy re ny hiranay\nHoe : haja, saotra, hery,\nMba raiso ho Anao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF168',
+             '',
+             168
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('168', 'Ry Jeso! ny Anaranao\nDia maminay tokoa;\nMihira sy miderà Anao\nIzahay navotanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('168', 'Tsy takatry ny hevitra\nNy fitiavanao :\nTsy tambonay tononina\nNy hasoavanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('168', 'Ny tsara eran-danitra\nSy eran-tany koa,\nTsy azo anoharana\nNy fitahianao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('168', 'Ho toy ny loharano e,\nNy fonay olonao;\nTsy hanam-pitsaharana e,\nNy hiderana Anao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF169',
+             '',
+             169
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('169', 'Ry Tompo Andriamanitra,\nMpanao izao rehetra izao!\nMidera Anao ny lanitra\nNy tany koa mitsaoka Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('169', 'Hianao no Ray mandrakizay,\nMpanao izao tontolo izao,\nTongava re, ka mba tahio\nNy vavakay atao anio.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('169', 'Ry Kristy ô, Mpanavotra,\nMpamonjy be fitia tokoa,\nHianao no Zanaky ny Ray,\nKa mendrika haja, saotra koa!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('169', 'Fanahy Masina ô, avia,\nSasao ho voadio izahay,\nHanoa sy hanara-dia\nIlay Mpamonjy Tomponay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('169', 'Anao ny voninahitra\nSy dera tsy mitsahatra,\nRy Telo Izay Iray, Tsitoha\nRay, Zanaka, Fanahy koa!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF170',
+             '',
+             170
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('170', 'Ry Jeso ny fitiavanao\nNo ifalianay\nFa voavono Hianao\nHisolo voina anay,\nMba raisonao re\nNy saotra aterinay izao,\nHo fanajana\nAnao, Mpamonjy tia!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('170', 'Mahery ny fitiavanao,\nKa itokianay;\nIzay mikamabana Aminao\nDia tsy hangaihay,\nMba raisonao re\nNy saotra aterinay izao,\nHo fanajana\nAnao, Mpamonjy tia!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('170', 'Ambony ny fitiavanao,\nKa tsy mba takatray;\nKanefa noho ny herinao,\nHiezaka izahay,\nMba raisonao re\nNy saotra aterinay izao,\nHo fanajana\nAnao, Mpamonjy tia!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('170', 'Hiezaka izahay, Jeso!\nKa mba ho tia Anao,\nKa tsy hatahotra eso koa,\nNoho ny Aminao!\nMba raisonao re\nNy saotra aterinay izao,\nHo fanajana\nAnao, Mpamonjy tia!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF171',
+             '',
+             171
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('171', 'Jeso, Mpanjaka Malaza,\nNo Tompo Mpanjakanay;\nMahery sy tsara indrindra,\nKa Izy no Aronay.\nMendrika hankalazaina\nNoho ny heriny;\nEran-tany sy lanitra koa\nNy zo aman-dazany :\nRy Tompo, Mpanjaka\nMahery ô! Mihainoa!\nAvy manaiky tokoa  izahay\nFa Tompon’ny hery rehetra\nHianao,\nTsy misy mihitsy ny toa Anao\nTsy tratry ny saina ny herinao\nNy fiderana izay entinay,\nRaiso re! Raiso re!\nNy haja  atolotra  Anao etý.\nRaiso izao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('171', 'Tompo, Mpandahatra hendry,\nMpanao izao rehetra izao,\nNy zara sy tendry ataony\nDia tsara sy mahasoa;\nMendrika ny hoderaina\nNy fandaharany;\nAtolory ho Azy ny saotra,\nFa Izy tandrifin’io :\nRy Tompo, Mpanjaka\nMahery ô! Mihainoa!\nAvy manaiky tokoa  izahay\nFa Tompon’ny hery rehetra\nHianao,\nTsy misy mihitsy ny toa Anao\nTsy tratry ny saina ny herinao\nNy fiderana izay entinay,\nRaiso re! Raiso re!\nNy haja  atolotra  Anao etý.\nRaiso izao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('171', 'Tompo, Mpanjaka Tsitoha,\nKanefa be indrafo;\nDeraina eram-po eran-tsaina,\nDeraina mandrakizay;\nHe! ny mpanompo voavonjy,\nSamy mihoby hoe :\n“ Haleloia, ho amin’ny Avo,\nFa Jeso no Tomponay! ”\nRy Tompo, Mpanjaka\nMahery ô! Mihainoa!\nAvy manaiky tokoa  izahay\nFa Tompon’ny hery rehetra\nHianao,\nTsy misy mihitsy ny toa Anao\nTsy tratry ny saina ny herinao\nNy fiderana izay entinay,\nRaiso re! Raiso re!\nNy haja  atolotra  Anao etý.\nRaiso izao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF172',
+             '',
+             172
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('172', 'Hoderaiko lalandava\nJeso Ilay Mpanavotro\nNoho ny fitiavana ahy,\nMaty mba ho soloko,\nHoderaiko, hoderaiko,\nFa ny rany masina\nNentiny hanavotra  ahy\nAfaka ny heloko.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('172', 'Holazaiko lalandava\nNy tantara mamiko,\nIzay nitadiavana ahy,\nVery noho ny heloko :\nHoderaiko, hoderaiko,\nFa ny rany masina\nNentiny hanavotra  ahy\nAfaka ny heloko.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('172', 'Hohiraiko lalandava\n‘Zao ny voninahiny\nFa ny fahafatesana aza,\nResy noho ny heriny;\nHoderaiko, hoderaiko,\nFa ny rany masina\nNentiny hanavotra  ahy\nAfaka ny heloko.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF173',
+             '',
+             173
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('173', 'Hosana! Hosana!\nHosana!\nHosana no asandratray\nHo an’i Jesosy\nFa Izy no Mpanjakanay\nSy Tompo tia koa;\nHosana no atolotray\nAnao, ry Tomponay!\nIty no andro Jobily,\nJobily, Jobily, Jobily,\nIty no andro Jobily,\nKa hifalianay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('173', 'Hosana! (in-3) *\nHosana ho Anao anie,\nRy Kristy Tomponay!\nFa avy Hianao tokoa\nHanjaka aminay!\nHosana no atolotray\nAnao, ry Tomponay!\nIty no andro Jobily,\nJobily, Jobily, Jobily,\nIty no andro Jobily,\nKa hifalianay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('173', 'Hosana! (in-3) *\nHosana! fa ho sambatra\nIzay mpanomponao;\nTsy hisy fahoriana\nEtý an-taninao!\nHosana no atolotray\nAnao, ry Tomponay!\nIty no andro Jobily,\nJobily, Jobily, Jobily,\nIty no andro Jobily,\nKa hifalianay!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('173', 'Hosana! (in-3) *\nHosana! fa miomana\n‘Zahay vahoakao\nHitsena Anao Mpanjakanay\nRaha  avy Hianao!\nHosana no atolotray\nAnao, ry Tomponay!\nIty no andro Jobily,\nJobily, Jobily, Jobily,\nIty no andro Jobily,\nKa hifalianay!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('173', 'Hosana! (in-3) *\nHosana! raisonao tokoa,\nRy Tompo tianay,\nNy dera, laza, saotra koa,\nIzay aterinay!\nHosana no atolotray\nAnao, ry Tomponay!\nIty no andro Jobily,\nJobily, Jobily, Jobily,\nIty no andro Jobily,\nKa hifalianay!\n\n*Ho an’ny feo (1) ihany\n\nNY FANAHY MASINA', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF174',
+             '',
+             174
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('174', 'Fanahy Masina ô!\nNy hevitray izao\nOvay ho vao;\nVonoy ny otanay,\nDiovinao izahay,\nKa ny fanahinay\nOnenonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('174', 'Fanahy Masina ô!\nTsinjovinao izao\nNy olonao;\nMpananatra ô! ovay\nNy eritreritray;\nNy hadisoanay\nEsorinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('174', 'Fanahy hendry ô!\nJereo izahay izao,\nKa hazavao!\nAdala izahay,\nMania ny hevitray;\nDia atoroy anay\nNy lalanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('174', 'Fanahy Masina ô!\nMba asehoy izao\nNy antranao;\nBe tahotra izahay,\nHenoy ny hatakay,\nKa ny fanahinay\nOnoninao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF175',
+             '',
+             175
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('175', 'Avia, Fanahy ô,\nFanahy Masina ô!\nMidina eto aminay\nHitari-dàlana!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('175', 'Fa diso làlana\nKa ory izahay;\nNy sainay dia maizina,\nNy fonay ratsy koa', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('175', 'Midina Hianao,\nRy Mpanazva anay,\nHanaisotra ny maizina,\nAtý anatinay!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('175', 'Avia, Mpananatra ô!\nMombà anay tokoa;\nAmpahatsiarovinao\nNy teny mahasoa.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('175', 'Ry Mpampianatra  ô!\nAmpionao izahay,\nKa aoka re ho marina\nIzay ianaranay!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('175', 'Mitomoera atý\nAnatin’ny fonay;\nIzany indrindra, ry Tompo,\nNo angatahinay!', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF176',
+             '',
+             176
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('176', 'Avia, Fanahy Masina ô!\nMidina eto aminay;\nFenoy ny hasoavanao\nNy fonay noforoninao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('176', 'Tongava, ry Mpananatra ô!\nNomen ‘Andriamanitra\nHo loharano velona\nHiboiboika ao am-po.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('176', 'Sokafy ny fanahinay\nHidiram-pitiavana;\nNy tenanay malemy koa,\nAmpaherezonao anie!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('176', 'Reseo ny fahavalonay;\nOnòny koa ny tahotray;\nTantano ao an-dalana\nHahatraranay ny lanitra!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('176', 'Tahio mba hitiavanay\nNy Ray sy Jeso Zanany\nSy hitokianay Anao\nIzay Fanahy Masina!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF177',
+             '',
+             177
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('177', 'Ry Fanahy Mpanazava!\nMitariha anay izao\n!   ‘Zay nampanoratinao!\n:,: Dia hifaly :,:\nIzahay tarihinao! (in-2)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('177', 'Ry Fanahy Mpanazava!\nMaminay ny anatrao,\nFa matanjaka sy hendry\n‘Zay ampianarinao!\n:,: Hatanjaho :,:\nIzahay mpianatrao! (in-2)', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('177', 'Ry Fanahy Mpanazava!\nAoka tsy hangia anay\nNy angano sy tantara\n‘Zay hamily dia anay!\n:,: Mba sakano :,:\nTsy handavanay Anao! (in-2)', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('177', 'Ry Fanahy Mpanazava!\nNy Baiboly taminao\nDia fanilo sady toky\nHanatonanay Anao!\n:,: Mba tsilovy :,:\n‘Zay miankina Aminao (in-2)', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF178',
+             '',
+             178
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('178', 'Avia, Fanahy ô!\nMidina Hianao\nHanova ny fo vatonay,\nHo tonga fo vaovao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('178', 'Izay afafinay,\nTondrahan-drano koa,\nTsy mety misy vokatra\nRaha tsy ambininao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('178', 'Fenoy ny herinao\nNy fon’ny olona,\nHamelona finoana\nSy fitiavana!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('178', 'Fanahy Masina ô!\nTahio ny asa atao,\nAmpandrosoy am-po\nNy hasoavanao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF179',
+             '',
+             179
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('179', 'Ny Fanahy Masina efa tonga\ntokoa,\nMba homba ny mpitory Teny\nmahasoa.\nKoa mitsangàna izao,\nandeha ry mahery fo,\nHatramin’ny faran’ny tany,\nTorio ny Teny soa!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('179', 'Voasaron’aizim-pito ny\nNosinao;\nNy ody sy ny sampy no\nnotompoiny tao;\nNy fahazarana koa, nangeja\nmafy tokoa,\nKanefa tonga ny mazava :\nResy ny aizina ao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('179', 'Ry fanahy voatafy hery,\nny Tompo anie\nKa efa miandry anao,\ninjay miteny hoe :\n« Angony, eny antsoy,\nhanatona avokoa\nNy firenena eran-tany,\nHo mpianatro tokoa! »', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('179', 'Tompo tia ô, ekeko ny\nantsonao;\nHafoiko ny hareko,\nny tenako izao,\nHo vavolombelona, hijoro,\nhanafaka,\nHitory sy hamafy koa;\nTafio ny herinao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF180',
+             '',
+             180
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('180', 'Ny Tompo, raha vao nanao\nVeloma ny tatý,\nNamela ny Mpananatra\nHo arony.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('180', 'Dia tonga Izy hanome\nNy hery mahasoa,\nDia hery fanadiovana\nNy fo tokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('180', 'Malemy ny fibitsiny,\nKanefa mora re,\nMahazo fiononana\nIzay mandre.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('180', 'Tsinjovy, ry Fanahy ô!\nKa iantrao izahay;\nAmboary ho tempolinao\nNy tenanay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF181',
+             '',
+             181
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('181', 'Fanahy Mpanazava,\nNy foko hazavao\nManiry lalandava\nNy Pentekositrao.\nNy aizina ao am-poko,\nFongary re ho lao;\nNy foko mitoloko,\nManiry indrindra Anao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('181', 'Fanahy Mpanadio,\nNy foko mba sasao.\nDiovy re anio\nHo tena lapanao;\nNy hevitray misoko\nIzay te-handroaka Anao,\nDia ota te-hijoko,\nEsory sy fafao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('181', 'Fanahy Mpampahery\nIzay rerakao sy voa,\nNy foko re dia tery\nHiantoraka Aminao.\nIzay mandrebireby,\nRoahy re izao,\nNy fo mitebiteby,\nHiondana Aminao!\nAmen.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF182',
+             '',
+             182
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('182', 'Ny Pentekosta tonga  izao;\nFanahy ô, ny jironao\nVelomy ao anatiko\nHahafantarako ny to.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('182', 'Ampisehoy, Fanahy ô\nFa Jeso no fiainako,\nKa Izy dia làlana\nHo amin’ny fiainana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('182', 'Dia mba tarihonao ny fo\nTohano ny fanahiko;\nAmpio ny finoako\nHahita ny Mpanavotro.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('182', 'Fa Hianao, Fanahy ô!\nHanova ny fanahiko,\nKa raiso sy diovinao\nNy foko ho fonenanao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('182', 'Ny hazo-fijaliana,\nAnjara hivesarana,\nFa Hianao, ry Heriko,\nMba miaraha amiko.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('182', 'Mba asehoy ho fantatra\nNy soa tsy ho tapitra,\nNy satro-boninahitra\nHomen’Andriamanitra.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('182', 'O, ry Fanahy Masina ô!\nAmpaherezonao ny fo,\nKa hazavao ny lalako,\nRaha  avy ny hodiako.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF183',
+             '',
+             183
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('183', 'Midina, ry Fanahy ô!\nMidira ao anaty fo,\nAmpio ny mihafy,\nFa Hianao no Mpanome\nNy to sy fahazavana be;\nNy vavanay sokafy\nIzao, hanao\nSaotra tsara, hanambara\nNy Mpamonjy,\nFa satria voavonjy.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('183', 'Ka raha re ny teninao,\nDia mba avia, hazavao\nNy hevitry ny teny;\nMba ambarao aminay\nNy fomban’ny Mpanavotray,\nLazao ny famonjeny,\nIzahay, izay\nVory eto, andreheto\nJiron’aina,\nHialan’ny aizin-tsaina!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('183', 'Ny maizina onenanay,\nTsy mety afaka aminay,\nKa tena mahavery,\nRaha Hianao tsy tonga izao\nMitondra filazam-baovao\nSy toky mampahery;\nOvay izahay,\nHamasino ny te-hino\nAmpidiro\nEto aminay ny jiro.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('183', 'Mba hafanao re izahay,\nAmpio hitiavanay\nIndrindra ny Mpamonjy,\nNy rany mba ho avotray,\nNy didiny harahinay,\nHananay ny vonjy,\nJeso, Jeso\nNo torio sy bitsiho\nAo an-tsainay,\nMba hamelona ny ainay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF184',
+             '',
+             184
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('184', 'Fanahy Mpanazava anay!\nMidina eto aminay,\nTarihonao ny sainay;\nNy alahelonay savao,\nNy toetray havaozinao,\nVelomy re ny ainay!\nSento renao\nMba valio, ka tahio\nNy mahantra,\nRy Fanahin’ny Mpiantra!', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF185',
+             '',
+             185
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('185', 'O! ry Fanahin’ny Ray ao\nambony\nAndriamanitra mandrakizay,\nAza avela hisaraka intsony\nNy olo-mino, fa aoka hiray;\nTaomy ho an’i Jesosy\nMpamonjy\nNy mbola maizina ka hazavao,\nHahafantarany tsar any vonjy,\nDia ho faly ny mino Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('185', 'O! ry Mpiantoka ny\nfamonjena,\nAzo ny antoka tsara izao;\nTonga ny iraka be fahendrena\nMba hanambara ny sitraponao,\nKa ny lelafo noraisin’ny mino\nSy ny fiteniny tonga vaovao\nDia nahagaga, ka tena\nnampino\nOlona maro hanaraka Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('185', 'Ry Mpampionona ô! mba\nsitrano\nFa voaratran’ny ota izahay;\nKa izay ory mba ampiadano,\nNy malahelo falio indray!\nO, mba ovaonao tokoa ny\nsainay,\nTaomy ka ampahareto ny fo;\nKa raha ory, arovy ny ainay,\nMba tsy hafoinay intsony\nny to!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF186',
+             '',
+             186
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('186', 'Fanahy, Mpanavao anay,\nSimban’ny ota izahay,\nKa amboaronao indray,\nHavaozy ny fanahinay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('186', 'Avia, ry Afo masina,\nNy ratsy aoka ho levona;\nRy Loharano velona,\nTondrahonao ny efitra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('186', 'Ny lohataonanao anie\nMba hampaniry soa be\nSy hampamony ho Anao\nIzao tany karankaina izao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('186', 'Ny efitra sy tany lao\nHihoby sy hidera Anao,\nFa olom-potsy no ho ao;\nMpanompo teo fa afakao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('186', 'Ry lohataona maminay!\nMidina faingana aminay,\nFanahy Mpanavao anay,\nNiandry ela izahay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF187',
+             '',
+             187
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('187', 'Ny lanitra sokafinao,\nMidìna, ry Mahery!\nAmpisehoy ny sandrinao,\nRy Tompo manan-kery!\nHe! manakora izao\nNy fahavalonao,\nKa maro no mandà\nNy afo masina\nNarehitrao, ry Jeso.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('187', 'O, ry Mpitia olona,\nMpanjaka voahombo!\nNy teninao dia velona,\nMahery sy mitombo;\nAmpahafantaronao\nIzao tontolo izao,\nFa tsy mba foana\nNy ranao masina\nNalatsakao fahiny.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('187', 'Mba ampiraiso hina re\nNy olom-boafidy,\nKa akambano mafy e,\nFa lova sarobidy,\nNy fitiavana\nMadio sy marina\nNo aoka hanavao\nNy fiangonanao,\nHandraisanao ny dera.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('187', 'Ny Nosinay, ny tranonay,\nNy vava aman-tsainay,\nDia samy mba havaozinao,\nRy fototry ny ainay!\nAmpiononinao\nNy manina Anao!\nAvia, ka mamonje,\nAvia, mampandrese\nNy olonao mahantra.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF188',
+             '',
+             188
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('188', 'Ry Fanahin’aina,\nMpanazava saina,\nMpampionom-po!\nO, mba akekezo\nIreto miambezo\nHamindranao fo!\nHazavao\nNy olonao,\nMba handraisanay tokoa\nFanomezan-tsoa!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('188', 'Mba ampivavaho,\nHafanao re aho\nHanakalaza Anao!\nHataka sy sento\nAsandrato, ento,\nKa valionao!\nAnehoy\nSy ampinoy\nNy famindrampo mamonjy\nIzay te-ho tra-bonjy!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('188', 'O! mba amosahy\nFahazavam-panahy\nNy fisainanay,\nKa ny tarafo,\nAndreheto afo,\nNy fanahinay,\nKa ombay\nRe izahay,\nRaha  antsoinao hanambara\nNy Filazantsara!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('188', 'O! ry Andon’aina!\nTany karankaina\nMba vontosinao!\nDia ho vanom-boa,\nHahavoka-tsoa\nRe ny volinao!\nIndrafo\nSy teny to\nNo harena antenaina\nHanavao ny aina.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('188', 'O! mba areheto\nSy ampahareto\nNy finoanay!\nIzahay afaho,\nAmpahatanjaho\nNy fanahinay!\nTompo ô!\nMiraiki-po\nAminao ny olom-bery\nTonga manan-kery.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('188', 'Raha mitoloko,o\nTano re ny foko\nTsy handao Anao,\nKa tsilovy dia,\nTsy haniasia,\nHahatody ao\nAminao\nNy Zanakao\nAo ny lova andrandraina\nFahasambaran’aina.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF189',
+             '',
+             189
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('189', 'O, ry Fanahy Masina ô!\nMba midira ao anaty fo!\nTaomy ny mania\nHody avokoa;\nEny, mitahia,\nManomeza soa,\nMiantrà, ry Tompo ô!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('189', 'O, ry Mazava lehibe,\nHazavao ny teny izay ho re!\nAsehoy Jesosy,\nAmbarao ny vonjy;\nIasao ny Nosy\nMba ho voavonjy.\nMiantrà, ry Tompo ô!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('189', 'Ry Afom-pitiavana ô!\nMba levoninao ny lolompo,\nAmpiraiso dia\nIreto ondry vitsy\nMba hifankatia\nHo iray mihitsy.\nMiantrà, ry Tompo ô!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('189', 'Ry Mpampifaly tsara ô!\nMba omeo toky re ny fo,\nMba hanantenanay\nFa ho voavonjy,\nAry handresenay\nNoho ny Mpamonjy.\nMiantrà, ry Tompo ô!\n\nNY TELO IZAY IRAY', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF190',
+             '',
+             190
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('190', 'Ry Fanahy Mpanazava!\nMiandrandra Anao izahay!\nAza ela, fa tongava,\nTaomy ny fanahinay,\nMba ho fantatray mazava\nIzay lazain’ny teninao;\nAreheto lalandava\nAo am-po ny afonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('190', 'Ry Jesosy! mitenena\nAraka ny fombanao,\nAminay izay manantena\nMba handre ny teninao;\nFo marary sy manahy\nMba tsaboy sy iantrao;\nNy te-hino fa tsy sahy,\nAnehoy ny holatrao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('190', 'Rainay, Mpanome ny soa,\nMba henoy ny hatakay\nKa ny tananao tsy toha\nIarovinao anay;\nNy tanora mba tahio,\nNy vaventy hafanao,\nMba ho hitanay anio\nFa atý ny tenanao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF191',
+             '',
+             191
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('191', 'Ny teny sy Fanahinao,\nRy Ray, mba avelao\nHandroso tsara, hanavao\nIzao tontolo izao.\nMitombo, mihabe\nNy ratsy izao, odrey!\nFa vitsy ny mpanomponao\nIzay ifalianao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('191', 'Vonjeo, ry Jesosy ô!\nNy Fiangonanao,\nFa misy marobe izao\nIzay mody  olonao,\nAnefa tsy manao\nIzay tena sitrakao.\nO, ry Mpanjaka lehibe!\nMba mamonje anie.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('191', 'Fanahy ô! mba raisonao\nIzay vavakay izao;\nNy fonay mba havaozinao,\nNy maso hazavao,\nHahafantaranay \nIzay alehanay,\nMba hamoazanay izao\nIzay voa tianao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF192',
+             '',
+             192
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('192', 'Andriananahary, Aba, Ray,\nIzay ianteheranay,\nMba raiso re ny vavakay;\nEsory sy vonoy ny helokay,\nVonjeo re, izahay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('192', 'Ry Jeso Zanak’Andriamanitra,\nMpitarika ho an-danitra\nMpanolo-tsaina marina,\nMpamonjy tia ka nolavina,\nVonjeo re, izahay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('192', 'Ry Mpampionona\nmandrakizay,\nAmpiomano izahay\nHandray ny famindramponao,\nNdrao very amin’otanay\nizahay,\nVonjeo re, izahay!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF193',
+             '',
+             193
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('193', 'Tahio re, ny teninao\nAnkalazao ny Zanakao,\nIzay nasandratrao ry Ray,\nHo kiady sy ho aronay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('193', 'Ry Jeso ô! Mpanjakanay,\nAmpandreseo izahay;\nHo menatra ny rafinao,\nRaha hitany ny herinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('193', 'Ry Mpampionona anay,\nAmpikambano ho iray\nNy sampam-piangonana,\nHiray am-pitiavana.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF194',
+             '',
+             194
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('194', 'Andriananahary ô, endrey ny\nvoninahitrao!\nNy tany sy ny lanitra \nmamelatra ny lazanao,\nNy asanao rehetra e,\nny famonjena lehibe,\nMitari-dàlana anay hidera ny\nAnaranao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('194', 'Ry Zanakondry masina,\nJesosy Izay Isaoranay!\nHe, Hianao niantra anay, ka\nnentinao ny otanay,\nNy menarana resinao,\nny fasana vinakinao,\nKa Hianao nanokatra ny\nlanitra hidiranay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('194', 'O, ry Fanahy Masina,\nIzay mitarika anay\nHanetry tena sy hanaiky fa\nmpanota izahay,\nMitaona sy mananatra anay\nhandray ny avotra,\nKa manamasina anay, mba\nraiso ny fisaoranay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('194', 'Ny voavonjy mbamin’ny\nanjely mankasitraka,\nNy tany sy ny lanitra \nmikambana hanandratra\nAnao, ry Ray sy Zanaka,\nAnao Fanahy Masina,\nIzay maneho famonjena\nfeno fitiavana.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF195',
+             '',
+             195
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('195', 'Andriamanitra Ray\nloharanon’ny aina,\nMasina, masina re, Hianao ka\nderaina\nFa manome fahasoavana be,\nSoa tsy tratrin’ny saina.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('195', 'O, ry Jesosy Mpamonjy,\nMpanjaka mahery,\nTonga tatý mba hampody ny\nzanaka very,\nRaiso izao ny fiderana Anao,\nSaotra aman-daza sy hery.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('195', 'Ry Mpampionona ô,\nMpanazava ny sainay,\nMba ampinoy izahay, ka\nhavaozy ny ainay,\nMba hazavao ny manantena\nAnao;\nRaiso ny hira hirainay!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF196',
+             '',
+             196
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('196', 'Ry Rainay ao an-danitra ô,\nIzay mendrika hoderaina,\nMahery sy be indrafo,\nTsy takatry ny saina,\nIzahay dia tonga zanakao,\nKa faly manana Anao :\nMihoby sy miravo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('196', 'Izahay miondrika Aminao,\nMidera Anao tokoa,\nFa be ny fitiavanao,\nRy Ray mpanisy soa;\nAnao izao rehetra izao,\nHo vitanao izay tianao,\nAndriananahary.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('196', 'Ry Jeso Kristy Tomponay\nMpanjaka manan-kery,\nIzay any ankavanan-dRay,\nMpanavotra ny very,\nHe, any no ifonanao\nHo an’izay navotanao,\nFa resinao ny ota.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('196', 'Ny ranao no nalatsakao,\nFanati-tsaro-bidy!\nNy ainao ho atohanao\nNy olonao mpiady.\nNa atý na ao an-danitra\nJesosy Kristy tokana\nHo avotra sy vonjy.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('196', 'Ry Mpampianatra mahay\nFanahy Mpanazava,\nAmpianaro izahay\nHandroso lalandava,\nTariho ny fanahinay,\nHonenanay rahatrizay\nArý an-danitra Amen!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF197',
+             '',
+             197
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('197', 'Haleloia, deraina\nAndriamanitray,\nMpanjaka fototr’aina,\nMpikarakara  anay,\nNy zava-boahary\nDia eo an-tananao,\nKa tena lavorary\nNy fandaharanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('197', 'Haleloia, deraina\nHianao, Mpamonjinay\nNijaly, noratraina,\nKa maty solonay,\nAnefa naharesy\nNy fahavalonay,\nNatsangana handresy\nMba ho fiainanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('197', 'Haleloia, deraina\nHianao, Fanahy ô!\nNy herinao ny aina\nHamelona tokoa;\nHianao mikarakara\nNy fiangonanao,\nManova, manatsara\nIzao tontolo izao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('197', 'Haleloia, deraina\nNy Telo Izay Iray!\nHobina sy hiraina,\nFa Andriamanitray,\nHe, Tompo foto-tsoa\nIainanay atý,\nFa ho izany koa\nMandrakizay doria.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF198',
+             '',
+             198
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('198', 'Isaoranay Jehovah,\nFa Tompo lehibe,\nIzay tsy mba manova,\nNy famindramponao.\nMiorina aminay izao\nNy fiangona-masinao;\nTorina aminay\nNy teny mampiray,\nKa ravoravo izao\nIzahay miderà Anao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('198', 'Derao Jesosy Tompo,\nIzay Mpamonjinao,\nHiraonao re, ry foko,\nNy fitiavany.\nHaleloia! haleloia!\nHaleloia! haleloia!\nJesosy avotray\nDia Zanaky ny Ray\nNy ainy no voaray,\nHisolo helokay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('198', 'Derainay, ry Fanahy,\nIzao ny asanao,\nTsy misy mampanahy,\nIzay tarihinao,\nKa anjakao re, ny fonay,\nArovy ny fiangonanay,\nVelomy izahay,\nAtaovinao mahay\nManoka-po izao\nHandray ny aim-baovao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF199',
+             '',
+             199
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('199', 'Misaora! misaora an’i\nJehovah,\nRy olona atý an-tany ô!\nFa lehibe ny indrafony\nKa maharitra mandrakizay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('199', 'Misaora! misaora an’i Jesosy,\nRy olona atý an-tany ô!\nFa vitany ny famonjena,\nKa misokatra ny lanitra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('199', 'Misaora! misaora re ny\nFanahy,\nRy olona atý an-tany ô!\nFa fahazavana no omeny\nAry fanavaozana am-po.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF200',
+             '',
+             200
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('200', 'Rainay ô Masina!\nTompon’ny lanitra,\nIzay tia anay;\nKiady sy mandanay\nHo fiarovana,\nIzay hitokianay\nMandrakizay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('200', 'Jeso ô, Tomponay!\nLalana marina\nAmin’ny Ray!\nFahamarinana\nAry fiainana\nAzonay aminao\nRy Tomponay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('200', 'Fanahy Masina ô!\nIrak’i Jesosy\nTonga etý;\nManazavà anay\nAmin’ny maizina;\nNy hevi-dratsinay\nEsorinao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('200', 'Andriamanitra ô!\nTelo fa tokana,\nTompo iray;\nAza mandao anay,\nOry sy reraka\nNoho ny heloka\nIzay momba anay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('200', 'Aza tsaroanao\nNy hadisoanay,\nRy Tompo ô!\nFa mamelà anay,\nNoho ny Zanakao\nKa manomeza anay\nNy fo madio.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF201',
+             '',
+             201
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('201', 'Midina, Tomponay!\nAmpionao izahay\nHidera  Anao;\nRay soa tia  anay,\nHery sy Tanjakay,\nIzay hotompoinay\nMandrakizay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('201', 'Avia, Jeso ô!\nReseo ny rafinay\nHo lovanao;\nArovy izahay\nAmin’ny herinao;\nNy fitarainanay\nHenoinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('201', 'Fanahy Masina ô!\nTariho izahay\nHanaiky izao;\nMahery Hianao,\nNy fonay anjakao,\nAza ilaozanao\nMpananatra ô!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('201', 'Ry Telo izay Iray!\nDera mandrakizay\nOmena Anao;\nNy voninahitrao\nAoka ho hitanay,\nKa raisonao izahay,\nHo Aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF202',
+             '',
+             202
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('202', 'Ry Ray malala ô!\nMba raisonao\nNy haja entiko\nHidera Anao.\nNy fitiavanao\nNo maiko izao\nIzaho dia Anao,\nRy Raiko ô!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('202', 'Ry Jeso tia  ô!\nMpanavotra,\nTa-hankalaza Anao\nNy vavako;\nNy avo-dehibe\nManafaka  ahy e!\nIzaho dia  Anao,\nRy Jeso ô!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('202', 'Fanahy Masina ô!\nMpananatra,\nMahiratra tokoa\nNy masoko,\nMazava re izao\nNy lalako hankao;\nHe! fifaliam-be\nNo ahy izao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF203',
+             '',
+             203
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('203', 'Ry Rainay be fitia,\nMpamelona anay!\nTariho tsy hania,\nHazoninao izahay;\nFa be ny fahavalo\nMitady ny ainay,\nMamely tsy mimalo\nIlay ratsy hatrizay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('203', 'Ry Zokinay malala!\nRy Jeso havanay!\nToroy mba hahalala\nNy mety izahay;\nNy miaraka  Aminao re,\nRy Jeso Tompo ô!\nNo mahasoa ny saina,\nNy fo, fanahy koa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('203', 'Fanahy Mpanazava\nSy Mpanadio ny fo!\nTomoera lalandava,\nMonena ao am-po;\nKoa dia ampidino\nNy hasoavanao,\nOvay sy hamasino\nNy toetray izao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('203', 'Ry Tompo be fiantra!\nRy Telo izay Iray!\nNy tananao miantra,\nAtsory aminay;\nRehefa tapitra andro\nKa hody izahay,\nMba raiso re, ry Tompo\nMba raiso izahay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF204',
+             '',
+             204
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('204', 'Mamy ny fitianao,\nRy Jehovah Tompo ô!\nNahafoy ny Zanakao\nHanavotanao anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('204', 'Mamy ny antranao,\nRy Jeso Mpamonjy ô!\nTa-hamonjy Hianao\nSy hanafa-keloka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('204', 'Mamy ny fitaomanao,\nRy Fanahy Masina ô!\nNy Fanahinay ovay\nHankatò ny anatrao.\n\nNY SORATRA MASINA,\nTENIN’ADRIAMANITRA', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF205',
+             '',
+             205
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('205', 'Ny teninao rehetra,\nRy Tompo tia  anay!\nNo tsy mba manam-petra,\nFa tò mandrakizay;\nHo levona avokoa\nIzao rehetra izao,\nHaharitra tokoa\nIzao teninao izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('205', 'Ny tenin’ny Baiboly\nNo sambatra entinay\nHandresy ny devoly,\nIlay fahavalonay;\nRaha misy mampahory,\nKa osa izahay,\nNy teninao mahery\nManjary tanjakay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('205', 'Fa teny mamy koa\nHo an’ny mpakatò\nKa loharano soa\nMiboika ao am-po,\nHo fanomezan-toky\nNy azon’ny manjo,\nSy hani-mahavoky\nMamelona ny fo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('205', 'Fa teny mampisava\nNy aizim-be atý,\nFanilo manazava\nNy dia ho arý;\nManolo-pahendrena,\nMananatra ny fo,\nMilaza famonjena\nSy lova tsy ho lo.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF206',
+             '',
+             206
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('206', 'Ny teny masinao,\nJehovah Tompo ô!\nNampanoratinao\nIreo mpanomponao,\nDia tiako ka tanako,\nHo lova sy fananako.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('206', 'Ny teny masinao,\nIzay noteneninao\nMilaza amiko\nNy hasoavanao;\nIzay harena atolotrao\nHo entiko hidera Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('206', 'Ny teny masinao,\nAndriamanitra ô!\nManeho ny fitia\nNataon’ny Zanakao,\nIzay maty tany Kalvary,\nHamonjy ny mpanota etý.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('206', 'Ny teny masinao,\nNo mampianatra\nNy saiko tsy mahay\nMba hahafantatra\nNy zavatra miafina\nIzay momba ny hasoavanao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('206', 'Ny teny masinao,\nDia  tsy mba mety lo;\nIzay ambarany\nTsy misy tsy ho to.\nNa levona aza ka tsy ao\nIzao rehetra àry ‘zao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF207',
+             '',
+             207
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('207', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('207', 'Mamy ny teninao,\nJehovah Masina!\nSy to ny teninao\nTsy azo ovana :\nNy lanitra ho levona,\nFa tsy simba ny teninao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('207', 'Madio ny teninao,\nKa tsara indrindra,\nDia fahendrena\nHo an’ny adala :\nMahafaka ny maizina\nKa mitondra ny mazava.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('207', 'Soa ny teninao,\nMahatsara ny fo,\nFa ao no hitanay\nMisy Mpanavotra;\nJeso, Loharanon’aina,\nMahasasa ny meloka.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('207', 'Irin’ny foko koa\nNy teny masina\nNoho ny harena\nNa fananana be :\nNy teninao no tanako\nHo lovako mandrakizay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF208',
+             '',
+             208
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('208', 'Ny teny masinao\nTorina hatrizao;\nMaharitra tsy lo,\nMamabo izany fo,\nFa marina ka tianay\nHiainana mandrakizay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('208', 'Ny teny masinao\nMitondra herivao,\nMandrava ny manjo\nIreo izay ory fo;\nKa mendrika ho tanana\nAnaty, ho fananana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('208', 'Ny teny masinao\nDia tsy mba mankaleo;\nFa hery velona\nMamelombelona;\nKa satrinay ho re indray\nRy Andriananaharinay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('208', 'Ny teny masinao\nNo feo manorina;\nNy teny masinao,\nNo feo manarina\nKa tianay hanenika\nNy tany sy ny lanitra.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF209',
+             '',
+             209
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('209', 'Jesosy tena kiady\nSy reharehanay,\nNamoha vavahady,\nNy Tanindrazanay;\nNampiditra ny teny\nHampahalala  anay\nNy Ray, ny fahendreny,\nMba hianaranay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('209', 'Na betsaka mifofo\nNy Baibolinay,\nMihaza sy milofo\nMoa ketraka  izahay ?\nJesosy no Mpiaro\nKa moa ho kivy ve ?\nVao mainka mihamaro\nNy mpankasitraka e!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('209', 'Mbola Izy no Filoha\nMpitarika anay,\nHitory ka hamoha\nIreo namanay :\nVahoaka an-tapitrisa\nNo mbola hasondrotray,\nHahita Paradisa\nHo zanaky ny Ray.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('209', 'Ry Jeso, hatanjaho\nNy fiangonana,\nHijoro, ho  tena taho\nMamoa mandrakizay.\nHianao anie no sandry\nIzay tena tanjakay,\nNo sady hany andry\nIzay hijoroanay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('209', 'Jesosy soa malala!\nTsy foinay Hianao,\nNy fonay dia handala\nIty lova taminao.\nFanahy ravoravo\nNoho ny teninao,\nRy Zanaky ny Avo,\nIzao misaotra Anao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF210',
+             '',
+             210
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('210', 'Zava-tsoa tokoa ny fitsipikao\nTompo Andriamanitra ô!\nTeny mahasoa, aina, hery koa\nMba ho an’izay manoa.\nSoa tsy manam-paharoa ny\nfitsipikao\nIravoanay, fa harena be\nSarobidy, tsy afoy, izany\ndidinao,\nFamonjena ho an’izay\nmandre.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('210', 'Maizina izahay, kely fantatray\nNefa ao ny teninao :\nJiro sy fanilon’ny tongotray,\nHankanesana  Aminao.\nSoa tsy manam-paharoa ny\nfitsipikao\nIravoanay, fa harena be\nSarobidy, tsy afoy, izany\ndidinao,\nFamonjena ho an’izay\nmandre.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('210', 'Raha alaim-panahy itony \nzanakao\nIndro, ao ny teninao,\nSabatry ny fo, hanoheranay\nIlay ratsy hatrizay,\nSoa tsy manam-paharoa ny\nfitsipikao\nIravoanay, fa harena be\nSarobidy, tsy afoy, izany\ndidinao,\nFamonjena ho an’izay\nmandre.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('210', 'Fifalianay, odi-tahotray\nNy Baiboly taminao :\nAvy ny manjo, nefa kosa, Ray\nAo tokoa ny tavanao\nSoa tsy manam-paharoa ny\nfitsipikao\nIravoanay, fa harena be\nSarobidy, tsy afoy, izany\ndidinao,\nFamonjena ho an’izay\nmandre.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('210', 'Ry Jesosy ô Mpampianatray!\nMaminay ny teninao;\nTaomy izahay, mba \nhahaizanay\nHankatò ny didinao.\nSoa tsy manam-paharoa ny\nfitsipikao\nIravoanay, fa harena be\nSarobidy, tsy afoy, izany\ndidinao,\nFamonjena ho an’izay\nmandre.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF211',
+             '',
+             211
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('211', 'Ilay Boky izay nodorana\nDia may, nefa tsy levona;\nIzay natao ho lavenona,\nLasa vato fanorenana;\nNoheverina ho foana,\nKanjo mainka koa velona;\nIlay nafenina, nalevina\nNo nisandratra, nivelatra!\nIza moa no hahasakana\nEny, iza no hanohitra\nIlay teny voasoratra,\nDia ny tenin’Andriamanitra ?\nIzao rehetra izao ho levona\nFa ny Teny dia haharitra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('211', 'Rasalama nolefonina\nNisy hafa koa nodorana\nHantsana no namarinana,\nTora-bato: fahafatesana\nDia tao ireo nampinomina,\nNoterena mba hiozona :\nMoa izany nampivadika\nKristiana be finoana ?\nValin-teny voasoratra\nNentiny nandresy lahatra\nFeo tony, tava mirana,\nFeno hery, hasambarana :\n« Tsy mba misy atahorako\nAfa-tsy  Hianao, \nry Tompoko ».', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('211', 'Ilay teny masina sy to\nManambara ny Mpamonjiko,\nTena saro-bidy ao am-po,\nKa vakiko sy ianako.\nFifaliako, fiarovako,\nFahazavana ao an-dalako;\nKoa tanako ho lovako \nSy isaorako ny Tompoko,\nMaty aho, nefa velona\nFa Kristy no ahavelomako,\nMaty Izy, nohomboana,\nNoho  ny fahotana vitako\nNefa Izy dia natsangana,\nSantatry ny hitsanganako.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF212',
+             '',
+             212
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('212', 'Velona sy mahery\nNy tenin’Andriamanitra,\nKa na dorana aza\nDia tsy ho levona;\nNy Sekoly Alahady\nDia mivelona aminy.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('212', 'Sabatra rao lela\nMaranitra, manindrona,\nMampisaraka aina\nSy fanahy, tonona;\nFantany avokoa \nNy am-po miafina.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('212', 'Hotsaraina isika,\nKa ilay teny velona\nNo hanavaka antsika\nAry koa hanavotra,\nKoa  minoa ny teny,\nTeny fahasoavana.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF213',
+             '',
+             213
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('213', 'Ry fanahy mangetaheta,\nMila fitsaharana;\nAza kivy, mahareta,\nSentonao hifarana!\nFa ny tenin''i Jehovah,\nSoa mangarangarana;\nLoharano tsy miova,\nAo no hasambarana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('213', 'Ry tontolo mila vonjy,\nTe ho afa-patotra,\nAo ny tenin''ny Mpamonjy\nDia  Kristy Mpanavotra!\nTeny velona sy mamy,\nFeno fananarana;\nHotorina eran-tany \nFa fampihavanana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('213', 'Ry Mpanjakan''ny mpanjaka,\nAo, tendreo ny lelako\nMba hitory sy hizaka,\nHampandre ny havako,\nDia  tahio ny Teny reny\nTsy ho very hasina,\nKa hamoy zato heny\nNy Baiboly masina.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF214',
+             '',
+             214
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('214', 'Finaritra ry Tompo ô!\nNy mankafý ny teninao\nSy mankatò ny didy.\nNy helony esorinao,\nNy sainy hohavaozinao,\nKa afaka hifidy\nNy lova sarobidy.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('214', 'Ny teninao no rakitra\nSy tokin''ny mpandefitra,\nFa teny manan-kery;\nHe! ao dia voasoratra\nNy Aminao Mpanavotra,\nFa Hianao irery\nNy avotry ny very.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('214', 'Ny teninao no vatsinay\nManohana ny dianay,\nSakafo mahasoa \nSy ampy hivelomanay,\nKa ao am-parany indray\nHo azonay tokoa\nNy lovan''ny mpanoa.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF215',
+             '',
+             215
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('215', 'Ny teny masina sy to\nNampilazainao, Tompo ô!\nNo manan-kery mahavoa\nNy fahavalonao tokoa,\nKa dia itokianay\nNa aiza no alehanay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('215', 'Mitaona ny fanahinay\nNy teninao, Mpanavotray,\nMananatra sy manambara\nNy ratsy ary koa ny tsara;\nMpilaza mahafatra-po\nNy teninao ry Tompo ô!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('215', 'Ny teninao no sabatray\nSy mpampionona anay;\nNy teninao no mofon''aina\nSy mpanazava fo sy saina;\nMpiaro sady tanjakay\nNy teninao, ry Tomponay!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('215', 'Ampinganay ny teninao\nAo amin''izao tontolo izao,\nKa raha levona ny tany,\nNy teny mbola ao ihany,\nDia izy iankinanay\nHo antoky ny avotray.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF216',
+             '',
+             216
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('216', 'Ny teninao ry Tompo ô,\nDia  ranon''aina soa, \nIzay mahalonaka ny fo\nMangetana tokoa,\nJereo ny tanimbolinao,\nFa tena mila io,\nHo feno voa ho Anao\nHatramin''ny anio', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('216', 'Ny teninao dia sabatra\nMaranitra tokoa,\nMitsara sy mamantatra\nNy fonay sy ny voa.\nHetseho izao tontolo izao\nHandray ny teninao,\nO, asehoy ny herinao,\nHamorona  aim-baovao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('216', 'Ny teninao izay tokinay\nFanilon-dianay,\nNoraisinay ho lovanay\nSy fifalianay.\nAmpianaro izahay\nHanoa ny didinao,\nAtaovy izay hitiavanay\nNy teny masinao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF217',
+             '',
+             217
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('217', 'Ry Jesosy Tomponay!\nIndreto izahy mivory,\nNefa tsy mahay mandray\nIzay ambaranao akory :\nKa iraho ny Fanahy\nMba hanampy sy hitahy.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('217', 'Maizin-tasina izahay,\nFa taranaka mpanota;\nSimba ny fanahinay,\nTena voasoron’ota,\nTompo tsara ô, tongava,\nAposahy ny mazava.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('217', 'Ry Mazava lehibe,\nTaominao ny fo malaina;\nTairo mba hifoha re,\nKa handray ny tenin’aina;\nNy fivavakay valio,\nNy ataonay mba tahio.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF218',
+             '',
+             218
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('218', 'Mba miangavy, Tompo ô!\nIraho ny Fanahinao,\nVangio ny mpanomponao,\nAmpianaro izy izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('218', 'Ampalasio ny sofinay\nHandraisanay ny teninao,\nTendreo koa ny lelanay,\nHahaizanay hidera Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('218', 'Hiely be ny lazanao\nAmbara-pahatonganao\nHitsara izao tontolo izao,\nHampody ny navotanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('218', 'Fanahy, Zanaka sy Ray,\nMba raiso ny fisaoranay;\nKa raha hiala atý izahay,\nHidera Anao rahatrizay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF219',
+             '',
+             219
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('219', 'Ry Mpampianatra mahay\nFanahy Mpanazava,\nAmpianaro izahay\nHandroso lalandava,\nNy indrafon’ny Tomponay,\nVelaro eo imasonay\nHo fantatray mazava.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('219', 'Mivory eto izahay\nHandre ny tenin’aina,\nKa hazavao ho fantatray\nNy hevitra lazaina;\nOvay ny sainay sy ny fo\nHamantatra sy hankatò\nNy tenin’ny Mpamonjy.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('219', 'Raha  hodimandry izahay\nKa tonga ny anjara,\nBitsiho ao an-tsofinay\nNy tokon’aina tsara;\nAtaovy mora hitanay\nNy tavan’ny Mpanavotray,\nIzay hery mahavonjy.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF220',
+             '',
+             220
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('220', 'Ry Jeso Tompo Avotray,\nMitomoera aminay,\nAidino ny Fanahinao,\nTahio izahay izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('220', 'Ny sitrakao mba ambarao\nHo fantatray ny hevitrao;\nNy fonay amboaronao\nHahay handray ny teninao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('220', 'Ny vavanay hasinonao\nHahaizanay hisaotra Anao,\nFa be ny soa azonay\nNomenao, ry Mpanavotray.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('220', 'Rahatrizay ny olonao\nHihoby sy hidera Anao,\nFa masina, fa masina,\nFa masina i Jehovah.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF221',
+             '',
+             221
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('221', 'Mivory eto izahay,\nJeso Tompo ô;\nAvia hanazava anay,\n:,: Hinoanay Anao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('221', 'Maniry mafy izahay,\nHihaona Aminao;\nOmeo hosotroinay,\n:,: Ny rano velona :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('221', 'Ny mofon’aina mba zarao\nHo anay, ry Tompo ô!\nTahio re ny irakao,\n:,: Ho voninahitrao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('221', 'Ny fonay dia atolotray\nAnao, Jesosy ô!\nOmeo hery izahay\n:,: Hanao ny sitrakao :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('221', 'Raha tapitra ny andronay,\nIzay voafetranao,\nDia  ento mody izahay\n:,: Ho any Aminao :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF222',
+             '',
+             222
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('222', 'Ry Lela afo masina\nNilatsaka fahiny\nTan-dohan’ny mpianatra\nSy tao anaty fony,\nMiandry fatratra Anao\nIzahay mivory eto izao :\nAvia ry Fanahy!\nAvia, ry Jesosy ô!\nAtreho ny mpianatrao\nHo velona am-panahy.', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF223',
+             '',
+             223
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('223', 'Mba avia, malakia,\nRy mangetaheta ô!\nTeny tsara no ambara,\nKa Henoy eram-po,\nFa Jesosy ranon’aina\nNo torina sy lazaina.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('223', 'Ry Mpamonjy  mahavonjy,\nMahatonga soa be,\nKa tsy maintsy ho tra-bonjy\nIzay manatona Azy re;\nKa henoinao ny teny\nManambara ny omeny.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('223', 'Mba tariho  sy  tahio\nAho, ry Jesosy ô!\nMba ho ahy ny fanahy,\nHanazava ao am-po.\nHampahery fo sy saina,\nKa hamelona ny aina.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF224',
+             '',
+             224
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('224', 'Tafavory izahay ka manatona\nAnao\nZanahary nahary anay;\nKa mba raiso izao\nIzahay Zanakao;\nAza lavina re izahay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('224', 'Tafavory izahay ka miantso\nAnao\nRy Jeso Mpamonjy anay;\nMihainoa Tompo ô!\nMitenena izao,\nFa mitady Anao izahay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('224', 'Tafavory izahay ka miandry\nAnao\nRy Fanahy Mpananatra anay;\nAidino ilay afonao fahizay,\nAreheto atý aminay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF225',
+             '',
+             225
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('225', 'Atý an-tranonao izao\nNo iangonanay\nHitady soa Aminao\nHahafaka ota anay;\nHiantso ny Anaranao,\nHandinika ny teninao,\nIzay mahavelona anay,\nKa mba ambinonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('225', 'Na vitsy aza eto izao,\nNa be no tonga atý,\nDia aza mba lalovanao,\nAtreho izahay!\nRaha  tonga eto Hianao\nDia ampy izany ho anay;\nNy fofonain’ny Tomponay\nNo mahavelom-po.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('225', 'Raha misy mangatsia-po,\nMba hafanao, ry Ray;\nIraho ny Fanahinao\nHamelona anay.\nHanetsika ny mafy fo\nHo tonga mpino mankatò\nIzay lazain’ny teninao\nHataon’ny zanakao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('225', 'Izay rehetra tonga atý\nAmpirisihonao;\nKa aoka samy hankafý\nNy fanavotanao.\nNy fonay mba sokafinao\nHandray ny fananaranao;\nAo aminao ny hery be,\nEfao ny sitrakao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('225', 'Ambinonao ny irakao\nHitory teny izao;\nTolorinao ny hevitrao,\nNy fony hafanao;\nSokafy re ny vavany,\nTendreo koa ny lelany\nHilaza tsara aminay\nNy sitrakao, ry Ray.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF226',
+             '',
+             226
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('226', 'Tompo ô! mba te-hihaona\nAminao ny olonao.\nKa ny oran-dohataona\nAmpombay ny teninao;\nNy Fanahinao iraho\nAminay izay mitalaho;\n:,: Mba vokiso zava-tsoa\nNy mangetaheta  Anao :,:', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF227',
+             '',
+             227
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('227', 'Eto afovoanay Hianao,\nry Tompo soa,\nKa tahio ny vavakay\nMba ho maminao tokoa;\nRaisonao ny fideranay,\nKa savao ny fahantranay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('227', 'Mitoera aminay\nNa hariva na maraina;\nAza mahafoy anay\nMandra-pialanay aina;\nKa ny dera tsy ho lany\nDia ho Anao ihany.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF228',
+             '',
+             228
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('228', 'Tafangona atý indray\nNy fiangonanao, ry Ray\nKa dia mba tahio!\nIraho ny Fanahinao\nHitarika ny zanakao\nHivavaka anio,\nAnao izao\nSaotra, laza, dera, haja,\nFa nomena\nHo anay ny famonjena.', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF229',
+             '',
+             229
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('229', 'Jesosy ô! mba hasoavinao\nNy asanay, izay atombokay\nAmin’ny Anaranao;\nKa mba ombay,\nSy tahio, Tompo ô!\nIzao atao izao\nDia tena sitrakao\nKa ho tanterahinay,\nMba ho fifalianay\nSy ho voninahitrao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('229', 'Jesosy ô! derainay Hianao,\nFa feno famonjena olona\nNy Anara-masinao!\nNy herinao manome\naim-baovao.\nNy teny masinao\nDia iankinanay\nKa Hianao isaoranay\nSy ankasitrahanay\nEto sy rahatrizay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('229', 'Jesosy ô! ny fanorenana\nIainanay sy hahafatesanay\nDia ny Anaranao, fa Izy no\nManome toky be,\nKa hitsangananay\nHo velona indray;\nDia mba horaisinao\nIzahay navotanao\nAmin’ny Anaranao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF230',
+             '',
+             230
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('230', 'Mba trotroy ny olona ory,\nRy Jesosy Tompo ô!\nTsy hirenireny saina,\nFa handray ny teninao.\n:,: Olona  osa, olona  osa,\nEnto mora, Tompo ô :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('230', 'Faly izahay, Jesosy,\nTratr’izao anio izao,\nTafavory ka hihaino\nNy Filazantsaranao.\n:,: Raisonao re, raisonao re\nIzao fisaoranay izao! :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('230', 'Jesosy Tomponay Tsitoha!\nTaomy ny sakaizanay\nMba ho tonga mpino koa\nSy hiankina Aminao.\n:,: Mba tariho, mba tariho\nIzy ho mpanomponao! :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF231',
+             '',
+             231
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('231', 'Ry Tomponay Tsitoha!\nIlay Izy hatrizay,\nAvia, hampifoha\nNy fiangonanay\nAtreho ny mpivory,\nFa manantena Anao;\nFohazy ny matory\nHandray ny teninao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('231', 'Iraho ny Fanahy\nMba hanavao anay,\nKa homba sy hitahy\nNy teny inoanay\nNa lehibe na kely,\nAmpio sy hafanao\nHazoto hampiely\nAtý ny lazanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('231', 'Ny asam-pamonjena\nIzay natombokao,\nAmbino tsy hihena\nTahio sy tontosao!\nNy herin’i Satana\nFolahy hatrizao,\nHo afa-pahotana\nIzahay navotanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('231', 'Arovy ny finoana\nIzay naorinao;\nVonoy ny hevi-poana\nMandà ny teninao\nIzahay na be na vitsy,\nHazony tsy hania,\nMba ho Anao mihitsy\nMandrakizay doria.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF232',
+             '',
+             232
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('232', 'Ny Alahady andronao,\nJeso Tompo masina ô!\nFotoana nitsangananao,\nKa maminay mpianatrao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('232', 'Anio, mivory izahay,\nTahaka  ireo mpianatrao;\nKa enga anie ho hitanay\nNy hazavan’ny tavanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('232', 'Omeo anay, omeo indray\nNy herin’ny Fanahinao;\nHavaozy ao anatinay\n‘Lay Pentekosta fahizay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF233',
+             '',
+             233
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('233', 'O! Ray Malala, asehoy\nNy hasoavanao;\nSasao ho afa-keloka\nIzahay ho zanakao;\nHo mafy ny fiezakay\nHandia ny lalanao\nTsy hisy hijanonanay\nRaha  tsy an-tranonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('233', 'O! Ray Malala, mba henoy\nNy feonay zanakao;\nTantano ao an-dalana\nHankany Aminao;\nHo mafy ny fiezakay\nHandia ny lalanao\nTsy hisy hijanonanay\nRaha  tsy an-tranonao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('233', 'O! Ray Malala, hitanao\nNy hasambaranay;\nNy avotr’ain’ny Zanakao\nNo itokianay;\nHo mafy ny fiezakay\nHandia ny lalanao\nTsy hisy hijanonanay\nRaha  tsy an-tranonao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF234',
+             '',
+             234
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('234', 'Mahery Hianao,\nJehovah Tompo ô!\nMombà anay mpanomponao,\nKa miarova anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('234', 'Mpanjaka Hianao,\nRy Zanahary ô!\nAvia, anjakao izao\nNy ao anatinay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('234', 'Miaro Hianao,\nAndriamanitra ô!\nHidera sy hisaotra Anao\nNo iangonanay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('234', 'Miantra Hianao,\nRy Tompo tia ô!\nTongava aminay izao\nMba hifalianay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('234', 'Ny fanomezan-tsoa\nIzay maminay tokoa\nDia  Jeso ‘lay malalanao\nNafoy ho avotray.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('234', 'Mba raisonao, ry  Ray!\nNy saotra entinay,\nNy dera, laza, hery koa\nAnao Mpanjaka soa.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF235',
+             '',
+             235
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('235', 'Tafavory izahay\nEto anatrehanao,\nRy Jehovah Tomponay!\nMba hivavaka aminao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('235', 'Te-hianatra izahay\nMba hanao sy sitrakao,\nMihainoa ny vavakay;\nManampia anay izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('235', 'Fa mangataka aminao\nFanampiana izahay;\nRaha tsy ampianao; \nDia ho diso izahay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('235', 'Izay rehetra anananay\nEntinay miderà Anao,\nAoka hazoto izahay\nMba hanao ny sitrakao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('235', 'Aoka handroso izahay\nMba hanompo tsara Anao,\nDia  hifaly izahay\nAmin’ny fitianao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF236',
+             '',
+             236
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('236', 'Avia, Tomponay!\nAtrehonao izahay;\nFiderana no atolotray\nHo Anao ry Tomponay;\nTongava atý an-tranonay,\nHandray ny dera atolotray,\nAvia, Tomponay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('236', 'Avia, Tomponay!\nAtrehonao izahay;\nEnga ka ho tonga olonao\nIzao izahay rehetra izao!\nNy vavanay hidera Anao,\nNy fonay mba diovinao;\nAvia, Tomponay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('236', 'Avia, Tomponay!\nAtrehonao izahay;\nAmpidino ny Fanahinao\nHo atý an-tranonay;\nAmpionao koa ny olonao,\nHilaza anio ny teninao :\nAvia, Tomponay!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('236', 'Avia, Tomponay!\nAtrehonao izahay;\nFiderana no atolotray\nHo Anao , ry Avotray!\nMba raisonao ny deranay,\nEfao tokoa ny hatakay :\nAvia, Tomponay!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF237',
+             '',
+             237
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('237', 'Ry Jehovah Tomponay!\nTafavory izahay;\nAvy hankalaza Anao\nIzahay vahoakanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('237', 'Faly, ravo izahay\nNoho ny soa azonay;\nTonga mba hisaotra Anao\nIzahay voavotrao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('237', 'Saotra tsara entinay,\nHira no asandratray,\nMba ho fiderana Anao,\nRain’izao rehetra izao,\nAmen.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF238',
+             '',
+             238
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('238', 'Mivory eto izahay\nHiantso ny Anaranao,\nJehovah Masina ô!\nDia manomeza anay anio\nNy soa avy taminao,\nHo fitahiana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('238', 'Ny vavaka  tononinay\nMiakatra any Aminao,\nMpamonjy tia anay!\nMba raiso ao an-danitra\nHo zava-mani-pofona\nIzay ho tianao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('238', 'Ny saotra izay aterinay\nMba raisonao, Jehovah ô,\nAndriamanitray!\nNy vokatry ny molotray\nDia aoka ho fanatitra\nAnkasitrahanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('238', 'Ankehitriny, Tompo ô!\nOmeo ny Fanahinao\nHitoetra aminay.\nHo fanalana aizina,\nSy fanoloran-kevitra\nHo an’ny olonao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF239',
+             '',
+             239
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('239', 'Ry Jeso!  vory izahay,\nFa andronao anio\nDia avy mba hivavaka\nAtý an-tranonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('239', 'Ka na aiza na aiza ny olonao\nNo vory toy izao\nNy herinao mba asehoy,\nEfao ny teninao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('239', 'Ny hira ikambananay\nAtý an-tranonao.\nEkeo ho fanandratana\nNy voninahitrao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('239', 'Ny vavaka  tononinay\nEo anatrehanao.\nMba raiso ho fanatitra\nAnkasitrahanao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('239', 'Ny teny  fitarainana\nAtaon’ny ory koa\nSoloy fifaliana\nHisaoranay Anao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('239', 'Ny teninao halahatra\nHambininao anie\nHamelom-pitiavana\nAm-pon’izay mandre.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF240',
+             '',
+             240
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('240', 'Alahady andro tsara,\nAndro fitsaharanay,\nNitsangananao ry Tompo,\nAndronao, Mpanavotray!\nEny maminay ny andro\nAndro fiangonanay\nHiderana Anao, Mpamonjy,\nSy ny voninahitrao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('240', 'Tovy aminay ny teny\nIzay nataonao fahizay,\nTamin’ny Apositoly\nFony vory toy izao :\nRaha misy roa na telo\nAmin’ny ny Anarako\nVory mba hiantso Ahy,\nAo no hiangonako.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('240', 'Mba soraty ao am-ponay,\nTompo ô! ny didinao.\nHiasanay saina tsara\nEto anatrehanao .\nMba avia, ry Jeso Tompo!\nTomoera aminay.\nHitandremanay ny andro\nIzay atokana ho Anao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF241',
+             '',
+             241
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('241', 'Ry Jeso ô!  midina,\nJereo izahay izao;\nAtreho sao variana,\nKa tsy mahita Anao,\nHazoninao ny saina,\nHijery tsara Anao,\nMba tsy ho very maina\nIzao fivoriana izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('241', 'Ry Jeso!  hamasino\nNy toe-piainanay,\nKa dia ampidino\nNy hery ho anay;\nNy bitsika mangina\nAtaovinao izao,\nHamelom-paniriana\nHanao ny sitrakao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('241', 'Ry Jeso ô!  monena,\nMidira Hianao,\nNy fonay mamantena\nHandray Anao izao;\nKa izay misalasala\nAmpaherezonao,\nDia  taomy hahalala\nNy fitiavanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('241', 'Ny hatakay mangina\nHenoy ka valio,\nKoa dia mitenana\nHianao ankehitrio,\nRy Jeso! Mpanazava\nNy dianay atý,\nOmàny lalandava\nNy fonay ho arý.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF242',
+             '',
+             242
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('242', 'Misaotra Anao izahay,\nry Ray!\nFa tsy nafenina anay\nIzay tena sitrakao tokoa\nMba hahazoanay ny soa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('242', 'Ka mitariha anay izao\nHandray ny toro-hevitrao\nIzay lazain’ny teninao\nHanaoavanay ny sitrakao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('242', 'Ampahirato izahay\nHahaizanay mahita anio\nNy zava-mahagaga anay\nAo amin’ny lalànao soa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('242', 'Ampianaro izahay\nHo tia  tokoa ny teninao,\nKa hankatò ny didinao,\nHanaiky hotapahinao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('242', 'Ny asan’ny Fanahinao\nMba tanteraho aminay\nHampiorina ao anatinay\nIzay lazain’ny teninao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF243',
+             '',
+             243
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('243', 'Mivory eto izahay,\nHandre ny teninao\nIzay hambara aminay,\nAndriamanitra ô!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('243', 'Tolory fahendrena,\nKa ampio ny irakao,\nIzay hitory aminay\nNy teninao izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('243', 'Ny fon’izay mihaino koa\nSokafy rahateo,\nHo tia  sy hirakitra\nNy teny mahasoa.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF244',
+             '',
+             244
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('244', 'Ry Jeso! mba henoinao\nNy feonay mpanomponao\nIzay mivavaka  Aminao,\nMitady fitahiana', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('244', 'Vokiso ny Fanahinay,\nNy teninao no haninay,\nHahaizanay mamahana\nNy reraka ao an-dalana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('244', 'Ampaherezonao izao\nNy tànanay mpanomponao,\nHanohana ny olonao\nMiraviravy tanana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('244', 'Omeo fo mazoto re!\nTolory fahendrena be;\nTarihonao ny hevitray\nTendreo koa ny molotray.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('244', 'He! tsinontsinona izahay\nMalemy sady tsy mahay;\nKa dia ampaherezonao\nHanaovanay ny sitrakao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF245',
+             '',
+             245
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('245', 'Ray ô! asehoinao\nAminay ny antranao,\nRaisonao ny zanakay\nAtsangana ho Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('245', 'Zanak’Andriamanitra ô!\nMba ekeo ny hatakay,\nTrotrinao ny zanakay\nTaomy ho mpanomponao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('245', 'Ry Fanahy Masina ô!\nMitoera aminay,\nIndro re ny zanakay\nAmpianaro, hazavao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('245', 'Ry Jehovah Izay Iray!\nNefa Telo, dia ny Ray,\nZanaka, Fanahy koa!\nMba tahio ny zanakay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF246',
+             '',
+             246
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('246', 'Zazakely entinay\nMba hatao batisa izao;\nIzy no atokanay\nSy atolotray Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('246', 'Rano tsy mba mahasoa,\nRano tsy mba mahadio :\nKa tahionao izy izao,\nJeso ô, be indrafo!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('246', 'Ary ny Fanahinao\nDia ataovy ao am-po\nMba hitarika azy, sao\nHisy loza izay hanjo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('246', 'Ry Jehovah be fitia!\nRy Jesosy Tomponay!\nRy Fanahy koa, avia\nMba handray ny zanakay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF247',
+             '',
+             247
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('247', 'Ry Tompo ô! tsinjovinao\nNy mila famonjena\nSatria manantena,\nNy tany namboaranao\nHo an’izay mpianatrao\nHo lovany tokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('247', 'Fa Hianao dia tsy mandà\nNy ory sy mpanota\nIzay nandatsahanao ny rà\nHanaisotra ny ota;\nKa tonga izahay izao\nMitady hodiovinao;\nMba raisonao ny fonay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('247', 'Mifona, Tompo, izahay\nIzay efa voaisa\nHo olonao, izay nandray\nNy soan’ny batisa;\nAmpaherezonao ny fo\nMba tsy hafoinay ny to\nAmbara-pahafaty!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF248',
+             '',
+             248
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('248', 'Nitondra ny zaza\nny reny tao Salema,\nMba hotahin’i Jeso Kristy\nbe indrafo;\nNolavin’ny mpianatra izy,\nNefa hoy Jesosy hoe : \n“Avelao ny zaza \nhanatona  izao”', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('248', 'Fa Ahy ny zaza\nka tiako indrindra,\nMpiandry zanakondry Aho\nka aza mandà;\nFa raha manantona Ahy izy,\nHotahiko tsara e :\n“Avelao ny zaza \nhanatona  izao”', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('248', 'Endrey mahagaga\nNy fiantran’i Kristy,\nFa indro zazakely aza\nasiany soa;\nAvia, manatòna ilay \nMpiandry zanakondry, ka\n“Avelao ny zaza \nhanatona  izao”', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('248', 'Ry Jesosy Tompo!\nampanatony Anao re\nNy zazakely tafavory\neto izao\nIzay mandrara mba rarao.\nHo tò anie ny teninao :\n“Avelao ny zaza \nhanatona  izao”', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF249',
+             '',
+             249
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('249', 'Tompon’ny lanitra ô!\nmba tahio\nIzy izay ta-hanatona  Anao,\nKa ta-handray ny batisa anio\nSady maniry mba ho Zanakao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('249', 'Ampifalio ny fony, izay ory,\nSady miaky ny ota natao\nAry ny ratsy maniry fongory,\nKa mba omeo ny aina vaovao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('249', 'Izay manaiky hitana ny soa\nSady mandà ny devoly izao;\nAoka hiseho ho mpino tokoa\nAmin’ny fomba sy asa \nvaovao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('249', 'Afon’ny lanitra ô! mba avia,\nKa ateraho ny fony izao\nAry tarihonao mba tsy hania\nFa te-ho sambatra ao Aminao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('249', 'Andriamanitra Ray be fitia,\nTaomy ny maro hanatona \nAnao\nNy Fiangonanao, ho be\nmpitia,\nHo marobe ny ankohonanao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF250',
+             '',
+             250
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('250', 'Atolotray hatao batisa\nNy zanakay Jesosy ô!\nIrinay izy mba ho isan’\nNy zaza arovanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('250', 'Izahay izao efa nifidy\nAnao handray ny zanakay;\nKa raiso izy fa voavidy\nNoho ny ranao soa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('250', 'Soraty izy mba handova\nNy lanitra fonenanao,\nKa ny Fanahinao hanova\nNy fony ho Anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('250', 'Tahio ny fahazazany\nHo fanorena-marina;\nAmpianaro azy izany,\nMivavaka Aminao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('250', 'Tantano izy mandra-pita,\nHo tonga ao an-danitra,\nKa aoka izy mba hahita\nAnao an-dalany.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('250', 'Ka amin’ny fotoana feno,\nHandaozany ity tany ity,\nOmeo toky, iteneno :\n« ‘Ndeha hody, anaka ».', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF251',
+             '',
+             251
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('251', 'Ry Jeso Zana-Janahary\nSy fototry ny aim-baovao!\nMba aniraho ny Fanahy\nIzao madinikao izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('251', 'Ny fahafatesanao nandresy\nNo aoka hitombonany,\nNy herinao tsy mety resy\nNo mba ho fiarovany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('251', 'Ka ny Anaranao hajaina\nDia mba omeo ny zanakay;\nKa io no hialany aina\nSy hitsanganany indray.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('251', 'Tantano izy tsy ho osa,\nRaha lavitra ny diany;\nFa raha fohy izany kosa,\nMba raiso ny fanahiny.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('251', 'Ka mba soraty ao am-pony\nRy Tompo, ny Anaranao,\nKa ny anaran’ny mpanompo\nSoraty ao an-tananao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF252',
+             '',
+             252
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('252', '« Mba avelao ny zaza\nHanatona Ahy re,\nFa an’ny toa azy\nNy fanjakan’ny Ray! »\nIzany teny tsara\nNo ifalianay,\nKa dia tsy rarana\nNy zazakelinay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('252', 'Ao amin’ny batisa\nTrotroiny izahay,\nKa tena voaisa\nHo zanany indray,\nAtsangany handova\nNy fahasambarana,\nFainan-tsy miova\nSy fiadanana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('252', 'Sakaizanay malaza\nRy Jeso, Hianao,\nFinaritra ny zaza\nMiankina Aminao.\nAmpio, ry Mpamonjy,\nNy ondrikelinao,\nHo tonga voavonjy\nAo anatrehanao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF253',
+             '',
+             253
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('253', 'Avia, ry Mpanavotra.\nTahio ny fandraisana\nSakafo namboarinao\nIzao hatoninay izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('253', 'Ireo zava-masina\nAroso mba hohanina\nHo famelana heloka,\nHo aina sy ho tanjaka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('253', 'Tsaroanay ny dianao,\nNy ra sy fijalianao,\nNy nisoloanao anay,\nNy nitsangananao indray.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('253', 'Ny teninao natolotra,\nNy ranao dia nalatsaka,\nSakafo iombonanay,\nHo tena sy fanahy iray.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF254',
+             '',
+             254
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('254', 'Avia, ry mangetaheta ô\nKa aza dia mba mamoy fo,\nFa indro misy rano velona\nIzay omena mba hamelona\nAnao mahantra sy variana\nRy zanakondry very làlana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('254', 'Ny mofon’aina no atolony\nAnao manaiky mba ho olony\nNy tenany no ho fihinana,\nMba hahazoana fiainana;\nKanefa tsy mba hovidina anie,\nFa tena fanomezan-dehibe.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('254', 'Jesosy Tompo no nanolotra\nNy rany masina ho avotra\nIzany raiso mba ho tanjaka\nSy toky ho anao, ry reraka\nRy mpivahiny sasatra ao\nam-po,\nAvia re, ka manaràna fo!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF255',
+             '',
+             255
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('255', 'Ny ran’ny Zanakondry latsaka\nNamelona  ahy tany Golgota,\nKa io no tena vatofantsika\nMaharitra ny tafio-drivotra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('255', 'Raha voaratra noho ny otako,\nKa lany foana ny heriko,\nNy rany masina nalatsaka\nNo nahitako fahasitranana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('255', 'Izao hira vao izao no mamiko,\nKa tonga tsy misaraka amiko\nNy ran’ny Zanakondry no\nmahay\nManavotra ahy mba ho an’ny\nRay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('255', 'Raha ketraka sy kivy re ny fo,\nVelomiko indray ny hirako\nNy amin’ny Jesosy sy ny rà\nKa afaka erý ny tahotra.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF256',
+             '',
+             256
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('256', 'Mivoaka ao Golgota\nIlay renirano soa\nIantsoana ny mpanota\nHo any avokoa;\nNy ratran’ny Mpamonjy\nNo loharanon’io,\nKa ony mahavonjy\nSy tena mahadio.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('256', 'Mamelona ny tany\nIty ony soa ity,\nIzay rehetra ombany\nMiadana erý,\nVahoaka an-tapitrisa\nIzay misotro ao,\nMahita Paradisa\nSy fiainana  vaovao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('256', 'Ny fo izay maratra\nKa entina mankeo\nNy ory sy mahantra\nIzay manatona eo,\nMahita fanafody,\nKa sitrana avokoa,\nNy ota sy ny rofy\nDia  afaka tokoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('256', 'Fanahy be ahina,\nAvia misotro ao,\nFa io no mampangina\nNy alahelonao;\nFanahy ô, hatony\nIty ony soa ity,\nFa io no mahatòny\nNy fanirianao atý.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('256', 'Hianao, ry Tompon’aina!\nIsaoranay tokoa,\nNanaiky horatraina\nHandefa ony soa,\nNy ranao tao Golgota\nNo iankinanay,\nFa mahadio ny ota,\nMamelona aina anay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF257',
+             '',
+             257
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('257', 'Ry Jesosy ô! indreto\nIzahay nasainao eto\nAmin’ny latabatrao,\nMba tolory mofon’aina,\nO! omeo ranon’aina,\nDia ny ra aman-tenanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('257', 'O! ry Loharanon’aiko,\nTonga aho, fa ilaiko\nHianao Mpamonjiko,\nRaiso ka diovy aho,\nAtafio izay mitalaho\nNy fahamarinanao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('257', 'Ry Mpiandry tsara indrindra,\nTaomy aho mba hifindra\nAo am-balan’ondrinao;\nMamonje ka mitahia\nIreto ondrinao nania,\nEnto any Aminao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('257', 'O! ry Fahazavan’ny saiko\nSady tanjaky ny aiko,\nTonga aho ka vonjeo;\nNoana ka mitaraina,\nMba vokiso mofon’aina,\nRano velona omeo!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('257', 'Indro, miankohoka aho,\nTompo ô! ka mitalaho\nEto anatrehanao;\nAza mba manary ahy,\nIzay misento sy manahy,\nMamelà ny heloko!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('257', 'Ry Mpisolo ny mpanota,\nIzay nandoa ny tambin’ota,\nLatsa-dra ny tenanao,\nRaisiko am-panajana,\nFa nataonao fanasana\nIreto zava-masinao.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF258',
+             '',
+             258
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('258', 'Manaraka ny hafatrao,\nTafangona izahay,\nMba hahatsiarovanay\nAnao, ry Tomponay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('258', 'Tsy azo hadinoina\nNy fahorianao,\nNy dinitrao izay toy ny ra\nTsaroanay izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('258', 'Ny hazofijalianao\nDia tazanay izao\nRy Zanakondry masina ô!\nTsaroanay Hianao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('258', 'Nijaly mafy Hianao,\nNisolo voina anay;\nRaha mbola velona izahay\nTsaroanay Hianao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('258', 'Raha tapitra ny andronay,\nKa tonga Hianao\nMba haka ny fanahinay,\nTsarovinao izahay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF259',
+             '',
+             259
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('259', 'Ny latabatrao, ry Jeso!\nDia atrehinay izao;\nNy fanahinay vokiso\nAmin’ny fitianao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('259', 'Tsy nitady zo sy laza\nHianao, ry Tomponay!\nFoinao ny ainao aza\nNanavotanao anay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('259', 'Jeso ô! ny ranao soa\nNo nataonao avotray,\nMba hanafaka avokoa\nIzay tsy mahadio anay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('259', 'Manomeza mofon’aina\nTompo ô! ho tanjakay;\nMihainoa  ny mitaraina,\nMamalia ny hatakay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('259', 'Ny fanahinay ry Tompo!\nRaiso, fa atolotray;\nFaly izahay hanompo\nSy hanao ny sitrakao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF260',
+             '',
+             260
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('260', 'Ry Kristy ô! malalako,\nSakafon’ny fanahiko,\nManaraka ny hafatrao,\nTsarovako ny teninao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('260', 'Mangorakoraka ny fo,\nFa voavono Hianao!\nKa saotra no atolotray\nAnao, ry Ilay nalatsa-dra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('260', 'Ny teninao izay raisiko\nFiainako vaovao tokoa;\nNy ranao izay sotroiko\nNo manadio ny foko koa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('260', 'Ry Kristy ô! ampitomboy\nNy fitiavako Anao.\nNy toe-piainako fenoy.\nNy tena hamasinanao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('260', 'Atolotro anio indray\nMba hoa Anao mandrakizay\nNy tenako, ny ananako,\nNy heriko, ny asako.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF261',
+             '',
+             261
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('261', 'Ankehitrio no isehoanao,\nRy Jeso Tompo, izay \nmalalanay!\nAnkehitrio no anandramanay\nNy hafaliamben’ny lanitrao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('261', 'Ampiomany ao am-po izahay\nHampahadio ny eritreritray,\nHahatakaranay ny avotrao\nIzay namboaranao tao\nKalvary.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('261', 'Eto no anoloranao anay\nNy mofon’aina, rano velona;\nEto no ialanay sasatra\nAmin’ny adinay  sy  rafinay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('261', 'Ry Jeso ô! miandry izahay\nNy fihavian’ny voninahitrao,\nHo toy ny andro vao miposaka\nHo toy ny rano mahavelona.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('261', '“Raiso ny Tenako” no teninao\n“Ary ny Rako ho fiainana”\nAm-pitiavana no andraisanay,\nNa dia tsy mendrika aza\nizahay.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('261', 'Mombà anay, ry Tompo tia ô!\nAza miala amin’ny fonay,\nAoka ny tavanao hazava re,\nAmin’ny làlana alehanay.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF262',
+             '',
+             262
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('262', 'Indreto izahay,\nRy Jeso ô!\nManaraka izao,\nNy hafatrao,\nNy fahorianao,\nTsaroanay izao,\nFa fatratra tokoa\nNy nentinao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('262', 'Ny mofo haninay,\nRy Jeso ô!\nMilaza aminay\nNy tenanao;\nNy fanavotanao\nMahafaka anay,\nFa saotra re izao\nAtolotray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('262', 'Misotro ny divay\nIzahay izao\nHahatsiarovanay\nNy antranao;\nNy ra nilatsaka\nNo manadio anay,\nManafaka tokoa\nNy olonao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('262', 'Tarihonao ny fo,\nRy Jeso ô!\nHo tia sy hankatò\nNy didinao;\nKa tsy ny sitrakay,\nFa ny Anao, Jeso,\nNo aoka ho maminay,\nRy Tompo ô!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF263',
+             '',
+             263
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('263', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('263', 'Mandrenesa ry sofina,\nMifalia, ry fo;\nNy feon’ny Filazantsara\nManatona anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('263', 'Ry olon’ota rehetra,\nRy ory sy noana,\nIzay mameno ny kibony\nAmin-java-poana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('263', 'Jehovah no mamboatra\nIzay mofon’aina,\nHo an’izay rehetra\nMety hihinana.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('263', 'Kraist’sy ny fitahiany\nIzany mofo izany,\nFa Izy no mamelona\nNy maty mosary.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('263', 'Avia, ry mosarena,\nKa manarana fo;\nNy mofon’aina tsy lany\nFa ampy ho anao.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF264',
+             '',
+             264
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('264', 'He mahagaga anay\nNy fitiavana\nNasehonao, ry Jeso ô!\nMba ho anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('264', 'Ny fijalianao\nIlay tao Golgota,\nIndrisy! lalina tokoa\nNy ngidiny.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('264', 'Na mafy aza izay\nTsy nandosiranao,\nNataonao tsinontsinona\nNy teninao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('264', 'Ny fitiavanao,\nFa tsy ny fantsika,\nNo anton’ny nihantonanao\nTao Golgota.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('264', 'Ny ra nalatsakao\nNo vidin’ny ainay,\nNo fijaliana nentinaonao\nNo avotray.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('264', 'Tsaroanay izao,\nDerainay avokoa\nIlay fitiavanao anay,\nRy Tompo soa!', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF265',
+             '',
+             265
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('265', 'Ny fitiavanao\nNo mahagaga anay,\nRy Zanak’Andriamanitra ô!\nRy Jeso Tomponay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('265', 'Hanavotra aina anay\nNo nijalianao,\nKa famonjena lehibe\nNo azonay izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('265', 'Ny mofo sy divay,\nIzay haninay izao,\nDia mampiseho aminay\nNy fitiavanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('265', 'Avia, Jeso ô!\nAvia ankehitrio,\nKa ny fanahinay sasao\nHo tsara sy madio.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('265', 'Mampaneke anay\nHanao ny sitrakao,\nKa aoka tsy ho tianay\nIzay tsy tianao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('265', 'Monena aminay,\nRy Tompo be fitia!\nKa aza ilaozanao izahay\nMandrakizay doria.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF266',
+             '',
+             266
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('266', 'Ry Jeso Tompo, Hianao\nIsaorako tokoa izao,\nNy ranao sy ny tenanao\nNo nihinanako izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('266', 'Ry foko faly, ambarao\nNy soa azonao izao;\nJesosy monina ao am-po\nEndrey ny hafaliako!', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF267',
+             '',
+             267
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('267', 'He, ny andon’ny maraina\nLatsaka ao an-tsaha re,\nKa mamelona ny maina,\nIzay maniry rano be!\nRavoravo e, ny tany,\nFa he, ny andro maina efa\nlany,\nKa mitsahatra ny fahantrany,\nManaroka ny hazo be.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('267', 'Ny fanahy karankaina\nMisy rano velona,\nFa Jesosy andon’aina\nManome fiainana :\nVelona ny jentilisa,\nNy tany hay dia tonga\nParadisa\nMarobe no efa voaisa\nHandray ny lova masina!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('267', 'Misy làlana mizotra,\nIzay mankao Ziona re;\nAny no mitanjozotra\nNy vahiny marobe;\nKa Ziona dia mivoha\nHidiran’ny navotan’ny \nTsitoha;\nAo no ivorian’ny mifoha,\nFa an’ny Tompo lehibe.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('267', 'He, mikambana ny mino\nAmim-pifaliam-be.\nKa ny hobiny maneno\nTahaka ny rano be!\nAo mitovy avokoa,\nTsy misy Tompo sy \nmpanompo koa,\nEny, razana iray tokoa\nNy mponina ao Ziona re!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF268',
+             '',
+             268
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('268', 'Jesosy no Mpiandry\nNy Fiangonanay;\nNy feon’izy ireny\nNo feo fantatray,\nKa tsy mba vala maro\nNy Fiangonanay;\nIray tsy hay zaraina,\nTapahin-Tompo iray.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('268', 'Iray no Vatolampy\nIzay iorenanay,\nIray no Fehizoro\nIzay ikambanany,\nIray no Mofon’aina\nFihinanay etý,\nIray no antenaina\nHo azonay arý.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('268', 'Tabain’ny hevi-diso,\nKanefa mbola iaraý;\nNy saina tsy mitovy\nTsy mahazara anay;\nFisoko maromaro,\nKanefa vala iray\nNy Tompo no mpiaro\nNy Fiangonanay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('268', 'Ny teny samy hafa,\nNy fomba tsy miray,\nTsy misy maharava\nNy fikambananay;\nNy fanenjehana aza\nVao mainka mampiray\nSy mahatsara laza\nNy Fiangonanay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('268', 'Ry Jeso! hatanjaho\nNy Fiangonanao,\nNy fony halalaho\nMba hitoeranao;\nIzay firaisan-tsaina\nMiseho hatretý,\nVelomy hanana aina\nHitohy hatrarý.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF269',
+             '',
+             269
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('269', 'He! tianay ny monina eto,\nFa maminay ny valanao,\nTsy tianay, fa mampisento,\nNy lavitra ny tranonao,\nHe! tianay ny monina eto,\nFa maminay ny valanao,\nTsy tianay, fa mampisento,\nNy lavitra ny tranonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('269', 'He! tianay, fa misy aina,\nRy Tomponay ny valanao!\nTsy tianay, fa tany maina\nNy lavitra ny tranonao,\nHe! tianay, ny monina eto,\nFa maminay ny valanao,\nTsy tianay, fa mampisento,\nNy lavitra ny tranonao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('269', 'Fehezinao, Mpiandry tia,\nMilamina ny valanao;\nTsy misy tsy mifankatia\nNy ondry izay tarihinao,\nHe! tianay, ny monina eto,\nFa maminay ny valanao,\nTsy tianay, fa mampisento,\nNy lavitra ny tranonao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('269', 'Ny fanimban’ny fahavalo\nDia lavitra ny valanao;\nMitazan-davitra mandalo\nNy rafinao tsy tia Anao,\nHe! tianay, ny monina eto,\nFa maminay ny valanao,\nTsy tianay, fa mampisento,\nNy lavitra ny tranonao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('269', 'Ny fototra izay mahatsara\nNy valanao, ry Tomponay!\nDia Hianao Mpiandry tsara\nNo miara-monina aminay.\nHe! tianay, ny monina eto,\nFa maminay ny valanao,\nTsy tianay, fa mampisento,\nNy lavitra ny tranonao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF270',
+             '',
+             270
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('270', 'Ry Tompo, Izay nanangona\nAnay ho vato velona!\nHazony tsy handao Anao\nNy vato voarafitrao;\nFa maro no mandronjina\nHandevona.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('270', 'Jesosy Fehizoro ô,\nMpifehy mora sady to!\nTohano mafy izahay\nMba tsy hirodana indray,\nFa indro ny mpisompatra\nMandrirotra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('270', 'Ry Vato fampiraisana!\nTariho mba hikambana\nNy vato voapaika re,\nHo tonga trano lehibe,\nTsy zakan’ny mpandevona\nHarodana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('270', 'Ry Kristiana marobe\nMba ampiraiso tsara re,\nHiray am-pitiavana,\nHo velona finoana,\nKa mba hiaraka hanao\nNy asanao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF271',
+             '',
+             271
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('271', 'Mba mivavaha raha vao\nmaraina,\nTsarovinao Ilay Mpanao\nanao.\nIzay niaro ny fanahy sy aina\nMba ho salama toy  izao;\nTsarovy re ny Tomponao \nIzay Mpiaro  anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('271', 'Rehefa tonga koa ny\nantoandro,\nO! miambena tsara hianao,\nFa manangoly saina isan’andro\nIlay devoly rafinao;\nTsarovy re ny Tomponao \nIzay Mpiaro  anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('271', 'Raha alina mangina ka\nhatory\nTsarovy eo ny ota izay natao\nKa dia ifony sy itsory\nFandrao maningotra anao;\nTsarovy re ny Tomponao \nIzay Mpiaro  anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('271', 'Na aiza na aiza Hianao\nmitoetra\nSatana fahavalo ao tokoa,\nKa aza kivy na mba \nmanjoretra\nFa mivavaha tsy ho voa;\nTsarovy re ny Tomponao \nIzay Mpiaro  anao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF272',
+             '',
+             272
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('272', 'Faly izahay nandre\nHavan-tia nanao hoe :\n“ Miaraha aminay,\nTrano soa halehanay ”.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('272', 'Efa tonga izahay\nMba hivavaka Aminao :\nRy Jehovah Tomponay,\nMitahia ny olonao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('272', 'Miandrandra Anao izahay,\nKa mangataka  Aminao\nHanomezanao anay\nSoa avy Aminao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('272', 'Dia sambatra izahay,\nFa mitoky Aminao;\nKa ho tanterahinay\nIzay rehetra sitrakao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('272', 'Hoderainay Hianao\nAndro aman-alina,\nMbamin’ny Anaranao,\nFoto-piadanana.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF273',
+             '',
+             273
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('273', 'He! vokatra ny tany,\nJehovah Tompo ô!\nFa be tsy mety lany\nNy hasoavanao :\nNy andro fararano\nNo ifalianay;\nVoataona ao an-trano\nNy vokatra azonay :\nSaotra tsara entinay\nHo Anao tokoa,\nNy olonao rehetra  izao\nMifaly avokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('273', 'Ny tany tsy misaona,\nFa sambatra tokoa,\nTsy tapaka isan-taona\nNy fanomezan-tsoa;\nEndrey, nahazo maina\nIzao rehetra izao;\nNy zava-manana aina\nMifaly Aminao :\nSaotra tsara entinay\nHo Anao tokoa,\nNy olonao rehetra  izao\nMifaly avokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('273', 'Tontosa izay nirina,\nNahazo izahay,\nFa misy taona zina\nNataonao ho anay;\nTsy diso isan-taona\nNy fitahianao.\nNy olonao mihaona\nMba hankalaza Anao\nSaotra tsara entinay\nHo Anao tokoa,\nNy olonao rehetra  izao\nMifaly avokoa.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF274',
+             '',
+             274
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('274', 'Tao an-tany karakaina\nNisy olo-maro be,\nTsy mba nampodina maina,\nTao Jesosy  nanome.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('274', 'Na dia mofo kely aza\nTonga nahavoky  ireo,\nFa nitombo mahagaga,\nSamy faly izy  ireo.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('274', 'Fa ny herinao, ry Jeso,\nIzay namonjy fahizay\nNo miasa lalandava\nHahavoky soa  anay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('274', 'Dia tahio ny fambolena\nHahavokatra tokoa;\nMiantrà ny firenena\nTsy ho diso zava-tsoa.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('274', 'Na dia voky fatratra aza,\nMora reraka  izahay;\nAo ambony ny mateza\nIankinan’ny ainay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF275',
+             '',
+             275
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('275', 'Raisonao ry Tompo soa,\nNy fanatitray izao;\nHamasino avokoa\nIzay atolotray Anao,\n:,: Raiso re, ho Anao,\nHo fanati-tsitrakao! :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('275', 'He, Anao, ry Tompo soa\nIzay rehetra anananay\nNy harena, vola koa,\nTaminao, Jehovah Ray,\n:,: Raiso re, ho Anao,\nHo fanati-tsitrakao! :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('275', 'Na dia kely aza, Tompo,\nKa tsy mendrika Anao,\nRaiso ho entina hanompo\nSy hanao ny sitrakao.\n:,: Raiso re, ho Anao,\nHo fanati-tsitrakao! :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('275', 'Indro, Tompo, raiso koa\nTena, fo, fanahinay,\nMba ho fiasana koa\nEo an-tananao izahay.\n:,: Raiso re, ho Anao,\nHo fanati-tsitrakao! :,:\nHo voninahitrao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF276',
+             '',
+             276
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('276', 'Ry Jehovah, Ray Mpahary\nSy Mpamelona anay,\nTsapanay fa tsy manary\nHianao Mpitondra anay;\nHe, mandrotsa-pitahiana\nSesehena Hianao,\nKa dia feno fifaliana\nIzahay mpanomponao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('276', 'Noteneninao ny tany,\nNotarihinao izahay,\nKa nitobaka  aoka  izany\nIzao ny vokatra azonay.\nFeno hika isan-taona\nNy fitiavanao anay,\nKa aoreno tsy ho foana,\nTompo ô! ny asanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('276', 'O! mba raiso re, ry Tompo,\nIzao fanatitray izao;\nEnga anie ka mba hitombo,\nHandrosoan’ny hanitrao.\nRaiso koa sy hamasino,\nNy fonay hiasanao;\nNy Fanahy ampidino\nHampahery, hanavao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF277',
+             '',
+             277
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('277', 'Indro, Tompo, vory eto\nAnatrehanao izahay,\nMba hanatitra ireto\nVokatry ny asanay,\n:,: Raiso re, raiso re!\nHo fanati-tsitrakao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('277', 'Hianao no mampaniry\nSy mampisy vokatra;\nIzahay dia mpitahiry,\nFa Anao ny zavatra.\n:,: Raiso re, raiso re!\nHo fanati-tsitrakao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('277', 'Ary na tsy mendrika aza,\nAoka tsy holavinao,\nFa ho enti-mankalaza\nNy Anaran-tsoanao.\n:,: Raiso re, raiso re!\nHo fanati-tsitrakao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('277', 'Raiso koa re, ry Tompo,\nHo Anao ny tenanay,\nAmboary ho mpanompo\nMahafatra-po izahay.\n:,: Raiso re, raiso re!\nHo fanati-tsitrakao :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF278',
+             '',
+             278
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('278', 'Mba ampio, ry Tompo soa\nIzahay navotanao,\nFa mikasa mba hanoa\nSy hanaraka Anao;\nHitanao fa kely hery\nIzahay mpanomponao,\nTsy mahefa raha irery,\nKoa mba tarihonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('278', 'Izahay manolo-tena\nMba hiasa ho Anao,\nKa maniry, manantena\nFa hanampy Hianao;\nHitanao fa kely hery,\nIzahay mpanomponao,\nTsy mahefa raha irery,\nKoa mba tarihonao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('278', 'Tianay hiara-dia\nAminao, ry Tomponay,\nKa tantano tsy hania\nAmin’ny alehanay.\nHitanao fa kely hery,\nIzahay mpanomponao,\nTsy mahefa raha irery,\nKoa mba tarihonao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF279',
+             '',
+             279
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('279', 'Raisonao, ry Tompo soa\nIzato asan-tananay,\nFa nomenao avokoa\nIzay rehetra anananay\nSimba izahay rehetra,\nSady very hatrizay,\nNefa soa tsy misy fetra\nNo novalinao anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('279', 'Hianao nanetry tena,\nTsy nitandro henatra,\nBe fiantra ka onena\nNy tra-pahoriana,\nMba tsarovanay izany,\nKoa dia tahafinay,\nNefa fiasana  ihany\nAo an-tananao  izahay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('279', 'Arosoy sy ampitaro\nAminay ny teninao;\nHazavao ny olo-maro\nIzay tsy mahalala Anao!\nNy misaona mba vangio,\nNy kamboty iantrao,\nIzahay izay tonga anio\nMba ataovy irakao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('279', 'Eny, ry Mpamonjy tsara,\nAmboary izahay\nMba ho tonga mpanambara\nNy fitianao anay;\nAry dia mba tahio\nIzato fikambananay,\nHafanao, ampirisiho,\nHamasino izahay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF280',
+             '',
+             280
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('280', 'Ry Tompom-boninahitra,\nJereonao izao\nIreto izay milahatra\nHo tena irakao;\nNy fanasana fatratra\nOmaninao izao,\nIlà-mpitondra hafatra\nHamory izay hankao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('280', 'Hitety sampan-dàlana\nSy vohitra  izahay\nHanetra fisakanana\nSy ady mahamay;\nKa aoka hotafiana\nNy fiadianao,\nFa tena fanafihana\nIzay hatao izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('280', 'O, ry Fanahy Masina,\nMonena aminay!\nKa aoka ho fanasina\nTokoa izahay,\nFihino tsy hihemotra,\nAtaovy irakao\nManefa zava-tsarotra\nHo voninahitrao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('280', 'Ry Tompom-boninahitra,\nNy voninahitrao\nNo aoka mba hitaratra\nAn-tavanay izao,\nKa raha ao an-danitra\nFonena-masinao,\nDia  mainka vao hamiratra\nHo voninahitrao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF281',
+             '',
+             281
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('281', 'Vory eto izahay\nHihevitra ny asanao,\nTompo, manatreha  anay\nKa asehoy ny sitrakao.\nAoka Hianao no mba hitarika\nanay \nTompo, tahio izahay\nMba ho voninahitrao ny\nasa vitanay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('281', 'Hahavita inona\nNy saina aman-kevitray ?\nTena tsinontsinona,\nRy Tompo ô! ny herinay,\nKa mba midina eto afovoanay\nHanana aina masina ny \nfivorianay!\nTompo, tahio izahay izahay\nMba ho voninahitrao ny\nasa vitanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('281', 'Hianao no nanome\nNy asa hoheverinay,\nTena adidy lehibe\nNo voatolotra anay,\nEnga anie ny sitrakao irery\nno hatao!\nAoka tsy ho vanona izay\ntsy sitrakao!\nTompo, tahio izahay izahay\nMba ho voninahitrao ny\nasa vitanay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('281', 'Areheto aminay\nNy afom-pitiavanao,\nMba hahaizanay miray\nMitory ny Anaranao,\nHahavory marobe hanatona\nAnao,\nHampamirapiratra ny \nvoninahitrao!\nTompo, tahio izahay izahay\nMba ho voninahitrao ny\nasa vitanay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF282',
+             '',
+             282
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', '(Manaraka ny famakian-teny voalohany)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', 'Ry Jeso, Tompo velona,\nMpiandry sy Mpamelona\nNy Fiangona-masinao,\nAtreho izahay izao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', 'Indreo (Inty*) mpanomponao\nvaovao\nAtokanay, ka raisonao\nHanao ny raharahanao,\nHamahana ny ondrinao.\n\n(Manaraka ny faharoa)', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', 'Ny tany no nakana anay,\nMihelina ny andronay,\nKa vetivety izahay\nDia hody vovoka indray.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', 'Ry Jeso ô, Mpitia anay,\nIzay Mpanjaka hatrizay,\nEndrey ny voninahitrao,\nManerana ny lapanao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', 'Ny deranao hasandratra\nHitohy tsy hitsahatra;\nHazava toy ny kintana\nNy tsara fanompoana.\n\n(Manaraka ny fahatelo)', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', 'Mba raison y mpanomponao,\nKa aoka hamboarinao\nHo mpanambara mankatò\nNy hafatrao, ry Tompo ô!', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', 'Omeo Afo Masina\nSy vava mampionona;\nNy sainao sy ny feonao\nOmeo ny mpanomponao.\n\n(Manaraka ny fahefatra)', '8', '8');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', 'Raha misy tafio-drivotra,\nTohano tsy hatahotra,\nHahery sy hisakana\nNy rafim-piangonana.', '9', '9');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', 'Ka mba ampirisihonao\nHanaraka ny dianao :\nTantano raha mbola atý,\nHandresy ka ho tonga arý.\n\n(Manaraka ny ordinasiona)', '10', '10');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', 'Ka mba ampirisihonao\nFa kely ny finoany;\nNy ranao masina anie\nHanafaka ny helony!', '11', '11');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', 'Ampio mba haharitra,\nRaha mbola atý an-efitra;\nRaha avy ny hodianay,\nMba hazavao ny làlanay!', '12', '12');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('282', 'Raha tonga ny harivany,\nKa ao ny ady farany,\nDia raiso ny mpanomponao\nHiala sasatra Aminao!\n\n*) Inty, raha olona iray no\natokana', '13', '13');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF283',
+             '',
+             283
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('283', 'Manan-jara, ry Jesosy,\nNy mpanomponao,\nIzay natokanao hitondra\nNy Anaranao :\nNofidinao ho mpitory\nNy fitiavanao,\nNitokianao ho mpamory\nNy vahoakanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('283', 'Izao no zara fanompoako\nVoatendrinao,\nKa ny mafy tsy ahoako\nHahefako izao;\nTsy handosi-pahoriana\nNy mpiasanao,\nFa ny hazo fijaliana\nLova taminao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('283', 'Na ho voky na ho noana\nNy mpanomponao,\nTsy handao ny fanompoana\nNametrahanao;\nSitrakao ny fihafiana,\nKa mba tiako koa;\nZakanao ny tsy fisiana,\nKa zakaiko  koa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('283', 'Tsy ahiko ny handany,\nHolanina koa,\nFa famoizan-tsoa no hany\nAhefany soa;\nNa ny saiko, na ny aiko,\nAndro, vola koa,\nTsy mba misy holalaiko,\nFoiko avokoa.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('283', 'Nefa raha  izaho irery\nTsy mahefa  izao,\nKa mangataka ny hery\nEo an-tananao,\nAoka ho feno ny Fanahy\nNy mpanomponao,\nMba ho tena lehilahy*\nVoahosotrao..\n\n*) na : « vehivavy »', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF284',
+             '',
+             284
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('284', 'Mangataka aminao ny olonao\nry Tompo!\nMba hitahianao ny havan-\ntianay\nIzay atokanay hitondra sy\nhanompo\nNy Fiangonanao, henoy ny\nvavakay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('284', 'Tafio ny hery fa tsy mahefa\nirery,\nFenoy ny hevitrao ho toy ny\nzanakao.\nMpitady ny mania, mpikaroka\nny very.\nHitondra ireo ho tia ny\nvalan’ondrinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('284', 'Ny sainy hazavao hahazo\nfahendrena\nHahay hitondra izao vahoaka\nbe izao.\nAmpianaro koa mba tsy\nhatoky tena,\nTolory saina soa hiankina\naminao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('284', 'Raha ory, aza afoy, tohàno sy\nonòny;\nMarary, mba tsaboy;\nmahantra, mba jereo;\nApetraka aminao ny ainy sy\nny fony;\nKa mba tsinjovinao, arovy sy\nvonjeo.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF285',
+             '',
+             285
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('285', 'Mivory maro eto\nIzahay navotanao,\nNy saotranay no ento\nHo voninahitrao;\nMifaly sy mihoby\nMandray ny irakao,\nKa eto no mitoby\nMangataka aminao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('285', 'Ry Kristy tena Andry\nSy Vatolampinay!\nRy Lohan’ny mpiandry\nSy Tompo tokinay!\nTohano mba hijoro\nIty mpanomponao,\nTinendry ho mpanoro,\nMpilaza hafatrao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('285', 'Handray ny asa mafy,\nKoa aza ilaozanao;\nHitory, ho mpamafy,\nKa dia mba hazavao.\nVokiso lalandava\nNy saina tianao;\nOmeo ny andro lava\nHanao ny asanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('285', 'Tahio mba ho salama\nHahefa ny anao,\nHo iraka mafana\nAmpian’ny herinao;\nMandrava manda mafy\nMba hampanjaka  Anao,\nKoa  aoko mba hihafy,\nFa  izay no sitrakao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('285', 'Ny fitaizam-panahy\nAdidy lehibe,\nAmpio mba tsy hanahy\nNy asa maro be,\nKa dia tahio ny asa\nHataony ho Anao;\nNy fony no mikasa\nHanoa izay didinao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF286',
+             '',
+             286
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('286', 'Ry Jeso Mpitarika hendry!\nTsinjovy ny olom-boatendry\nTolory ’zay hevitra hendry\nHandinika sy hahakendry.\nRy Tompo Mpanjaka mahery;\nVangio raha ory sy tery\nTohano raha mahatsiaro fery\nVimbino ‘ndrao saraka irery.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('286', 'Raha miasa dia miasa ny\nsaina\nKanefa ny tany no maina,\nKa mila ho kivy ny aina.\nTondrahy fandrao karankaina.\nNy mpiasa izay voafidy\nHamoha ny fo izay mihidy\nHitari-panahy saro-bidy,\nTantano hanaraka didy.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF287',
+             '',
+             287
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('287', 'O! miaingà izao, ry\nmiaramila soa,\nAntsoin’ny Tomponao hiady\nhianao.\nNy fahavalo ao, kanefa\nmandrosoa,\n:,: Mahery re no momba\nanao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('287', 'Izao tontolo izao izay feno\nfahotana\nNo iantsoana anao mba\nhotafihinao\nIndreo mihoraka ao ny\nfehin’ny Satana\n:,: Jeso anefa momba anao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('287', 'Ny aizim-be izay mandrakotra\nny tany\nNo iantsoana anao ka andeha\nmba savao;\nN Tompo no tafio, alao ny\nhazavany,\n:,: Tsilovy izao tontolo izao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('287', 'Ny fahoriam-be izay\nmanarona eto\nNo iantsoana anao, ka moa\nve handà ?\nAmpiononinao ny ory sy\nmisento\n:,: O! mazotoa ka miaingà :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('287', 'Na inona hanjo mbola ao ny\nfamonjena\nHahery hianao! izay no\nantenao;\nAmpoizinao tokoa izao ny\nfandresana,\n:,: Mahery Ilay arahinao :,:', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('287', 'O! mahereza izao, ry\nmiaramila soa!\nNy hatrotrahanao iareto sy\nzakao.\nJesosy no jereo, ka matokia\ntokoa.\n:,: Fa Izy re no herinao :,:', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF288',
+             '',
+             288
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('288', 'Sambatra izay voafidy\nHo mpiasanao\nKa hanohy ireo adidy\nIzay natombokao.\nHo mpitaiza ny fanahy\nToy ny vitanao\nHo mpiady tena sahy\nTarikao Jeso.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('288', 'Dia mpiasa tsy an-tery\nKa mafana fo\nTe-hanangona ondry very\nMarobe tokoa.\nTe-hitaona ny tanora\nSy ny zaza koa\nTsy hifidy asa mora,\nFa ho mpankatò.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('288', 'Hianao, ry Jeso Tompo,\nNo nampianatra\nNy olonao mba hanompo\nTsy mitsahatra.\nTsy handala ny talenta\nIzay natolotrao :\nFa ny aina re no fetra\nEntina manao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('288', 'Nefa tsy matoky tena\nFa malemy moa,\nKa dia mila fahendrena\nMila hery koa;\nHo mpiasa mahavita\nIzay anjara etý,\nMandra-pody ao am-pita\nAminao arý.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF289',
+             '',
+             289
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('289', 'Hitsangana izao\nIzahay, ry Tompo ô!\nMba hanompoanay Anao,\nAmpionao izahay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('289', 'Ny fahotana be\nIzay vitanay tatý,\nDia ibebahanay izao,\nKa mamelà anay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('289', 'Ny tsy finoanay\nNo nijanonanay\nTsy nanatonanay Anao\nIzay ela be izay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('289', 'Sasao madio izahay,\nAsio fo vaovao\nHo ao anatinay izao,\nRy Jeso Avotray!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('289', 'Inoanay tokoa\nFa maty Hianao,\nHisolo olo-meloka\nNo nijalianao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('289', 'Mba manampia anay\nHiankina aminao,\nFa tokinay ny avotrao\nNatao tao Kalvary.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF290',
+             '',
+             290
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('290', 'Indreto fa mivory izao\nZatovo vonon-kanavao\nIlay fanekena tsara;\nMba raisonao, Rainay ô!\nNy fitarainanay izao.\nOmeo toky tsara,\nHenoy, fenoy\nAim-panahy, mba ho sahy\nLalandava\nHo mpanaiky ny mazava.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('290', 'Mandà ny ratsy izy izao,\nManaiky fa ho zanakao\nHandia ny lalan’aina;\nRy Ray ô! mba tsarovinao\nIreto voasoratrao\nAo amim-bokin’aina;\nTezao izao\nTsy ho resy, fa handresy,\nKa omeo\nAzy hery mahaleo.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('290', 'Natsanganao ho zanakao\nSy ondry mba handrasanao,\nKa tena sarobidy;\nArovy re ny ondrinao,\nTantano ny malalanao.\nRy Tompo Izay nifidy \nAnay handray\nLova soa tsy miova,\nKa hazony\nTsy handao Anao intsony!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF291',
+             '',
+             291
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('291', 'Efa tonga zana-dRay Tsitoha\nhianao,\nRy tanora, tamin’ny batisa\nmasina;\nIzany no tenin’ny Tompo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('291', 'Koa aza manadino ny\nbatisanao,\nZava-tsoa sarobidy efa\nazonao\nTamin’ny ranon’ny aina.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('291', 'Famelana heloka sy\nfahasoavana,\nFanavaozana ny fo sy\nfiadanana,\nSamy nomen’ny Mpamonjy.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('291', 'Dia arahonao Jesosy, fa\nMpamonjinao;\nAoka hahafaly Azy ny\nfiainanao,\nTovy izay sitrapony!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('291', 'Mivavaha, miambena ao\nan-dalana!\nMisy fahavalo fetsy\nta-hamitaka\nNy ondrikelin’ny Tompo.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('291', 'Mahatoky ny Mpamonjy,\naza kivy fo,\nIzy hampionona raha avy ny\nmanjo;\nAzy ny hery rehetra.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('291', 'Ary raha tapitra ny andronao\natý,\nEndrey ny fifalianao rehefa\n‘mby arý\nAmin’ny Tompo Jesosy!', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF292',
+             '',
+             292
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('292', 'Izahay natao batisa,\nVoarain’ny Tomponay,\nAry efa voaisa\nMba ho Zanaky ny Ray;\nVoavelany tokoa\nNy fahadisoanay;\nNefa mbola mora voa,\nMora resy izahay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('292', 'Na ny asa, na ny teny,\nNa ny hevitra ao am-po,\nMbola tsy madio ireny,\nKa diovy Tompo ô!\nMora aminay ny ratsy,\nSarotra aminay ny to;\nMba ampio tsy ho resy\nIzahay, ry Tompo ô!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('292', 'Raha mbola atý an-tany\nIzahay izay zanakao,\nMba ampio tsy ho lany\nNy finoanay Anao.\nRy Jesosy Tompo soa,\nTano mafy izahay,\nMba ho azonay tokoa\nIzay anjara lovanay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF293',
+             '',
+             293
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('293', 'Izaho nentina nanatrika\nNy Tompo sy ny fiangonana,\nNy ray sy reny no niantoka\nHitaiza sy hitari-dàlana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('293', 'Ka faly aho fa noraisina\nNatao batisa mbola zaza re,\nNanaovam-panekena masina\nHo zanaky ny Tompo lehibe.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF294',
+             '',
+             294
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('294', 'Ampio aho, Zanahary ô!\nHanaraka ny « eny » masina,\nIzay nataoko taminao, ry To,\nKa tsy mba hisy fivadihana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('294', 'Ry Tompoko, Izay\nnanomboka\nNy asa tsara ao anatiko,\nArovy aho ho tanteraka,\nMba tsy ho faty ny finoako.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF295',
+             '',
+             295
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('295', 'Miorena mafy tsara\nAmin’Ilay Vatosoa,\nMandrosoa, mifahara,\nMifikira mafy koa,\nHe! ny Tompo manambara\nFa ho sambatra tokoa,\nKa ho tsara miafara\nNy mpanompo mahasoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('295', 'Raha misy fahoriana\nIzay midona aminao,\nRaiso re ho fitahiana\nIzay omen’ny Tomponao;\nFa ny lalam-pijaliana\nIzay alehanao izao\nDia mamelom-paniriana\nHitomboan’ny herinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('295', 'Miadia ny ady tsara,\nHo mpandresy hianao;\nTontosay izay anjara\nEo am-pelatananao;\nJeso Tompo no mijery\nSy mahita ny atao,\nKoa dia tsy mba hisy very\nIzay rehetra vitanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('295', 'Ry Jesosy! hatanjaho\nIty mpanolo-tenanao,\nMiangavy, mitalaho,\nKa iteneno, Tompo ô!\nAoka re ho tena taho\nIzay mikambana aminao.\nKa ny foko halalaho,\nDiovy ho Tempolinao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF296',
+             '',
+             296
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('296', 'Ankehitriny\nJereo ry Ray!\nNy mpivahiny\nMiampy   indray;\nKa manomeza hery\nNy fiangonanao,\nMba tsy hiasa irery\nNy olonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('296', 'Avia hitahy\nNy olonao;\nKa ny Fanahy\nOmeonao;\nHo hery izay handrava\nNy toetra ratsinay,\nHo jiro hanazava\nNy lalana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('296', 'Ry Tompo tia!\nTarihonao\nHifankatia\nNy olonao,\nMba tsy ho rava  intsony\nNy fikambananay,\nHamantana ao ambony\nNy dianay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF297',
+             '',
+             297
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('297', 'Ry havanay malala!\nManolo-tena izao,\nFotoana mahafaly\nIraisantsika anio;\nFaly izahay mandray anao,\nHiara-manompo ny Ray,\nJeso anie handray anao!\nMba ho sakaizany tokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('297', 'Hajao ny fanekena,\nAdidinao efao\nAtaovy tsy terena\nIzay andraikitrao.\nJereo Jeso, ka matokia,\nFa Izy no hiahy anao,\nKa mandrosoa sy mifalia\nHanefa izay anjaranao.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF298',
+             '',
+             298
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('298', 'Aina no fetra, ry Tompo\nMpanjaka!\nAina no fetra anarahana Anao\nKa ny faneva tsy maintsy ho\nzaka,\nNy fanompoana tsy maintsy\nhatao.\nIndreto izahay hilanja faneva :\nIlay hazo izay nanavotana\nanay.\nAn-tsitrapo no anoloranay\ntena,\nKa tano  mba ho Anao  izahay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('298', 'Aina no fetra ho enty-manoa\nIlay Zanakondry nisolo anay;\nFandavan-tena sy fanaovan-\ntsoa\nNo fianarana atolotra anay,\nIndreto izahay hilanja faneva :\nIlay hazo izay nanavotana\nanay.\nAn-tsitrapo no anoloranay\ntena,\nKa tano  mba ho Anao  izahay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('298', 'Aina no fetra, ry Tompo\nmalala!\nAino no fetran’ny fitiavanay;\nKa sanatria izay handao na\nhiala;\nMandrakizay, ho Anao izahay.\nIndreto izahay hilanja faneva :\nIlay hazo izay nanavotana\nanay.\nAn-tsitrapo no anoloranay\ntena,\nKa tano  mba ho Anao  izahay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('298', 'Aina no fetra, ny hofo anefa\nMora mirona ho lavo indray,\nKa manampia, ry Mpandresy\nmahefa!\nO! mba tantano, hazòny\nizahay.\nIndreto izahay hilanja faneva :\nIlay hazo izay nanavotana\nanay.\nAn-tsitrapo no anoloranay\ntena,\nKa tano  mba ho Anao  izahay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('298', 'Aina no fetra, ka ampio,\nry Fanahy!\nAina no fetra, vonjeo e,\nry Ray!\nAina no fetra, izahay re no\nsahy;\nAina no fetra, handresy\nizahay.\nIndreto izahay hilanja faneva :\nIlay hazo izay nanavotana\nanay.\nAn-tsitrapo no anoloranay\ntena,\nKa tano  mba ho Anao  izahay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF299',
+             '',
+             299
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('299', 'Tompo mahery Tsitoha,\nFaly izahay mahatsiaro,\nFa Hianao Izay Loha\nEfa niantso olo-maro.\n:,: Mba hitohizan’ny asa,\nAsa natomboka teto :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('299', 'Raiso ny saotra aman-dera\nNoho ny zavatra vita,\nFa Hianao nampahery\nNy mpiasanao izay tafita.\n:,: Raiso fa Anao samy irery\nNy fahefana sy hery :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('299', 'Dia hamasino ny asa\nSy ny fiezahana mafy,\nEfa nataon’ilay mpiasa\nTamin’ny fo sy ny hafy.\n:,: Ho voninahitrao, ry Tompo\nIzay niantso  azy  hanompo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('299', 'Ary izahay izay mandova\nSy ta-hanohy ny asa,\nAoka ny toetra ho lova\nHoraisinay, enti-miasa.\n:,: Ho voninahitrao, ry Tompo\nIzay efa niantso  mpanompo.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF300',
+             '',
+             300
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('300', 'Ny tany izay vangianao,\nRy Jeso Masoandronay,\nTsy maintsy lasanao, Jeso,\nMba hanjakanao avokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('300', 'Ny fo sy tany lasanao\nHo feno hasambarana,\nNy loza hosakananao,\nNy soa hampidinina.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('300', 'Ny vavakay sy dera koa\nTsy manam-pitsaharana,\nHiakatra Aminao tokoa\nHitady fiadanana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('300', 'Ireo olona voaforona,\nDia àry ho Anao tokoa :\nHohasoavinao ireo\nHanjary masina avokoa.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('300', 'Ny maty hovelominao,\nNy ratsy hohavaozinao,\nNy very hotadiavinao,\nNy diso, re, horaisina.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('300', 'Ry vazantany efatra!\nRy Nosy tanindrazanay!\nMba raiso Ilay Mpanavotra\nHo Tomponao mandrakizay!', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF301',
+             '',
+             301
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('301', 'He, sahanao, Mpamonjy ô,\nIzao rehetra izao.\nKa be izao ny vokatrao,\nFa vitsy ny Mpanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('301', 'Indreto, tonga izahay\nHivavaka Aminao,\nHanolotra ny tenanay *\nHiasa ho Anao.\n\n* na Haniraka ny namanay', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('301', 'Ny firenena marobe\nSy nosy mba tahio,\nIndrindra fa ny Nosinay,\nRy Tompo ô tahio.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('301', 'Vimbinonao ny irakay,\nNy feony hamamio,\nIndrindra fa omeonao\nNy zotom-po madio.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('301', 'Tahio re ny olonao\nHihaino sy hanoa,\nMba hahitany Aminao\nNy antra mahasoa.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF302',
+             '',
+             302
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('302', 'Miandry ao ny Tomponao,\nSamia manendry tena,\nFa be ny asa izay hatao;\nAtreho ny firenena!\nTopazy maso kely\nNy ondry izay mania\nIlay zandry lasa niala\nAtaovy hoe : modia.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('302', 'Miandry ao ny namanao,\nMoa ve tsy hovonjena ?\nHatòny re dia ilazao :\nKristy no famonjena.\nTopazy maso kely\nNy ondry izay mania\nIlay zandry lasa niala\nAtaovy hoe : modia.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('302', 'Hevero e! ny Nosinao\nIty Madagasikara!\nMba efa aiza izy izao\nAra-Pilazantsara ?\nTopazy maso kely\nNy ondry izay mania\nIlay zandry lasa niala\nAtaovy hoe : modia.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF303',
+             '',
+             303
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('303', 'O! mandrosoa,\nry mpanaraton’i Jeso,\nIzay no baiko azontsika,\nka mandrosoa;\nJesosy Tompo no mibaiko,\nmandrosoa :\nRaiso ka  arotsahy\nny haratonao.\nMiaingà, namako ô!\nJeso no mibaiko\nMandrosoa, mandrosoa,\nmandrosoa tokoa;\nAza kivy koa,\nna dia  tsy mahazo :\nMandrosoa amin’ny lalina\nkokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('303', 'O! mandrosoa,\nry mpanaraton’i Jeso,\nSaina mora kivy\naoka ho lavinao;\nNy mora kivy\ndia hanenina tokoa;\nRaiso ka  arotsahy\nny haratonao.\nMiaingà, namako ô!\nJeso no mibaiko\nMandrosoa, mandrosoa,\nmandrosoa tokoa;\nAza kivy koa,\nna dia  tsy mahazo :\nMandrosoa amin’ny lalina\nkokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('303', 'O! mandrosoa,\nry mpanaraton’i Jeso,\nMbola ao ny hazandrano\nho azonao;\nTsy azonao anio,\nampitso mandrosoa,\nRaiso ka  arotsahy\nny haratonao.\nMiaingà, namako ô!\nJeso no mibaiko\nMandrosoa, mandrosoa,\nmandrosoa tokoa;\nAza kivy koa,\nna dia  tsy mahazo :\nMandrosoa amin’ny lalina\nkokoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('303', 'Mba mitoera,\nJeso ao an-tsambonay\nMba ho renay lalandava\nny teninao;\nNy baikonao, ry Tompo,\nhankatoavinay\nKa harotsakay izao\nny haratonay.\nMiaingà, namako ô!\nJeso no mibaiko\nMandrosoa, mandrosoa,\nmandrosoa tokoa;\nAza kivy koa,\nna dia  tsy mahazo :\nMandrosoa amin’ny lalina\nkokoa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF304',
+             '',
+             304
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('304', 'He! ali-maizim-pito e!\nSao very ao ny marobe,\nSatana no manjaka ao,\nMivadi-po ny olona ao :\nAvia, ry Masoandronay,\nMba hazavao ny taninay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('304', 'Fa ny mazava ho anay\nAo Aminao, Jehovah Ray!\nMamirapiratra tokoa\nIlay Fitarikandro soa.\nAvia, ry Masoandronay,\nMba hazavao ny taninay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('304', 'Ry Jeso Masoandronay!\nMiandry eto izahay;\nMba misehoa Hianao\nFanilon’ny fanahy ô!\nAvia, ry Masoandronay,\nMba hazavao ny taninay!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('304', 'Dia hazavao ny taninay,\nAndrao very eto izahay;\nSavao ny aizim-be izao\nHizorany mankaminao\nAvia, ry Masoandronay,\nMba hazavao ny taninay!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF305',
+             '',
+             305
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('305', 'O! miasà, sakaiza,\nJeso no herinao;\nNa misy mafy aza,\nIzy tsy handao.\nDia matokia tokoa,\nFa Jeso momba  anao,\nKa hisy vokan-tsoa\nHifalianao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('305', 'Maro ny andro lasa\nIzay tsy nanaovanao,\nKa mbola be ny asa\nIzay tsy vitanao,\nKoa dia mitsangàna,\nHanao tokoa izao,\nHahavitanao tsara\nNy anjaranao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('305', 'Indro fa mihariva,\nFohy ny andronao;\nMoa tsy mba fantatrao va\nKa tsy hitanao ?\nEny, fa manakaiky\nJeso Mpitsara re,\nAry efa ‘mby akaiky\nNy hodianao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('305', 'Rehefa tonga Jeso,\nTompon’ny asanao,\nAry hamaly soa\nNy mpiasany.\nMandrakizay doria\nNo hifalianao,\nRaha mpanompo tsara\nMahatoky e!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF306',
+             '',
+             306
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('306', 'Mamafaza voa,\nka  aza mba malaina\nFa tsy fantatrao re\nizay ho vanona\nNa  amin’ny hariva,\nna  amin’ny maraina\nMamafaza voa,\ntsy mijanona.\nMatokia re,\nmatokia re,\nHisy amboara,\nho anao anie!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('306', 'Mamafaza voa\namin’ny mahantra,\nKa  aza mba mifidy\nizay hasian-tsoa;\nFa ny fo mazoto\nsady feno antra\nDia  homen’ny Tompo\nvalisoa tokoa,\nMatokia re,\nmatokia re,\nHisy amboara,\nho anao anie!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('306', 'Mamafaza voa \namin’ny malemy,\nAry mba ampio izay\nreraka ao am-po;\nAsehoy Jesosy\nloharanon-kery,\nAo no anovozy\nizay ilain’ny fo.\nMatokia re,\nmatokia re,\nHisy amboara,\nho anao anie!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('306', 'Miasà sakaiza! \nmilofosa tsara\nDieny misy asa\nazonao atao;\nMatahora sao\ntsy vita ilay anjara\nIzay napetraky\nny Tompo aminao\nMatokia re,\nmatokia re,\nHisy amboara,\nho anao anie!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF307',
+             '',
+             307
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('307', 'Iza no hanompo an’i Jeso\nsoa ?\nIza no hanaiky mba ha Azy\nmoa ?\nHe, ny hatsarany! he, ny\nantra be!\nFa Izy ta-hamonjy, ka meteza\nre!\nJeso Tomponay ô!\nIndreto izahay\nAvy mba hanaiky,\nKa mandraisa anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('307', 'Iza re no mety, iza re, lazao,\nHanome ny fony mba ho Azy\nizao ?\nHe, miantso mafy Jeso\nTompo tia,\nIzay rehetra mety, ô! avia,\navia!\nJeso Tomponay ô!\nIndreto izahay\nAvy mba hanaiky,\nKa mandraisa anay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('307', 'Iza no mba sahy, sahy ao\nam-po\nHo miaramila fehin’i Jeso ?\nIza no hiady ady tsara re,\nFa ny fahavalo dia marobe ?\nJeso Tomponay ô!\nIndreto izahay\nAvy mba hanaiky,\nKa mandraisa anay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('307', 'Iza re no homba Azy\nankehitrio\nMba hamonjy  ireny azon’ny\nmanjo ?\nIza no hihafy sady hanome\nAndro, hery, saina ?\nMamalia e!\nJeso Tomponay ô!\nIndreto izahay\nAvy mba hanaiky,\nKa mandraisa anay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('307', 'Iza no hazoto mba hiasa\nmoa ?\nIza no handroso mba ho\nhendry koa ?\nIza no hanaiky, iza re ?\nlazao!\nMba ho an’i Jeso, izao anio\nizao ?\nJeso Tomponay ô!\nIndreto izahay\nAvy mba hanaiky,\nKa mandraisa anay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF308',
+             '',
+             308
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('308', 'O! miaingà, miasà izao,\nIrak’i Jesosy hianao;\nNy masoandro miposaka ao\nMba hanazava ny dianao,\n:,: Ka dia mazotoa ô :,:\nO! miaingà, miasà,\nmitoria,\nAza ho kivy, fa mba\nmihafia;\nDia mba lazao ny nataony\ntatý,\nMba hanazava ny maizina\natý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('308', 'O! miaingà, miasà izao,\nKa afafazo ny voanao\nHo ao an-tany mahantra ao;\nJeso Mpamonjy no aronao\n:,: Hitahy ny asanao :,:\nO! miaingà, miasà,\nmitoria,\nAza ho kivy, fa mba\nmihafia;\nDia mba lazao ny nataony\ntatý,\nMba hanazava ny maizina\natý.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('308', 'O! miaingà, miasà izao,\nAoka hiezaka fatratra;\nJeso hanambina anao atý\nMandra-pahazo ny vokatra\n:,: Izay valin’ny asanao :,:\nO! miaingà, miasà,\nmitoria,\nAza ho kivy, fa mba\nmihafia;\nDia mba lazao ny nataony\ntatý,\nMba hanazava ny maizina\natý.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('308', 'O! miaingà, miasà izao,\nFa mby akaiky ny Tomponao\nMba hanome valisoa anao,\nAraka izay voa  nafafinao,\n:,: Ka dia miasa izao :,:\nO! miaingà, miasà,\nmitoria,\nAza ho kivy, fa mba\nmihafia;\nDia mba lazao ny nataony\ntatý,\nMba hanazava ny maizina\natý.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF309',
+             '',
+             309
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('309', 'Iza no hitantara\nNy Tompo Jesosy,\nIlay nandao ny lapa\nKa nidina tatý ?\nNitafy nofo Izy,\nNanetry tena koa;\nKa maty ho Mpisolo\nIzao rehetra  izao\nIza no hitantara (in-3)\nNy Tompo Jesosy ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('309', 'Iza no hitantara\nNy fitiavany ?\nFa tia ny mpanota\nMahantra, very koa;\nKa izay manatona Azy\nDia tsy hariany,\nFa raisiny tokoa\nMba ho sakaizany;\nIza no hitantara (in-3)\nNy fitiavany ?', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('309', 'Iza no hitantara\nNy zava-marobe ?\nIzay raisin’ny voavonjy\nAmin’ny alalany ?\nTsy mbola hita maso,\nNa ren’ny sofina,\nNa takatry ny saina,\nNy hasoavany;\nIza no hitantara (in-3)\nNy hasoavany ?', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('309', 'Iza no hitantara\nNy soa be arý ?\nHe! lova tsara fara\nHasolo ny atý;\nAny an-danitra any\nBe haravoana,\nFa ao ny Tompo Jeso\nIzay hifaliany;\nIza no hitantara (in-3)\nNy soa arý ?', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF310',
+             '',
+             310
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('310', 'Misy maro ao an-tsaha\nmitaraina\nKa ento ny jiro mba hankao,\nTsy mba misy antoandro\nna maraina,\nFa maizina re ny ao;\nIndro olo-maro be\nNo maniry mafy hoe :\nMba midína mankatý,\nItondray Baiboly re\nIzy ireo, fa ta-handre\nAn’i Kristy Tompo soa;\n« Mandehana, »\nhoy ny Tompo\n« Mandehana ho amin’izao\ntontolo izao ».\nMitsangàna ary,\neny mitsangàna,\nFa Izy no homba anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('310', 'Mandehana mba hitarika\nny jamba,\nMba ampifalio ny ory fo;\nNy mahantra ilazao fa misy\nlamba\nTsy miova, tsy mety lo;\nJeso Mofon’aina soa,\nSady Ranon’aina koa,\nAsehoy ho hitany,\nTena Andriamanitra,\nTompo tao an-danitra,\nAmbarao ho fantany :\n« Mandehana, »\nhoy ny Tompo\n« Mandehana ho amin’izao\ntontolo izao ».\nMitsangàna ary,\neny mitsangàna,\nFa Izy no homba anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('310', 'Mandehana hanatanjaka ny\nosa,\nOmeo toky re ny ketraka;\nNy anjaranao, ataovy ho\ntontosa,\nKa aza dia reraka,\nMandehana hianao, ka vitao\nny asanao,\nFa ny tambinao arý;\nMbola any ihany re\nNy handraisan-tamby be,\nDia rehefa tsy etý,\n« Mandehana, »\nhoy ny Tompo\n« Mandehana ho amin’izao\ntontolo izao ».\nMitsangàna ary,\neny mitsangàna,\nFa Izy no homba anao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF311',
+             '',
+             311
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('311', 'Miely lavitra any\nNy olo-marobe\nKoa iza no hankany,\nHamonjy azy re;\nHanorina sekoly,\nHitory teny koa,\nHamaky ny Baiboly\nMilaza zava-tsoa ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('311', 'Indreny olona ory\nTsinjovy rizareo!\nTsy misy ny mpitory,\nKa moa hafoinareo ?\nTsarovy Jeso Tompo\nNandao ny lapa soa,\nKa tonga mba hanompo,\nNanolotra aina koa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('311', 'Ry Lohan’ny mpiandry!\nTendreo ny irakao,\nFa reraka mandry\nNy ondrikelinao;\nIraho ny mpitory\nHandeha ankehitrio,\nKa tsy handà akory\nHanao veloma anio.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('311', 'Ny tia famonjena\nMiaramila soa;\nIzay manolo-tena\nNo iraka tokoa;\nNa lavitra ny tany,\nHanendry tena hoe :\n“ Izaho no hankany,\nIraho aho e! ”', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF312',
+             '',
+             312
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('312', 'Mitoera, ry Jesosy!\nAo an-tanimbolinao,\nKa amboary izao ny voly\nMba hitombo sy hamoa,\nTomoera;\nIasao ny nosinay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('312', 'Mba onenonao ny lasy\nItoeranaoy izao,\nKa ovay ny Malagasy\nMba ho tena zanakao,\nO! nomena;\nHazavao ny nosinay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('312', 'Akekezo ireo mpania\nTafaverina Aminao,\nKa tantano mba ho tia\nNy miresaka Aminao,\nO! tariho\nHo Anao ny nosinay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('312', 'Dia fohazy ny mpitory,\nMba hanao ny asanao,\nKa hamoha ireo matory\nMba handre ny sitrakao,\nHamasino\nHo Anao ny nosinay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('312', 'O! Jesosy feno antra!\nDera, laza, ho Anao,\nNy lohalika rehetra\nHandohalika Aminao,\nMitoera,\nFa Anao ny nosinay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF313',
+             '',
+             313
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('313', 'Miantra ny firenena,\nRy Jesosy Tomponay!\nAmbarao ny famonjena\nIzay nataonao fahizay;\nAsehoinao ny hery\nNamonjena marobe;\n:,: Ry Mpamonjy olom-bery!\nMamonje indray anie :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('313', 'Mba heveronao ry Nosy\nItoeranay izao;\nIantraonao, ry Jesosy,\nNy tsy mahalala  Anao;\nIantrao ireo faritany\nAnjakan''ny aizim-be,\n:,: Mba ho tonga faingana any\nNy mazava lehibe :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('313', 'Be ny tany tsy voasa,\nVitsy ny mpanomponao;\nKoa izahay mpiasa\nAo an-tanimbolinao\nMba omeo fo minia\nHankato ny teninao,\n:,: Ka aoka mba hikely aina\nIzahay hiasa ao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('313', 'Mankanesa, ry Mpitory!\nAo an-tany lavitra ao,\nBe tsy mahalala  akory\nAn''i Jeso Tomponao,\nHe, ny fahantrany, indrisy!\nHe, ny hadalan''ny ao,\n:,: Fa ny olona tsy misy\nHampianatra azy ao :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('313', 'Ny harena anomezo\nSy ny fahendrena koa,\nEny, Kristiana! aelezo\nIzay rehetra mahasoa;\nMankanesa re izay tia\nNy Mpamonjy lehibe;\n:,: Miantrà ka manampia\nNy mahantra marobe :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF314',
+             '',
+             314
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('314', 'Injany, misy feo!\nKa iza no tsy mandre ?\nRy Kristiana, raiso\nAdidy lehibe,\nManerana ny tany\nNy antso avo izao,\nHo an''i Jeso Tompo\nIzao tontolo izao,\nMihobia\nSy mitoria\nNy teny mahafaly\nIzay voarainareo;\nIzao no tena fetra :\nHo an''i Jeso soa\nNy olona rehetra ho Azy\nAvokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('314', 'Tsy ho antsika irery\nNy fahasoavam-be,\nFa ho an''ny olom-bery\nTsy an-kanavaka  e!\nNy fiantran''ny Tompo\nTsy misy fetra, koa\nLazaonareo mpanompo\n''Lay fitiavan-tsoa.\nMiasà.\nKa milazà\nNy teny mampionona\nMahafa-po;\nVoarainareo ny baiko :\nHo an''i Jeso soa\nNy olona rehetra ho Azy\nAvokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('314', 'Ny Tompo no milaza :\n« Andeha mitoria, »\nKa na dia sarotra aza\nNy asa, matokia;\nFa tsy mandeha  irery\nIzay mitondra soa,\nFa omban''Ilay Mahery\nNy irany tokoa,\nKa sahia\nDia  mitoria\nNy famonjena lehibe\nVoarainareo;\nVoatsangana ny saina :\nHo an''i Jeso soa\nNy olona rehetra ho Azy\nAvokoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('314', 'Ry Tompo sy Mpanjaka!\nAmpio ny olonao\nHanoa sy hanahaka\nKa hankalaza  Anao,\nDia aoka hokendreny\nIzay katsahinao.\nKa  hahita famonjena\nIzao rehetra izao,\nRy Tsitoha!\nMba manehoa\nNy hery mahagaga izay\nAnananao :\nTongava mba hanjaka :\nKa  angony avokoa\nNy olona navotanao\nRy Tompo soa!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF315',
+             '',
+             315
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('315', 'Ry Ziona, mitsangàna,\nKa mihazavà izao;\nAndrandrao ny fahazavana,\nIzay miposaka  aminao', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('315', 'Maizina ny firenena\nAmin-tany fantatrao,\nFa tsy manam-pamonjena,\nNefa ankohonanao', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('315', 'Atopazy re ny maso!\nMarobe ny zanakao;\nToy ny tany feno hazo,\nEo anatrehanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('315', 'Asandrato ny fanilo\nHanazava lavitra,\nMba ho marobe no hino,\nAn''Andriamanitra.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('315', 'Ry Jesosy, notahianao\nAnie ny lovanao;\nOlo-maro izay irinao,\nTaomy mora ho Anao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF316',
+             '',
+             316
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('316', 'Maizina ny firenena,\nKoa diso lalana,\nTsy mahita famonjena,\nTia zava-poana;\nEndrey, ny haverezan-tsainy\nLany foana ny ainy.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('316', 'Lehibe ny aizin''ota,\nTakona ny lalana,\nHandosiran''ny mpanota,\nNy fahaverezana;\nIndrisy, very re ny aina!\nInjay ny feo mitaraina!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('316', 'Mitsangàna izao, ry mino,\nMandehàna faingana,\nEnto aminy ny jiro,\nAtoroy ny lalana;\nHianao va tsy onena\nNy tsy manam-pamonjena ?', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('316', 'Dia ento ny mazava\nIzay naseho taminao;\nMazotoa hampisava,\nIzany aizim-pito ao,\nKa ny namanao mahantra\nItorio ny Mpiantra.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('316', 'Eny, tsara sy mahery\nNy Filazantsara re!\nAfaka ny olom-bery,\nSambatra ny mahare;\nKa mitandrina tokoa!\nIzany teny mahasoa.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF317',
+             '',
+             317
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('317', 'O, ry Rain’ny fahazavana\ntsy milentika!\nAvy izahay mitondra ny\nfisaorana;\nAloky ny fasanay\nno nipetrahanay,\nNefa andro no nasolonao\nny alinay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('317', 'Enga ka handroso tsara\nny mazava e,\nMba ho fantatray tokoa\nIlay manoa hoe :\n« Izaho no fahazavan’izao\ntontolo izao ».\nHanazava sy hanitsy\nizay alehanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('317', 'Ny Fitarikandron’aina\nefa hita re,\nManazava na ny kely\nna ny lehibe.\nMahasoa, mahahendry,\nmahasambatra,\nKa akory re ny andro\nizay hiposaka!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('317', 'Mitsangàna, ry Ziona,\nka mihazavà!\nVoninahitry ny Tompo\nno miposaka;\nAtopazy manodidina\nny masonao.\nNy haren’ny firenena\ntonga aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF318',
+             '',
+             318
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('318', 'Mandrosoa, ry mpanarato,\nAza ketraka izao!\nMandrosoa tsy miato,\nJeso re no herinao;\nKa ny jentilisa maro,\nHavana sy tapaka,\nMba toroy, ampahafantaro\nAn’Ilay Mpanafaka!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('318', 'Mandrosoa, ry mpanarato,\nMiezaha fatratra,\nKa na iza hisahato,\nAza mba matahotra,\nNotolorana adidy\nHianao ka miasà!\nNa ho mamy na mangidy,\nAza fay na mba handà!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('318', 'Mandrosoa, ry mpanarato,\nAo an-drano lalina!\nMisy ve hitora-bato ?\nAnehoy fitiavana!\nRaha kivy ny mpanota\nNoho ny haratsiny,\nEnto any Gologota\nAmin’ny Mpamonjiny.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('318', 'Mandrosoa  re no baiko\nIzay mifehy ahy  izao,\nKa ny tena sy ny aiko\nRaiso, Tompo, ho Anao!\nHe, afoiko manontolo\nIzay ananako izao\nKoa raisonao daholo\nMba ho voninahitrao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF319',
+             '',
+             319
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('319', 'Mba iraho ny Fanahy,\nRy Jesosy Tompo ô!\nMba hanampy sy hitahy\nNy mpiasa irakao.\nTany mafy no asaina,\nNefa kely izahay;\nMarobe no tsy misaina\nRaha itorianay!\nTanteraho re ny toky,\nIzay nomenao fahizay.\nKa mombà anay mpitory\nMandra-podi-mandrinay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('319', 'O, ry Masoandron’aina,\nHazavao ny namanay,\nMba fafazo andon’aina,\nFa  efa toy ny tany hay;\nTapa-kazo no hajainy,\nKa tsy fantany ny To;\nFeno aizina ny sainy,\nEfa momoka sy lo;\nNy sikidy mahavery\nNo ataony solonao,\nSampy vato, hazo kely\nNo hajainy toa Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('319', 'Averenonao ireny\nMba ho tonga olonao;\nTadiavo tsy ho very,\nRaiso re fa lovanao!\nEntonao ny famonjena\nKa ovay ny fony izao;\nAoka hisy sesehena\nNy hanaiky ho Anao!\nDia  hiova re ny tany\nKa hanjary lonaka,\nAry hisy voa mamy\nIzay ho tena vokatra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('319', 'Aoka re mba tsy ho rava\nNy mazava hitanay!\nMba handroso lalandava\nNy anjara asanay,\nMba ho dera aman-daza\nHo Anao, ry Tomponay!\nHatanjaho ny mpiasa,\nDia tsy mba hety fay;\nAoka re ny olo-mino\nMba hamory ho Anao,\nKa hitombo be ny mpino\nHiandany Aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF320',
+             '',
+             320
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('320', 'Manana fiorenana\nNy fiangonan''i Kristy;\nEla, fa he, tsy levona\nIzy na maro na vitsy;\nVavan''ny olo-masina\nMety ho voatampina,\nNefa tsy maty ny feo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('320', 'Ny fiangona-masina\nTrano tsy mety mikoa,\nIzy no vato velona\nRafitry ny Ray Tsitoha;\nJeso no fehizorony,\nIsika mirafitra aminy,\nMonina ao ny Fanahiny.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('320', 'Nefa mba misy koa atý\nTrano nataon-tanantsika\nHo voninahitr''i Kristy,\nMendrika ho tiantsika;\nFa ao no andrenesana\nNy tenin''Andriamanitra,\nMamin''ny olona mino.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('320', 'Ao ny Batisa masina,\nIzay tena ranon''ny aina;\nAo Ilay Mpihaino vavaka,\nTokin''izay mitaraina;\nAo koa ny Fandraisana,\nDia ny sakafo masina,\nTena aman-dràn''i Jesosy.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('320', 'Enga ka mba ho fantatra\nAmin''ny tany rehetra;\nIlay loharano velona,\nSady tsy mety ho ritra!\nRaha  ny lakolosy velona,\nFaly izay mpivavaka,\nFa manantena hihaona.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('320', 'Raiso, ry Kristy, ho Anao,\nNy fideranay anio!\nAmpandrosoy ny teninao,\nNy ondry very vorio\nMandra-pikambany hiray,\nAmin''ny valanao indray,\nFa Hianao no Mpiandry.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF321',
+             '',
+             321
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('321', 'Ry Jesosy Tomponay\nRavoravo izahay;\nTonga izahay izao\nMba hihaona Aminao;\nIndro misy tranonao\nHitokananay izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('321', 'Ka mangataka  Aminao\nIzahay, ry Tompo ô!\nAoka mba horaisinao\nIzay nataonay ho Anao :\nTrano fiangonana\nTrano fivavahana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('321', 'Aoka mba ho fantatray\nEto ny alehanay,\nFa vahiny izahay,\nKa ny tanindrazanay\nDia any Aminao;\nKoa mba tarihonao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('321', 'Aoka ny Anaranao\nMba hohamasininao;\nAoka ny Fanahinao,\nMba ho tonga hanavao\nNy mpanota marobe,\nDia hovoavonjy re!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('321', 'Ka ny fiadananao\nAmpombay ny olonao,\nHampikambana ny fo,\nKa ho toy ny iray tam-po,\nMba hifankatiavanay\nIzao sy rahatrizay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF322',
+             '',
+             322
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('322', 'Indro, Tompo, misy trano\nIzay namboarinay ho Anao,\nAngatahanay tsodrano,\nItokananay ho Anao\nTompo ô, mba hamasino\nHo fihaonana Aminao,\nHo tempoly tian''ny mino\nFivavahana Aminao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('322', 'Diovy, Tompo, mba ho trano\nIzay hajaina ho Anao,\nKa omeo sy itokano\nMba ho fideràna Anao.\nTompo masina ô, idiro\nMba ho mendrika Anao\nKa aoka  Hianao ho jiro\nIzay hamirapiratra ao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('322', 'Mba tahio, ry Ray Mpitahy,\nHo tempoly masinao\nHo Betelan''ny fanahy,\nVavahady ho Aminao.\nItoero, mba ho kianja\nMahamanina ny fo,\nMba ho trano mendri-kaja,\nMampivavaka ny fo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('322', 'Mandrosoa ka midira\nHo mpanjaka tokana  ao\nKa ny vavaka sy hira\nMba tahio ho sitrakao,\nNefa tsy ny trano ihany\nNo atolotray, ry Ray,\nIndro koa mba itokany\nHo Anao ny tenanay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF323',
+             '',
+             323
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('323', 'Vory ny mpanomponao\nEto anatrehanao,\nRy Jesosy Tomponay!\nHe! faly ny fonay,\nFaly, faly, faly,\nHe! faly ny fonay,\nVory maro toy izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('323', 'Mba atrehonao iizahay \nFa mitokana  eto izao\nNy trano ho Anao :\nHe! faly ny fonay,\nVory maro toy izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('323', 'Eto hitorianay\nAn''i Jeso Tomponay,\nMpamonjy lehibe :\nHe! faly ny fonay,\nVory maro toy izao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('323', 'Eto hanomezanao\nTsara ny Fanahinao\nMba hanadio ny fo :\nHe! faly ny fonay,\nVory maro toy izao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('323', 'Eto no hanananao\nLaza saotra ho Anao;\nNy maro mba vonjeo :\nHe! faly ny fonay,\nVory maro toy izao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('323', 'Aoka re ny tranonay,\nTrano iangonanay,\nMba ho tempolinao :\nHe! faly ny fonay,\nVory maro toy izao.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF324',
+             '',
+             324
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('324', 'Ry Andriananaharinay!\nIsaoranay ny Anaranao;\nNambininao ny tranonay\nKa vita tsara ho Anao :\n(Feo 1-2)\nFenoy, fenoy, fenoy\nNy hamasinanao\nNy tranonay ho tranonao.\n(Feo 3-4)\nFenoy, fenoy\nny hamasinananao\nFenoy ny hamasinanao\nNy tranonay ho tranonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('324', 'Ry Jeso! avy izahay\nHitokana ny tranonao,\nNy trano izay naorinay\nHo voninahitrao anie :\n(Feo 1-2)\nFenoy, fenoy, fenoy\nNy hamasinanao\nNy tranonay ho tranonao.\n(Feo 3-4)\nFenoy, fenoy\nny hamasinananao\nFenoy ny hamasinanao\nNy tranonay ho tranonao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('324', 'Avia, Fanahy Masina ô!\nHitoetra eto aminay,\nNy aizinay mba hazavao,\nHanananay fo be fitia :\n(Feo 1-2)\nFenoy, fenoy, fenoy\nNy hamasinanao\nNy tranonay ho tranonao.\n(Feo 3-4)\nFenoy, fenoy\nny hamasinananao\nFenoy ny hamasinanao\nNy tranonay ho tranonao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('324', 'Mba raisonao ny deranay\nIzay enti-mankalaza Anao;\nNy trano itokananay\nEkeo tokoa ho tranonao :\n(Feo 1-2)\nFenoy, fenoy, fenoy\nNy hamasinanao\nNy tranonay ho tranonao.\n(Feo 3-4)\nFenoy, fenoy\nny hamasinananao\nFenoy ny hamasinanao\nNy tranonay ho tranonao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF325',
+             '',
+             325
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('325', 'Ry Jehovah Tompo soa!\nVory eto izahay,\nKa mifaly avokoa,\nRaisonao ny vavakay!\nAndro fitokanan-trano,\nFifaliam-be izao,\nAmpidino ny tsodrano\nAvy ao an-danitrao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('325', 'Ry Jesosy! mandrosoa\nFa Anao ny tranonay,\nHiderana Anao tokoa,\nKa henoy ny hatakay!\nNefa tsy ny vatan-trano\nNo honenanao izao,\nFa ny fo no itokano,\nItoero, hafanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('325', 'Ry Fanahy Mpanazava!\nAnjakao tokoa izahay,\nDia hazava lalandava,\nNy fanahin-janakao;\nKa fenoy fanahy mino\nHo tempolinao tokoa,\nHatrizao dia hamasino\nKa hitombo sy hanoa.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF326',
+             '',
+             326
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('326', 'Atreho ny mpanomponao\nIzay mivory eto izao\nKa efa nametrahanao\nAdidy masina hatao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('326', 'Hianao, izay Tompon’ezaka\nNifidy anay tsy mendrika\nKa efa nampirisika\nHandroso tsy hiherika.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('326', '‘Ndrisy mpanompo tsy manoa\nIzahay izay nofidinao.\nMpiasa tsy mba mahasoa,\nTompo ô! mifona Aminao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('326', 'Na dia kely aza izao\nNo azonay atolotra,\nAoka re mba ho sitrakao\nHaroso ho fanatitra.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('326', 'Dia saotra no omena Anao\nKa raiso re, ry Tomponay\nNy fonay koa onenonao\nSy anjakao mandrakizay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF327',
+             '',
+             327
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('327', 'Isaoranay Anao,\nRy Tomponay Tsitoha,\nNy nanomezanao\nMpiasa mahasoa.\nKa nony vao nandre\nIlay antso taminao,\nDia roso ka nandeha\nNanao ny asanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('327', 'Natokanay ho Anao,\nNy taona maro be;\nIlay fitiavanao,\nNataony rehareha.\nNa nisy ny manjo,\nTsy kivy sanatria\nHianao ilay ao am-po\nNanao hoe: « Matokia ».', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('327', 'Izay nataony anie,\nHambininao tokoa,\nHitombo be dia be\nHitera-boka-tsoa,\nHianao Ilay Tompo tia\nNo angatahanay;\nTongava, manampia\nIzay vitany ho anay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('327', 'Ka mba tsinjovinao,\nSikino hery indray,\nIty mpanomponao,\nAnio sy rahatrizay,\nIlay teny taminao\nHo aminy anie;\nMpanompo sitrakao\nSatria nahefa be.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF328',
+             '',
+             328
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('328', 'Mba tahio, Jeso ô!\nHira, hatakay sy teny;\nMba tarihonao ny fo\nHanarahanay ireny;\nHianao no Tompon’aina,\nSady mendri-koderaina.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('328', 'Izahay mpanomponao\nHody ao an-tokantrano,\nFaly manana Anao,\nKa vimbino sy tantano;\nAza avela ho irery,\nIzahay, fandrao ho very.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('328', 'Saotra no atolotray,\nRaha mbola atý an-tany;\nAo an-danitra indray\nDia dera tsy ho lany\nNo hatao sy hohiraina\nHo Anao ry Tompon’aina.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF329',
+             '',
+             329
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('329', 'Saotra, dera, no homena\nHo Anao Mpanavotray,\nHianao manetry tena\nMba hanandratra anay.\nMba tariho Tompo ô!\nNy fanahy sy ny fo;\nTianay ny hiara-dia\nAminao ka tsy hania.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('329', 'Raha ory sy mijaly\nEto aza izahay,\nTsy ho kivy, fa hifaly\nAmin’ny anjaranay.\nHianao ry Tomponay,\nNo mba iankinanay,\nKa inoanay homena\nHo anay ny famonjena.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF330',
+             '',
+             330
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('330', 'Sambatra ny mankatò\nIzay lazain’ny Tompon’aina;\nSy manaiky eram-po\nFa hanolotra ny saina,\nKa mitandrina ny didy\nToy ny zava-tsarobidy.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('330', 'Sambatra izay mandà\nRaha taomina hanota,\nKa na dia halatsa-drà,\nTsy mba mety resin’ota,\nTsy ekeny ny mpanimba,\nNa ireo mpanazimba.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('330', 'Sambatra ny olona\nIzay misaina ao am-pony\nAndro aman-alina\nNy lazainao, ry Mpamonjy;\nFa ataonao toy ny hazo\nMaitso tsara, tsy malazo.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF331',
+             '',
+             331
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('331', 'Mba soraty ao am-poko\nJeso, ny Anaranao;\nMba arovy tsy haloto\nNy kasen’ny tananao.\nHianao, Jesosy ô!\nNo ho voninahitro :\nHianao, ry voahombo,\nNo Mpanjakako sy Tompo.', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF332',
+             '',
+             332
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('332', 'Finaritra ny olonao\nJesosy Tompo ô!\nFa manana ny aim-baovao\nKa ravo eram-po.\nNy famonjena vitanao\nDia efa voaray  izao.\nNy fifaliany atý.\nHitohy hatrarý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('332', 'Izaho va Jesosy ô,\nMba isan’ny Anao ?\nNy solika fitaziako\nMoa misy va izao ?\nHevero ry fanahiko,\nKa aza mety afa-po\nAmbara-pahafantatrao\nFa Jeso no anao.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF333',
+             '',
+             333
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('333', 'Hody Tompo, izahay\nMiaraha aminay,\nKa tahio ny teninao\nMba hamorona aim-baovao,\nSao mivory foana\nIzahay mpiangona.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('333', 'Marobe ny rafinay\nTa-hamandrika anay;\nTompo, miarova anay,\nSao dia very izahay;\nMitoera aminay\nAo an-tokantranonay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('333', 'Efa renay taminao\nFa anay ny lanitrao,\nEfa namboarinao\nMba ho an’ny olonao;\nKa tariho, Tompo ô,\nHody ao ny Zanakao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF334',
+             '',
+             334
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('334', 'Sambatra ny sofiko\nFa nandre ny teny,\nTenin’i Jesosiko,\nTenim-pamonjeny.\nHe! izaho tiany\nMba hiara-dia\nSy hianatra aminy\nAry tsy hania.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('334', 'Sarotra ny làlako\nSady mampanahy,\nNefa ny Mpamonjiko\nMahatoky ahy;\nVetivety foana\nDia  ho avy Izy\nAmim-boninahitra,\nKa handray ny Azy.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF335',
+             '',
+             335
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('335', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('335', 'Hody izahay, Zanahary!\nTahio tsara izahay;\nAmpifalionao ny fonay\nAmin’ny fitianao :\n:,: Ampifalio :,:\nIzahay etý an-tany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('335', 'Mankasitraka Anao izahay\nNoho ny teny soa\nIzay nampianaranao\nSaina hahasoa anay.\n:,: Tomoera :,:\nAminay isan-andro.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('335', 'Raha ho faty izahay\nKa handao ity tany,\nDia ampifalio izahay,\nEnto ho an-danitra;\n:,: Dia faly :,:\nIzahay mandrakizay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF336',
+             '',
+             336
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('336', 'Ampodio izahay, Jehovah,\nAmin’ny fitianao;\nNa  aiza na  aiza no haleha\nAoka hovimbininao :\n:,: O, ambino :,:\nIzahay mpanomponao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('336', 'Fa ny teny renay any\nAoka ho tadidy koa,\nKa mba hiasanay saina\nHahazoanay ny soa\n:,: Isan-andro :,:\nIzay hiainanay  atý.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF337',
+             '',
+             337
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('337', 'Ry Jehovah, Tompo ô!\nTompo masina sy to,\nAzonay ny teninao\nMampandre ny antranao;\nAoka mba harahinay\nKa ho masina aminay,\n:,: Mba hanao ny sitrakao\nIzahay mpanomponao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('337', 'Hody izahay izao\nAmin’ny Anaranao;\nMitoera aminay\nAo an-tokantranonay,\nMba ho velona aminao\nIzahay navotanao;\n:,: Be ny fahavalonay\nKa arovy izahay :,:', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF338',
+             '',
+             338
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('338', 'Arovy aho, Tompo,\nAtolotro izao\nNy tenako hanompo\nSy hankalaza  Anao.\nOmeo ahy hery\nSy faharetam-po,\nArovy tsy ho very\nIzay anjarako!', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF339',
+             '',
+             339
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('339', 'Ry Jesosy, mba ampio\nAho ho madio fo;\nRaha mivily ahitsio\nHanarahako ny to.\nMba ampaherezo aho\nHanompoako Anao;\nRaha ory hatanjaho\nMba hifikitra Aminao.', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF340',
+             '',
+             340
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('340', 'Tompo ô! mba hasoavy\nSy arovy izahay;\nTompo ô! mba aposahy\nAminay ny tavanao;\nTompo, mitodiha  anay,\nDia hiadana izahay;\nRay sy Zanaka, Fanahy,\nMitahia anay, Amen!', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF341',
+             '',
+             341
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('341', 'Tompo ô! ampitandremo\nIzay lazainao izahay;\nHazavao ka mba omeo\nHery ny fanahinay;\nKa ny fo ampionony\nTsy hitebiteby intsony;\n:,: Mba diovy, hamasino\nIzahay, ry Tompo ô! :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('341', 'Ka rehefa hodimandry\nIzahay, ry Tomponay,\nTsy ho taitra, fa hiandry\nNy handraisanao anay,\nRy Jesosy Tompon’aina,\nHianao no antenaina,\n:,: Hianao no hanazava\nNy hodianay arý :,:', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF342',
+             '',
+             342
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('342', 'Ny fahasoavan’ny Jesosy\nKristy\nSy ny fitiavan’Andriamanitra\nAry ny firaisana  amin’ny\nFanahy Masina\nHo amintsika rehetra anie,\nAmen!', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF343',
+             '',
+             343
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('343', 'Ry Jeso Tompo soa,\nRy Vatolampiko!\nEsory avokoa\nNy hevi-dratsiko.\nOmeo ahy hery,\nArovy tsy ho very\nNy ondry kelinao,\nMba hifalianao;\nJesosy ô! henoy re, henoy.', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF344',
+             '',
+             344
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('344', 'Fiadanana be,\nHasambarana re,\nNo miandry antsika  ao\nan-danitra e!\nKa handeha handao\nIzao tontolo izao,\nKa hitady tokoa ilay\ntany vaovao.\nMiaingà hody ao!\nMiaingà hatrizao!\nMba modia hianao (izao)\nAo amin’i Jesosy!', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF345',
+             '',
+             345
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('345', 'Mba tarihonao, ry Raiko,\nNy fanahy sy ny foko,\n:,: Mba ho any Aminao! :,:\nO, ry Loharanon’aiko,\nIzao ihany no ilaiko,\n:,: Dia ny hahita Anao! :,:', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF346',
+             '',
+             346
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('346', 'Ny teninao, Jehovah ô!\nVoatory aminay\nTahio tsy ho levona,\nVelominao anie!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('346', 'Izay voatory tsy anay,\nFa avy Aminao,\nKa dia  ny fanambinanao\nNo mba ilainay koa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('346', 'Fa tsy mba ampy ho anay\nNy toriteninay,\nKa tsy ho tokinay ireo,\nRaha  tsy ambininao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('346', 'Dia  ampitoeronao izao\nHo eto aminay\nNy herin’ny Fanahinao,\nMba hahasoa anay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF347',
+             '',
+             347
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('347', 'Derao Andriamanitra,\nFa Izy Loharanon-tsoa\nDerao ny Tompo tokana,\nRay, Zanaka, Fanahy koa.', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF348',
+             '',
+             348
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('348', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('348', 'Andriamanitra!\nTahio ny mihaino;\nNy tsy manoa vava-poana\nHahazo ny iriny,\nAndriamanitra\nHo masoandrony;\nKa ny Fanahy Masina\nMpitari-dàlana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('348', 'Ny Anaran’i Jeso\nNo voninahiny;\nNy hamarinan’i Kristy\nNo fihaingony,\nTiavo Jesosy,\nRy mino ny teny!\nKatsaho fihavanana,\nRy tsy mino rehetra!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF349',
+             '',
+             349
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('349', 'Dera re, laza anie!\nHo an’Andriamanitra!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('349', 'Aoka ny tany re,\nMba hiadana anie!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('349', 'Ary ny olony\nAoka hankasitrahany!\n\nNY FIAINANA KRISTIANA\n1. NY ANTSON’NY FILAZANTSARA', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF350',
+             '',
+             350
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('350', 'Hianao, ry Ray, no mibaiko\nHanaovanay ny asanao,\nKa ny handà e mba tsy haiko,\nNa sarotra aza ny atao.\nNy fitoriana lalaina,\nNatomboky ny mpianatrao\nDia tsy azo atao very maina,\nFa he, tohizanay izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('350', 'Fa mbola  adidin’ny mazava\nMitondra ny fanala izao,\nHiainga, handeha hampisava\nNy aizina  ao an-ala ao.\nIreo rahalahy sy rahavavy\nDia be tsy mahalala  Anao\nKoa indro, Tompo, aho avy\nHitory ny Anaranao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('350', 'Kanefa tsy ny eto ihany\nNo anirahanao anay,\nFa na ny any lavitra any\nDia samy mbola  adidinay.\nHiezaka, hikely aina,\nHamafy koa ny teninao\nIzay hany tena mofon’aina,\nHo an’izao tontolo izao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF351',
+             '',
+             351
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('351', 'Tsy hangina re ny hoby,\nnoho hianao ry Ziona;\nFa miposaka aminao\nny fahazavana soa;\nNy fanilom-pamonjena,\nindro fa torina\nHanazava ny olona tokoa.\nMivoaha, asandrato ny\nfaneva soanareo;\nTsenao re ny Mpanjaka,\nfa avy aminao\nNy famonjeny sy ny lova\nizay atolony anao\nSatria hianao dia tsy foiny.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('351', 'Voninahi-panjakana\nisaloranao\nSy anaram-baovao no\niantsoana anao\nFampakaram-bady, fety\nanaingàna anao\nMba ho an’i Kristy,\nIlay Tomponao.\nMivoaha, asandrato ny\nfaneva soanareo;\nTsenao re ny Mpanjaka,\nfa avy aminao\nNy famonjeny sy ny lova\nizay atolony anao\nSatria hianao dia tsy foiny.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('351', 'O! Ry mpiambina tinendry\neo ambony manda,\nAza  avelanao hangina re\nny feonao\nKa hijoro izao ny mino,\nfa tsy hisy banga\nEo an-tobin’i Jeso Tomponao.\nMivoaha, asandrato ny\nfaneva soanareo;\nTsenao re ny Mpanjaka,\nfa avy aminao\nNy famonjeny sy ny lova\nizay atolony anao\nSatria hianao dia tsy foiny.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF352',
+             '',
+             352
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('352', 'Fantatrao va ny Mpamonjy,\nIlay Tompon-danitra ?\nJeso, Kristy sy Mpanjaka,\nZanak’Andriamanitra.\nIlay nandao ny lapan-dRainy\nFeno voninahitra,\nTompo tonga mba hanompo,\nNoho ny fitiavana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('352', 'Eny, zava-mahagaga,\nFietrena lalina :\nSaro-bidy ka tsy foiny\nIsika olombelona.\nIlay Mpisorona Ambony\nIzao no asa sorona,\nKa manolotra ny ainy\nMba ho fanavotana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('352', 'Ao ny lanitra mivoha\nMiantso anao hiakatra;\nAoka tsy hiroa saina,\nManapaha hevitra.\nHe mitsotra moramora\nMba handray ny tanany;\nMitodiha : izao no ora,\nManeke ho zanany.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF353',
+             '',
+             353
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('353', 'Mba sainonao ange,\nSao tsy mba fantatrao\nNy zava-dehibe\nNataoko ho anao :\n:,: Hevero, ka lazao, lazao\nIzay mba vitanao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('353', 'Ny lapako tarý,\nNy fahefako tao,\nNilaozako tatý\nHanavotra aina anao :\n:,: Hevero, ka lazao, lazao\nIzay mba foinao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('353', 'Heveroronao ange,\nNy nisoloanao anao;\nNangidy indrindra anie\nNy nahazoana anao :\n:,: Hevero, ka lazao, lazao\nIzay mba nentinao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('353', 'Endre! ny aiko koa\nNomeko ho anao;\nTsy misy zava-tsoa\nTsy foiko ho anao :\n:,: Hevero, ka lazao, lazao\nIzay mba taminao :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('353', 'Ry Tompo be fitia!\nEndrey, ity vitanao;\nIzaho izay mpania\nTsy mahavaly izao :\n:,: Ny aiko no mba raisonao\nHanao ny sitrakao :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF354',
+             '',
+             354
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('354', 'Ny Mpamonjy no mitady\nFihavanana aminao;\nIzy no manambitamby\nHanatonanao izao;\nSao manjary fandatsana\nNy fifonana aminao,\nKa ny mety, mihavàna\nAmin’ny Mpamonjy izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('354', 'Dieny misy hafanana\nKa mangoraka ny fo,\nManatòna ny Mpamonjy\nSao dia mangatsiaka indray\nIzao no andro famonjena,\nKa vonjeo sao neninao;\nRy mpanota, miverena\nIzao ankehitriny izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('354', 'Sao ity no toriteny\nFara-fanasana  anao;\nSao anio no fotoana\nFara-fahavelomanao :\nKa aza mba misalasala,\nSao manjary neninao,\nRaha tsy mety mahalala\nIzao fotoana mety izao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('354', 'Indrisy! be ny fahotako,\nBe ny ratsy vitako;\nSao tsy raisin’ny Mpamonjy\nNy mpanota tahaka  izao ?\nMiverena, fa ny rany\nAmpy hahadio anao;\nManatona hosasany\nIzao ankehitriny izao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF355',
+             '',
+             355
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('355', 'Ry namako mahantra\nManaram-po izao!\nNy ota no mandratra,\nSao simba hianao;\nIzay anao rehetra\nHo lasa avokoa,\nFa tsy mba misy fetra,\nHo levona avokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('355', 'Ny Tompo be fiantra\nMangora-po tokoa\nMahita anao mahantra\nFa tsy mahita soa;\nNatolony ny ainy\nHo vidin’ny ainao,\nNalatsany ny rany\nMba hanadio anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('355', 'Ny Tompo malahelo,\nTsy foiny hianao,\nNy feo mamelovelo\nMibitsika aminao;\nOnena anao ny fony\nKa mitaraina hoe :\nNy ota ajanòny,\nMba ajanòny re!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF356',
+             '',
+             356
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('356', 'Ry mpanota! mihevera,\nFa miantso Kristy izao :\nIzy ta-handray mpanota\nManatòna hianao :\n:,: Mihainoa, mihainoa,\nKa ario ny ditranao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('356', 'Ry mpanota! miverena\nAo am-balan’i Jeso;\nAza dia mirenireny,\nSao iharan-doza izao\n:,: O! modia, O! modia,\nIalao ny ditranao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('356', 'Ry mpanota! manatòna\nDieny misy antso izao\nFa ho avy ny fotoana\nMbola hanenenanao :\n:,: O! avia, O! avia,\nIzao ankehitriny izao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('356', 'Ry mpanota! matokia,\nTompo mora fo Jeso;\nIzy dia tena tia\nIzay mibebaka tokoa :\n:,: Matokia! matokia,\nMibebaha re izao :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('356', 'Ry Sakaizan’ny mpanota,\nEnto aho ho Anao;\nHe! ny tenako rehetra\nNo atolotro izao :\n:,: Raisonao re, raisonao re,\nHo fanati-tsitrakao :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF357',
+             '',
+             357
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('357', 'Efa tonga atý izao\nTeny fiainana :\nRaiso mba ho fiainanao,\nTeny fiainana.\nHe! ny teny tsara,\nTeny manan-kery;\nTenin’ny Ray\nTsara tokoa\nTeny fiainana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('357', 'Io no Filazantsara soa,\nTeny fiainana :\nTeny mamy indrindra koa,\nTeny fiainana.\nRaisonao ny teny,\nTeny soa nomeny :\nTenin’ny Ray\nTsara tokoa\nTeny fiainana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('357', 'Ry mpanota! henoy izao,\nTeny fiainana :\nFa fiainana ho anao,\nTeny fiainana.\nKristy no nomena\nMba ho famonjena :\nTenin’ny Ray\nTsara tokoa\nTeny fiainana.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF358',
+             '',
+             358
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('358', 'He! ry namako mahantra,\nIndro Jeso Tompo tia,\nIlay Mpamonjy feno antra,\nNo mitady ny mania;\nOlom-bery tsy mba foiny,\nKa na diso aza re,\n:,: Mbola tiany sy antsoiny\nHanam-pifaliam-be :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('358', 'He! fa tsy mba misy fetra\nNy homena lova soa\nFa ny olona rehetra\nSamy tiany avokoa;\nNefa  izay be hataka  andro\nDia hanenina tokoa;\n:,: Misy fetra ny fotoana\nAzo amindrana fo :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('358', 'Manatòna ankehitriny, \nRy mpanota ory fo!\nMba hesoriny ny tsiny\nKa hadio indray ny fo;\nFa ny ota hosasany\nDia ho afaka avokoa,\n:,: Izany re no fikasasny\nKa tsy maintsy to tokoa :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('358', 'Fa izay mandà ny teny\nSy maditra, mafy fo,\nHampangain’ny teny reny,\nFa tsy nety nakatò;\nJeso Tompo no hitsara\nSy hamaly ny natao,\n:,: Nefa kosa ny anjara\nDia miankina aminao :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF359',
+             '',
+             359
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('359', 'Tsy renao va ny feon’ny Ray,\nRy malahelo fo!\nMiantso hoe : « Avia, avia,\nModia hianao! »', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('359', 'Ny Rainao be fitiavana\nHifaly aminao,\nKa hanome malalaka,\nRaha hody hianao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('359', 'Na diso aza hianao,\nMitebiteby koa,\nNy Rainao ta-handray anao\nHo sambatra tokoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('359', 'Modia an-tranonao arý,\nMahantra hianao;\nTsy misy zava-tsao atý\nHahafa-po anao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('359', 'Ny lamba efa rovitra\nHesorina aminao,\nKa hafa tsara lavitra\nNo hitafianao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('359', 'Mba maneke ny teniny\nAnkehitriny izao,\nFandrao dia hisy loza re\nHihatra aminao.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF360',
+             '',
+             360
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('360', 'Mba hevero, ry mpanota!\nNy nataon’ny Tomponao :\nIzy tsy mba manana ota\nNefa tonga solonao;\nHe! ny lanitra nafoiny\nMba hidinany tatý\nOlom-bery no antsoiny\nMba handova ny arý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('360', 'Mba hevero, ry mpanota!\nFa nijaly Jeso tia,\nMaty tany Gologota\nMba hamory ny mania,\nIndro, latsa-dra ny Tompo\nNefa tsy mba diso re!\nFa nisolo ny mpanompo\nIzay  nanohitra   elabe.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('360', 'Mba hevero, ry mpanota!\nAlatsaho ao am-po;\nMahavery re ny ota\nRaha tsy voadio ny fo,\nMangataha ankehitriny,\nDia hodiovin’i Jeso,\nFa izany no iriny\nMba handraisanao ny soa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('360', 'Mba hevero, ry mpanota!\nNy fifonana aminao\nHahafoizanao ny ota\nTena fahavalonao.\nManatòna hovonjena\nSao hiharan-doza be!\nManatòna, fa homena\nFifalian-dehibe.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('360', 'Mba hevero, ry mpanota!\nInona ary no hatao ?\nAza mety resin’ota,\nTiavo Jeso Tomponao;\nNy lalàny no araho\nSitrapony tontosay;\nNefa Izy angataho\nHomba anao mandrakizay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF361',
+             '',
+             361
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('361', 'Manatòna, ry malala!\nAn’i Jeso Tomponao;\nRaiso re ny famonjena,\n:,: Tsy ho faty hianao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('361', 'Indro Jeso, fa miandry\nMba handray anao izao;\nMiverena aza kivy,\n:,: Mazotoa, sy matokia :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('361', 'Aza mba mangataka andro,\nSao dia tratra hariva etý\nTahotra sy horohoro\n:,: Hampivadi-po anao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('361', 'Ao ny tany soa homeny\nMampifaly fo erý\nSady tsy mba misy ratsy,\n:,: Mandrosoa ho tonga arý :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF362',
+             '',
+             362
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('362', 'Tsy fantatrao va Ilay namonjy\nanao ?\nRy havako ory izao ?\nMitady anao Ilay namonjy\nanay.\nManiry hamonjy anao;\nMihainoa ny hamonjy anao\nManao hoe : “ Manatòna\nanio,\nNa dia be aza ny ratsy\nnatao,\nDia mety ho afaka  izao. ”', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('362', 'Fa tonga tatý Ilay namonjy\nanay\nKa nampijaliana tokoa;\nNy rany izay namonjeny\nanay\nHamono ny helokao koa;\nMihainoa ny hamonjy anao\nManao hoe : “ Manatòna\nanio,\nNa dia be aza ny ratsy\nnatao,\nDia mety ho afaka  izao. ”', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('362', 'Misento anao Ilay namonjy\nanay,\nRy olo-mahantra atý!\nTomany anao Ilay namonjy\nanay\nFandrao dia ho very arý;\nMihainoa ny hamonjy anao\nManao hoe : “ Manatòna\nanio,\nNa dia be aza ny ratsy\nnatao,\nDia mety ho afaka  izao. ”', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('362', 'Henoinao izao ny hamonjy\nanao,\nHiadam-pinaritra am-po;\nFaingàna handray ny homeny\nanao\nDia lova tsy mety ho lo;\nMihainoa ny hamonjy anao\nManao hoe : “ Manatòna\nanio,\nNa dia be aza ny ratsy\nnatao,\nDia mety ho afaka  izao. ”', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF363',
+             '',
+             363
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('363', 'Ry olo-mahantra\nMihainoa izao!\nSaino tsara ny teny\nIzay lazaina aminao;\nRy olo-mahantra!\nModia, modia,', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('363', 'Fa ela dia ela\nHianao no nania,\nTsy nahita ny tsara,\nTsy nahazo ny soa;\nRy olo-mahantra!\nModia, modia,', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('363', 'Tsy misy mpiantra\nMba hitsinjo anao\nAfa-tsy ny Mpamonjy,\nIzay mitady anao;\nRy olo-mahantra!\nModia, modia,', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('363', 'Tsarovy ny Rainao\nMalahelo anao\nKa miandry tokoa\nHampandroso anao;\nRy olo-mahantra!\nModia, modia,', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF364',
+             '',
+             364
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('364', 'Ry mpanota! ry mpanota!\nRaiso Jeso Tomponao,\nAza mba misalasala,\nManatòna Azy izao.\nKa ekeo ny feon’i Jeso\nIzay nifona ho anao\nTeo ambony hazo avo\nMaty Izy ho anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('364', 'Indro Jeso, ry mpanota!\nFaly hohatoninao,\nSady Tompo tsy mandatsa,\nFa mamindra fo tokoa,\nKa miteny moramora\nTa-hamela heloka :\nManatòna, ry mpanota!\nMba handray ny avotrao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('364', 'Ry mpanota! ry mpanota!\nMisy vonjy ho anao,\nKa toneo ny alahelo\nMampahory fo anao;\nAza mety resin’ota,\nFa jereo ny Tomponao;\nIzy no handresy tsara\nIzay miady aminao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('364', 'Hianao tsy manan-toky\nHo mpamela heloka,\nAfa-tsy ny Tompo Jeso,\nIlay nanavotra aina anao;\nKa aza mba misalasala,\nRy mpanota very ô!\nFa azonao ny lova tsara,\nRaiso Jeso Tomponao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF365',
+             '',
+             365
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('365', 'He! ry mpanota ana, sasatra,\nMitondra fahoriana lehibe;\nJeso mpanavotra olo-meloka\nNo mahavonjy ny fanahinao.\nMatokia ny mpamela helokao,\nAza kivy, tsy ho faty hianao;\nMatokia re, matokia re,\nMatokia,\nJeso tsy handao anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('365', 'Indro ny fitiavan-dehibe!\nNy ainy tsy nataony ho\nzavatra\nHamonjy ny mpanota meloka\nSy manana entana mavesatra.\nMatokia re, matokia re,\nMatokia,\nJeso tsy handao anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('365', 'Mba mahareta, Jeso aminao\nNy tanany mahery hiambina\nAza malaky resin-tahotra,\nFa Izy tsy hiala aminao :\nMatokia re, matokia re,\nMatokia,\nJeso tsy handao anao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF366',
+             '',
+             366
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('366', 'Andeha, ry hava-malala!\nAndeha hiaraka izao,\nHitady fonenana tsara\nHonenana mandrakizay\nAo amin’ny tanin’ny Tompo\nNy fahasambarana be,\nNy ota tsy miditra akory,\nTsy misy ny loza manjo,\nDia aoka hiaraka isika,\nRy hava-malala izao!\nHitady fonenana tsara\nHonenana mandrakizay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('366', 'Ny trano dia maro tokoa,\nMifaly ny mponina ao,\nTanteraka soa ny aleha,\nFitia omena ny ao;\nMiara-midera ny Tompo,\nMpanavotra be indrafo;\nMiara-mandova ny soa,\nMitafy ny lamba madio.\nDia aoka hiaraka isika,\nRy hava-malala izao!\nHitady fonenana tsara\nHonenana mandrakizay.\n\n3-Na ety ny lalana aza,\nNa maro ny zava-manjo,\nDia aza matahotra akory,\nMandroso ny mety hatao;\nAnjely tsy tambo isaina\nHirahin-kanampy anao;\nMpanompo ny Avo indrindra\nHitoby hiaro anao.\nDia aoka hiaraka  isika,\nRy hava-malala izao!\nHitady fonenana tsara\nHonenana mandrakizay..', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF367',
+             '',
+             367
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('367', 'Ry zanako mania!\nHenoinao izao :\nIzaho be fitia\nMangora-po anao;\nRy zanako! modia,\nSao maty hianao,\nFa be ny bibidia;\nModia re!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('367', 'Ny zavatry ny tany\nSao mahasimba  anao,\nHarena mety lany\nTsy mahavonjy anao;\nIzaho irery ihany\nNo hiadananao;\nKa mbola manontany :\nTsy hody va ?', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('367', 'Mamiratra jerena\nNy lalan-tsitrapo\nFa akoso-bolamena\nMamitaka ny fo;\nNy sitrapon’ny tena\nMamery ny ainao,\nArio ka miverena,\nModia re!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('367', 'Izaho Tompon’aina,\nNijaly ho anao,\nKa he, manolotra  aina\nMba hamonjena anao;\nNy rako mitaraina,\nModia hianao;\nKa aza mba malaina,\nModia re!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF368',
+             '',
+             368
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('368', 'Manatòna ry mpanota\nOry, jamba, very koa!\nHianao simban’ny ota,\nIndro, ao ny Tompo soa\nRy tsy mendrika hovonjena,\nMisy izay miantra  anao;\nFifaliam-be homena,\nFamelana helokao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('368', 'Mba henoy ny teny tsara\nIzay lazaina  aminao,\nSao very ny anjara\nSoa tadiavinao;\nFeno antra, manan-kery,\nJeso no mitaona anao,\nKa ny mino tsy ho very,\nManatòna re izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('368', 'Ny miato tsy mba tsara,\nNy halainanao ario;\nSao helohin’ny Mpitsara,\nManatòna re anio;\nHe! miandry ny Mpamonjy,\nMba faingana hianao;\nRaha te ho voavonjy,\nAza ela hianao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF369',
+             '',
+             369
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('369', 'Faingàna ry hava-malala,\nHatòny ny Tompo izao,\nNy fo sy ny feo asandrato,\nDerao Ilay nanavotra anao,\nNy avotra ny famonjena,\nIzay vitany tao Kalvary,\nNo fanantenan’ny mpanota\nHahazo fiainana arý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('369', 'He Izy mitondra irery\nNy mafy, nisolo anao,\nKa maty hamonjy ny very;\nNy rany nandriaka tao.\nNiaritra latsa sy eso,\nNy hombo sy lefona koa;\nNivesatra ota Izy teto\nHanananao fiainana koa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('369', 'Endre! ny fitiavan’i Jeso,\nRy olo-mahantra, jereo!\nNijaly hamonjy, hevero,\nNy ota mahazo ekeo;\nEkeo, fa ny fo mihamafy,\nDia loza manenjika anao;\nFaingàna hamonjy ny ainao,\nHararaoty ny andro izao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('369', 'Ny masom-panahy atopazo,\nNy lanitra no andrandrao;\nNy Tompo maniry hamonjy,\nHenoy fa miantso anao.\nFaingàna, ry hava-malala!\nModia an-tranon’ny Ray;\nMiandry anao re ny lova,\nFiainana mandrakizay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF370',
+             '',
+             370
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('370', 'Mba henoy ny feon’i Jeso,\nRy mpanota very ô!\nAtsaharo re ny ota,\nIzay mamery aina anao;\nJeso Tompo no miantso,\nAoka tsy ho lavinao;\nDieny mbola re ny antso,\nManatòna hianao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('370', 'Izao no tenin’ny Mpamonjy\nIzay lazainy aminao :\n“ Manatòna Ahy, Vonjy\nSy Mpamela helokao;\nIzaho, Tompo feno antra,\nHanome anao ny soa,\nKa ny helokao rehetra\nDia ho afaka tokoa ”', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('370', 'Izaho koa no Vavahady\nIzay hidiranao izao,\nSady Lalan-toratady\nIzay mankao an-danitra ao;\nIzaho dia Mofon’aina\nSady Raon’aina koa;\nTsy mba misy miala maina\nIzay rehetra tia tokoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('370', 'Indro, efa maty Aho\nHanavotako anao;\nMoa tsy hatolotra Ahy\nNy fanahinao izao ?\nRy mpanota! mihevera,\nAoka izay ny ditranao,\nManatòna, manatòna\nAhy, Jeso Avotrao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF376',
+             '',
+             376
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('376', 'Mpanota ory sy mahantra\nHenoy ny teny ho anao\nJesosy Tompo be fiantra,\nNisolo voina anao,\nKa Izy feno indrafo\nMitaona anao hiova fo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('376', 'Jesosy Tompo sy Mpamonjy\nMiantso ny anaranao\n« Mpanota very mila vonjy\nMinoa Ahy hianao;\nNy sainao aoka ho vaovao,\nNy fomba ratsy ialao! »', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('376', 'Jesosy koa mampahery\nNy sasatra ao an-dalana;\nNy rany soa manan-kery\nHahafaka ny entana;\nJesosy tsy mandroaka\nNy ory izay manatona.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('376', 'Ka itokianao ny teny\nNaloaky ny vavany!\nNy mino Azy hovonjeny\nHanatrika ny tavany.\nSakaizako mahantra ô!\nArio ny famoizam-po.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF377',
+             '',
+             377
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('377', 'Tsy mba hisy tonga arý\nan-danitra\nRaha tsy mandrombaka\ntokoa;\nNy mpiady tsara izay\nmaharitra\nNo handray anjara lova soa.\nEty sady tery ny vavahady ao,\nKely sy mideza ny lalana\nmankao;\nNefa aza kivy, ry havako izao,\nFa izay malaina dia ho very.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('377', 'Maro no mitady hisakana\nanao,\nKoa mba tohero, ry sakaiza;\nMba reseo mafy ny\nfahavalonao.\nFetsy izy  ireo ka mahaiza,\nIzay rehetra mamin’izao\ntontolo izao\nDia avelao, fa mamandrika\nanao;\nAoka mba Jesosy no\nhifalianao,\nEny hifalianao tokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('377', 'Satroboninahitra tsy ho\nazonao\nRaha tsy katsahinao tokoa\nFa hevero kosa ny fifalianao\nRaha tonga ao an-dapa soa,\nFa hahita maso ny Tompo\nhianao,\nKa hifaly amin’\nAndriamanitrao.\nKoa miomàna re,\nry sakaiza ô!\nMba ho faly ao am-pitsarana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('377', 'Dia miangavy, mangataka\naminao,\nMba modia, ry mpirenireny!\nFa ny Tomponao ta-handray\nanao izao.\nHianao tsy sitrany ho very.\nIzy dia mananty ny tanany\nizao\nKa ny fonao simba mba\natolorinao\nHosoloan’i Jeso fo tsara sy\nvaovao;\nIzany mba hevero, ry sakaiza!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF378',
+             '',
+             378
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('378', 'Ho aiza, ho aiza izao hianao\nRy havako izay mbola tia\nNy fomban’ny nofo manimba\nanao ?\nAvia ry olo-mania!\nHenoy fa miantso ny Tompo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('378', 'Ho aiza, ho aiza izao hianao,\nRy havako mbola tamana\nAo amin’izao fivelomana izao,\nKa fatra-pikiry hitana\nIzay zavatra halan’ny\nTompo ?', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('378', 'Hevero fa tsy mba mahafaka\nanao,\nKa tsy mba heken’ny Mpitsara\nNy fahamarinana ao aminao;\nNy an’i Jesosy no tsara,\nKa dia katsaho ny Azy.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('378', 'Ekeo ny tenin’ny Tompo soa\nInoy ny toky nomeny,\nKa dia ho hita ny lalam-\nbaovao,\nIzay voatoron’ny teny :\nJesosy no lalana tsara.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF379',
+             '',
+             379
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('379', 'Torotoro va ny fonao,\nRy mpanota re, izao ?\nKa ifonanao tokoa\nVa ny hadisoanao ?\nHianao va mitomany\nKa maniry mba ho any\nAmin-Jeso, Izay nandany\nRe ny ainy ho anao ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('379', 'Ny Fanahin’ny Mpamonjy\nMoa nangatahinao\nHampandray anao ny vonjy\nHahamasina anao ?\nMoa fantatrao tokoa\nFa ny rany mahasoa\nDia avotra naloa\nMba hahafa-trosa anao ?', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('379', 'Maro no manaiky  ihany\nAraka ny vavany,\nFa hanoa ny Mpamonjy,\nKa ho tena havany.\nNefa kosa mbola tia\nFomba ratsy, ka mania,\nDia tsy handray fitia\nRaha ao am-parany.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('379', 'Koa dia miangavy\nAho, ry sakaizako\nMahereza mba hitady\nFiadanana ao am-po\nMba hatòny ny Mpamonjy,\nAngatahonao ny vonjy\nDia tsy maintsy ho tra-bonjy,\nJeso no mamindra fo.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF380',
+             '',
+             380
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('380', 'Mba mifohaza re, henoy izao\nNy hafatra ataon’ny\nTomponao,\nNy Tompo, izay Mpanjaka\nmanan-kery\nMikatsaka anao,\nry olom-bery!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('380', 'Dondòniny ny fo, ka hianao\nMandrindrina ny\nvaravaranao!\nTandremo sao dia sasatra ny\nfony,\nSao lasa Izy ka tsy avy\nintsony.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('380', 'Fa indro Izy mbola atý izao\nMitady hampiverina anao\nKa aza lavina ny Tompo tsara,\nSao hianao ho ratsy fiafara.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('380', 'Faingàna ary, ka ampandrosoy\nIlay Sakaiza Izay nahafoy\nNy ainy hoanao mpanota very,\nTsy misy Mpamonjy afa-tsy\nIzy irery', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('380', 'Ifony aminy ny helokao,\nHariany ka tsy ho hitanao,\nKa hianao izay mendrika ho\nvoa\nHatsangany ho zana-dRay\nTsitoha', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('380', 'Ka raha renao ao anaty fo\nNy fiadanana izay mahatò\nNy famelana ny helokao\nrehetra\nDia aoka mba handrasanao ny\nfetra.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('380', 'Akaiky re ny fahafahana,\nKa mba zakao ny\nhatrotrahana,\nHo avy faingana Jesosy\nTompo\nKa dia ho afaka  ady ny\nMpanompo.', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('380', 'Rehefa hitanao ny Tomponao\nDia  afaka ny hasasaranao,\nHijanona ny sento sy taraina\nFa hobin-danitra no\nhohiraina.', '8', '8');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF381',
+             '',
+             381
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('381', 'He, ny  fiantsoana\nFeno fitiavana,\nTeny masina sy to\nHo anao, ry ory fo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('381', 'Hoy Jesosy Tomponao :\n« Manatòna Ahy, re,\nRy miasa fatratra\nSy mavesatra entana! »', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('381', '« Fa Izaho hanome\nFitsaharan-dehibe\nSy fiainana vaovao\nHahasambatra anao »', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('381', 'Ry Mpamonjy tsara ô!\nSaotra no atolotro;\nKa ampio aho izao\nFa manaiky ho Anao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF382',
+             '',
+             382
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('382', 'Ry olo-matory ô! mba\nmifohaza,\nFa indro Kristy,\nIlay Fahazavana Izay tena\nmalaza,\nDia tonga atý,\nKa aza matory,\nFa mba atolory\nNy fonao izao\nMba hanazavany anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('382', 'Atý dia matevina sady mahàna\nNy zavona be;\nNy sento, taraina sy\nfitomaniana\nDia misy anie,\nRy olo-mahantra,\nJereo ny Mpiantra\nHenoinao izao\nJesosy nanavotra anao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('382', 'Atý dia mangentana sady be\nady,\nKa maro no voa;\nTsy tambo isaina ireo mitady\nFiadanana am-po\nDia  aza tomany,\nFa eto ihany\nIlay nanome\nNy fahasoavana be!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('382', 'O, miandrandrà ka jereo ao\nambony,\nFa  antoandro izao,\nFalia toa zaza, tahafo ny fony,\nNy Tompo derao,\nNa misy ny onja\nSy ota mandoza,\nDia mbola derao\nJehovah Mpiaro anao!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('382', 'O, mendrika hankalazaina\nJehovah\nIzay manome\nNy lalana sy fahamarinana\nkoa\nSy fiainana be\nTsilovy, ry Kristy,\nNy lala-mahitsy\nIzorako izao,\nTantano re ny zanakao!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF383',
+             '',
+             383
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('383', 'O, ry mpanota, aza mandà,\nJeso miantso, ka miovà;\nMba manatòna Azy izao,\nIzy hamonjy anao.\nHe, mivoha izao ny lanitra,\nRy mpirenireny lavitra;\nIndro Jesosy, Izy no ao;\nAiza no hisy anao ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('383', 'Be ahiahy va hianao\nNo tsy mandroso faingana\nizao ?\nDia tapaho ny hevitrao,\nKa miovà hatrizao.\nHe, mivoha izao ny lanitra,\nRy mpirenireny lavitra;\nIndro Jesosy, Izy no ao;\nAiza no hisy anao ?', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('383', 'Mba miverena re hatrizao,\nKa hararaoty ny andronao,\nFa ny atý ho simba sy lao,\nKa mba modia izao.\nHe, mivoha izao ny lanitra,\nRy mpirenireny lavitra;\nIndro Jesosy, Izy no ao;\nAiza no hisy anao ?', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF384',
+             '',
+             384
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('384', 'Ry olom-bery, tsy ho very\nFoana ny androanao,\nRaha ‘mby an-tsainao, fa ny\nainao\nTsy fanananao,\nNy hery misy, nefa indrisy,\nResim-pahalainana!\nAtý an-tany mora lany\nNy fiainana.\nMba mazotoa, ry havako,\nKa aoka hoheverinao\nNy andro lasa, sao ny asa\nTsy ho vitanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('384', 'Ka manenena, miambena,\nMivavaha hianao!\nEfao ny ady, ao ny kiady\nVoninahitrao.\nMba ahitsio ankehitrio\nNy dia sisa hatrizao,\nFa be ny simban’ny\nmpanimba\nKa migadra izao.\nSakaiza, ô fantaronao,\nFa nijalian’ny Tomponao\nNy fahotana tsy ialana,\nIlalaovanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('384', 'Dia mba ampio sy tahio\nIzahay, ry Tomponay,\nFa mba hiady ka hitady\nVonjy ho anay.\nHomenao soa ny manoa\nAmin’ny fotoanao.\nO, ry Mpanjaka avia haka\nNy malalanao,\nNy olonao dia te hankao\nAn- danitra fonenanao.\nRy Jeso tia, mba avia\nFaingana izao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF385',
+             '',
+             385
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('385', 'Ry Mpamonjy be fitia\nNo miantso hoe: Avia!\nRy mahantra, raiso izao\nFamonjena ho anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('385', 'Hoy  ny Tompo :\nRy mpanota,\nManatòna, fa ny ota\nVoavela, anaka \nAfaka ny helokao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('385', 'Teny mamy, re izany,\nFaly ireo mitomany,\nKa araho hatrizao,\nDia ho sambatra hianao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('385', 'Ry Jesosy, Izay Mpiantra,\nIzaho ory sy mahantra,\nKa ampio aho izao\nFa Mpamonjy Hianao!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('385', 'Efa azoko ny teny\nKa hazoniko ireny;\nHianao, Jesosy ô,\nAmpy hiankianako.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF386',
+             '',
+             386
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('386', 'Jesosy Tompo soa\nNo miantso mafy hoe :\n« Manatòna avokoa\nRy mpanota marobe!\nFa izay manatona  Ahy\nTsy mba ho horoahiko;\nAza manana ahiahy,\nRaisonao ny teniko »', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('386', 'Aza mba misalasala\nKa mihevitra hoe;\nSao ny Tompo tsy hamela\nAhy efa diso be.\nTsia, tsia, ry mpanota,\nMatokia marina,\nAnenenonao ny ota,\nJeso hanamarina.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('386', 'He, ny rany sarobidy\nNo mahafa-keloka\nNy mpanota voavidy\nKa miaiky  heloka.\nEny, afaka ny revo\nNoho ny Mpanavotra,\nNy devoly manandevo\nEfa resy lahatra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('386', 'Ny Mpamonjy mampifidy,\nTsy manao an-keriny,\nKa antsika ny hifidy\nSy handray ny teniny.\nKoa raha misy very,\nDia tsy avy aminy;\nNy manao ny mahavery\nDia tsy mba maminy.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF387',
+             '',
+             387
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('387', 'Ampihetsehin’inona\nIzao ireo vahoaka,\nAry iza no arahiny\nNo dia samy maika erý ?\n:,: Ry jamba ô, fantaronao,\nJeso mandalo anao izao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('387', 'Jesosy Iraky ny Ray\nDia samy mety no mahay\nManafaka ny rofinao\nSy mampahiratra anao;\n:,: Koa mitsangàna hianao,\nJeso mandalo anao izao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('387', 'O, ry mivesatra entana,\nHantòny ny Mpanafaka!\nRy zaza very hatrizay\nModia ao an-tranon-dRay\n:,:Ry jamba ô, heveronao\nJeso mandalo anao izao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('387', 'Ny lalan-tsarotrao atý\nTsy misy tsy nalehany,\nNy rofy nositraniny,\nNy maty novelominy,\n:,: Ny jamba faly nahare;\nIndro Jeso mandalo re! :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('387', 'Ny indrafony mbola  injao,\nMitety izao tontolo izao:\nNy tranontsika alehany,\nNy fo mihidy doniny.\n:,: Ampandrosoy Izy hoe :\nJeso ô! aza mandalo re! :,:', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('387', 'Fa raha tsy ahoanao\nIzao fandalovany izao,\nKa nony efa farany\nVao tia ny hovangiany.\n:,: Indrisy tsy ho hitanao\nJeso Izay efa nandalo tao :,:', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF388',
+             '',
+             388
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('388', 'Tsy maintsy hateraka indray\nhianao\nIzay ta-handova\nNy lanitra sy ny fiainam-\nbaovao,\nIzay tsy miova;\nNy havan’ny Tompo ihany\nNo tena hahazo izany.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('388', 'Ny fo vatolampy esory izao,\nFa tsy hovonjena;\nKatsaho ny fo feno aina\nvaovao\nFa io no ekena\nHoraisina any ambony,\nKa tsy hitomany intsony.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('388', 'Ny Tompo mitondra ny hery\nvaovao;\nFanahy sy afo,\nIzay mampiova ny fonao izao\nHo tonga fo nofo;\nNy olona lasan-ko babo\nHo afaka sady hiravo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('388', 'Ry Masina ô, ateraho indray\nIzay mitaraina,\nVelomy ny maty hifoha,\nhandray\nIlay tena aina;\nMba raiso, ry Ray be fitia,\nNy zanaka adala mania!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF389',
+             '',
+             389
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('389', 'Ny perla madio, ny perla\nvaovao\nNo tonga hampanan-karena\nny very,\nNy perla madio katsaho izao;\nArio ny ota, izay mahavery;\nTapaho ny gadra, izay\nmahamay,\nFa sao ho anjaranao\nmandrakizay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('389', 'Ny ota nataonao, ry havana e,\nMiteraka gadra, izay\nmahafaty;\nKanefa ny maro miezaka re,\nHahazo ny voan’ny ota, ka\nmaty;\nReseo ny ota, reseo izao,\nKatsaho indrindra ny perla\nvaovao', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('389', 'Avia, mpanota, faingàna izao,\nFaingàna ka dia hahazo hijery\nNy perla madio, ny perla\nvaovao,\nIzay tonga hampanan-karena\nny very.\nRy Jeso, Izay perla madio\nvaovao,\nAvia hampanan-karena izao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF390',
+             '',
+             390
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('390', 'He, Jesosy Tomponao\nMalahelo, mitomany,\nFa izao tontolo izao\nMbola mihomehy ihany,\nKa ho ratsy fiafara,\nFa manda ny Tompo tsara!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('390', 'Indro, tevana no ao,\nFa tsy hitan’ny mpanota,\nIzay mandihy faly izao\nSy manaram-po manota.\nRy adala miverena,\nSao ho very famonjena.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('390', 'Mba heveronao izao\nFa ny tenanao ho faty;\nKoa ny fifonanao\nAza ataonao matimaty!\nHe, ny Tompo mitomany!\nSa tsy azonao izany ?', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('390', 'Latsa-dranomaso be\nSy onena ny Mpamonjy;\nKoa mifohaza re\nManatòna ho tra-bonjy,\nFa Jesosy be fitia\nMitomany ny mania.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF396',
+             '',
+             396
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('396', 'Aizan’ny lanitra hianao,\nRy zanak’olona ô ?\nMoa mba efa niditra tao\nSa ao ivelany ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('396', 'Lapan’Andriamanitra ao\nKoa tsy mankao\nAfa-tsy izay mandray fo\nvaovao :\nOlona masina.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('396', 'Any ny masina marobe\nVelona mandrakizay,\nKa fiderana tsara no re,\nEran’ny lanitra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('396', 'Tapitra irina izay tonga ao,\nSambatra mandrakizay;\nAny ny Paradisa vaovao,\nIzay hiadanana.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('396', 'Aizan’ny lanitra hianao,\nRy zanak’olona ô ?\nO, mba hevero izay toetrao\nMbamin’ny asanao!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF397',
+             '',
+             397
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('397', 'Ry olona mbola tamana\namin-dratsy,\nHevero ny loza hihatra\naminao\nFa indro Satana izay lohan’ny\nratsy\nMandefa tsipika hamono\nanao.\nKanefa ny Tompo izay\nZanahary\nNo tonga hamonjy, fa tsy mba\nmanary;\nAvia, ry olo-mahantra, hihary\nNy tena harena tsy mety ho\nlo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('397', 'Jesosy mamoha anao,\nry matory,\nFa Izy maniry hitarika anao,\nIlaozy ny ota, fa he,\nmampahory,\nHenoy ny feo miantso anao!\nJereo Ilay kintana, Izay tsy ho\nrava,\nFa indro ny aizina dia hisava;\nAraho Jesosy, fa tena mazava,\nIzay hanazava tokoa anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('397', 'Ny Tompo mamelona ny efa\nmaty,\nKa aoka hitsangana re\nhianao!\nFadio tokoa izay mahafaty,\nKatsaho indrindra ny aina\nvaovao!\nJesosy Mpamonjy no mba\nitafio,\nKa dia tandremo fa lamba\nmadio!\nRy olo-mahantra mba raiso\nanio\nJesosy, Izay mahavonjy anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('397', 'Jesosy Mpamonjy mitondra\nny teny\nIzay hahavelona mandrakizay;\nKa dia henoy ny toky nomeny,\nRy olo-maniry ho amin’ny\nRay!\nFainganà tokoa, ry efa mifoha\nFa indro ny lanitra efa mivoha,\nKa faly indrindra ny Tompo\ntsitoha\nHitsena ny zanany velona\nindray.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF398',
+             '',
+             398
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('398', 'Iza no hiara-dia\nHo arý an-danitra,\nKa hanaiky sy ho tia\nAn’Andriamanitra ?\nRy mikatsaka ny To,\nAtolorinao ny fo;\nIzao tontolo izao ario,\nKa ny lanitra fidio.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('398', 'Sao ho lany amin’ota\nNy anjara andronao,\nKa ny helo valin’ota\nNo hanjary lovanao;\nMiovà re hatrizao,\nMiverena hianao;\nTadiavinao tokoa\nNy Mpamonjy Tompo soa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('398', 'Mba avia, mianara\nIzay fitondrantena vao;\nMikeleza aina tsara,\nKa reseo ny nofonao,\nAza mba mamindra fo\nAmin-dratsy ao am-po,\nFa ongoty avokoa\nIzay misakana ny soa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('398', 'Tsy mba misy lalan-kafa\nHiakaranao ho ao,\nKoa andeha manahafa\nNy nataon’ny Tomponao.\nTsy mba mahavonjy anie\nNy fahaizan-dehibe;\nRaha ny nofo no hajaina,\nDia ho very re ny aina.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('398', 'Dia ny lanitra katsaho\nHo anjara lovanao;\nNy Mpamonjy angataho\nHo mpitarika anao ?\nFa izay mpianany\nDia hotantanany\nIza no hiara-dia ?\nMitsangàna ka avia!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF399',
+             '',
+             399
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('399', 'Ny sento ajanòny\nRy malahelo ô!\nKa aza misy intsony\nIzay hamoy fo!\nFa indro ny Mpamonjy\nDia eo anilanao,\nKa tonga mba hamonjy\nSy hitondra anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('399', 'Jesosy no nitory\nNy teny soa re,\nNy rera-po sy ory\nAntsoiny mba handre;\nMinoa fa ny ota\nDia voavelany,\nSakaizan’ny mpanota\nNo anarany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('399', 'Miposaka ny taona\nAnkasitrahana,\nKa be ny voataona\nAm-pitiavana.\nHevero, ry mahantra,\nIzay anjaranao!\nJesosy be fiantra\nNo Mpamonjinao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF400',
+             '',
+             400
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('400', 'Tompo Tsitoha, izahay\nmifona,\nMba mihainoa, ô mba\nmanatòna!\nKa mamindrà fo aminay\nmpanota,\nHo afaka ota.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('400', 'Raha averina aminay mpanota\nIzay mendrika ho anay ho\nvalin’ota,\nDia ho anjaranay re ny hijaly,\nFa tsy hifaly.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('400', 'Indro izahay, fa vovoka sy\ntany,\nReraka, osa, sady mitomany,\nTraty ny mafy\nmampiferinaina,\nKa mitaraina.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('400', 'Noho Jesosy Zanaka malala,\nIzay nijaly solonay adala,\nDia mba vonjeo izahay\nmahantra,\nRy be fiantra.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('400', 'Ray be fitia, tokin’ny\nmahantra,\nMba manampia anay,\nry be fiantra,\nFa miandrandra izahay\nmijery\nAnao irery!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF401',
+             '',
+             401
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('401', 'Izaho nivily, ka simba ny fo,\nNafoiko ny làlana tery;\nIzaho nanary ny soa sy to,\nKa resin’ilay  mahavery.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('401', 'Ka nony adala sy mafy ny fo,\nDia tonga ny Filazantsara\nNaneho ny teny mazava sy to,\nDia teny izay manambara.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('401', 'Fa tonga ny Tompon’ny \nlanitra izao\nHamonjy izay olom-bery;\nModia anio, ry havako ô,\nAraho ny làlana tery.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('401', 'Jesosy nijaly nisolo anao;\nNy fony, ny ainy nijaly;\nArio ny ratsy, fidio izao\nNy soa izay mahafaly.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('401', 'Izaho fahiny nahery nandà\nTsy nety nifidy ny soa,\nFa nohon’ny herin’ny afo\nsy ra,\nNanaiky ny foko fa voa.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('401', 'Izaho izao dia tretrika am-po\nFa afaka tsara sy sahy\nHiala amin-dratsy, hitady\nny to ,\nKa mino fa Jeso no ahy.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('401', 'Ry Jeso Mpamonjy, arovy\nny fo,\nAhiko ny fandrika maro!\nIzaho mikasa ao anatin’ny fo\nHanaraka Anao, ry Mpiaro.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF402',
+             '',
+             402
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('402', 'Ory sady mitomany\nAho, ry Jesosy ô,\nFa tsaroako izany\nVesatry ny heloko;\nKoa mba todihonao,\nRaiso ho mpianatrao,\nNy fanahiko sitrano,\nAtsanganonao ka tano!', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF403',
+             '',
+             403
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('403', 'Ry Jeso Tompo tsara ô!\nHe, resy lahatra aho izao\nFa be ny ratsy vitako\nMandifotra ny tenako!\nMilela-paladia, re,\nFa efa diso lehibe;\nEsory tsy ho hitanao\nNy mariky ny otako,\nAmpiasao ny indrafo\nKa mamelà ny heloko!', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF404',
+             '',
+             404
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('404', 'Ny fasika amoron’ny rano\nTsy tambo isaina, fa maro;\nNy kintana an-danitra koa\nTsy azo isaina avokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('404', 'Ny otako toraka izany,\nNy isany tsy hita lany;\nIzaho nanary ny soa,\nKa dia mahantra tokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('404', 'Indrisy, izaho nania,\nKa very ny valim-pitia;\nNy foko tsy mety mangina,\nFa maro ny heloka ahina.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('404', 'Izaho maniry hahazo\nNy lova izay tsy halazo;\nIriko ny ho tafafindra\nHo amin’ny Avo indrindra.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('404', 'Ry Jeso Mpamonjy Mahery,\nVariana aho fa very,\nKa noho ny ranao madio,\nNy heloko re mba ario!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF405',
+             '',
+             405
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('405', 'Jesosy Kristy Tompo ô!\nMba mamindra fo, e!\nFa raha tsy hatoninao,\nMahantra aho  re!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('405', 'Mifona sy mangataka\nIzaho Tompo ô,\nNoho ny ranao latsaka,\nVonoy ny heloko.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('405', 'Ny famonjena vitanao,\nTsy hain’ny hafa  atao;\nNy teny sy ny herinao\nDia  ampy  hanavao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('405', 'Ho heriko ny indrafo\nSy ny fitiavanao,\nKa faly ny fanahiko,\nFa velon-ko Anao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('405', 'Ny hazofijaliana\nAnjarako atý,\nFa satro-pifaliana\nHo azoko arý.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF406',
+             '',
+             406
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('406', 'Manenina aho, Ray Masina ô!\nFa simba ny tsirin’ny aina;\nIzay nambolenao tanatin’ny fo\nDia  lanin’ny  ota ka maina.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('406', 'Indrisy ny fahadisoako, re,\nFa maro, tsy tambo isaina,\nKanefa, ry Tompoko, mba\nmamonje\nIty ory, izay mitaraina!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('406', 'Havaozy indray ny fanahiko\nizao\nAndrao lasa ho babon’ny\nhelo;\nKa ny fivalozako mba\nraisonao,\nVonjeo ny fo malahelo.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF407',
+             '',
+             407
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('407', 'O ry Raiko izay malala,\nTonga aho zanakao,\nIzay nania, fa adala, \nKa mifona Aminao;\nMamelà ny fahotako\nTeo anatrehanao;\nAry ny fahadalako\nAza mba heverinao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('407', 'He, izaho nanantena\nIzao fiainana izao,\nKa nandà ny famonjena,\nIzay lazain’ny teninao;\nKanjo hitako tokoa,\nFa izao tontolo izao\nTsy mba manan-java-tsoa\nHampiadana ny fo.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('407', 'Enga aho, izay mahantra,\nMba ho isan’ny Anao;\nHianao ry Ray Mpiantra,\nMiantrà ny zanakao,\nAry nohon’ny Mpamonjy,\nIzay nanavotra ahy re,\nRaiso aho ho tra-bonjy,\nHa Anao, ry Ray! Amen!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF408',
+             '',
+             408
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('408', 'Jehovah, Ray mahari-po,\nIzay tia sy mamindra fo\nO, mihainoa ny hatako :\nMba mamindrà fo amiko!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('408', 'Izaho izay mangataka\nTsy azo hamarinina;\nIndrisy! be ny tsiniko;\nMba mamindrà fo amiko!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('408', 'Tsy tamboko isaina re\nNy fahotako marobe,\nKa be tokoa ny tahotro;\nMba mamindrà fo amiko!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('408', 'He! misy hanatonako\nAnao, Mpandray mpibebaka :\nIzaho diso fatratra;\nMba mamindrà fo amiko!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('408', 'Fa Jeso no Anarana\nIzay entiko mangataka\nNy hamelanao heloka :\nMba mamindrà fo amiko!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('408', 'Tsinjovy re ny zanakao\nMiverina Aminao izao\nFa mitaraina Aminao :\nMba mamindrà fo amiko!', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('408', 'O! mba jereo ka iantrao\nIzaho miandrandra Anao;\nNy heloko vonoinao,\nFa mampisaraka Aminao.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF409',
+             '',
+             409
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('409', '« Ry zaza mpiodina,\nmba miverena! »\nAntsoin’ny Ray;\nIsika hamaly am-po\ntsy terena :\n« Indreto izahay\nMiaiky fa ratsy\nMaratran’ny rafy;\nSitrano izahay,\nFa simba ny toetranay. »', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('409', '« Indrisy, nanota\nka mendrika ho faty\nSy very izahay!\nNy razanay dia nanompo ny\nmaty\nKa narahinay.\nRy Ray ô, jereo\nKa dia vonjeo,\nMba ho zanakao\nIzahay mitanondrika izao »', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('409', '« Sitraniko ny \nfihemoranareo,\nRy zanako ô!\nTsy ampanjomboniko\naminareo\nNy tavako koa. »\nIzany irinay\nHo re ao am-ponay,\nFa Ray Hianao\nMampionona ny olonao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF410',
+             '',
+             410
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('410', 'Ry Jeso ô! jereo,\n‘Ndrao maty, ka vonjeo;\nRy Kristy, Vonivatonay!\nMba raiso izahay,\nMahantra izahay,\nKa ory ny fonay;\nRy Tompo be fiantra ô!\nMba miantrà anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('410', 'Mpanavotra ô! jereo,\nAndrao very, ka vonjeo;\nRy Kristy, Orimbatonay!\nAvoty izahay,\nMpanota izahay,\nMaloto ny fonay;\nRy Zanak’Andriamanitra ô!\nVonoy ny otanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('410', 'Mpanjaka ô! jereo,\nAndrao lavo, ka vonjeo;\nRy Kristy, Harambatonay!\nArovy izahay,\nMalemy izahay,\nKa kivy ny fonay;\nRy Tomponay mahery ô!\nTantano izahay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF411',
+             '',
+             411
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('411', 'Ry Zanahary Tomponay,\nMpanao izao rehetra izao!\nTsinjovy re ny olonao,\nKa miantrà ny lovanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('411', 'Ry Tokinay sy Tanjakay!\nMba mitalaho izahay;\nTsarovy re ny zanakao,\nKa mamelà ny helokay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('411', 'Ry Tomponay, Mpamonjy \nsoa!\nTariho izahay izao\nHanompo sy hanoa Anao,\nHo voninahitrao tokoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('411', 'Rehefa hody izahay,\nMba raiso ny fanahinay\nHandray ny hasambarana\nAtolotrao, Mpanavotray.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF412',
+             '',
+             412
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('412', 'Jehovah Tompo ô!\nIndreto izahay\nMifona Aminao;\nFa be ny helokay;\nHenoy izao, ry Ray!\nHenoy ankehitrio,\nHenoy ny vavakay,\nHenoy ka mba valio.\nRy Andriamanitray!\nmijere!\nJeso Kristy Tomponay!\nmamonje!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('412', 'Vonjeo, vonjeo, ry Ray!\nVonjeo ny olonao;\nMifona izahay,\nIsao ho zanakao;\nHenoy izao, ry Ray!\nHenoy ankehitrio,\nHenoy ny vavakay,\nHenoy ka mba valio.\nRy Andriamanitray!\nmijere!\nJeso Kristy Tomponay!\nmamonje!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('412', 'Mpanota izahay,\nMba mamelà anay;\nMaloto ny fonay,\nSasao ho voadio;\nHenoy izao, ry Ray!\nHenoy ankehitrio,\nHenoy ny vavakay,\nHenoy ka mba valio.\nRy Andriamanitray!\nmijere!\nJeso Kristy Tomponay!\nmamonje!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('412', 'Jereo ny Zanakao\nMisolo vava  anay;\nIlay Malalanao,\nMifona ho anay;\nHenoy izao, ry Ray!\nHenoy ankehitrio,\nHenoy ny vavakay,\nHenoy ka mba valio.\nRy Andriamanitray!\nmijere!\nJeso Kristy Tomponay!\nmamonje!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF413',
+             '',
+             413
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('413', 'Ry Mpamonjy, Tompo soa!\nAvy izahay izao,\nMba hanaiky sy hanoa,\nKa hiverina Aminao,\nHianao no ranon’aina\nMahavelona ny fo;\nHianao no antenaina\nMba hanala ny manjo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('413', 'Indreto izahay mpanota\nEfa diso taminao,\nMamonje sy manavota\nNy fanahinay izao,\nHianao no mahavonjy\nIzay miankina Aminao;\nKoa raiso, ry Mpamonjy!\nNy fifonanay izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('413', 'Ry Jesosy be fitia!\nMba tantano izahay,\nFa ho lavo sy hania\nRaha tsy hazoninao.\nTsy mba misy mety very\nEo am-pelatananao,\nFa Aminao no misy hery\nMahatanjaka ny fo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('413', 'Tompo ô! mba tanteraho\nIzay rehetra mahasoa,\nKa ny otanay afaho,\nFa manimba anay tokoa,\nMampianara anay haniry\nMba hanao ny sitrakao,\nHahazoanay ny hery\nEo am-pelatananao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF414',
+             '',
+             414
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('414', 'Jeso, Vatolampinay!\nO! arovy izahay,\nKa ny fonay mba sasao\nManafaha  anay izao,\nMba tsy hisy  izay hanjo\nOlon-tsy mahitsy fo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('414', 'Tsy ny asa izay atao\nMahatò ny didinao;\nTsy ny hazotoam-po\nNo mahazo manadio;\nTsy ny ranomasonay\nNo mahafa-trosa anay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('414', 'Tsinontsinona  izahay,\nSady be ny helokay;\nRy Mpiaro lehibe,\nJeso Tompo!  mamonje,\nFa miankina Aminao\nIzahay mpanomponao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('414', 'Tomoera aminay\nRaha  ho faty izahay,\nAry raha  hiakatra ao\nMba hiseho Aminao,\nJeso, Vatolampinay!\nO! arovy izahay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF415',
+             '',
+             415
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('415', 'Mifona Aminao izahay,\nAndriamanitra ô!\nMba mamelà ny helokay,\n:,: Fa diso izahay :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('415', 'Mivavaka  Aminao izahay,\nRy Jeso Tompo ô!\nAvoty ny ranao izahay,\n:,: Fa very izahay :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('415', 'Mangataka  Aminao izahay,\nFanahy Masina ô!\nVelomy ny fanahinay,\n:,: Fa maty izahay :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('415', 'Jehovah ô! Izay iray,\nKanefa Telo koa,\nMba atokàny izahay,\n:,: Ho olonao tokoa :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF416',
+             '',
+             416
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('416', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('416', 'Mamindrà fo amiko,\nRy Jehovah Tompoko!\nFa miantra Hianao,\nMamelà ny heloko.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('416', 'Iza no mamindra fo\nToa an’Andriamanitra ?\nIza no Mpanavotra\nAfa-tsy ny Zanany ?', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('416', 'Jeso Kristy no mahay\nMamonjy ny mpanota\nIzay miankina Aminy\nKa tsy mandoka tena.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('416', 'Aza mahafoy ahy,\nRy Jehovah Tompoko!\nMamindrà fo amiko,\nMamelà ny heloko.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF417',
+             '',
+             417
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('417', 'Nandao Anao ela aho,\nRaiko ô!\nIzao dia  te-hody aho; \nManiry hiankina an-tratranao\nIzao dia  te-hody aho,\n:,: Inty tamy aho, Raiko\nmalala ô\nRaiso ny tanako :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('417', 'Maniry hanana fiadanam-po\nIzao dia te-hody aho,\nSy mba hivesatra ny zioganao\nIzao dia te-hody aho,\n:,: Inty tamy aho, Raiko\nmalala ô\nRaiso ny tanako :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('417', 'Itambesaran’ny ota natao\nIzao dia te-hody aho,\nMatoky anefa fa horaisinao\nIzao dia  te-hody aho,\n:,: Inty tamy aho, Raiko\nmalala ô\nRaiso ny tanako :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('417', 'Raha tsy mendrika ny ho\nzanakao,\nIzao dia  te-hody aho,\nAtaovy ho isan’ny \nmpanomponao\nIzao dia  te-hody aho,\n:,: Inty tamy aho, Raiko\nmalala ô\nRaiso ny tanako :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('417', 'Indro fa tazako ny sandrinao\nIzao dia  te-hody aho,\nMitsotra mba hisakambina re,\nIzao dia  te-hody aho,\n:,: Inty tamy aho, Raiko\nmalala ô\nRaiso ny tanako :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF418',
+             '',
+             418
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('418', 'Amorony fo madio\nAho, ry Jehovah ô!\nKa havaozinao anio\nNy fanahiko izao.\nBe ny ratsy vitako\nKa ny heloko sasao;\nMamindrà fo amiko,\nRy Jehovah Tompo ô!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('418', 'Amorony fo madio\nAho, ry Jehovah ô!\nKa diovy ankehitrio\nNy fiainako izao.\nSimba ny fanahiko,\nKa amboary ho vaovao;\nAza esorina amiko,\nNy Fanahy Masinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('418', 'Amorony fo madio\nAho, ry Jehovah ô!\nKa ny foko ahitsio,\nHamasino ho Anao.\nTaminao dia taminao\nNo mba nanotàko, Ray;\nKa ny heloko avelao\nNy fanahiko ovay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('418', 'Amorony fo madio\nAho, ry Jehovah ô!\nKa ny fo omeko anio,\nRaiso ho fanananao;\nFo mangorakoraka\nNoho ny ratsy izay natao;\nFo miaiky heloka,\nKa mba raiso, Tompo ô.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF419',
+             '',
+             419
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('419', 'Ry Raiko ô! Ry Raiko ô!\nEfa nanota teo imasonao\nIty Zanaka mahantranao;\nNinia niala teo an-tranonao\nMangovitra ny feoko,\nTorovana ny foko,\nKanefa tazako Hianao\nKa mamelà, mamelà,\nRaiko ô!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('419', 'Ry Raiko ô! Ry Raiko ô!\nHo tanterahiko ny anjarako;\nMandao ny lalako taloha;\nIzay nanalavitra ahy taminao\nTratrariko ny eo aloha,\nIlaozako ny lasa,\nInoako ny famindramponao\nKa mamelà, mamelà,\nRaiko ô!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('419', 'Ry Raiko ô! Ry Raiko ô!\nAtsory amiko ny tananao\nHamelona ny heriko\nFa reraka aho, ka tantanonao\nNy fitiavanao, Ray ô!\nFanilo sady toky\nAndraisako fiadanam-po,\nKa mamelà, mamelà,\nRaiko ô!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('419', 'Ry Raiko ô! Ry Raiko ô!\nHo olom-baovao itý zanakao\nRaha tonga eo akaikinao\nFa ho sasan’i Jeso Tompo tia\nTsy tapitra ny antranao,\nFa manana amby ampy\nDia manantena aho izao\nKa mamelà, mamelà,\nRaiko ô!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF420',
+             '',
+             420
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('420', 'Ry Raiko feno antra,\nInty aho fa ory;\nMijaly sy mahantra,\nKa tsy mahatraka  akory,\nJesosy no nilonjy\nNy ota vitanao;\nNy rany mahavonjy,\nNomeny ho anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('420', 'Nandao ny tavanao,\nNikaro-java-tsoa;\nKorana sy lalao,\nSambo-drivotra avokoa.\nJesosy no nilonjy\nNy ota vitanao;\nNy rany mahavonjy,\nNomeny ho anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('420', 'Izaho fahavalo\nFa tsy narianao,\nNy loza natakalo\nHasambaram-baovao.\nJesosy no nilonjy\nNy ota vitanao;\nNy rany mahavonjy,\nNomeny ho anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('420', 'Hanompo no iriko\nFa zanaka nania,\nRy hany itokiako\nMba ho Tompoko  doria.\nJesosy no nilonjy\nNy ota vitanao;\nNy rany mahavonjy,\nNomeny ho anao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF421',
+             '',
+             421
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('421', 'Andriamanitra ô, Ray\nMpamindra fo!\nAvy mankalaza Anao\ntokoa izahay;\nN''inon''inona midona,\nzavatra manjo\nEo ambany elatrao,\nmatoky izahay.\nMamindrà fo amiko,\nAndriamanitra ô!\nAvelao ny heloko,\nJeso Mpamonjy ô!\nHazavao ny lalako,\nFanahy Masina ô!\nFa izay no fahasambaran''\nny fanahiko.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('421', 'Jeso Kristy Tompo sy\nZokinay,\nMiaraka Aminao\nafa-tahotra tokoa,\nHetraketrakin''ny tany\ntsy hanimba anay,\nIzay mialoka Aminao\nho ampoky ny soa,\nMamindrà fo amiko,\nAndriamanitra ô!\nAvelao ny heloko,\nJeso Mpamonjy ô!\nHazavao ny lalako,\nFanahy Masina ô!\nFa izay no fahasambaran''\nny fanahiko.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('421', 'Ry Fanahy Masina\nMpanavao,\nHazavao re, ny ao am-poko\nmiafina ao\nKa ny lalana ombàko mba\ntarihonao,\nNy ota mahazatra mba levony\nkoa ho lao,\nMamindrà fo amiko,\nAndriamanitra ô!\nAvelao ny heloko,\nJeso Mpamonjy ô!\nHazavao ny lalako,\nFanahy Masina ô!\nFa izay no fahasambaran''\nny fanahiko.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF422',
+             '',
+             422
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('422', 'Ry Andriananaharinay!\nNy hamasinanao\nDia tena lehibe tokoa,\nRaha te-hahita Anao\nizahay,\nTsy maintsy tsara fo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('422', 'Ny mason''ny anjelinao\nMahita Anao tokoa,\nKa tsy mba manjambena\nireo,\nNa dia mamirapiratra,\nNy hamasinanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('422', 'Fa tsy nanota taminao\nAkory izy ireo,\nTsy meloka, tsy menatra,\nKa misy hahazoany\nHijery tsara Anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('422', 'Fa izahay, maloto fo,\nRaha te-hahita Anao,\nTsy mana-mahamendrika,\nFa zanak''olombelona;\nAhoana no hatao ?', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('422', 'Ry Andriananaharinay!\nNy ran''ny Zanakao,\nNy asan''ny Fanahy koa,\nNo zava-mahamendrika\nAnay hahita Anao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF423',
+             '',
+             423
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('423', 'He maharavoravo,\nJeso, ny fitiavanao;\nIzaho dia mpanota lavo,\nNefa Jeso, nareninao.\nMamin''ny foko loatra,\nNy fanavotana vitanao;\nHe! ny foko tsy afa-\nmanoatra\nJeso, hihira ho Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('423', 'Izaho mpanota adala\nNo nanehoam-pitiavan-tsoa\nNy heloko, Jeso malala,\nNavelanao tokoa tokoa.\nMamin''ny foko loatra,\nNy fanavotana vitanao;\nHe! ny foko tsy afa-\nmanoatra\nJeso, hihira ho Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('423', 'Endrey ny hafaliako :\nNy heloko navelanao,\nHe! maivana ny fahoriako\nNoho ny fanavotanao.\nMamin''ny foko loatra,\nNy fanavotana vitanao;\nHe! ny foko tsy afa-\nmanoatra\nJeso, hihira ho Anao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF424',
+             '',
+             424
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('424', 'Tsaroako dia tsaroako\nRaiko ô, Raiko be fitia!\nFa ny fahadisoako\nNodiovinao satria\nNoho Jeso Mpamonjy soa,\nInty izaho fa afaka,\nHe! azoko tokoa tokoa\nNy famelana heloka.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('424', 'Ny aizim-pahotàna\nRaiko ô, Raiko be fitia!\nMisolo hazavàna\nMamiratra erý.\nNy lalako mahitsy izao\nMitory olona afaka\nNoho ny hery vaovao \nNy famelanao heloka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('424', 'Endre, ny hafaliako\nRaiko ô, Raiko be fitia!\nFa maivana ny diako\nAvy any Kalvary.\nNy tahotaho-poko tao\nTsy reko intsony, afaka;\nAn-tanako tokoa izao \nNy famelana heloka.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('424', 'Deraiko lalandava\nRaiko ô, Raiko be fitia!\nNy vavako hilaza \nNy vitanao tetý.\nFa mbola misy marobe\nManiry te-ho afaka,\nHo azy  ireny koa anie\nNy famelana heloka.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF425',
+             '',
+             425
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('425', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('425', 'Ny ratsy efa tiako,\nTsy tahotro, tsy henatro\nFa zava-bao no hitako :\nTe-hijery izany aho.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('425', 'Ao ny hazo fijaliana\nAo ny Tompo efa maty :\nIzy no nijery ahy\nTsy tezitra, fa niantra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('425', 'Hoy ny fijeriny ahy\n« Hianao mamono Ahy »\nDia  hitako mahantra aho\nNy heloko namono Azy.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('425', 'Aiza no handosirako\n''Ndrao hidiran-doza aho ?\nIza no hamonjy ahy,\nFeno ota, feno loto ?', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('425', 'Nijery ahy indray Izy :\n« Avelako ny helokao \nFa ny ràko no manadio\nHahazoanao fiainana ».', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('425', 'Maty Kristy, be ny ota,\nMaty i Jeso! be fitia.\nFaly malahelo aho,\nSambatra, manana ody aina.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF426',
+             '',
+             426
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('426', 'Nanatona Anao, \nMpanavotra ô!\nNy olo-mahantra fahiny,\nNy rofiny be, ny senton''ny fo\nNaneho fa soa no niriny.\nTsy nety ho sasatra Hianao,\nTsy nisy nolavina akory,\nFa samy nandray ny\nindrafonao,\nKa ravo ny olona ory.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('426', 'Manatona Anao, ry be\nindrafo,\nNy olo-mahantra anio,\nFa be siasia, sy reraka am-po\nKa raisonao ankehitrio!\nNy maty omeonao aina\nvaovao,\nNy sasatra ampiadano,\nNy masonay jamba mba\nhazavao\nNy rofin''ny fonay sitrano.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('426', 'Ka rahatrizay hanatona Anao,\nNy tsy ho farofy intsony,\nFa hisy ny Alahady vaovao\nKa sitrana tsara ny fony.\nIzay tany soa misy Anao\nNo hisy ny olonao koa,\nHahita ny voninahitrao ao,\nRy Zoky malala Tsitoha.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF427',
+             '',
+             427
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('427', 'Ho vavolombelonao\nN''aiza n''aiza no aleha\nIzay no faniriana vao\nSy ataoko rehareha,\nKa raha asa no atao\nInty tokoa fa vonona\n( ho vonona aho )\nTsy hiala na handao,\nTompo ô, iraho aho!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('427', 'Ho vavolombelonao\nEran-tany raha ilaina\nToy ny loharano vao\nIzay mamelombelona  aina\nHanasoa ny tany hay\nEfa mihamaina taho\n( mihamaina )\nTompo ô, inty indray\nAlefaso, vonona Aho.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('427', 'Ho vavolombelonao\nAo anaty fitsapana,\nKa hijoro ho Anao,\nNa fefena, na rarana,\nTsy hiahotra ny dia :\nFa Hianao naniraka Ahy\n( naniraka Ahy )\nTsy hiahotra aho satria\nAmiko Hianao Mpitahy.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF428',
+             '',
+             428
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('428', 'Reko izao, ry Tompo,\nIzany antsonao\nMiantso izany mpanompo\nMba ho irakao!\nInty! inty!\ninty aho Jeso!\nInty! inty!\niraho aho Jeso!\nEkeko re,\nny ho miaramilanao\nHo vonona hanao\nny sitrakao,\nKa iraho!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('428', 'O! diovy Tompo\nizany molotro!\nKa ny fo madio hanompo\nno atolotro.\nInty! inty!\ninty aho Jeso!\nInty! inty!\niraho aho Jeso!\nEkeko re,\nny ho miaramilanao\nHo vonona hanao\nny sitrakao,\nKa iraho!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('428', 'Tsy handeha irery,\nFa hiaraka  Aminao,\nKa dia mba omeo ny hery\nsy Fanahinao.\nInty! inty!\ninty aho Jeso!\nInty! inty!\niraho aho Jeso!\nEkeko re,\nny ho miaramilanao\nHo vonona hanao\nny sitrakao,\nKa iraho!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('428', 'Reko izao ny toky hoe :\n" Momba ahy Hianao,\nRy Jesosy Tompo\nsy Zoky\nVonona aho " izao.\nInty! inty!\ninty aho Jeso!\nInty! inty!\niraho aho Jeso!\nEkeko re,\nny ho miaramilanao\nHo vonona hanao\nny sitrakao,\nKa iraho!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF429',
+             '',
+             429
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('429', 'Inty ny olona, Jeso Tompo ô!\nFa nandre ny antsonao\nHe, maniry mba hotarihinao\nHo akaikinao kokoa.\nMba tariho aho, Jeso\nTompo ô!\nEo akaikinao kokoa,\nMba tariho aho, Jeso\nTompo ô!\nMba ho olonao tokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('429', 'Tsy ny sitrako, fa ny sitrakao\nNo iriko mba hatao,\nFa navotanao ny\nmpanomponao\nKa Manaiky ho Anao.\nMba tariho aho, Jeso\nTompo ô!\nEo akaikinao kokoa,\nMba tariho aho, Jeso\nTompo ô!\nMba ho olonao tokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('429', 'Raha mitokana mba hivavaka,\nKa miresaka Aminao,\nVelombelona ny fanahiko,\nTafakambana Aminao.\nMba tariho aho, Jeso\nTompo ô!\nEo akaikinao kokoa,\nMba tariho aho, Jeso\nTompo ô!\nMba ho olonao tokoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('429', 'Raha avy re izay hodiako,\nHody Aminao indray,\nAo ny saiko vao tena afa-po\nTonga ao an-tranon-dRay.\nMba tariho aho, Jeso\nTompo ô!\nEo akaikinao kokoa,\nMba tariho aho, Jeso\nTompo ô!\nMba ho olonao tokoa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF430',
+             '',
+             430
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('430', 'Endrika sariaka\nNo anompoako Anao,\nJehovah Ray\nFa tapaka ny hevitro :\nIzaho dia olonao\nmandrakizay.\nHe ny foko afa-jaly\nTena ravo, sady falifaly,\nKa : endrika sariaka\nNo anompoako Anao\nJehovah Ray.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('430', 'Fa tsaroan’izany saiko,\nMandra-maty\nho tadidiko,\nNy nanavotanao\nny aiko,\nIlay fanahy sarobidiko.\nFa nomena fahendrena\nIzay ekena\nfa ny famonjena,\nKa : endrika sariaka\nNo anompoako Anao\nJehovah Ray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('430', 'Be ny zavatra mihatra\nMampahory\nsy mandrera-po;\nKanefa ireny\ntsy handratra\nNy arovanao,\nry Ilay Tsitoha.\nFa ny fony tena tony\nTsy mba kivy, \ntsy mba taitra intsony,\nKa : endrika sariaka\nNo anompoako Anao\nJehovah Ray.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('430', 'Misy ve ny mampanahy\nSy ny zava-manahirana ?\nHe, tsy kivy ny fanahy\nFa hijoro, ka ho mirana,\nFa Jehovah,\nRay Mahery,\nMiandany\nsady koa mijery,\nKa : endrika sariaka\nNo anompoako Anao\nJehovah Ray.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF431',
+             '',
+             431
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('431', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('431', 'Na be no mahareraka,\nTsy mety kivy ny mino;\nNy Tsitoha no heriny\nNy lehibe no tohany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('431', 'Ny hani-mandrakariva\nMofo avy an-danitra\nNy sotroin’isan’andro\nDia rano mahavelona.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('431', 'Manda afo no arony\nFinoana no ampingany,\nVavaka no fofon’ainy,\nOdiaina no tànany.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('431', 'Ho lavorary ny diany,\nHo resy ny fahavalony,\nDia sitraka no hitany,\nVoninahitra no azony.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('431', 'Mahereza ilay malala,\nAza ketraka hanompo,\nLasa ny Mpitari-dàlana,\nHanamboatra ho anao.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF432',
+             '',
+             432
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('432', 'Mandra-pihavin’ny\nTompo, mivavaha;\nNy teny tsara nomeny\ntadidio,\nNy adidinao, tontosay\nsy efao,\nMijery ny ataonao\nny Ray.\nRaha mpanompo tsara\nhianao,\nHe, ny Tompo faly\naminao,\nKoa tanteraho ireo\nadidinao,\nMba ho mpanompo\nmahasoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('432', 'Mandra-pihavin’ny\nTompo, miasà;\nAmpitomboy ireo\ntalenta azonao :\nVola, fahaizana, aina,\nhery koa\nNo anompoy ny Tompo\nTsitoha.\nRaha mpanompo tsara\nhianao,\nHe, ny Tompo faly\naminao,\nKoa tanteraho ireo\nadidinao,\nMba ho mpanompo\nmahasoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('432', 'Moa tianao va\nIlay Mpamonjy \nTompo soa ?\nNy rany anie\nnanavotany anao!\nNy hafany tanteraho\nsy hajao\nValio ny fanavotany\nanao.\nRaha mpanompo tsara\nhianao,\nHe, ny Tompo faly\naminao,\nKoa tanteraho ireo\nadidinao,\nMba ho mpanompo\nmahasoa.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF433',
+             '',
+             433
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('433', 'Mba taominao ny fo izao,\nRy Jeso be fitia,\nHanarahako Anao,\nKa mba tsy hania.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('433', 'Mba taominao ny fo izao,\nHamoizako ny tany,\nFa izao rehetra izao\nDia mora lany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('433', 'Mba taominao ny fo izao,\nHanaraka ny dia,\nIzay nomban’ny olonao\nTsy naniasia.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('433', 'Mba taominao ny fo izao,\nHahaizako hifaly,\nFa atý ny olonao\nOry sy mijaly.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('433', 'Mba taominao ny fo izao,\nHo any amin-dRainao,\nMba ho reko hatrizao\nNy hafin’ny ainao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF434',
+             '',
+             434
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('434', 'Ny foko, ry Mpamonjy,\nAtolotro Anao;\nMaloto ka diovy,\nMba ho fonenanao.\nNy ranao izay nalatsaka,\nNo aoka mba hanafaka\nIzao fahotako be izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('434', 'Ny fahoriam-poko\nAtolotro Anao;\nFa he, mampitoloko,\nManindry mafy ao;\nO, ry nijaly an-tsitrapo,\nTohàny ny fanahiko\nMba tsy hamoy fo izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('434', 'Ny fifaliam-poko\nAtolotro Anao;\nArovy tsy haloto,\nDiovy ho Anao,\nAmpio ho tanteraka,\nHo tonga ao an-danitra\nHanatrika ny tavanao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('434', 'Ny tenako rehetra\nAtolotro Anao;\nAnao tsy misy fetra,\nAnao, re, hatrizao,\nKa raiso ho fanananao\nHanompo\nsy hanaja Anao,\nRy Tompo\nsy Mpanjaka ô!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF435',
+             '',
+             435
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('435', 'Iza no hanoa\nny Tompo lehibe ?\nIza no hanaja\nAzy tsara re ?\nIza no hitady\nolon-kafa koa,\nMba hanaiky\nsy handray \nNy Tompo soa ?\nIndreto Jeso Tompo!\nizahay izao\nAvy mba hanompo,\navy ho Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('435', 'Tsy an-tery re\nno ilatsahana\nToy ny olom-bery\nnandevozina;\nTa-hanompo tsara\nizahay izao\nTa-hamely koa izay\ntoherinao :\nEny, Jeso Tompo!\nta-hanao tokoa\nIzahay mpanompo\nizay nasian-tsoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('435', 'Na dia ta-hanompo\naza izahay,\nBe ny fahavalo iadianay;\nIzahay malemy\nfeno tahotra,\nMba tsy horeseny,\nmanampia anay,\nKapiteny sahy!\nentonao izao\nMba hitomban-dahy\nny mpiadinao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('435', 'Mafy re ny ady,\nmaro be no voa,\nMisy tsy mahandry,\nbe ny maty koa;\nIzahay mpanompo\nmiandrandra Anao;\nTompo izay tsy toha!\nmba herezonao :\nTompo manan-kery!\nhatanjahonao\nIzahay, sao very \nka afaka Aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF436',
+             '',
+             436
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('436', 'Ny foko, ry Jehovah ô!\nMba ento ho Anao,\nDiovy ho fonenanao,\nHo tsara sy vaovao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('436', 'Fanahin’Andriamanitra ô!\nMidína ato koa,\nOvay ny saiko mba hadio\nSy masina tokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('436', 'Ny aiko no navotanao,\nRy Jeso be fitia!\nMba hanompoako Anao,\nRy Tompoko, avia!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('436', 'Ry sofiko, mba mihainoa!\nRy maso, mijere!\nRy tongotra aman-tanako,\nHajao ny Tompo e!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('436', 'Ry tena sy fanahy koa!\nAvia hankatò\nNy tenin’ny Mpanavotra,\nIzay masina sy tò.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF437',
+             '',
+             437
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('437', 'Ry Jeso Kristy Tompo,\nO! ampio ny olonao!\nAmpianaro mba hanompo\nSy hanao ny sitrakao;\nMalemy aho re,\nKa omeo ny herinao,\nTsy hivily, tsy hania,\nFa hanara-dia Anao.\nO! vonjeo, o! vonjeo,\nKa tantano sy jereo;\nAza afoy izahay,\nFa Hianao no Avotray.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('437', 'Ny foko mba diovy,\nRy Mpamonjy lehibe!\nKa ambeno sy arovy,\nSao dia very aho re,\nIriko indrindra koa\nNy hitombo sy hamoa,\nKa ny voka-tsoa rehetra\nHo Anao, ry Jeso ô!\nO! vonjeo, o! vonjeo,\nKa tantano sy jereo;\nAza afoy izahay,\nFa Hianao no Avotray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('437', 'Mba raisonao, ry Tompo!\nHo Anao tokoa izao\nIzay ananay rehetra,\nKa anarano fo izao,\nFa maty Hianao\nNoho ny fitiavanao,\nKa tsy hainay hadinoina\nNy fitiavanao anay :\nO! vonjeo, o! vonjeo,\nKa tantano sy jereo;\nAza afoy izahay,\nFa Hianao no Avotray.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF438',
+             '',
+             438
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('438', 'Avia, Jehovah Tomponay,\nHandray ny vavakay,\nFa mitaraina izahay,\nValio ny hatakay :\n:,: Avia :,: handray ny fonay,\n:,: Avia, :,:\nry Tomponay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('438', 'Savao ny alahelom-po,\nMba hifalianay;\nNa mafy aza ny manjo,\nMatoky izahay :\n:,: Avia :,: handray ny fonay,\n:,: Avia, :,:\nry Tomponay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('438', 'Avia, ka taomy izahay,\nHo tonga zanakao;\nMba averenonao indray,\nFa te-ho olonao :\n:,: Avia :,: handray ny fonay,\n:,: Avia, :,:\nry Tomponay!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('438', 'Manolo-tena izahay\nMba ho mpanomponao;\nNy fonay no atolotray,\nKa raiso ho Anao :\n:,: Avia :,: handray ny fonay,\n:,: Avia, :,:\nry Tomponay!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('438', 'Raha avy ny hodianay\nHo any Aminao\nMba raiso ny fanahinay\nHo ao an-dapanao :\n:,: Avia :,: handray ny fonay,\n:,: Avia, :,:\nry Tomponay!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF439',
+             '',
+             439
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('439', 'Mba taomy aho e,\nRy Tompo ô!\nHo tonga zanakao\nMadio am-po,\nMba taomy aho e,\nHo tia Anao tokoa!\nNy fo atolotro\nMba raisonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('439', 'Tariho aho e,\nRy Jeso ô!\nAza ilaozanao,\nFa be manjo.\nTrotroy an-tratranao\nNy ondrikelinao,\nKa ento mody izao\nIlay nania.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('439', 'Diovy aho e,\nFanahy ô!\nDiniho sy hazavao,\nNy toetro.\nDiovy aho e,\nNy fo ovay ho vao,\nKa ny fanahiko\nOnenonao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF440',
+             '',
+             440
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('440', 'Ry Kristy ô, Mpanjakako!\nNy foko ho Anao;\nNy feoko hasandratro\nHihira ho Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('440', 'Mba raiso ny fanahiko\nHanao ny sitrakao;\nNy tenako, ny heriko,\nDia ento ho Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('440', 'Ny tongotro, ny tanako,\nHiasa ho Anao;\nNy androko, ny volako,\nOmeko ho Anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('440', 'Izaho dia tsy mendrika\nAnao, ry Tompo ô!\nKanefa re, mba raisonao\nNy foko ho Anao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF441',
+             '',
+             441
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('441', 'Raiso aho, Tompo ô!\nFa te-ho mpanomponao;\nRaiso koa ny androko,\nKa  anarano fo izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('441', 'Raiso re ny tanako\nMba hanao ny asanao;\nRaiso koa ny tongotro\nHo fanirakirakao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('441', 'Raiso ny fahaizako,\nEnto mba hanaja Anao;\nRaiso koa ny volako\nHo Anao tokoa izao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('441', 'Raiso re ny vavako\nHampiseho ny hafatrao;\nRaiso koa ny feoko\nHo mpanandratra Anao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('441', 'Raiso ny fanahiko\nDiovy ho tempolinao;\nRaiso aho, Tompo ô!\nHo Anao mihitsy izao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('441', 'Ho Anao manokana,\nRy Mpamonjy,\nTompo soa!\nHo Anao dia  Anao\ntokoa,\nHo Anao mandrakizay.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF442',
+             '',
+             442
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('442', 'Endre! ity fahotana,\nMamely ao am-po,\nO! ady mampahana,\nKa mafy ny manjo;\n:,: Vonjeo, ry Mpiantra!\nIzaho zanakao,\nFa tery sy mahantra\nMiady lava izao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('442', 'Ry Antoky ny aiko!\nIzay mahafatra-po,\nRy Toky antenaiko!\nIzay tanjaky ny fo;\nNy tena sy fanahy\nApetraka  Aminao,\nKa  ataovy lehilahy\nMpandresy toa  Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('442', 'Izaho no Mpamonjy,\nKa matokia  tokoa,\nIzaho mahavonjy\nKoa  antenao ny soa;\nNy sandriko mahery\nNo iankinanao,\nHianao dia tsy ho very,\nMinoa hianao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('442', 'Ry Tompo manan-kery!\nNy fitiavanao\nFitia feno hery,\nKa raisiko izao;\nNy dera aman-daza\nNo mendrika ho Anao\nNy foko hankalaza,\nNy voninahitrao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF443',
+             '',
+             443
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('443', 'Raiso ho Anao ny foko,\nRy Jehovah Raiko ô!\nMitoera atý am-poko\nMba ho tompon-\ntrano ao,\n:,: O, ry Raiko!\nMitoera ao izao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('443', 'Raiso ho Anao ny foko,\nRy Jesosy Tompo ô!\nTsy mba vola, fa ny foko\nNo atolotro Anao :\n:,: Raiso, Tompo!\nFa fanati-tsitrapo :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('443', 'Raiso ho Anao ny foko,\nRy Fanahy Masina ô!\nHazavao ny ao am-poko,\nDiovy ho tempolinao :\n:,: Indro, raiso!\nItokany ho Anao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('443', 'Tsy harindriko ny foko,\nFa vohako ho anao;\nKa midira atý am-poko,\nManjakà irery ao :\n:,: Eny, Tompo!\nRaiso aho ho Anao :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF444',
+             '',
+             444
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('444', 'Ry Raiko feno antra!\nInty ny zanakao,\nNy foko dia mahantra\nRaha  lavitra aminao;\nFa tany karankaina\nIzao tontolo izao,\nKa reraka ny aina\nMihataka aminao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('444', 'Nivezivezy aho\nNikaro-java-tsoa,\nIzay rehetra hita\nNandramana avokoa;\nNandany taona maro\nNanaran-tsitrapo,\nKanefa tsy nahazo\nIzay mahafa-po.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('444', 'Mamitaka mihitsy\nIzao tontolo izao,\nNy mamy dia  mangidy,\nIzay tena soa tsy ao;\nKoa  aza mba adalainy\nIntsony re, ry fo!\nAndeha mba ho hendry\nHatramin’ny anio.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('444', 'Ry Jeso, Mofon’aina\nSy Ranon’aina koa!\nHianao no mahatòny\nIzay filan’ny fo;\nHianao no mahavoky\nHianao no manome\nIzay irin’ny foko,\nDia  hasambaram-be.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF445',
+             '',
+             445
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('445', 'Jeso mora fo indrindra,\nTsara sady mahasoa,\nTsy miova, tsy mifindra,\nTompo be fitia tokoa.\nMba iriko ho toa Azy\nTsy mba mety soso-po,\nKa hionona ny foko\nRaha avy ny manjo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('445', 'Jeso tia, nanetry tena\nSy nandefitra tokoa,\nNefa Tompo be harena\nSy Mpanjaka foto-tsoa.\nMba iriko ho toa Azy\nIzay ninia  ho ory koa;\nKa ny sainy no fidiko,\nFa fiainana tokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('445', 'He! manolo-tena aho,\nHo Anao, ry Tompo soa!\nKa ny heloko rehetra\nMba sasaonao avokoa.\nEnga ka homenao ahy\nFo madio sy vaovao,\nMba hahaizako manefa\nIzay rehetra sitrakao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF446',
+             '',
+             446
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('446', 'Atolotro Anao\nny tenako, ry Raiko!\nFa Hianao no tena\nloharanon-tsoa\nIzao tontolo izao\nmanintona ny saiko\nHiataka Aminao\nho babony tokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('446', 'Atolotro Anao\nny tenako, ry Raiko!\nHo eo an-tananao\nhosakambininao,\nHohatanjahanao\nny tena sy ny saiko\nHisikina tokoa\nhiady ho Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('446', 'Atolotro Anao\nny tenako, ry Raiko!\nFa izany indrindra re\nno hetahetako;\nNy ran’ny Zanakao\nmitory ao an-tsaiko\nMba hanolorako Anao\nny tenako.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF447',
+             '',
+             447
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('447', 'Hianao, ry Kristy\nTompo,\nNo hasiniko izao,\nAvy aho, fa mpanompo,\nHiankohoka Aminao,\nRaiso re ny dera saotra\nTena mendrika\nho Anao;\nHe! ny foko faly loatra,\nFaly mba hanaja Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('447', 'Izao no tena faniriako :\nNy ho velona  Aminao,\nKa hitoeranao ny foko,\nFa tsy holalovanao;\nEny, Tompo ô! monena,\nMba monena ao tokoa,\nIzay no tena famonjena\nIzay no mahafatra-po.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('447', 'Tsy ho orin-java-tsoa\nIzay rehetra itoeranao,\nTena sambatra tokoa,\nRaha ny fo no lapanao,\nMandrosoa, fa vohako\nHo Anao ny foko izao;\nEny, Tompo, fa vohako,\nKoa  midira Hianao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF448',
+             '',
+             448
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('448', 'Ry Tompo ô! tariho\nNy ondrikelinao,\nTantano sy vimbino\nHanao ny sitrakao;\nRaha  misy hafaliana,\nDia  taomy mba ho tia;\nRaha sendra fahoriana,\nSakano tsy hania :\nRy Jeso ô! tazano\nNy lalanay izao,\nTariho sy tantano\nHo ao am-balanao;\nAnio dia mikasa\nHanolo-tena koa,\nFa nenina ny lasa\nHiezaka tokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('448', 'Anio ho hafaliako,\nNy foko lasanao,\nNy maminao no tiako,\nHatao ny sitrakao,\nNy androko rehetra,\nAtolotro Anao;\nAnao tsy misy fetra,\nKa raiso, anjakao :\nRy Jeso ô! tazano\nNy lalanay izao,\nTariho sy tantano\nHo ao am-balanao;\nAnio dia mikasa\nHanolo-tena koa,\nFa nenina ny lasa\nHiezaka tokoa.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF449',
+             '',
+             449
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('449', 'Njay reko, Tompo ô\n‘Njay re ny feonao;\nMiantso ahy Hianao\nHankany Kalvary,\nTompo lehibe,\nRaiso aho e!\nMba sasao ny ranao soa\nIzay tao Kalvary.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('449', 'Malemy aho e,\nKa mitaraina hoe :\nVonjeo ny aiko,\nTompo ô!\nVonjeo ny olonao :\nTompo lehibe,\nRaiso aho e!\nMba sasao ny ranao soa\nIzay tao Kalvary.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('449', 'Ny fiadanam-po\nMandresy ny manjo;\nEsorinao ny tahotro,\nRy Tompo ô! vonjeo\nTompo lehibe,\nRaiso aho e!\nMba sasao ny ranao soa\nIzay tao Kalvary.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('449', 'Mpanota tsy mandà,\nRy Tompo, mamelà!\nNy fahotako lehibe\nIfonako tokoa;\nTompo lehibe,\nRaiso aho e!\nMba sasao ny ranao soa\nIzay tao Kalvary.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('449', 'Ny foko tsy madio\nMba diovinao anio\nMaloto aho, \nry Tompo ô!\nSasao ho voadio\nTompo lehibe,\nRaiso aho e!\nMba sasao ny ranao soa\nIzay tao Kalvary.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('449', 'Ny foko no sasao,\nKa diovinao izao;\nNy fahotako marobe\nLevòny avokoa\nTompo lehibe,\nRaiso aho e!\nMba sasao ny ranao soa\nIzay tao Kalvary.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF450',
+             '',
+             450
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('450', 'Jeso Kristy be fiantra!\nMba Jereo izahay\nVery amin’ota.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('450', 'Hianao Mpiandry tsara,\nRaisonao izahay\nVery toy ny ondry.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('450', 'Fombanay ny tia ratsy,\nMba ovay ho vaovao\nNy fonay izay ratsy.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('450', 'Zazabodo sy mahantra,\nIzahay raha  atý,\nTsy mba manan-kery.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('450', 'Hianao no Vatolampy,\nTanjakay, Avotray,\nHery sy Ampinga.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF451',
+             '',
+             451
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('451', 'Tompo ô! tsy takatry ny saiko\nNy fitiavanao tsy nohajaiko;\nKanjo io no hany antenaiko\nMba hamonjy ahy  izao.\n(Hamonjy izao)\nTompo ô, voababonao\nIzany foko ho Anao\nMamy re!\nIzany fitiavanao, ry Jeso ô!\n\n( Feo II )\nTompo ô! dia resinao ny\nfoko ilay nandà,\nVoababonao tokoa tokoa;\nKa nasandratrao ho Zanak’\nAndriamanitra,\nHotarihinao an-danitra.\nMamy dia mamy re, tsaroan’\nny aiko izao\nIzany fitiavanao, ry Jeso ô!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('451', 'Ny fandavan-tenanao tsaroako\nFa fandavan-tena nahitako\nNy fitiavanao izay inoako\nFa mambomba ahy izao.\n(Mambomba izao)\nTompo ô, voababonao\nIzany foko ho Anao\nMamy re!\nIzany fitiavanao, ry Jeso ô!\n\n( Feo II )\nTompo ô! dia resinao ny\nfoko ilay nandà,\nVoababonao tokoa tokoa;\nKa nasandratrao ho Zanak’\nAndriamanitra,\nHotarihinao an-danitra.\nMamy dia mamy re, tsaroan’\nny aiko izao\nIzany fitiavanao, ry Jeso ô!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('451', 'Ry Jesosy, tsy mba misy haiko\nAfa-tsy manolotra ny aiko\nEo an-tananao izay\nandrandraiko\nHampijoro ahy  izao\n(Hijoro  izao)\nTompo ô, voababonao\nIzany foko ho Anao\nMamy re!\nIzany fitiavanao, ry Jeso ô!\n\n( Feo II )\nTompo ô! dia resinao ny\nfoko ilay nandà,\nVoababonao tokoa tokoa;\nKa nasandratrao ho Zanak’\nAndriamanitra,\nHotarihinao an-danitra.\nMamy dia mamy re, tsaroan’\nny aiko izao\nIzany fitiavanao, ry Jeso ô!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF452',
+             '',
+             452
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('452', 'Tompo ô! ovay ny foko\nMba ho mora anarina\nToy ny any zazakely\nTsotra sady marina,\n:,: Tsy mialona, tsy maditra,\nFa manao ny sitrakao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('452', 'Zaza, ka tsy te-hifidy\nIzay homenao ahy anio;\nNy ho azoko ampitso\nDia  ankinina  aminao;\n:,: Koa tsy manahy aho,\nFa efa niantohanao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('452', 'Zaza tsy maharo tena,\nFa miankina amin-dray.\nTsy mahery, tsy mba hendry,\nAry tsy mahay mandeha;\n:,: Hianao no Raiko tia,\nRaiko be fahari-po :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF453',
+             '',
+             453
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('453', 'Mihirà, ry mponina ao\nan-danitra\nTonga izao ny very fahizay,\nFa ny Rainy faly sy finaritra\nMba handray ny zanany indray\nMihobia, re, ry lanitra,\nKa derao Andriamanitra.\nEny, mihobia re , ry mino ô,\nKa hirao ny fihiram-baovao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('453', 'Mihirà, ry mponina ao\nan-danitra\nFa ilay very dia hita  izao,\nVoaray ho Zanak’\nAndriamanitra,\nEfa tonga olona vaovao.\nMihobia, re, ry lanitra,\nKa derao Andriamanitra.\nEny, mihobia re , ry mino ô,\nKa hirao ny fihiram-baovao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('453', 'Mihirà, ry mponina ao\nan-danitra\nLehibe ny fifalianay,\nKa derao izao Andriamanitra,\nFa ny maty velona indray!\nMihobia, re, ry lanitra,\nKa derao Andriamanitra.\nEny, mihobia re , ry mino ô,\nKa hirao ny fihiram-baovao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF454',
+             '',
+             454
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('454', 'Veloma no apetrako,\nFa tapaka ny hevitro,\nHandao ny fahazarako,\nFa Kristy no harahiko.\nVeloma Hianao,\nRy izao tontolo izao!\nIzaho tsy tamana atý,\nVeloma Hianao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('454', 'Ny làlan’ota hitako\nNamono ny fanahiko,\nFa he, erý dia tazako\nIlay tany soa mamiko\nVeloma Hianao,\nRy izao tontolo izao!\nIzaho tsy tamana atý,\nVeloma Hianao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('454', 'Mpanota ô, nahoana\nNo tsy miaraka aminay,\nFa mbola misy toerana\nIzay ho anao  sy ho anay.\nVeloma Hianao,\nRy izao tontolo izao!\nIzaho tsy tamana atý,\nVeloma Hianao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('454', 'Veloma, fa  ao aloha ao\nNo tany izay honenako,\nKa maika aho mba hankao\nHandray ny fitsaharako.\nVeloma Hianao,\nRy izao tontolo izao!\nIzaho tsy tamana atý,\nVeloma Hianao!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('454', 'Jerosalema tazako,\nKa velona ny hirako,\nFa any no honenako\nHidera ny Mpanjakako.\nHo any aho izao,\nHo any aho izao,\nIzaho tsy tamana atý,\nHo any aho izao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF455',
+             '',
+             455
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('455', 'Ny androm-pahasoavana\nManeho zava-baovao;\nMahazo fahasambarana\nIzao tontolo izao.\nRavoravo ny efitra maina\nMbamin’ny tany karankaina;\nHe, torina ny teny soa,\nKa dia afaka avokoa\nNy olom-bery maniry ho\nvelona.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('455', 'Ka miandrandra ny lanitra\nNy malahelo izao;\nMihoby izy fa sambatra\nNahazo aina vaovao.\nHe, vahàna ireo migadra,\nAfaka ny midradradradra,\nMitsambikina ny mandringa,\nFaingana izy sady kinga,\nAry mihoby ny lelan’ny\nmoana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('455', 'Ny very no tadiavina\nMba hody amin’ny Ray;\nNy maty dia velomina\nKa ravo mandrakizay,\nIzy dia mifady ny ota,\nNoho ny lova tsy ho tonta,\nSady manaraka Azy Tompo,\nIzay voaeso sy voahombo,\nAmabara-podiny any\nan-danitra.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF456',
+             '',
+             456
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('456', 'He, sambatra ny navelanao\nNy helony, ry Jehovah!\nNy otany voasaronao,\nKa tsy mba isaina koa;\nHe, sambatra ny mahitsy fo,\nFa azy ny lovasoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('456', 'Ny fo nony nampaginiko,\nNy heriko nihalany;\nNy ota izay nafeniko\nNo dia nahatonga izany,\nKa ketraka ny fanahiko,\nNisento sy nitomany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('456', 'Ny otako dia nambarako,\nNiantso ny Tompo aho,\nNiaiky ny fahadisoako,\nNivalo sy nitalaho,\nKa dia nomeny indrafo,\nMba ho afa-keloka aho.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('456', 'Jehovah no fialofako\nSy manda miaro ahy;\nNy rano, na dia tondraka,\nDia tsy hahatratra ahy;\nNy hobin’ny afa-keloka\nNo ampihirainao ahy.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('456', 'Ry olon’Andriamanitra,\nVonjeo ny andro soa,\nNy otanao izay miafina,\nItsorinao avokoa;\nRaha mita ilay ony maizina,\nDia  aronao ny Tsitoha.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF457',
+             '',
+             457
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('457', 'Jeso hany  iriko\nLoharanon’aiko\nSy Sakaiza soa!\nMamiko indrindra\nNy ho tafafindra\nAny Aminao,\nNa dia toa takona,\nHianao ao an-tsaiko,\nSady tohan’aiko.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('457', 'Loza tsy misava,\nSento lalandava\nNo mitranga izao;\nNotrotroiny aho,\nKa ny fahavalo\nTsy mahazo ao.\nNa be aza ny manjo,\nTsy ho kivy ny fanahy,\nJeso mbola  ahy.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('457', 'Ny haren’ny tany,\nNa dia tsara ihany,\nTsy ahoako;\nHianao irery\nLova tsy ho very,\nReharehako!\nKa na fahoriam-be\nNo mihatra amin’ny aiko,\nHianao tsy foiko.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('457', 'Raha ao am-poko\nHianao, ry Tompo,\nKa manjaka ao,\nIreo ahiahy,\nNahavalaka  ahy,\nDia  afakao,\nNa mavesatra  entana\nHianao no antenaiko\nSady Tohan’aiko.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF458',
+             '',
+             458
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('458', 'Tompo tia ô, midina,\nMitoera aminay,\nKa fenoy fifaliana\nAo anatin’ny fonay.\nHianao, ry be fiantra,\nTomponay Mpamindra fo,\nNo mpamangy ny mahantra,\nKa midira ao am-po.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('458', 'Aoka re ny fofon’ainao\nHahavelona anay,\nHanahafanay ny sainao\nHampiadana anay.\nNy fitiavanay ny ota\nMba vonoy, ry Tomponay,\nManafaha anay mpanota,\nRy Andriamanitray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('458', 'Ny mpanomponao ampio\nMba handraisany Anao,\nAza afoy fa mba tahio,\nAoka ho tempolinao,\nHianao no hotompoinay,\nRy Andriamanitra,\nHianao no hoderainay\nHatrarý an-danitra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('458', 'Tanteraho ao am-ponay\nNy fiainana vaovao,\nNy fanahy sy ny sainay\nMba fenoy ny herinao,\nAmboary sy havaozy\nIsan-andro izahay\nMandra-pahatonga any\nAminao mandrakizay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF459',
+             '',
+             459
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('459', 'Jeso, Loharanon’aina,\nJeso, Masoandronay!\nIzao ny fonay mitaraina,\nMba velomy izahay!\nO, savao ny zavon-tany\nAo am-pandehananay,\nDia Hianao ihany\nNo ho Masoandronay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('459', 'Jeso, Mofon’aina soa,\nMba vokiso izahay,\nJeso, Làlana tokoa,\nMba tariho izahay!\nAlfa sy Omega tsara\nHianao, Mpamonjinay;\nTeny soa manambara :\nJeso no fiainanay.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF460',
+             '',
+             460
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('460', 'Ario ny tahotrao,\nRy olona  osa fo!\nIzay lazain’ny Tomponao\nTsy hisy tsy ho tò;\nNy fisentoanao\nDia reny avokoa;\nNy feon’ny fitarainanao\nValiany tokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('460', 'Mpanjaka lehibe\nNo itokianao;\nNy tanany mahery re\nNo hamonjena anao;\nTsy misy mahalà\nIzay tiany hatao :\nHandositra amin-tahotra\nNy fahavalonao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('460', 'Ny fitondràny soa\nNo iankinonao;\nKoa  aoka hofidiny koa\nIzay halehanao;\nNa dia tsy takatrao\nNy sainy lalina\nIzay tendreny ho anao\nEkeo ho marina.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('460', 'Ry Tompo tsara ô!\nMba mijere anay,\nNa reraka  aza re ny fo\nTohanonao izahay :\nOvay ny hevitray,\nNy fonay hazavao,\nIzay atoronao anay\nHizoranay izao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF461',
+             '',
+             461
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('461', 'Aoka ho an’Andriamanitra\nNy fanendrena ny lalanao,\nFa hovimbininy  hianao\nAmin’ny lalan-tsarotra;\nFa toky tsy mamitaka\nNy tenin’Andriamanitra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('461', 'Fa inona no azonao\nAmin’ny fitahiana ?\nTsy afaka  ory hianao\nNoho ny fisentoana;\nNa be herehina hianao,\nHo be ny alahelonao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('461', 'Lefero kely, maneke\nIzay sitrak’Andriamanitra,\nNy zavatra tinendriny\nTsy maintsy mahasoa anao;\nIsika nofinidiny,\nKa tsy ho foiny indray.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('461', 'Fa fantatr’Andriamanitra\nIzay andro hifaliana\nIsika no hodioviny\nAmin’ny fahoriana;\nTsy maintsy hofantenana\nVao afa-pahoriana.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('461', 'Dia aza atao fa hianao\nAfoin’Andriamanitra;\nFa Izy dia mananatra\nNy zaza izay tiany,\nKa dia mba manomana azy\nHandova ny an-danitra.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('461', 'Misaora ny Ananrany,\nFa aza ketraka hianao\nFa ho tanteraka aminao\nNy soa lazain’ny Teniny;\nFa toky tsy mamitaka\nNy Tenin’Andriamanitra.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF462',
+             '',
+             462
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('462', 'Eo an-tananao, ry Raiko!\nNo apetrako izao\nNy fiainako rehetra,\nMba tahio ny zanakao;\nMarobe ny fahavalo\nTa-hamely ahy e;\nRy Jehovah, Ray Mpiaro!\nMba arovanao anie.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('462', 'Raha mbola eto aho,\nZaza be fisiasia,\nTia ratsy noho ny soa,\nKa mandà ny Tompo tia;\nAza mba manary ahy,      \nRy Mpamonjy tsy mandao!\nAza manalavitra ahy,\nAndrao dia takona Aminao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('462', 'Na ho lava, na ho fohy\nNo hiainako etý,\nTsy mba sitrako akory\nNy handà ‘zay tendrinao;\nRaha tonga anio ny andro\nIzay handaozako ity,\nEo an-tànanao no tiako,\nRaiso aho ho arý.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('462', 'Eo an tànanao, ry Raiko!\nNo apetrako izao\nAina, tena sy fanahy,\nMba vonjeo ny Zanakao,\nAmpianaro hahazaka\nFitondrana tianao;\nIlazao mba hahalala\nFa izao no sitrakao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('462', 'Eny Raiko! mba valio\nIzao fivavako izao,\nE, jereo ka mba tahio\nIzaho miandrandra Anao;\nMba sasao ny ranao soa,\nDia hadio aho izao;\nRy Mpamonjy! mihainoa\nNy mpanomponao izao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF463',
+             '',
+             463
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('463', 'Jehovah no Ampinga\nSy Masoandro koa,\nHiaro amin-doza\nSy hanazava koa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('463', 'Ka tsy handresy ahy\nIzay fahavaloko;\nNa ota na devoly\nHo resy avokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('463', 'Ka raha alaim-panahy\nNa misy izay manjo,\nHanatona Azy aho\nHakako hery koa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('463', 'Rehefa tapitra andro,\nKa tonga amiko\nIzay hialako aina\nDia tsy ho tahotro.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('463', 'Ny lanitra haleha\nSy hitoerako;\nHidera an’i Jeso\nMandrakizay doria.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF464',
+             '',
+             464
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('464', 'Ry Tompo manan-kery,\nMiarova anay!\nRy mpitady ondry very,\nMamonje anay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('464', 'Jeso Tompo be fitia,\nMitsinjova anay!\nNy fanahinay mania,\nMiantrà anay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('464', 'Jeso Tompo be fiantra,\nMijere anay!\nNy fanahinay mahantra,\nMitahia anay!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('464', 'Jeso Tompo mahalala,\nMananara anay!\nNy fanahinay adala,\nMitariha anay!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF465',
+             '',
+             465
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('465', 'Ry Jeso ô! ry Jeso!\nNy foko lasanao,\nKa Hianao irery\nNo Tompoko izao;\nTsy manan-tahotra aho,\nHianao no aroko;\nNy lalako mazava,\nHianao faniloko.\nRy Jeso ô! ry Jeso!\nNy foko lasanao,\nKa Hianao irery\nNo Tompoko izao;', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('465', 'Mitaona dia mitaona\nNy zava-poana;\nAnkoso-bolamena\nMamirampiratra;\nAnefa ry Mpamonjy!\nIzay ampianao\nDia haharesy tsara\nIzao tontolo izao,\nRy Jeso ô! ry Jeso!\nNy foko lasanao,\nKa Hianao irery\nNo Tompoko izao;  ', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('465', 'Ny nofoko malemy,\nKa be ny sitrapo;\nBe koa ny fitsapana\nMahazo ahy izao;\nAnefa Jeso tia!\nRaha re ny feonao,\nMahazo hery aho\nHanao ny sitrakao,\nRy Jeso ô! ry Jeso!\nNy foko lasanao,\nKa Hianao irery\nNo Tompoko izao;  ', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('465', 'Ry Jeso ô! ry Jeso!\nMba tovy amiko\nIlay teny maharavo\nHoe “Sakaizako”;\nIriko lalandava\nHiaraka Aminao,\nMba hahitako tsara\nNy fitiavanao,\nRy Jeso ô! ry Jeso!\nNy foko lasanao,\nKa Hianao irery\nNo Tompoko izao;  ', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('465', 'Ny dianao jereko\nEtý an-dàlana,\nAmbara-pahatratra\nIlay fitsaharana,\nOmeo hery aho\nHanompo tsara Anao;\nFa fantatrao, ry Jeso!\nNy foko lazanao.\nRy Jeso ô! ry Jeso!\nNy foko lasanao,\nKa Hianao irery\nNo Tompoko izao;  ', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF466',
+             '',
+             466
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('466', 'Ry Jeso ô! ry Jeso ô! \nNy fonay tia Anao,\nKa manomàna anay izao,\nHo any aminao :\nFa sambatra avokoa\nIzay tonga ao aminao;\nIzahay maniry koa\nHo eo ankilanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('466', 'Ry Jeso ô! ry Jeso ô! \nAmpionao izahay\nHihevitra ny lanitrao\nIzay hodianay :\nFa sambatra avokoa\nIzay tonga ao aminao;\nIzahay maniry koa\nHo eo ankilanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('466', 'Ry Jeso ô! ry Jeso ô! \nMaloto izahay\nTsy mendrika ny lanitrao,\nDiovinao izahay :\nFa sambatra avokoa\nIzay tonga ao aminao;\nIzahay maniry koa\nHo eo ankilanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('466', 'Ry Jeso ô! ry Jeso ô! \nNy fahavalonay\nMamely ny fanahinay,\nReseo, fa rafinao :\nFa sambatra avokoa\nIzay tonga ao aminao;\nIzahay maniry koa\nHo eo ankilanao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('466', 'Ry Jeso ô! ry Jeso ô! \nSao reraka izahay\nMiandry ny hodianay,\nTohanonao ‘zahay :\nFa sambatra avokoa\nIzay tonga ao aminao;\nIzahay maniry koa\nHo eo ankilanao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF467',
+             '',
+             467
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('467', 'Mba manampia anay,\nRy Jeso Tompo soa!\nKa dia ny fiainanay\nHambinina avokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('467', 'Ny tadiavinay\nDia fihavanana,\nTsy hisarahana aminao\nIzay Fiainana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('467', 'Ampionao izahay\nMba hahalala Anao,\nKa aoka mba harahinay\nNy nodiavinao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('467', 'Dia mankalaza Anao\nIzahay ry Tompo ô!\nFa he, ny fitahianao\nDia tena mahasoa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF468',
+             '',
+             468
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('468', 'Irinay Jeso tia,\nMpanota izahay,\nKa misy alahelo\nAtý anatinay;\nIrinay ny Mpamonjy\nHiseho ho anay,\nHanafaka ny ota\nMba hifalianay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('468', 'Irinay Jeso tia,\nMba hanazava anay,\nFa maizina ny sainay,\nKa diso izahay;\nIrinay Jeso Kristy\nHanolo-trsaina anay,\nIrinay Jeso hendry\nMba hianaranay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('468', 'Irinay Jeso tia,\nHo tonga aminay,\nHiantra sy hiaro\nSy hanadio anay;\nNa dia malemy aza\nKa reraka izahay,\nRehefa voavonjy,\nMatanjaka izahay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('468', 'Ry Tomponay malala!\nRy Jeso tianay!\nRy Havanay mahery!\nRy Rahalahinay!\nVonjeo izahay mpanota\nMiankina aminao,\nTahio izahay mahantra\nMivavaka aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF469',
+             '',
+             469
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('469', 'Jeso ô, Mpitia anay!\nMaminay ny teninao,\nOsa ny fanahinay,\nFa mahery Hianao;\nMamy, ry Jeso! (in-3)\nNy fitiavanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('469', 'Jeso ô, Mpitia anay!\nMahadio Hianao;\nKa ny halotoanay,\nAoka ho voasasanao :\nMamy, ry Jeso! (in-3)\nNy fitiavanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('469', 'Jeso ô, Mpitia anay!\nTompon’aina Hianao;\nMaro ny aretinay,\nNefa samy afakao :\nMamy, ry Jeso! (in-3)\nNy fitiavanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('469', 'Jeso ô, Mpitia anay!\nAoka hotarihinao;\nAza mba mandao anay,\nMandra-pahafatinay :\nMamy, ry Jeso! (in-3)\nNy fitiavanao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF470',
+             '',
+             470
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('470', 'Ny foko, ry Mpamonjy,\nMangetaheta Anao,\nManiry lalandava\nHikambana Aminao.\nTsy afaka ao am-poko\nNy faniriana Anao;\nOneno re ny foko\nHo lapanao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('470', 'Ny androm-pahoriana,\nRaha lapanao ny fo,\nManjary fitahiana,\nIzay manadio ny fo :\nTsy afaka ao am-poko\nNy faniriana Anao;\nOneno re ny foko\nHo lapanao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('470', 'Ny ora fifaliana,\nRaha ao anilanao,\nMamelom-paniriana\nHanao ny sitrakao :\nTsy afaka ao am-poko\nNy faniriana Anao;\nOneno re ny foko\nHo lapanao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('470', 'Ho lao ny fahotako\nRaha akaikezinao,\nTsy misy hadalako\nIzay tsy afakao :\nTsy afaka ao am-poko\nNy faniriana Anao;\nOneno re ny foko\nHo lapanao!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('470', 'Finaritra ny saiko\nRaha ipetrahanao,\nFa reraka ny aiko\nRaha halavirinao :\nTsy afaka ao am-poko\nNy faniriana Anao;\nOneno re ny foko\nHo lapanao!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF471',
+             '',
+             471
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('471', 'He, sambatra aho, Jeso,\nraha miaraka Aminao,\nFa ny làlanao dia lavi-\npahoriana;\nNy ali-mampahory,\nny raho-mitatao\nEo anilanao dia mody\nfitahiana.\nTano aho, Jeso, hiaraka\nAminao\nIzay làlana ombako, e! mba\nhazavao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('471', 'Izao no faniriako, manetsika\nny fo :\nHo sakaizanao mandrakizay\ndoria;\nNa inona mihatra, na inona\nmanjo,\nHianao no antenaiko hitàntana\nny dia.\nO! avia Jeso, tano aho e!\nTantanonao ny diako,\nTompo mamonje!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('471', 'Izay sakaizanao, Jeso, no\nampoky ny soa,\nFeno haravoana sy lavitra\nmanjo;\nIzay rehetra ilaina anananao\ntokoa,\nRaha miaraka Aminao,\nmionona ny fo\nSambatra aho, Jeso,\nTretrika tokoa,\nRavo ny fanahiko, toloranao\nny soa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('471', 'Inona no mamiko mihoatra\nnoho Hianao ?\nTompo manan-kery sy\nloharanon-tsoa ?\nIzay zavatra ilaiko azoko\nAminao\nKoa onenanao ny foko, ho\nlapanao tokoa.\nManjakà, Jeso, ato am-poko\nHianao\nIzay fahotako e! ry Tompo\navelao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF472',
+             '',
+             472
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('472', 'Iriko e, ry Jeso!\nHitovy Aminao,\nIzay tsy manan-keloka,\nFa masina tokoa;\nIriko e, ry Jeso!\nHo tonga toa Anao,\nNamonjy sy nanafaka\nFanahy, aina koa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('472', 'Iriko, ry Mpamonjy!\nMba ho sakaizanao,\nHiaraka ory Aminao;\nKa tsy handao Anao;\nIriko, ry Mpamonjy!\nHanar-dia Anao;\nNy hazofijaliana\nHo entiko izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('472', 'Iriko, ry Mpandresy!\nHiaraka Aminao,\nHo eo an-toby lehibe,\nHo miaramilanao;\nIriko, ry Mpandresy!\nHanaraka Anao;\nMitondra ny fanevanao,\nHandray ny herinao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('472', 'Iriko, ry Mpanjaka!\nHo ao an-dapanao\nHiara-paly Aminao,\nFa tonga Zanakao;\nIriko, ry Mpanjaka!\nHo eo anilanao\nHandray ny lova atolotrao,\nMpanjaka be fitia!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF473',
+             '',
+             473
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('473', 'Mombà anay, ry Jeso \nTompo ô! \nFa maizina ny alina atý;\nTsy misy vonjy raha tsy\nAminao;\nMpamonjy tia ô!\nmombà anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('473', 'Mandalo koa ny andronay etý\nKa mihalo ny fifalianay;\nMiovaova izao rehetra izao\nRy tsy miova ô!\nmombà anay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('473', 'Aza mba mivahiny aminay,\nAza mihevitra ny helokay;\nAoka ho be ny famindranao\nfo;\nRy Jeso Tompo ô!\nmombà anay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('473', 'Tsy mahaleo tena izahay,\nFa mora resy, mora kivy koa;\nRy Jeso Tompo! aoka\nhonenanao\nEtý an-dasin’ny \nmpanomponao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('473', 'Ny teninao no fifalianay;\nNy masonao mitari-dalana;\nAry ny herinao no tanjakay;\nSakaiza tsara ô! mombà anay.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('473', 'Izay ombanao afa-tahotra,\nTsy mety kivy na mamoy fo;\nTsy misy fahoriana izay\nHaninona ny fo arovanao.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('473', 'Rehefa tonga ny fotoana\nHitànay ilay ony maizina,\nAoka ny tavanao hazava ao,\nAmin’izany re mombà anay.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF474',
+             '',
+             474
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('474', 'Jesosy ô, Hianao no faleha!\nMba hankanesana amin’ny Ray,\nKa mitariha anay mba handeha\nAmin’ny làlana marina indray.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('474', 'Fa Hianao no Mpamonjy voatendry,\nZanaka mandrakizay Hianao;\nKa Hianao no Mpitarika hendry,\nLalana amin’ny Ray Hianao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('474', 'Diso ny tsara, ka dia nizotra\nTamin’ny lalana ratsy izahay;\nKoa mamerena anay mba hizotra\nAmin’ny lalana tsara indray.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('474', 'Fa Hianao no mitondra ho any\nAmin’ny lanitra fonenanao;\nAry tsy misy mahazo mankany\nAfa-tsy amin’ny alalanao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('474', 'Maro ny zavatra izay mampahory,\nFa Hianao no Mpiaro anay;\nAoka izahay tsy ho reraka Akory,\nRy Mpanalalana amin’ny Ray!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF475',
+             '',
+             475
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('475', 'Jeso Mpamonjy, Mpiandry\ntokoa \nAmpivereno hanaraka Anao;\nOndry mania, manary ny soa,\nAza avela hiala aminao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('475', 'Taomin’ny ratsy, fitahin-tSatana,\nMila ho lasan-ko babo izahay,\nFa Hianao no mahery mitana\nTsy hahavery ny ondry iray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('475', 'Varivariana, salasalaina,\nBe ahiahy, jereo izahay;\nAmpianaro ny tsy hary saina,\nAmpitsaharo ny fanianay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('475', 'Aina nomenao hisolo ny very,\nAry ny ranao nanvotra anay,\nFa Hianao no nitondra irery\nFampijalian-kanitsy anay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('475', 'Fa ny fiainan-tsi-hita resenao\nVelona mandrakizay Hianao;\nDia fiainana an-danitra omenao\nIzay ondry mety manaraka Anao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF476',
+             '',
+             476
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('476', 'Ny eo akaikinao, ry Ray,\nNo mamiko izao,\nHanjary tena tafaray\nNy foko sy ny Anao,\nSoa re, ry Raiko ô!\nRaha eo anilanao;\nNy hazo fijaliana\nHo tonga maivana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('476', 'Ny eo akaikinao, ry Ray,\nNo herin-janakao;\nHianao irery no mahay\nManampy ahy izao.\nSoa re, ry Raiko ô!\nRaha eo anilanao;\nNy ota tsy hanapaka\nNy olona afaka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('476', 'Ny eo akaikinao, ry Ray,\nNo mandako tokoa;\nNy ratsy dia tsy hahay\nHandrombaka ahy koa,\nSoa re, ry Raiko ô!\nRaha eo anilanao;\nNy ora izay manjombona\nHo fiadanana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('476', 'Ny eo akaikinao, ry Ray,\nNo fifaliako izao,\nNy tanako dia hifandray\nAmin’ny tananao.\nSoa re, ry Raiko ô!\nRaha eo anilanao;\nFenoinao fanambinan-tsoa\nIlay kapoakako.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF477',
+             '',
+             477
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('477', 'Oram-be mivatravatra,\nArotsahy, Tompo ô!\nFa mangetaheta loatra\nIzahay mpanompona.\nO! valio, O! valio,\nMitaraina ka valio.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('477', 'He! malazo re ny voly\nIzay maniry tsy mamoa;\nNefa raha omenao aina,\nDia ho vokatra tokoa.\nO! vangio, O! vangio,\nSao dia maty, ka vonjeo.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('477', 'Tovy eto, ry Mpamonjy!\nIzay nambara fahizay,\nKa iraho ny Fanahy\nAmin-kery lehibe.\nO! henoy, O! henoy,\nKa valio ny vavakay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('477', 'He! toa kivy ka manahy\nIzahay mpiasanao;\nAza ela, ry Fanahy!\nAsehoy ny herinao.\nO! avia, O! avia,\nMisehoa, Fanahy ô!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF478',
+             '',
+             478
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('478', 'Ny hirako izao,\nRay be fitia,\nNy ho akaikinao\nBebe kokoa,\nIzay re no hirako,\nMandra-pahafatiko;\n:,: Akaikinao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('478', 'Raha mba sarotra\nNy diako\nKa zary maizina\nNy làlako,\nRy Ray! akaikinao\nNo tian’ny zanakao :\n:,: Akaikinao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('478', 'Ao no hiseho re\nNy tohatra\nMba hanatonako\nNy lanitra,\nAnjely miantso ahy\nAkaikinao, ry Ray!\n:,: Akaikinao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('478', 'Ny fahoriana\nSy loza koa,\nRaha eo anilanao\nDia mody soa,\nKa dia tano aho\nHo ao akaikinao;\n:,: Akaikinao :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('478', 'Na dia hilentika\nNy androko,\nAry izao hita izao\nHilaozako,\nMbola ho hirako\nRy Andriamanitro!\n:,: Akaikinao :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF479',
+             '',
+             479
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('479', 'Jeso no anjara soa\nIzay mahafa-po tokoa,\nSoa tsy manam-paharoa,\nAhy Jeso : Ampy   izay.\nAhy Jeso hatretý,\nAhy Jeso hatrarý\nAhy Jeso Zoky tia\nMandrakizay doria, doria.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('479', 'Vola sy harena be\nMaro tia tokoa anie;\nNefa mamiko ny hoe :\nAhy Jeso : Ampy  izay.\nAhy Jeso hatretý,\nAhy Jeso hatrarý\nAhy Jeso Zoky tia\nMandrakizay doria, doria.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('479', 'Fahefana, laza soa\nMahafatifaty koa;\nNefa izao no tena soa :\nAhy Jeso : Ampy  izay.\nAhy Jeso hatretý,\nAhy Jeso hatrarý\nAhy Jeso Zoky tia\nMandrakizay doria, doria.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('479', 'Eny, izao rehetra izao\nTsy hamoizako Anao,\nFa Jeso izay tsy mandao!\nAhy Jeso : Ampy  izay.\nAhy Jeso hatretý,\nAhy Jeso hatrarý\nAhy Jeso Zoky tia\nMandrakizay doria, doria.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('479', 'Jeso, aina, hery, zo;\nJeso, lova tsy mba lo;\nJeso fiainam-po;\nAhy Jeso : Ampy  izay.\nAhy Jeso hatretý,\nAhy Jeso hatrarý\nAhy Jeso Zoky tia\nMandrakizay doria, doria.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF480',
+             '',
+             480
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('480', 'Mamin’ny foko, ry Jeso ô!\nNy famonjena izay vitanao,\nNy hadisoako navelanao,\nTena afaka aho mandrakizay.\nJeso malala ô! Mpamonjy soa!\nIndro ny aiko raiso ho Anao;\nVelon-kanompo, velon-kanoa\nVonon-kanao izay sitrakao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('480', 'Tano ny foko, ry Jeso tia!\nZaza tsy mahasaraka Anao!\nMbola malemy, mora mania,\nTano hifikitra ao Aminao.\nJeso malala ô! Mpamonjy soa!\nIndro ny aiko raiso ho Anao;\nVelon-kanompo, velon-kanoa\nVonon-kanao izay sitrakao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('480', 'Aoka ny foko sy ny fonao\nHiara-mitepo tena iray;\nAoka ny saiko sy ny sainao\nHiray safidy mandrakizay.\nJeso malala ô! Mpamonjy soa!\nIndro ny aiko raiso ho Anao;\nVelon-kanompo, velon-kanoa\nVonon-kanao izay sitrakao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF481',
+             '',
+             481
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('481', 'Ry Tompo be fitia!\nIzaho zanakao\nTantano tsy hania\nHiaraka aminao;\nFa mamiko tokoa\nNy eo ankaikinao;\nTsy orin-java-tsoa,\nIzay sakaizanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('481', 'Harena be an-tany\nMamilivily fo,\nFa tiana mora lany\nKa tsy mampionom-po;\nIzany aniriako\nHifikitra aminao;\nAtolotro ny foko\nHo eo an-tananao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('481', 'Fa raha Izaho irery\nVoasakan-tsitrapo,\nMandeha manirery,\nKa maro no manjo;\nIzany no ilàko\nHiaraka aminao,\nVimbino aho, Raiko!\nHo eo an-tananao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('481', 'Tsy hitako mihitsy\nIzay mahafa-po,\nTsy misy etý akory\nIzay tsy mety lo;\nFa ao am-paradisa\nNo feno zava-tsoa,\nTsy mahadisadisa,\nFa sambatra tokoa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF482',
+             '',
+             482
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('482', 'Jehovah ô! Hianao nandinika\nahy,\nKa fantatrao ny toe-piainako;\nNy fo sy saina mbamin’ny\nfanahy\nTsy miafina aminao, ry\nTompoko!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('482', 'Ka na mipetraka aho, na\nmandeha\nIzay rehetra ataoko hitanao,\nHe, fantatrao ny lalana haleha,\nNy androko dia eo an-tananao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('482', 'Na velona aho, eny, maty aza,\nNy tenako dia eo imasonao,\nKa toerana aiza, lalana\nmankaiza\nNo hialako tsy ho hitanao ?', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('482', 'Ry Tompo! tena mahagaga\nloatra\nNy asanao sy ny fisainanao;\nTsy misy saina mety\nmahatratra\nNy fahendrenao sy ny herinao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('482', 'Izao no hany zavatra iriko;\nVelaro indrindra ny fitiavanao,\nHahaizako hametraka ny foko\nHionona eo am-pelatananao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF483',
+             '',
+             483
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('483', 'Zanahariko Tsitoha\nTompo, Hery sy Fitia,\nRay hatramin’ny taloha,\nAhy anio, ka ho doria.\nManjakà mandrakizay\nAo am-poko, Tompo soa;\nDera, laza, Anao ry Ray!\nZanaka, Fanahy koa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('483', 'Ny finoakao Anao,\nHatanjaho mba hamoa\nHiasako ny asanao,\nHamafazako ny voa.\nAoka ny Fanahinao\nJiro mba hitarika ahy\nKa apetrako aminao\nNa ny tena na fanahy.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('483', 'Antenaiko, Hianao, Jeso\nIzay Mpitsara lehibe\nHanamarina ahy ao,\nNa mpanota aza re.\nDia hiezaka aho etý\nMba hanao izay mendrika\nHamindrànao fo arý\nFa voavela heloka.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('483', 'Ray ô, ny fitiavanao\nAfindrao ho toetrako,\nMba hitiavako Anao,\nAry koa ny namako.\nHo mpanompo aho re!\nHo mpitory koa Anao!\nMba hanjaka an-tany e,\nTompo, ny fitiavanao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF484',
+             '',
+             484
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('484', 'Ireo didinao, Jehovah Ray;\nIzay tianao hankatoavinay\nDia rehareha sy voninahitra,\nSatria filamatry ny ao\nan-danitra.\nIlaina mba hiseho fa tsy hiery,\nHo fisintonana ireo izay very,\nFa antoky ny fiainanay,\nHatramin’izao, mandrakizay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('484', 'Ny fitsipikao, Tomponay\nIzay nomenao mba\nharahinay,\nDia mampifantina izay anjara\nsoa\nKa manamboatra sy\nmanatsara,\nMampisy endrika itony tena\nSy manazava ny firenena,\nKa antoky ny fiainanay,\nHatramin’izao, mandrakizay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('484', 'Ireo teninao, Jesosinay\nNo hany zavatra ivelomanay,\nFa tanjaka tokoa, tena hery be\nHahafahanay ny lalana\nmideza re,\nSakafo mahavelona ny aina,\nSy mampiravo tokoa ny saina,\nTena antoky ny fiainanay,\nHatramin’izao, mandrakizay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF485',
+             '',
+             485
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('485', 'Moa Jesosy ve tsy ahy ?\nAndriamanitra mahery \nKoa nahoana no hanahy\nIzy miambina  mijery.\nFahavalo na dia maro\nTsy mba mahakasika ahy\nIzy no ampinga miaro\nKoa izaho tsy hanahy.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('485', 'Moa Jesosy ve tsy ahy ?\nIlay Mpanolotsaina hendry\nKoa tsy kivy fa ho sahy\nAmin-java-tsoa kinendry.\nTsy manaonao foana\nFa tarihin-Kapiteny.\nTsy manahy satria nahoana ?\nAo ny saina izay nomeny.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('485', 'Moa Jesosy ve tsy ahy ?\nIlay Jesosy mahagaga,\nMpanasitrana, Mpitahy\nKa ahoako izay hitranga ?\nRanomasina aza tao,\nNampagininy ka tony;\nHainy mihitsy ny manao\nHahatò ny sitrapony.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('485', 'Moa Jesosy ve tsy ahy ?\nRain’ny mandrakizay, eny!\nVelon-toky ny fanahy\nIzay nekeny , novonjeny,\nKoa na ory sy mijaly\nAza aho etý an-tany,\nVetivety dia hifaly :\nMampaninona izany ?', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('485', 'Moa Jesosy ve tsy ahy ?\nIlay Andriampiadanantsika,\nAndriamanitra Mpiahy,\nFitahiana feno hika.\nFamonjena efa vita\nHofikiriko hatrany,\nFahasoavana hampita,\nAny am-paradisa any.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF486',
+             '',
+             486
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('486', 'Inona no hahasaraka ahy\nAmin’ny fitiavanao, Jeso ?\nFahoriana ve, sa ahiahy ?\nFahantrana, sa famoizam-po ?\nTsia, ry Jeso Tompo be fitia,\nIzaho tsy mivadika Aminao\nFa mandrakizay doria doria\nIzaho dia hanaraka Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('486', 'Inona no hahasaraka ahy\nAmin’ny fitiavanao, Jeso ?\nZo sy laza sy fakam-panahy ?\nSa harena, zava-mora lo ?\nTsia, ry Jeso Tompo be fitia,\nIzaho tsy mivadika Aminao\nFa mandrakizay doria doria\nIzaho dia hanaraka Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('486', 'Inona no hahasaraka ahy\nAmin’ny fitiavanao, Jeso ?\nSabatra, sa fanenjehana\nmafy ?\nSa mosary, ady be manjo ?\nTsia, ry Jeso Tompo be fitia,\nIzaho tsy mivadika Aminao\nFa mandrakizay doria doria\nIzaho dia hanaraka Anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('486', 'Inona no hahasaraka ahy\nAmin’ny fitiavanao, Jeso ?\nFaty ve no hampivadika ahy,\nLoza, hery, fahefana koa ?\nTsia, ry Jeso Tompo be fitia,\nIzaho tsy mivadika Aminao\nFa mandrakizay doria doria\nIzaho dia hanaraka Anao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('486', 'Eny, izao rehetra izao,\nry Tompo\nTsy mba hahasaraka Aminao!\nNa inona hanjo ity mpanompo\nDia hijoro, tsy handao Anao!\nVelona aho, Tompo, eny maty\nDia tsy mivadika Aminao!\nHianao no velona ao anaty,\nKa doria, ny foko ho Anao!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF487',
+             '',
+             487
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('487', 'Fanavaozana izay mahagaga\ntokoa \nNomen’i Jeso ahy re!\nFahazavan’ny fanahy izay\nmahafa-po\nNomen’i Jeso ahy re!\n:,: Hatramin’izao dia\nendrey, endrey :,:\nNy fitempon’ny foko izay\nravo tokoa\nOnenan’ny Tompo Jeso.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('487', 'Ny fiainako be siasia taloha\nVoaova mihitsy izao\nEny, ny fahotako, izay\nnahavoa\nVoasasany koa izao,\n:,: Hatramin’izao, dia\nendrey, endrey :,:\nNy fitempon’ny foko izay\nravo tokoa\nOnenan’ny Tompo Jeso.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('487', 'Ny finoako, ny fanantenako\ndia be\nNy tokiko fatratra koa\nNy fisalasalana dia levona re,\nNy saiko mandroso ho soa.\n:,: Hatramin’izao, dia\nendrey, endrey :,:\nNy fitempon’ny foko izay\nravo tokoa\nOnenan’ny Tompo Jeso.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('487', 'Tonga mamirapiratra fatratra\nerý\nNy aloky ny faty re!\nKa dia tsinjoko ilay vavahady\narý\nMankao an-tanàn-dehibe\n:,: Hatramin’izao, dia\nendrey, endrey :,:\nNy fitempon’ny foko izay\nravo tokoa\nOnenan’ny Tompo Jeso.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('487', 'Tsy miato, mizotra mankany tokoa\nNy diako hatramin’izao\nHovantaniko any Ilay Tompo soa\nJesosy malala no ao.\n:,: Hatramin’izao, dia\nendrey, endrey :,:\nNy fitempon’ny foko izay\nravo tokoa\nOnenan’ny Tompo Jeso.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF488',
+             '',
+             488
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('488', 'Na inona inona hitranga,\nJeso!\nNa ny lanitra ho manga,\nJeso!\nNa ho maloka mangina,\nJeso!\nDia ho feno fifaliana,\nJeso!\nNy fotoana dia handalo,\nJeso!\nFa tsy hisy hampimalo,\nJeso!\nRaha miorina ao am-poko,\nJeso!\nIlay fitiavanao inoako,\nJeso!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('488', 'Raha jereko ny andro lasa,\nJeso!\nTao ny tsiky, tao ny ratra,\nJeso!\nNefa Hianao, Ilay \nMpampahery,\nJeso!\nNo nambomba sy nijery,\nJeso!\nNy fotoana dia handalo,\nJeso!\nFa tsy hisy hampimalo,\nJeso!\nRaha miorina ao am-poko,\nJeso!\nIlay fitiavanao inoako,\nJeso!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('488', 'Ny ho avy antenaiko,\nJeso!\nMbola ho fifalian’ny saiko,\nJeso!\nNy hasasarako hisava\nJeso!\nNy harivako hazava,\nJeso!\nNy fotoana dia handalo,\nJeso!\nFa tsy hisy hampimalo,\nJeso!\nRaha miorina ao am-poko,\nJeso!\nIlay fitiavanao inoako,\nJeso!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF489',
+             '',
+             489
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('489', 'Tena sambatra sy mahate-ho\ntia\nIzay masim-po, madio \nfisainana,\nFa miara-dàlana mifankatia\nAmin’Andriamanitra,\nFiainana.\nMasina tokoa re ry Tompo\nTianay mba ho masina,\nSaina, tena sy fanahy\nKa fiainan-danitra tokoa\nNo santarin’izay mino sy\nmanoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('489', 'Indro, mampahery, mahatoky\nkoa\nRaha mahitsy ny fijery, soa\nny fo;\nFa ny fo madio sy masina\ntokoa :\nParadisa an-tany, feno\nzava-tsoa\nMasina tokoa re ry Tompo\nTianay mba ho masina,\nSaina, tena sy fanahy\nKa fiainan-danitra tokoa\nNo santarin’izay mino sy\nmanoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('489', 'Koa halaviro ny fitaoman-\ndratsy,\nNy fisakaizana tsy mba\nmasina;\nFa ny tia ny Tompo, dia\nolon-tsoa mitafy\nFahadiovan’ny Fanahy \nMasina.\nMasina tokoa re ry Tompo\nTianay mba ho masina,\nSaina, tena sy fanahy\nKa fiainan-danitra tokoa\nNo santarin’izay mino sy\nmanoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('489', 'Miaraha làlana amin’i Jesosy.\nFa ny fahavalo ta-hamotraka,\nMijoroa, reseo ny toetra\nmampihosina\nAo anaty loto sy ny fotaka\nMasina tokoa re ry Tompo\nTianay mba ho masina,\nSaina, tena sy fanahy\nKa fiainan-danitra tokoa\nNo santarin’izay mino sy\nmanoa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF490',
+             '',
+             490
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('490', 'Ry kristiana, andrandrao\nNy Tompo sy Mpanjakanao,\nFa Izy no Mpiaro;\nKa aza taitra hianao,\nNa dia manakora izao\nNy fahavalo maro;\nOmban’ny Tompo hianao,\nKa aza atahoranao\nNy rahon’ny mpamely.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('490', 'Fa indro tsy rendrehana\nIlay Mpiambi-masina,\nIzay Tokin’Israely;\nFantaro marina izao,\nIzay ataon’ny rafinao\nAoka ho azy izany;\nFa andrandrao ny lanitra,\nAnao Andriamanitra,\nAnao ny fanjakany.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF491',
+             '',
+             491
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('491', 'Inoantsika marina\nNy Mpamorona Tsitoha,\nIsika dia natsangana\nMba ho zanany tokoa,\nHanina sahaza omeny,\nAry be ny famonjeny,\nAmin’ireo loza maro\nDia Izy no Mpiaro;\nInoantsika ao am-po\nFa Izy marina sy to.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('491', 'Jesosy Kristy Zanany\nNo inoantsika koa;\nIsika dia fananany,\nFa navotany tokoa,\nIzy Zanak’i Maria,\nDia rahalahy tia;\nMaty ka natao ho very,\nFa nitsangana amin-kery,\nNiakatra ao an-dapany,\nHitsara ao am-parany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('491', 'Ka ny Fanahy Masina\nNo inoantsika koa,\nNy fiangona-masina\nNo naoriny tokoa;\nAo isika dia mahita\nFamonjena efa vita;\nAfaka ny helotsika,\nFo vaovao no raisintsika;\nIsika dia hatsangana\nHo velona ao an-danitra.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF492',
+             '',
+             492
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('492', 'Izaho mino ny\nMPAMORONA,\nMpanao ny tany sy ny lanitra;\nIzaho manam-panorenana,\nFa manan-dRay arý\nan-danitra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('492', 'Izaho mino ny\nMPANAVOTRA,\nNy rany masina no mamiko,\nNy momba Azy dia sambatra,\nNy diany no mba harahiko.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('492', 'Inoako ny MPANAMASINA,\nMpananatro sy Masoandroko;\nIzaho omeny afo masina,\nMba ho madio ny fiainako.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF493',
+             '',
+             493
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('493', 'Ny loharanom-pamonjena,\nHe, hitako tokoa izao,\nDia Jeso Kristy, Ilay nomena\nHamonjy izao tontolo izao,\nNy rany dia fantaro\nFa ampy hiankinako.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('493', 'Ny otantsika no nanery\nNy Tompontsika hankatý\nIsika hitany ho very,\nIzany no nidinany\nNitondra fahoriana\nSy hazo-fijaliana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('493', 'Ny nialan’ny Tompo aina\nHanaisotra ny heloka\nDia tsy mba takatry ny saina,\nFa hitan’ny finoana,\nNy rany no miantso hoe :\nHe, famindrampo lehibe!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('493', 'Izay no nampionona ahy,\nKa afaka ny tahotro;\nNa dia ory ny fanahy,\nJesosy no Mpanavotro\nNa misy mampanahy fo,\nNy Raiko no be indrafo.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('493', 'Na very aza ny harena,\nKa be ny fahoriana,\nIzaho mbola manantena\nHahita fifaliana;\nJesosy, Izay fananako,\nDia Tompo feno indrafo.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('493', 'Izaho tsy matoky tena,\nNa ny fahamarinako;\nJesosy foto-pamonjena\nNo tena itokiako,\nNy Raiko no isaorako,\nFa izy be indrafo.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('493', 'Izay sitraky ny Ray malala\nNo aoka mba ho sitrakao\nFa izy tena mahalala\nHametraka izay anjarako;\nIzay ataony tiako,\nFa hitako ny indrafo.', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('493', 'Izany fototra izany\nNo toky izay hotanako\nAmbara-pitako ho any\nAn-koatry ny fasako,\nKa any no hisaorako\nIlay fototry ny indrafo.', '8', '8');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF494',
+             '',
+             494
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('494', 'O, ry Zanahary,\nIzay nahary ahy,\nBe ny herinao!\nManan-toky aho,\nFa tsy maty taho,\nManana Anao;\nAfa-po ny zanakao,\nHianao no Ray Mpiahy,\nKa  iza no hanahy!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('494', 'Hianao no Raiko\nTena fototr’aiko,\nSady heriko.\nHianao no aro,\nTsy ho reraka aho,\nTsy ho kivy fo;\nAo ambany elatrao\nNo ataoko fiereko;\nAo tsy misy sento.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('494', 'Latsaka isan-andro\nToy ny ranonando\nNy fitianao.\nRaha alaim-panahy,\nKa manafotra  ahy\nRe ny otako,\nDia ho tafatsangana\nHanavao ny herin’aiko\nHianao, ry Raiko.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('494', 'Ary raha lany\nToy ny zavon-tany\nNy fiainako;\nMisy onin’aina\nTsy mba mety maina\nAo an-danitrao;\nAo no hitoerako,\nAo an-tranonao, ry Raiko,\nAo no antenaiko.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF495',
+             '',
+             495
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('495', 'Jeso dia tokiko,\nFa Mpamonjiko mahery,\nSady tena zokiko\nTsy hamela ahy irery\nAo amorom-pasako,\nFa hiaraka amiko.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('495', 'Izy tenany mandre\nNy hangidin’ny fitàna\nIlay ony maintibe\nVokatry ny fahotana;\nKoa tsy hilaozany\nIrery ny olony.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('495', 'Izaho hody vovoka,\nFa ny androko ho lany,\nNefa dia hatsangana\nSy hakarina hankany\nAmim-boninahitra,\nIzay tsy mety tapitra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('495', 'Dia ho tafatambatra\nNy fanahy sy ny tena,\nAry samy sambatra,\nFa nahazo famonjena,\nIzay Jesosy, havako,\nVao ho tena hitako.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('495', 'Izay manjo atý izao\nTsy mba misy ao akory,\nFa finaritra ny ao.\nTapitra ny mampahory,\nKa ny fahalovana\nHody fifaliana.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('495', 'Eto aho reraka,\nAny misy hazon’aina\nVita sy tanteraka\nIzay rehetra nantenaina\nAo no hahatrarako\nNy fahasambarako.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF496',
+             '',
+             496
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('496', 'Jeso iankinako,\nIzy no mpanavotro;\nKristy itokiako\nAmin-tsaina sy ny fo;\nKristy ifaliako,\nIzy marina sy to.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('496', 'Nahafoy ny lanitra\nHianao, Mpanavotra;\nRaha ny vahoakao\nNobaboin’ny rafinao,\nHianao mangoraka,\nRy Kristy Mpanafaka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('496', 'Fahoriambe ny erý\nNo nanjo Anao tatý\nFa ny fahavalonao\nDia nanenjika Anao;\nNefa novalianao\nIndrafo ny rafinao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('496', 'He, nijaly Hianao\nNoho ny fitiavanao\nKa ny famindramponao\nNo nahafatesanao;\nHianao nasandratra,\nFa nijaly fatratra.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('496', 'Sarobidy izahay,\nFa ny ranao avotray,\nIzay nomenao ho anay,\nMba hanafaka anay;\nTonga olom-potsinao\nIzahay navotanao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('496', 'Ravoravo izahay,\nRy Mpamonjy maminay,\nKa ny fanavotanao\nAn’izao tontolo izao\nSy ny fitivanao\nNo isaoranay Anao.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF497',
+             '',
+             497
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('497', 'Ny tany sy ny lanitra tsy\nmanam-petra\nHiaraka amin’ny mino\nrehetra\nManaiky fa Jeso no aina\nhamonjy\nNy olona ory izay mila vonjy.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('497', 'Na dia manenjika ahy ny\nratsy,\nTsy lany ny hery, fa Jeso\nmanampy\nDia  Izy no tanako mafy\ntokoa,\nKa tsy ialako, fa Tompo\nTsitoha.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('497', 'Jesosy Sakaizako dia miahy\nNy Azy, ka afaka ny ahiahy,\nNy fo malahelo ovany ho\nfaly,\nKa tretrika indray   ireo olo-\nmijaly.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('497', 'Jesosy fidiko ho Tompo\ntokoa,\nEfaiko ny asa sy hevitra soa,\nIzay halan’ny Tompo tsy\ntiako intsony,\nKa tena iraisako tsara any\nfony.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('497', 'Izay tanako mafy sy mamy\nhambara\nRehefa ho faty, ka tonga ny\nanjara :\nJesosy, Jesosy irery ihany\nNo aina, harena tsy mety ho\nlany.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF498',
+             '',
+             498
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('498', 'Ahy va Jesosy Tompon’aina ?\nMoa ahy va ny lanitra ?\nEny, matokia, ry fo sy saina,\nFa eken’Andriamanitra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('498', 'Eny, zokiko Jesosy Tompo,\nFahagagana lehibe erý,\nTsy antsoiny hoe mpanompo,\nFa ataony tena havany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('498', 'Toa mila hampisalasala\nIo tena fahagagana io,\nAry lavin’ny tsy mahalala,\nNefa azon’ny finoako.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('498', 'O, mba mifalia, ry fanahy,\nFa anao Ilay Mpanavotra!\nKa misaora, aza mba manahy,\nFa ho azonao ny lanitra.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('498', 'Iombonana ny lova any,\nFa Iray ny Ray an-danitra!\nKa harena be dia be izany,\nHasambarana maharitra.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF499',
+             '',
+             499
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('499', 'Inona re no hatakaloko\nAn’i Jesosy Izay mpisoloko ?\nNy zavatra izay ho simba va\nsy mora levona ?\nRaha mbola hazoniko ny to,\nKa tsy maty ny jiro ao am-po,\nJesosy tsy soloako na inona\nna inona.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('499', 'Indro, Jesosy no fiainako,\nIzy no manda fiarovako;\nIzaho efa maty, nefa\nnovelominy indray.\nKa na dia mahantra aza atý,\nKa tsy mbola nafindra ho arý,\nJesosy no anjarako, ka ampy\nahy re izay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('499', 'O, ry Jesosy Tompo tsara ô!\nAza mamela ny fanahiko\nHisaraka  aminao, fa tano aho\nho mpanomponao.\nMba velomy ny fitiavako,\nKa tohano ny fandehanako,\nMba hanarahako ny lalana\nizay nalehanao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF500',
+             '',
+             500
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('500', 'He! manda fiarovana,\nAndriamanitsika,\nAmpinga mahatohana\nIzay manjo antsika.\nMamely fatratra\nSatana sompatra,\nMpandoza hatrizay,\nMpamitaka mahay\nTsy manam-paharoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('500', 'Malemy, tsinontsinona,\nFa mora resy isika;\nFa misy voahasina\nMiady ho antsika;\nJesosy re izay,\nIlay iraky ny Ray,\nMpitarika mahay,\nMpamonjy hatrizay\nSy Tompo-pandresena.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('500', 'Na dia ta-handevona\nIreo devoly maro,\nTsy misy atahorana,\nJesosy no Mpiaro;\nIlay rain’ny maizina\nDia nohelohina,\nKa tsy ahoana,\nFa teny tokana\nDia mahalavo azy.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('500', 'Kendreny hofongorana\nNy teny tanantsika,\nKanefa tsy ho foana,\nNy Tompo momba antsika.\nNa dia ho fongana\nNy laza ananana,\nHarena, havana\nTsy mampaninona,\nNy lanitra antsika.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF501',
+             '',
+             501
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('501', 'Namely mafy loatra\nNy henatra aman-tahotra;\nTsy afaka ny aizim-po,\nFa mbola tao ny heloka,', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('501', 'Nandroso aho nivavaka :\nRy Jeso ô, Mpanavotra!\nIzao no angatahiko;\nMba mamelà ny heloko.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('501', 'Izaho tsy hiahotra;\nNy tenako atolotro,\nIzay rehetra ananako\nAnao, Mpamela  heloka.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('501', 'Ny tahotra dia levona,\nAriako ny henatra, \nSatria mandre ny feonao\nHoe : voavelako ny helokao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('501', 'Endrey! ny hafaliako\nIzay velona ao anatiko,\nKa sahiko ny hanao hoe :\nVoavelanao ny heloko.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF502',
+             '',
+             502
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('502', 'Finaritra ny vorona ao an-ala\nSy ao an-karam-bato avobe;\nNa dia betsaka ny \nmpankahala\nMivonon-kahafaty azy re;\nMatoky izy, tsy misalasala,\nFa manam-piarovan-dehibe.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('502', 'Jesosy Tompoko no\nharambato\nSy ala mafy ikirizako;\nNa mafy aza sady tsy miato\nIzay ataon’ny fahavaloko,\nMamely ahy ary misahato,\nJesosy re no fiarovako.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('502', 'Izay rehetra ta-hamely ahy,\nMikendry, nefa sasa-poana;\nIzaho dia ravo am-panahy,\nTsy azony atao ahoana,\nFa misy manda manodidina\nahy,\nIzay miaro  sy  manohana.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF503',
+             '',
+             503
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('503', 'Ry Jeso Tompo tsara ô!\nTsy azoko valiana\nIzato fitiavanao\nManafa-pahoriana,\nHe, sambatra aho, Tompo ô!\nFa manana Anao izao,\nIzay tsy mba mety sosotra,\nNa faly hampitahotra\nKa Hianao no tokiko\nSy foto-pifaliako.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('503', 'He, isam-pahoriana\nIzay niantsoako Anao,\nDia efa novaliana\nNy hataka izay natao,\nNy heloko navelanao,\nNy foko nohavaozinao,\nNy loza nosakananao,\nNy ngidiny nesorinao;\nNy aim-baovao iainako,\nKa velona ny heriko.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('503', 'Ka amin’izao sisa izao,\nMikasa aho Tompo ô!\nHanao izay nohafaranao,\nHanaraka Anao am-po.\nSatana dia holaviko,\nHafoiko izao tontolo izao,\nRafesiko ny nofoko,\nFa Hianao, Mpamonjy ô!\nMpanavotra tsy foiko,\nNo sisa hotompoiko.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF504',
+             '',
+             504
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('504', '“Ambarao, ry mpivahiny!\nNy alehanao izao!”\n“Fiakarana mideza,\nIhoaranay anio;\nJesosy Tompo no miantso\n:,: Mba ho ao an-tany soa;\n:,: Mba ho ao an-tany soa;\nJeso no alehanay :,:”', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('504', '“Lozanao, ry mpivahiny,\nLàlana tsy fantatrao!”\n“Tsia, fa anjely maro\nNo miaraka aminay;\nJeso Tompo no mitondra.\nTsy hanjo anay ny loza,\n:,: Tsy hanjo anay ny loza;\nIzy no ampinganay :,:”', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('504', '“Inona, ry mpivahiny,\nNo ho azonao ary ?”\n“Jeso Kristy be fitia\nVonon-kanome anay\nLamba fotsy, zava-tsoa,\nRanon’aina tsy ho lany,\n:,: Ranon’aina tsy ho lany!\nJeso no hatoninay :,:”', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('504', '“Tianay, ry mpivahiny,\nMba hiaraka aminao!”\n“Mandrosoa ry sakaiza!\nMiaraha aminay;\nFa izay mitady tsara\nTsy mba lavin’i Jesosy,\n:,: Tsy mba lavin’i Jesosy,\nIzy no hidiranay :,:”', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF505',
+             '',
+             505
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('505', '“Mpivahiny! mba lazao;\nZovy moa hianao ?”\n“Izaho namanao ity,\nFa miandry Ilay ary.”\n“Mpivahiny! mba lazao :\nIza no andraisanao ?”\n“Jeso, Havako arý,\nNo andrasako aty.”', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('505', '“Mpivahiny! mba lazao :\nAiza no halehanao ?”\n“Lalana ety avokoa\nSady sarotra tokoa.”\n“Mpivahiny! mba lazao :\nIza no harahinao ?”\n“Jeso, Zoky be fitia,\nTsy mamela mba hania.”', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('505', 'Mpivahiny! mba lazao :\nAiza no hodianao ?”\n“Ao an-danitra madio\nNo aleha ankehitrio.”\n“Mpivahiny! mba lazao :\nIza no handray anao ?”\n“Jeso, Ilay Mpanjaka soa,\nTompo, Havako tokoa.”', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF506',
+             '',
+             506
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('506', 'Tsy misy miadana ka afa-po\nIzay monina eto an-tany;\nFa izay tia sy mino ny Tompo\nJeso\nNo hahazo ny soa tsy lany.\nMba irio, mba irio\nNy hananana an’i Jeso.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('506', 'Raha misy mahory mahazo etý,\nJeso no hanala izany;\nTsarovy ny avotra tao Kalvary\nFa nalatsany tany ny rany,\nMba irio, mba irio\nNy hananana an’i Jeso.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('506', 'Izaho maniry hanaraka Anao,\nRy Tompo Mpanafaka ota!\nFa fantatro tsara hatramin’izao\nNy fitiavanao ahy mpanota\nMba irio, mba irio\nNy hananana an’i Jeso.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF507',
+             '',
+             507
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('507', 'Ranomasi-mampahory\nNo alehantsika izao;\nFa ny mino dia hitody,\nKoa maharitra izy izao;\n:,: O! andeha isika hody\nMba ho ao\nan-tranon-dRay :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('507', 'Jeso Tompo eo am-pita\nKa miantso hoe: Avia!\nIzy koa no mampita\nKa manao hoe: Matokia!\n:,: O! andeha, isika hody\nMba ho ao\nan-tranon-dRay :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('507', 'Maro efa tonga any\nKa mifaly avokoa;\nMbola be ny fiantrany\nMisy ho antsika koa.\n:,: O! andeha, isika hody\nMba ho ao\nan-tranon-dRay :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('507', 'Kristy koa no sambon’aina\nIzay mitondra ho arý.\nFamonjena azo maina,\nKa ilaozy re ity.\n:,: O! andeha, isika hody\nMba ho ao\nan-tranon-dRay :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF508',
+             '',
+             508
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('508', 'Ny sambokelinay etý\nMitety ranobe,\nMisononoka ho ery\nAn-dafin’ony be  (in-3)\nMisononoka ho ery,\nAn-dafin’ony be  (in-3)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('508', 'Ny rivo-doza tsy hanjo,\nFa Jeso aminay;\nNy alondrano mankato\nIlay maherinay  (in-3)\nNy alondrano mankato,\nIlay maherinay  (in-3)', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('508', 'Mamaky onja izahay\nFa tsy ho faty eo;\nNy fitodian-tsambonay,\nHe! tazanay izao  (in-3)\nNy fitodian-tsambonay,\nHe! tazanay izao  (in-3)', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('508', 'Irinay ny ho tonga ao\nHilaozanay ity;\nMitsena anay tokoa izao\nNy zokinay ary  (in-3)\nMitsena anay tokoa izaonNy zokinay ary  (in-3)', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF509',
+             '',
+             509
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('509', 'Jeso Tompo! Vatolampy,\nVato voafantina,\nMba ho fanorena-mafy\nIzay tsy mety levona;\n:,: Vato mafy :,:  (in-2)\nDia itokianay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('509', 'Jeso Tompo! Vatolampy\nVoazaha toetra;\nVato tsy mba misy tsiny,\nSady tsara endrika.\n:,: Vato soa :,:  (in-2)\nDia ifalianay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('509', 'Jeso Tompo! Vatolampy,\nVato fehizoronay;\nEfa nampiray fanahy\nNy fitianao anay\n:,: Fehizoro :,:  (in-2)\nVato fampiraisana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('509', 'Jeso Tompo! Vatolampy,\nTsy miova Hianao;\nManan-jara ny matoky\nNy tsy fivadihanao\n:,: Fa ho faly :,: (in-2)\nKa tsy hanan-kenatra.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF510',
+             '',
+             510
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('510', 'Jeso! ny hamarinanao\nNo lamba hitafianay,\nAmin’ny andro farany,\nIzany hifalianay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('510', 'Raha hitsangana izahay\nHandray ny lova aminao,\nDia tsy ho resy lahatra,\nFa Kristy no Mpanavotra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('510', 'Io lamba io no mbola vao,\nNa levona izao tany izao,\nHaharitra tsy rovitra,\nHavaozin’Andriamanitra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('510', 'Ny hery sy ny antranao\nToroy izao tontolo izao;\nAmpandrosoy ny teninao,\nAmpanekeo ny rafinao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('510', 'Ny maty hahare ny feo\nHiantso azy ho velona;\nJeso! ny hamarinanao\nNo lamba hitafianay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF511',
+             '',
+             511
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('511', 'Jeso no sakaiza tena tia  anay,\nIzy ta-hamonjy olombelona;\nAoka  ho tiantsika ny\nMpanavotra,\nFa Izy no Sakaiza\nmahateho tia.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('511', 'Jeso no Sakaiza ifaliana,\nIzy nahafoy ny voninahitra,\nMba hananantsika fanavotana\nSy handraisantsika\nny fiainana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('511', 'Jeso no Sakaiza itokiana,\nIzy mahavaly sy mahanatra;\nAoka hinoantsika\nny Mpanavotra,\nHahazoantsika fiadanana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('511', 'Jeso no Sakaiza ivavahana,\nIzy mahavonjy ny \nMpangataka;\nAoka hinoantsika ny \nMpanavotra,\nMba handraisantsika\nfanampiana.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('511', 'Jeso no sakaiza fiarovana,\nIzy maharesy ny mpanohitra;\nIza no hanimba izay arovany ?\nAoka hisaorantsika ny\nMpanavotra.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('511', 'Jeso ô, Sakaiza! raisonao\nizao\nNy fisaoran-tsara izay\natolotray;\nIzahay mpanota te-hidera\nAnao,\nRaiso re ny dera izay\naterinay.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF512',
+             '',
+             512
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('512', 'He! matoky aho, Tompo,\nAzoko ny teninao;\nTeny soa mahafaly,\nTeny avy Aminao.\nHe! matoky aho, Tompo,\nAzoko ny teninao;\nTeny soa mahafaly\nNo omenao ahy  izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('512', 'Tahotra  amana ahiahy\nDia ariako izao;\nFa nomenao toky aho\nSady tô ny teninao,\nHe! matoky, aho, Tompo,\nAzoko ny teninao;\nTeny soa mahafaly\nNo omenao ahy  izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('512', 'Izay rehetra fahotana\nEntiko hesorinao;\nHianao no mahadio\nKa diovy aho izao.\nHe! matoky, aho, Tompo,\nAzoko ny teninao;\nTeny soa mahafaly\nNo omenao ahy  izao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('512', 'Mahasasa, mahadio\nMahavonjy Hianao,\nKa mandray sy mahatondra\nTsara ho ao an-tranonao.\nHe! matoky, aho, Tompo,\nAzoko ny teninao;\nTeny soa mahafaly\nNo omenao ahy  izao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('512', 'Jeso Tompo! avy aho,\nAvy hankalaza Anao;\nRaisonao re izay omeko;\nVola, tena, aina koa.\nHe! matoky, aho, Tompo,\nAzoko ny teninao;\nTeny soa mahafaly\nNo omenao ahy  izao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF513',
+             '',
+             513
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('513', 'Jeso Sakaizanay,\nJeso anay;\nSady tsy mahafoy,\nJeso anay;\nRaha ny olona\nMety mandao anay,\nJeso no tsy mandao,\nJeso anay', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('513', 'Jeso Sakaizanay,\nJeso anay;\nIzy no Avotray,\nJeso anay;\nMaty ny Tomponay\nNoho ny helokay;\nAfaka izahay,\nJeso anay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('513', 'Jeso Sakaizanay,\nJeso anay;\nIzy no aronay,\nJeso anay;\nReraka izahay\nNoho ny adinay,\nJeso no herinay,\nJeso anay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('513', 'Jeso Sakaizanay,\nJeso anay;\nIzy no lalanay,\nJeso anay;\nLalana marina \nHahatongavanay\nAny an-danitra,\nJeso anay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('513', 'Jeso Sakaizanay,\nJeso anay;\nManana izahay,\nJeso anay;\nJeso Sakaizanay\nNo hovantaninay\nAny an-danitra,\nJeso anay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF514',
+             '',
+             514
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('514', 'Ry Jehovah Tomponay!\nOlom-bery izahay,\nNefa tsy mba foinao,\nFa vonjen’ny Zanakao;\nZanahary, Aba Ray,\nJeso Kristy, Havanay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('514', 'Lehibe ny indrafo;\nIza re no nanampo\nFamonjena taminao ?\nKanjo azonay izao;\nZanahary, Aba Ray,\nJeso Kristy, Havanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('514', 'Gaga izahay izao!\nBe fitia Hianao;\nAvotr’aina azonay,\nHody aminao izahay,\nZanahary, Aba Ray,\nJeso Kristy, Havanay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('514', 'Jeso ô! Mpamonjy soa\nSy mpamindra fo tokoa!\nAvy ny navotanao\nKa midera Anao izao;\nZanahary, Aba Ray,\nJeso Kristy, Havanay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF515',
+             '',
+             515
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('515', 'Tsara lova, ry Jeso ô!\nNy mpanota voavotrao,\nFa fonenana soa\nAmboarinao ao,\nHanefanao ny teninao;\nHo amin’io tany io tokoa\nNo izoran’ny dianay;\nJeso Tompo no ao, \nSady efa manao\nTrano soa hipetrahanay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('515', 'Tsara lalana, Jeso ô!\nNy vahiny tarihinao;\nRaha misy manjo,\nTsy mba kivy ny fo\nFa tohanan’ny herinao;\nHo amin’io, tany io tokoa\nNo izoran’ny dianay;\nJeso Tompo no ao, \nSady efa manao\nTrano soa hipetrahanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('515', 'Tsara vatsy  ry Jeso ô!\nNy mpandeha fahananao,\nFa ny teninao soa\nMofon’aina tokoa \nIveloman’ny olonao.\nHo amin’io, tany io tokoa\nNo izoran’ny dianay;\nJeso Tompo no ao, \nSady efa manao\nTrano soa hipetrahanay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF516',
+             '',
+             516
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('516', 'An-dafin’ny efitra lava sy\nmaina\nNo misy ilay tany izay\nmamin’ny fo\nIlay tany izay efa\nnampanantenaina\nHo lovan’ny mino izay\nmankatò\nIriko indrindra ny mba\nho tafita,\nTsy mety miadana\nmandra-pahita.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('516', 'Anefa ny lala-mankany \nno mafy,\nNy rafiko maro manotrika ao,\nNy nofo indrindra no tena\nmpandrafy,\nKa tery ny lalan-kaleha izao!\nAnefa tsaroako tsara ny teny\nMilaza fa misy fitsaharana \neny.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('516', 'Ka aza mba ketraka,\nry mpivahiny,\nHevero fa Jeso no momba\nanao;\nIlay nampangina ny loza \nfahiny\nDia mbola mahay\nmampandresy anao!\nAndrasonao kely, ho lany\nny fetra,\nHo ringana ny fahavalo\nrehetra', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('516', 'Izaho hiezaka mafy tokoa\nHahazo ny loka ao\nalohako ao;\nNy tafio-divotra mba\nmahasoa,\nFa hahatongavako\nfaingana ao;\nIndray mipi-maso ny eto\nan-tany\nNy any an-danitra tsy\nhita lany.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF517',
+             '',
+             517
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('517', 'Ny alina ho lasa,\nNa ela aza re,\nHipoaka ny andro\nMahafinaritra;\nNy zavona hisava\nAn-tendrombohitra ao,\nNy vavahady tsara \nHo tsinjoko izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('517', 'Mba sarotra tokoa\nNy fiakarana e!\nMamely mafy koa\nNy rivo-doza be;\nFa he ny mpivahiny\nIzay efa trotraka\nTantanan’ny Mpamonjy \nTsy ho solafaka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('517', 'Ny famonjen’i Kristy,\nNy fanavotany,\nNo loharano soa\nMangarangarana;\nNandramako sahady\nNy rano velona,\nKa dia nahazo hery\nAm-pandehanana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('517', 'Ny rano be hitànay,\nNy fefy tsilo koa,\nNy lalana mahàna\nHo afaka avokoa;\nKa dera, Haleloia,\nNo mendrika hatao\nAmbara-pahatonga\nAm-pitsaharana.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF518',
+             '',
+             518
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('518', 'Rehefa vita ny asako etý\nKa ny fanahiko raisina erý,\nMiara-mitoetra Aminao,\nTomponay,\nNo hasambarako\nmandrakizay\nMandrakizay, sambatra re,\nAzoko ilay fahasambarana\nbe!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('518', 'Rehefa ataoko veloma ny etý\nKa azoko ‘lay paradisa erý,\nSady mahita ny tavan’ny Ray\nNo fahasambarako \nmandrakizay;\nMandrakizay, sambatra re,\nAzoko ilay fahasambarana\nbe!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('518', 'Miombom-pahasambarana\narý\nAmin’ireo olon-tiako tatý\nKa tsy misaraka mandrakizay\nNo hasambarako\nmandrakizay;\nMandrakizay, sambatra re,\nAzoko ilay fahasambarana\nbe!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF519',
+             '',
+             519
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('519', 'Mba maniry hody aho,\nRy Jesosy Tompo ô!\n:,: Ka ny foko hatanjaho\nMba hankany aminao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('519', 'Tsy tamana eto aho\nMampahory ny atý,\n:,: Koa dia mitalaho,\nMba hafindranao arý :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('519', 'Hody aho, ry Mpiantra,\nAoka mba horaisinao.\n:,: Hianao dia feno antra,\nKa matoky aho izao :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF520',
+             '',
+             520
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('520', 'Ny masoandronay\nMirefarefa izao,\nMadiva hody izahay\nHiverina Aminao;\nRy Jeso ô! sasao,\nSasao madio izahay,\nHo mendrika ny lanitra\nIzay honenanay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('520', 'Tsy ela intsony koa\nIty ady lava ity,\nHo afa-tsasatra tokoa\nRehefa tonga arý :\nRy Jeso ô! sasao,\nSasao madio izahay,\nHo mendrika ny lanitra\nIzay honenanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('520', 'Madiva ho hitanay\nIlay Tomponay arý,\nMadiva hihaona aminay\nNy namanay tatý :\nRy Jeso ô! sasao,\nSasao madio izahay,\nHo mendrika ny lanitra\nIzay honenanay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('520', 'He! kely sisa izao\nNo hisentoanay,\nDia ho fafan’ny tananao\nNy ranomasonay :\nRy Jeso ô! sasao,\nSasao madio izahay,\nHo mendrika ny lanitra\nIzay honenanay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('520', 'Ity hita maso ity,\nIzay tsy mahefa-po,\nHisolo paradisa arý,\nIzay hifalian’ny fo :\nRy Jeso ô! sasao,\nSasao madio izahay,\nHo mendrika ny lanitra\nIzay honenanay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF521',
+             '',
+             521
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('521', 'Ravoravo re ny foko,\nFa Jesosy ao am-poko,\nIzy no tsaroako\nAmin’ny alehako.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('521', 'Andro fohy, mora lany\nNo mba ahy atý an-tany,\nFa ny ao an-danitra\nDia tsara lavitra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('521', 'Tsy mba misy ota any,\nKa tsy hisy hitomany,\nTsy mba hisy ny manjo,\nNa ny alahelom-po.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('521', 'Any aho no hahazo\nZava-tsoa tsy halazo,\nSatroboninahitra,\nHaingon’ny nanafika.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('521', 'Dia ao no hahitako\nSady tena hiderako\nAn’i Jeso avotro.\nMifalia re, ry fo!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF522',
+             '',
+             522
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('522', 'He, tanim-pahazavana be,\nTsy misy maizina ao,\nKa any tsy mba hitete\nNy ranomasonao.\nIzay voavonjy hiangona ao,\nHiara-mihira ny hira vaovao,\nHo sambatra any an-danitra,\nAo amin’ny Mpanavotra.\nMoa ao an-danitra ?\nEny, ao an-danitra.\nKa tsy hisaraka ?\nEny, tsy hisaraka!\nHo sambatra any an-danitra\nAo amin’ny Mpanavotra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('522', 'Ry Rainay feno indrafo,\nBe fitiavana,\nOmàny ny fanahiko\nHandray fiainana.\nIzahay, ry Jesosy, maniry\nAnao.\nFa maty nisolo anay Hianao,\nNanavotra anay mba ho afaka.\nKa tsy ho voaheloka.\nMoa dia ho afaka ?\nEny, ho afaka.\nKa tsy ho helohina ?\nEny, tsy ho helohina.\nJesosy Mpamonjy nanafaka,\nKa tsy ho voaheloka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('522', 'O, ry Jesosy Tompo ô!\nTsarovy izahay,\nKa mba ambino hatrizao\nNy fandehananay.\nVonjeo ny ondry manaraka\nAnao\nFa otany no namonoana\nAnao,\nHo faly   izahay ao an-danitra\nAo amim-boninahitra.\nMoa ao an-danitra ?\nEny, ao an-danitra.\nKa tsy hisaraka ?\nEny, tsy hisaraka.\nHiara-mifaly  ao an-danitra,\nHo feno voninahitra.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF523',
+             '',
+             523
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('523', ':,: Te-hifindra :,:\nAho, ry Jesosy ô!\nBe manjo atý an-tany,\nFifaliam-be no any\nAminao, ry Tompo ô.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('523', ':,: Ny anjely :,:\nSy ny olo-masina\nTafahaona ka mihoby :\nSambatra ny tafatody,\nFaly fa  noraisina.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('523', ':,: Faly koa :,:\nAho, ry  Mpamonjiko.\nManantena fa hahita\nNy fonenana ao am-pita,\nKa handray ny lovako.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('523', ':,: Tsy tamana :,:\nAho, amin’ny manjo,\nFa vahiny atý an-taný\nKa maniry mba ho any\nAminao, ry Tompo ô.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('523', ':,: Ao tsy misy :,:\nOta na aretina!\nTsara raha hodimandry,\nNefa aho te-hiandry\nNy fetr’andro marina.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF524',
+             '',
+             524
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('524', 'Hitsahatra aina, ry foko,\nizao ?\nKa iza ataonao hiaro anao ?\nNy tany va misy hitsaharan’\nny fo,\nNa lova tsy simba, tsy mety\nho lo ?\nTsia, tsia, tsy mba atý izany,\nFa any an-danitra erý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('524', 'Afoizo ny tany izay manindao\nKatsaho ny lanitra ho lovanao\nJerosalema any, tanàna \nvaovao\nSy tsara tokoa, miandry anao,\nEny, eny, ao dia ao \nNo misy tokoa\nfonenam-baovao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('524', 'Ny mponina ao dia tretrika\nam-po.\nFa resy ny ota, mahery ny tò\nKa faly midera ny Tompo\nny ao;\nNy mino hihira ny hira\nvaovao!\nIndro, indro, be dia be tokoa\nNy soa ao an-danitra ao re!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF525',
+             '',
+             525
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('525', 'Vahiny eto isika\nKa monina amin-day,\nMitady mba hahita\nNy any amin-dRay;\nFa ao ny fanjakany\nSy fiadanana,\nKa ao tsy hita lany\nNy fitiavana,\nAo no fodiana,\nMihaona ao ny mino,\nKa tsy hisaraka.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('525', 'Izay atý an-tany\nDia mora tapitra,\nFa ny tsy mety lany\nDia ao an-danitra!\nFa ao ny Tompontsika\nIzay nohomboana\nMba hahazoantsika\nNy fifaliana,\nAo no fodiana,\nMihaona ao ny mino,\nKa tsy hisaraka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('525', 'Manafotra ny tava\nNy ranomaso be,\nKanefa dia hisava,\nFa hofafana e!\nIsika manantena\nFa ny Mpampakatra\nHo tonga mba hitsena\nNy ampakarina.\nAo no fodiana,\nMihaona ao ny mino,\nKa tsy hisaraka.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF529',
+             '',
+             529
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('529', 'Jesosy no Mpiandry tsara maty tia,\nNy rany nampiray antsika olo‑\nFa Izy no mandidy hampifa­nkatia\nIzay te-ho olony.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('529', 'Ka manahafa Azy Tomponaa, ry mino,\nTsarovinao ny didy izay nato­loriyy,\nFa tiany hifankatia isika mpino, Fa samy olony.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('529', 'Tsarovy fa iray tam-po izao isika;\nTsarovy re fa samy mpiantafika; Miraisa hina mba hiaraka tafita Ho ao an-danitra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('529', 'Ka aza mba mijery aaina an‑\ntava;\nMifanaralra tsara sy mifamelà,\nFa aza tia fotsiny amin'' ny\nvava;\nDia aza mifandà.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('529', 'Mifankatiava ary mifanaova soa; Mifandefera tsy hiavona am-po;\nVonoy re ny lolompo sy t''osa koa, Ka aoka ho tao-po.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('529', 'Mora. fo, mihavàna, maleme fa­nahy,\nKa aza mety hanaratsy narnana; Mifankatiava ré, toy ny mpira­halahy\nMiara-dàlana.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('529', 'Ka mivavaha re ho an'' ny raha­lahy,\nHiraisantsika tsara, fa iray manjo;\nNy fo izay tia tsy mba mampia­hiahy,\nHoraisin'' i Jeso.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF530',
+             '',
+             530
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('530', 'Fitiavana rano velona,\nLoha.rano lalina;\nKa miafina ao anatiny\nNy fiainan-danitra.\n\nFitiavana no nirahina\nAvy tamin-Jehova;h;\nO, mba raisonao, dia ho fanta­trao\nNy fahasarnbarana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('530', 'Fitiavana didy tokana\nAry didy lehibe;\nMitoera ao, hitoeranao Arnim-piadanam-be.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF531',
+             '',
+             531
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('531', 'Ry Jeso loharanon’aina,\nIzay foto-pitiavana!\nNy fonay toy ny tany maina\nFenoy fitiavana!\nAidino ao ny tena aina\nMba hampifankatia  anay,\nFandrao ho tonga very maina\nNy fitiavanao anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('531', 'Ny hasomparana levony,\nSoloy fitiavana;\nNy lolompo ampijanony\nOvay ho fihavanana;\nNy fo malaky mankahala\nAtaovy tia namana;\nAmpianaro hahalala\nNy didim-pitiavana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('531', 'Toroy sy ampahafantaro\nNy fitiavanao izahay;\nMpiandry tsara ô, velaro\nNy fonao mba ho hitanay;\nMba ho tarafiny tokoa\nNy fonay mbola maizina,\nKa samy hifanisy soa\nSy hifamela heloka.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF532',
+             '',
+             532
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('532', 'Ry Jeso lohan’ny mpandefitra,\nNilaozanao ny voninahitrao,\nMba hahatonga anay \nmpiavona\nHanetry tena eo imasonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('532', 'Ry tsy miavonavona am-po!\nIzaho te-hianatra aminao,\nMba hitsaharan’ny fanahiko\nFa mampiandam-po ny\nentanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('532', 'Ny fietrenao, ry Voahombo\nô!\nNo iakaram-boninahitra;\nNy tany sy ny lanitra vaovao,\nHtaonao lovan’ny \nmpandefitra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('532', 'Mifandefera sy mifanajà,\nRy samy voavela heloka!\nMiraisa hazo fijaliana\nHiraisantsika voninahitra.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF533',
+             '',
+             533
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('533', 'Iray ny Ray Tsitoha,\nMpitia olombelona;\nIray ny Tompo soa,\nIray ny rano velona,\nIray ny vavahady\nIzay idirana;\nNy rafy sy ny ady\nDia  iombonana,\nIray ny fahantrana\nIlaozantsika atý,\nIray ny fanjakana\nAlehantsika arý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('533', 'Ry zana-Janahary,\nRy voavela heloka,\nMiraisa hina ary,\nKa mifandraisa tanana;\nMifamelà isika,\nFa samy meloka;\nMifanajà isika,\nFa samy zanaka.\nRy Jeso be fitia,\nAmpio ny olonao\nMba ho mpifankatia\nManahaka Anao.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF534',
+             '',
+             534
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('534', 'Misy didy tena tsara\nIzay nomen’ny Tompo hoe :\nMba mifankatiava tsara,\nHianareo izay mino e!\n:,: Ka miraisa :,:\nIzao no didy lehibe. (in-2)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('534', 'Tonga Jeso mba hanompo\nSy mba hampihavana;\nTsy mpanaraka ny Tompo\nIzay tsy tia namana.\n:,: Ka tadiavo :,:\nIzay ho fampiraisana.(in-2)', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('534', 'Fa iray tokoa ny Loha,\nDia Jesosy Zanaka,\nEndriky ny Ray Tsitoha,\nIzay halaina tahaka.\n:,: Tsy ho resy :,:\nRaha miray ny tafika. (in-2)', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('534', 'Jeso no Ilay foto-kazo,\nTena voaloboka;\nKa ny sampana halazo,\nRaha tafasaraka.\n:,: Ikambano :,:\nKa  aza mba mihataka. (in-2)', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF535',
+             '',
+             535
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('535', 'Finaritra ny manome\nIreo mahantra maro be,\nKa mahafoy fananana\nHiantra ny tsy manana.\nIzao no asa mahasoa\nIzay manendrika tokoa;\nNy manome an-tsitrapo\nHitsinjo olona ory fo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('535', 'Ry olon’Andriamanitra!\nMba mihetseha fatratra\nHamonjy sy hanafaka,\nHanampy ireo madinika.\nIzay mamonkin-tanana\nMalain-kiantra namana,\nIzay mihirim-belona\nTsy hanam-piadanana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('535', 'Ny vola izay nafoinao\nDia tsy mba very foana izao,\nFa ny mahantra no mandray,\nKa lasan’i Jehovah Ray,\nIreo kamboty mba vangio,\nMpitondratena mba jereo;\nIzao no fivavahana\nIzay madio sy masina.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF536',
+             '',
+             536
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('536', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('536', 'Mifankatiava tsara,\nJeso no mampihavana,\nFa  Izy no alalantsika\nAmin’Andriamanitra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('536', 'Mifankatiava tsara,\nMba hahatsara antsika,\nFa  fototry ny didiny\nSady anton’ny lalàny.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('536', 'Hitsahatra finoana\nMbamin’ny fanantenana,\nNefa ny fitiavana\nHaharitra mandrakizay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('536', 'Mifankatiava tsara,\nTsy maharatsy namana,\nAry tsy mahatezitra\nAn’Andriamanitra koa.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF537',
+             '',
+             537
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('537', 'Endrey, ny hamaroan’ny soa\nNomenao Ray ho ahy koa!\nNy aiko, he, navotanao,\nNy heloko vonoinao.\nEny, Raiko,\nEny fa ravo tokoa\nIty zanakao voavonjy re\nKa velombolo erý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('537', 'He, azoko tokoa Jeso,\nIlay perla sao, madio sy vao;\nNy zava-tsoan’ny tany re\nDia tsy ahoako tokoa.\nEny, Raiko,\nEny fa ravo tokoa\nIty zanakao voavonjy re\nKa velombolo erý.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('537', 'Tsy haiko ny hilaza izao,\nHamisavisa re, ry Ray;\nNy fanomezan-dehibe\nDia tsy voatonoko tokoa\nEny, Raiko,\nEny fa ravo tokoa\nIty zanakao voavonjy re\nKa velombolo erý.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('537', 'Ny foko no hidera izao,\nHisaotra sy hanaja Anao\nHanoa, ho vonona hanao\nNy sitrakao rehetra.\nEny, Raiko,\nEny fa ravo tokoa\nIty zanakao voavonjy re\nKa velombolo erý.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF538',
+             '',
+             538
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('538', 'Finaritra ny masoko\nMijery ny Mpanjakako;\nNy vavako hisokatra\nHidera ny Mpanavotro;\nAndro soa, andro soa,\nFa Jeso no Mpanavotra;\nHe! ravo ny fanahiko\nMihira ao anatiko,\nAndro soa, andro soa,\nFa Jeso no Mpanavotra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('538', 'Ho tiako ny Tompoko\nAmbara-pahafatiko,\nFa Izy no Mpanafaka\nManaisotra ny heloko;\nAndro soa, andro soa,\nFa Jeso no Mpanavotra;\nHe! ravo ny fanahiko\nMihira ao anatiko,\nAndro soa, andro soa,\nFa Jeso no Mpanavotra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('538', 'Faingàna re, ry havako!\nHatòny e! ny Tomponao;\nAndeha mba hiaraka\nHihira sy hivavaka;\nAndro soa, andro soa,\nFa Jeso no Mpanavotra;\nHe! ravo ny fanahiko\nMihira ao anatiko,\nAndro soa, andro soa,\nFa Jeso no Mpanavotra.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF539',
+             '',
+             539
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('539', 'Faly dia faly izahay \nmpanomponao\nIzay mihira eto anatrehanao;\nFa be fiantra Hianao, ry Jeso\nTompo tianay!\nKa feno haravoana tokoa\nizahay :\nFaly dia faly izahay \nmpanomponao\nIzay mihira eto anatrehanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('539', 'Ela dia ela no nandavanay\nAnao,\nBe ny zava-dratsy efa vitanay,\nNa diso aza izahay, anefa faly\naminao,\nFa afakao ny helokay, ry\nTompo tianay!\nFaly dia faly izahay \nmpanomponao\nIzay mihira eto anatrehanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('539', 'Sarotra tokoa ny alehanay\nizao;\nBe ny alahelo iaretanay;\nNa ory aza izahay, dia mbola\nfaly aminao,\nFa levonao ny tahotray, ry\nTompo tianay!\nFaly dia faly izahay \nmpanomponao\nIzay mihira eto anatrehanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('539', 'Manantena tsara izahay\nmpanomponao\nMba handray ny zaza\ntehirizinao;\nRehefa maty izahay ka entinao\nan-danitra,\nHo azonay ny lova soa\nhatolotrao anay;\nFaly dia faly izahay \nmpanomponao\nIzay mihira eto anatrehanao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF540',
+             '',
+             540
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('540', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('540', 'Hitako ny lalan-tsara,\nKa hizorako izao,\nAzoko ny famonjena,\nKa hotanako tokoa\n:,: Manampia :,:\nRy Fanahy Masina ô!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('540', 'Ravoravo aho, Jeso!\nHianao no Tompoko;\nFaly aho, ry Mpamonjy!\nAfakao ny heloko;\n:,: Gaga aho :,:\nNoho ny fanavotanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('540', 'Fitiavana ihany\nNo natolotrao anay :\nNefa kosa fahotana\nNo navalinay Anao :\n:,: Aza isaina :,:\nRe ny hadisoanay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('540', 'Ny mpanota hilazako,\nNy Mpamonjy tànako;\nHilazako fa ny rany\nNo nataony avotra :\n:,: Matokia :,:\nHe, ny fitiavany!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF541',
+             '',
+             541
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('541', 'He, izany hira manako re!\nIlay zaza very tonga\namin-dRay\nHe! faly faly izay mandre :\nIlay efa maty  velona indray.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('541', 'Indro ny Rainy lasa nankao,\nHe! fa miteny : « Peratra soa,\nSoloy ny lamba, kapa alao »\nIlay efa maty  velona indray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('541', 'He, izany hoby an-tranon-\ndRay!\nFa voavonjy ilay nania;\nHobio ry tany sy lanitra!\nIlay efa maty  velona indray.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('541', 'O, ry anjely an-dapa soa!\nMiraisa hina hanandra-peo;\nAza mangina, fa mba lazao,\nIlay efa maty  velona indray.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF542',
+             '',
+             542
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '8', '8');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '9', '9');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '10', '10');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '11', '11');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '12', '12');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '13', '13');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '14', '14');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '15', '15');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '16', '16');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '17', '17');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '18', '18');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '19', '19');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '20', '20');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '21', '21');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '22', '22');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('542', '', '23', '23');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF543',
+             '',
+             543
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('543', 'Mihoby ny fanahiko,\nFa voavonjy izao;\nNy ratran’ny Mpamonjiko\nNo misy aim-baovao.\nNy ran’i Jesosy\nNo tena avotro;\nKa sambatra aho\nSy tretrika am-po.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('543', 'Ny ratran’ny Mpamonjinao,\nRy foko, mba jereo,\nFa hanasitrana anao,\nKa ho fiainanao,\nNy ran’i Jesosy,\nNo tena avotro;\nKa sambatra aho\nSy tretrika am-po.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('543', 'Mba mibitaha re, ry fo,\nNy gadra tapaka :\nNy hajambana izay nanjo,\nIzao dia  afaka,\nNy ran’i Jesosy,\nNo tena avotro;\nKa sambatra aho\nSy tretrika am-po.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF544',
+             '',
+             544
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('544', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('544', 'Misaora an’i Jehovah,\nMiantsoa ny Anarany;\nMitoria ny asany,\nAmin’ny ny olombelona.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('544', 'Ambarao ny fiantrany,\nLazao ny famindrampony,\nFa mahagaga antsika\nNy fitiavany antsika.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('544', 'Mpanota tsy naringana,\nVery mana-Mpanavotra,\nMaty ka nomeny aina,\nHo velona mandrakizay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('544', 'Ry Andriamanitray ô!\nRy Jesosy Mpamonjy ô!\nRy Fanahy Masina ô!\nVonjeo ny olona ory.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('544', 'Fa zohy no itoerana,\nLava-bato no ierena\nFa indrafo no ifalian’\nNy mpivahiny mandala.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF545',
+             '',
+             545
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('545', 'Endrey, izany hafaliana\nFa velona  aina izahay\nTanteraka ny faniriana\nKa dera ho Anao, ry Ray!\nAtolotray tokoa ny tena\nMba ho fanati-tsitrakao,\nSatria manaiky sy ekena\nHo tonga olom-baovao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('545', 'Ny Tanindrazanay malala,\nRy Jeso Tompo, anjakao\nHiorina eto, tsy hiala,\nNy fiadanana entinao!\nNy aizin’ota  anie hisava,\nNy fahantrana koa handao\nFa ho tarafin’ny Mazava\nHanjary tany vaovao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('545', 'Ny Fiangonanao angony,\nFanahy ô, ho tena iray,\nKa tsy hizarazara intsony\nFa Hianao no mampiray,\nDia ho fanasina, fanilo,\nHo an’izao tontolo izao;\nHijoro, tsy handraraka ilo,\nHitafy toetra vaovao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF546',
+             '',
+             546
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('546', 'Haleloia, haleloia!\nJeso no Mpamonjiko, \nHaleloia, haleloia!\nAfaka ny heloko.\nSambatra  aho, tretrika aho,\nAhy re ny lanitra,\nHaleloia, haleloia! \nJeso no Mpanavotra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('546', 'Haleloia, haleloia!\nRavoravo re ny fo,\nHaleloia, haleloia!\nJeso re no soloko.\nAfaka aho, afaka aho,\nLevona ny otako;\nHaleloia, haleloia! \nLanitra no lovako.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('546', 'Haleloia, haleloia!\nMatokia hianao.\nHaleloia, haleloia!\nMaty mba ho solonao.\nJeso Tompo mahatoky,\nRy mpanota very ô!\nHaleloia, haleloia!\nRaiso ny famindrampo.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF547',
+             '',
+             547
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('547', 'Ry Jeso Masoandronay ô!\nNy aizin’ny fo lasa tokoa,\nFa tonga aty anatinay izao\nMazava lehibe.\nEny, Jeso ô, Zoky be fitia,\nSoa lehibe (no) nentinao tatý\nAvy izahay mba hisaotra\nAnao\nNoho  ny fitiavanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('547', 'Vangianao ny tokantrano\nKa menatr’erý, kaody sy lao\nNy fomba ahitana angano\nIzay tsy mba sitrakao.\nEny, Jeso ô, Zoky be fitia,\nSoa lehibe (no) nentinao tatý\nAvy izahay mba hisaotra\nAnao\nNoho  ny fitiavanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('547', 'Mpanjaka Fiadananay ô!\nEkena tokoa ny herinao :\nNy sabatry ny firenena\nHatao fangady izao.\nEny, Jeso ô, Zoky be fitia,\nSoa lehibe (no) nentinao tatý\nAvy izahay mba hisaotra\nAnao\nNoho  ny fitiavanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('547', 'Ry Jeso Tompo tia anay ô!\nMisaotra Anao izahay izao\nFa henika ny hasoavanao\nIzao tontolo izao.\nEny, Jeso ô, Zoky be fitia,\nSoa lehibe (no) nentinao tatý\nAvy izahay mba hisaotra\nAnao\nNoho  ny fitiavanao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF548',
+             '',
+             548
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('548', 'He, Jehovah no Mpiandry ahy,\nTsy mba misy atahorako;\nRaha Izy no mitondra ahy,\nAhi-maitso no handriako.\nEny, fa ny tany karankaina,\nDia hody saha lonaka,\n:,: Ary ao amoron-dranon’aina\nHialan’ny foko sasatra :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('548', 'He, Jehovah no Mpitarika ahy,\nAo an-dàlam-pahamarinana,\nKoa tsy ho kivy ny fanahy\nAmin’ny alo-pahafatesana;\nHianao ry Tokiko irery,\nNo hiara-dia amiko,\n:,: Ka ny tsoran-kazonao\nmahery\nNo hanafaka ny tahotro :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('548', 'Amelaranao latabatra aho\nEo imasom-pahavaloko;\nNotoloranao kapoaka aho,\nKa mahery sady afa-po;\nEny, indrafo tsy hita lany\nNo hiaraka  amiko izao\n:,: Mandra-pahatongako ho\nany\nHanatrehako ny tavanao :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF549',
+             '',
+             549
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('549', 'Jesosy no asandratro,\nFa Izy no Mpanavotro,\nNy tanany nanafaka\nNy aiko tao an-davaka;\nNy rafiko ho ketraka,\nIzaho afa-kenatra,\nFa manana ny Tompoko, \nIzay mandako sy aroko :\nRy foko ô! ankalazao\nJesosy, Izay Mpamonjinao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('549', 'Ny tsiron’ny fiainana\nAndramako sahady re,\nFa efa mby an-tanana\nNy famonjena lehibe;\nNy ranon’aina azoko,\nNy mofon’aina haniko,\nSakafo mahatanjaka,\nMamelona ny reraka; :\nRy foko ô! ankalazao\nJesosy, Izay Mpamonjinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('549', 'Ny rany no anjarako,\nNy ainy no fananako;\nNy lanitra ho lovako,\nNy tany dia hilaozako\nNy ota tsy hanaraka\nNy ady dia hitsahatra\nNy aloka ho tapitra,\nFa ao no tena zavatra;\nRy foko ô! ankalazao\nJesosy, Izay Mpamonjinao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('549', 'Ny hanitry ny lanitra\nMamerovero fatratra;\nNy hiran’ny voavotra\nManatsika ahy hiakatra\nNy tavan’ny Mpamonjiko\nNo tsijon’ny fanahiko,\nNy tavany manafaka\nNy aizina ao anatiko;\nRy foko ô! ankalazao\nJesosy, Izay Mpamonjinao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('549', 'Ny masoko mibanjina\nTahaka ny mpiambina,\nManiry ny Mpamonjiko\nHo tafahaona amiko,\nIzaho hovimbininy\nHipetraka  ao anilany,\nHanao ny hiran-danitra\nSy honina finaritra :\nRy foko ô! ankalazao\nJesosy, Izay Mpamonjinao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF550',
+             '',
+             550
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('550', 'Ry Tompo ô, ny tany maina\nNo itoerako;\nMidina re, ry Andon’aina\nHo ao anatiko.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('550', 'Tsy aloka malaky lasa\nNo angatahiko,\nFa hery monina hiasa\nSy hanavao ny fo.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('550', 'Ny afonao ampandreseo\nNy afo’nofoko;\nNy sitrakao anie hekeko\nHo tena sitrako.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('550', 'He, tena zavatra ilaiko\nNy hohavaozinao;\nNy ainao asoloy ny aiko\nHo velon-ko Anao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF551',
+             '',
+             551
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('551', 'Tsy lany fahoriana\nIty tanintsika ity,\nFa be ny fihafiana\nIzay hitako atý,\nNy Tompo no jereko,\nRaha reraka ny fo,\nKa eo no fiereko,\nRaha  azon’ny  manjo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('551', 'Etý alaim-panahy,\nJeso, ny olonao,\nKanefa tsy manahy\nIzay nahita Anao,\nHianao no hojereny\nKa moa ho resy ve ?\nHianao no handreseny\nNy fahavalo be.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('551', 'Tsy azo ialana\nNy eo anilanao,\nMahita fanimbana\nIzay mahafoy Anao.\nAsain’ny fahoriana\nJerena Hianao,\nMahazo fifaliana\nNy maso aminao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('551', 'Rehefa hialana\nIzao tontolo izao,\nNy tany tsy hitana\nIzay mahita Anao.\nKa dia hojereko,\nRy Tompo, Hianao,\nFa Hianao homeko\nIzao aiko kely izao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF552',
+             '',
+             552
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('552', 'Ry foko ô, mba atolory\nNy Rainao ny manjo anao;\nNa mafy aza ny mahory,\nDia hovonjeny hianao;\nNy lanitra no andrandrao\nHahafaka ny sentonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('552', 'Andriamanitra mahita\nIzay hahasambatra anao,\nKa Izy no mahay mamita\nIzay zava-tsarotra aminao;\nTsy hotsitsiny aminao\nIzay mety hahasoa  anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('552', 'Ka aza kivy, ry mahantra,\nNa ory aza hianao,\nFa matokia ny Mpiantra,\nIzay tsy mahafoy anao;\nNy amboariny izao\nDia  famonjena ho anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('552', 'Dia  aoka hianao hatoky,\nRaha  mafy ny manjo anao,\nNy Rainao dia mahatoky,\nKa ampy hiankinanao;\nTsy misy tsy ho afany\nRaha  avy ny fotoany.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF553',
+             '',
+             553
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('553', 'Any an-danitra ambony\nMisy mijery anao;\n:,: He, feno antra ny fony,\nKoa mangina izao! :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('553', 'Ry rera-po mitomany,\nJeso onena anao;\n:,: Ampy ho toky izany,\nKoa mangina izao! :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('553', 'Na dia be ny mahory,\nIzy hiaro anao;\n:,: Tsy ho tra-doza akory,\nKoa mangina izao! :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('553', 'Mba mahareta miandry,\nIzy hanafaka anao;\n:,: Haka anao hodimandry,\nKoa mangina izao! :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF554',
+             '',
+             554
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('554', 'Ry Tompo mahavonjy ô!\nHenoy ny vavakay,\nKa mamelà ny helokay;\nFa tena tsy mba fantatray\nIzay tokony hatao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('554', 'Ry Tompo be fiantra ô!\nMalemy izahay,\nKanefa raha ampianao\nDia hanan-kery toa Anao\nIzahay mpanomponao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('554', 'Ry Tompo izay Mpandresy ô!\nOmeo ny herinao,\nFa tianay handresena koa\nNy ota mety hahavoa\nNy olon-tianao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('554', 'Ry Tompo Ilay Mahery ô!\nAmpionao izahay,\nHijoro, hampiseho izao\nFa aminay tokoa Hianao\nRy Tompo tia ô!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF555',
+             '',
+             555
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('555', 'Rahoviana no ho lany\nNy manjo atý an-tany ?\nJeso Vatolampiko\nAmpy hiankinako.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('555', 'Mahereza, ry fanahy\nAza manana ahiahy,\nJeso itokiako,\nHampionona ny fo.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('555', 'Ny mahory dia mandala,\nRingana ny fahavalo,\nNy atý hilaozako,\nMba handray ny lovako.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('555', 'Mino aho, ry Mpamonjy,\nFa ho tena voavonjy :\nAfakao ny heloko,\nHianao isaorako.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('555', 'Dia ho lany ny mahory,\nKa ho samy tafavory\nEo anatrehanao,\nIzahay mpanomponao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF556',
+             '',
+             556
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('556', 'Ny Paradisa  an-tany\nTsy misy re izany!\nNy hazon’aina very,\nFa tsilo be no ao!\nRy foko, aza kivy,\nFa ao ny tany soa,\nNy Paradisa hisy,\nRy foko, andrandrao!\nTsy misy ory any,\nFa tretrika  avokoa,\nAfaka ady ka mihoby,\nMisy hazon’aina ao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('556', 'Mandrahona ny ady,\nMirehitra sahady,\nFa be ny fahavalo\nMamely ahy izao,\nRy foko, aza kivy,\nFa ao ny tany soa,\nNy Paradisa hisy,\nRy foko, andrandrao!\nTsy misy ory any,\nFa tretrika  avokoa,\nAfaka ady ka mihoby,\nMisy hazon’aina ao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('556', 'Ny eso, latsa, ratra,\nMatetika mihatra\nTsaroako avaly\nNy asa vitako.\nRy foko, aza kivy,\nFa ao ny tany soa,\nNy Paradisa hisy,\nRy foko, andrandrao!\nTsy misy ory any,\nFa tretrika  avokoa,\nAfaka ady ka mihoby,\nMisy hazon’aina ao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('556', 'Miferinaina eto,\nTomany sy misento;\nIndrisy! ory aho,\nVonjeo, Tompo ô!\nRy foko, aza kivy,\nFa ao ny tany soa,\nNy Paradisa hisy,\nRy foko, andrandrao!\nTsy misy ory any,\nFa tretrika  avokoa,\nAfaka ady ka mihoby,\nMisy hazon’aina ao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF557',
+             '',
+             557
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('557', 'Raha  manahy ny fanahy\nAzom-pahoriam-be,\nKa ny aina mitaraina,\nRanomaso mitete,\nAza ketraka etý.\nFa tazony ny arý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('557', 'Ao miharo feo maro,\nFatratra ny hira ao;\nAo mifaly ny nijaly,\nOry teo, ravo izao;\nAo Jesosy Zokinao\nFaly hovantaninao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('557', 'Hazon’aina tsy mba maina\nNo maniry tsara ao,\nVoninkazo tsy halazo\nNo ho fifalianao;\nFaly ny nandre izao,\nMainka fa ny tonga ao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('557', 'Ry Mpamonjy, ho tra-bonjy\nAnie ny olonao!\nFa maniry ny tahiry\nAo an-danitra  aminao;\nMba faingàna Hianao\nHaka ny malalanao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF558',
+             '',
+             558
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('558', 'Ity fonenana ity\nTsy manam-pitsaharana;\nManiry aho ho arý\nAn-koatry ny fasana;\nNy lanitra no hitodiako,\nFa tena tanindrazako.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('558', 'Kanefa mahatahotra\nNy ranobe alehako,\nFa ny tafio-drivotra\nManohitra ny samboko;\nNy tselatra, ny kotrokorana,\nMamely sy mandrahona.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('558', 'Ny sambon’ny fiainako\nMamaky onja sarotra,\nKa amin’ny alehako\nMitopatopa fatratra\nNy alondranom-pahoriana,\nKanefa tsy maninona.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('558', 'Fa ny Mpamonjy tokana\nMitarika ny samboko;\nNy Tompon’ny fiainana\nMiara-mita amiko,\nMba ho tafita aho olony,\nKa honina  any aminy.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF559',
+             '',
+             559
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('559', 'He, vetivety ny atý an-tany,\nFa trano lay no itoeranao;\nKa aza ketraka na mitomany,\nFa andrandrao ny\ntanindrazanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('559', 'He, vetivety ao an-dalan-tery\nNo mahasarotra ny dianao,\nKa aza kivy, fa Ilay Mahery\nMamboa-trano hitsaharanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('559', 'He, vetivety ao an-tany maina\nNo mahabe ny fijalianao,\nKa dia ho hitanao ny\nranon’aina\nHahafaka ny hetahetanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('559', 'Arahonao ny lalan-toratady,\nMba hahafaingana ny dianao;\nJesosy Tomponao no\nvavahady,\nNy lanitra no hovantaninao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('559', 'He, vetivety ary dia ho hita\nNy tany soa mandry fahizay;\nJesosy ô, faingàna hahavita\nNy fikasanao tsara aminay!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF560',
+             '',
+             560
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('560', 'Mpivahiny aho eto\nTahaka ny razako,\nKa ny foko feno sento\nAmin’ny alehako.\nEny, tsy etý tokoa\nNo ho fitsaharako,\nFa mandalo avokoa\nIzay rehetra hitako,\nKa izaho tsy miato\nAndro aman-alina,\nNefa aho izay misento\nDia hasoavina.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('560', 'Be ny mampahory ahy\nMila tsy ho zakako,\nToa velona  hiahy\nAo am-pandehanako;\nNefa kosa tsy mba tery\nSady tsy mamoy fo,\nFa izaho tsy irery\nEto amin’ny manjo,\nFa Jesosy momba ahy\nKa manafa-tahotra;\nRaha ory ny fanahy,\nIzy no mahavotra.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF561',
+             '',
+             561
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('561', 'Raha maizina ny lalana\nJehovah Tompo ô!\nHianao no iankinana,\nHianao no jiroko.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('561', 'Tsy hitako izay hanjo,\nFa takona amiko\nNy andro sisa iainako,\nIzay nalahatrao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('561', 'Na mbola ela velona,\nNa maty haingana,\nNy zarako voatendrinao,\nTsy te-hifidy aho.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('561', 'Fa Kristy ivelomako\nRaha mitoetra;\nNy faty tombondahiko\nFodiana aminao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('561', 'Ny fanompoako atý,\nTsy mahavesatra ahy;\nTsy maika te-hiala etý\nRaha tsy antsoinao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('561', 'Raha tapitra ny androko,\nDia tsara lavitra\nNy mody any aminao\nHiala sasatra.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('561', 'Ny sitrakao no sitrako,\nJehovah Tompo ô!\nNy teninao andrasako,\nHianao no tokiko.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF562',
+             '',
+             562
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('562', 'Miandry ao ambony\nNy fifaliana;\nAtý tsy mety tony\nNy fahoriana,\nKa tonga sesilany\nNy fitarainana;\nArý tsy hita lany\nNy hasambarana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('562', 'Variana mikoràna\nNy tsy misaina be,\nNy hendry dia mitana\nNy hevitra hoe :\nAleoko mitomany\nNoho ny otako;\nNy lanitra ihany\nNo fianinako.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('562', 'Ny lalan’ny adala\nTsy mba harahiko,\nTsy mampisalasala\nIzay anjarako;\nNy sasany mikendry\nHo afa-po atý,\nIzaho dia miandry\nNy lovako arý.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('562', 'Izaho manantena\nAnao, ry Tompo ô!\nKa hobim-pamonjena\nNo hoventesiko;\nHe, vetivety ihany\nNo hiaretako,\nTsy ela dia hankany\nAn-tanindrazako.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF563',
+             '',
+             563
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('563', 'Ry mana-manjo!\nAkaiky anao\nNy Tompo, Ilay be fiantra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('563', 'Ka Izy anie\nHitahy anao,\nHanafaka ny mampahory.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('563', 'Ny ory atý\nHo faly arý,\nKa aza mba be alahelo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('563', 'Ny Tomponao re\nHanefa tokoa\nIzay hataky ny malahelo.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('563', 'Ny lapany ao\nVoavoatra ho anao\nHonenanao mandrakizay re.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF564',
+             '',
+             564
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('564', 'Tsy hita  izay androko sisa\natý,\nAhiko fandrao tsy ho tonga\narý;\nRy fanahiko! ao ny\nMpamonjy anao,\nHe! Jeso Mpamonjy anao\n(in-3) \nRy fanahiko! ao ny\nMpamonjy anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('564', 'Izaho anefa tamàna atý;\nTsy hiomana ve, fa hifindra\narý ?\nFa  efa fantatrao izao fa\nhavela ity\nHe! lanitra soa arý (in-3)\nFa  efa fantatrao izao fa\nhavela ity\nHe! lanitra soa arý.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('564', 'Ilaozy ity, hadinoy, ry fo!\nAfoizo izao, ry fanahiko ô!\nFa  efa reko ny Tompo\nmiantso anao,\nHe! feo mahafaly izao (in-3)\nFa  efa reko ny Tompo\nmiantso anao,\nHe! feo mahafaly izao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF565',
+             '',
+             565
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('565', 'Mandrahona ny andronay,\nKa raiki-tahotra izahay;\nAvia, manampia anay:\nRy Tompo ô! vonjeo!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('565', 'Ny teninao no tokinay,\nNy herinao no tanjakay;\nAfaho loza izahay :\nRy Tompo ô! vonjeo!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('565', 'Fa misy ifaharanay,\nKa toky be no azonay;\nHianao no iankinanay :\nRy Tompo ô! vonjeo!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('565', 'Noho ny nahaterahanao,\nNoho ny nahafatesanao,\nSy noho ny fifonanao :\nRy Tompo ô! vonjeo!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF566',
+             '',
+             566
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('566', 'Raha mafy ny manjo,\nRaha be ny hovitray,\nRaha malahelo fo,\nMihainoa, Jeso ô!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('566', 'Endrikay notafinao,\nNentinao ny entanay,\nNitomany Hianao,\nMihainoa, Jeso ô!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('566', 'Mafy ny nanjo Anao\nNefa tsy mba meloka;\nHelokay ny nentinao,\nMihainoa, Jeso ô!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('566', 'Voahombo Hianao,\nVoatsindron-defona,\nNandry tao am-pasana,\nMihainoa, Jeso ô!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('566', 'Raha ory izahay,\nKa ny fitarainanay\nTonga eo an-tsofinao,\nMihainoa, Jeso ô!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('566', 'Raha tapitra aminay\nNy fe-taom-boatendrinao,\nAza mba mandao anay,\nMihainoa, Jeso ô!', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF567',
+             '',
+             567
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('567', 'Aza malahelo,\nAza kivy fo;\nIzay tia an’i Kristy,\nLoza tsy hanjo.\nJeso, be fiantra!\nMba avia izao,\nAry ny mahantra\nMba tantanonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('567', 'Aza be ahina,\nMpino hianao,\nFa mba miankina\nAmin’ny Rainao.\nJeso, be fiantra!\nMba avia izao,\nAry ny mahantra\nMba tantanonao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('567', 'Aza mba misento;\nKristiana anie!\nFa homen’ny Tompo\nFifaliam-be.\nJeso, be fiantra!\nMba avia izao,\nAry ny mahantra\nMba tantanonao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('567', 'Tomponay mahery!\nMba tsinjovinao,\nTano sao ho very\nNy mpanomponao.\nJeso, be fiantra!\nMba avia izao,\nAry ny mahantra\nMba tantanonao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF568',
+             '',
+             568
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('568', 'Ry fanahy ory,\nAzon’ny manjo!\nBe ny mampahory,\nAza rera-po;\nFeo mamelovelo\nMba henoy izao,\nAza malahelo,\nJeso havanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('568', 'Aza mba misento\nNa mamoy fo,\nRaha mbola eto,\nMisy ny manjo;\nNefa Jeso tia\nTsy mandao anao,\nKa mba matokia,\nJeso havanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('568', 'Namanao mahantra\n‘Ndeha, ilazao,\nJeso be fiantra\nNo Mpamonjy izao;\nIzy Tompo tia\nKa mandray anao,\nDia mifalia,\nJeso havanao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF569',
+             '',
+             569
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('569', 'Indrisy! ry sakaiza ory fo!\nHolazainao aiza ny manjo ?\nJeso no Mpamonjy ho anao;\nIzy mahavonjy, ambarao\n:,: Azy, ry tra-bonjy!\nny manjo ao am-po :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('569', 'Indrisy! ry mahantra!\nlozanao;\nAiza ny Mpiantra ? Indro ao;\nJeso hanazava aizim-po,\nIzy hampisava ny manjo;\n:,: Soa lalandava\nNo hatao aminao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('569', 'Harena be an-tany tsy anao;\nZava-mora lany ka mandao,\nNefa indro Jeso Zaranao;\nHira no venteso, ka derao\n:,: Izay nataon’i Jeso\nHo anao hatrizao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('569', 'Ny lanitra mivoha rahateo;\nAndrandrao ny loha ka jereo!\nJeso Tompo soa no arý,\nHavanao tokoa hatretý;\n:,: Dia mazotoa\nHiditra ao Hianao :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF570',
+             '',
+             570
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('570', '« Mafy ny alon-drano izao,\nSady maria no manindao,\nNefa ny Tompo momba anao;\nMoa ho kivy va ? »\n« Tsia, Jeso ato aminay,\nIzy hampifaly ny fonay;\nTsy mba ho kivy re izahay;\nIzy no tokinay. »', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('570', '« Maro no efa tola sy lao\nNoho ny alahelo izao;\nIsan’ireny va hianao ?\nMoa ho kivy va ? »\n« Tsia, Jeso ato aminay,\nIzy hampifaly ny fonay;\nTsy mba ho kivy re izahay;\nIzy no tokinay. »', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('570', '« Amin’izao fiainana izao\nTsy mba ilaozan-java-manjo,\nNefa  ao Jesosy, tokin’ny fo;\nMoa ho kivy va ? »\n« Tsia, Jeso ato aminay,\nIzy hampifaly ny fonay;\nTsy mba ho kivy re izahay;\nIzy no tokinay. »', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('570', '« Raha ny Tompo aza tetý\nNety ho faty tao Kalvary,\nIza no tsy handefitra atý ?\nMoa ho kivy va ? »\n« Tsia, Jeso ato aminay,\nIzy hampifaly ny fonay;\nTsy mba ho kivy re izahay;\nIzy no tokinay. »', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF571',
+             '',
+             571
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('571', 'Raha misy mampahory,\nIndro, Jeso Tomponao;\nTsy afoiny tsy akory,\nAza kivy hianao.\nRaha rava ny harena,\nKa ho mafy ny manjo,\nMbola misy famonjena,\nAza mety kivy fo.\nRaha misy mampahory,\nIndro, Jeso Tomponao,\nTsy afoiny tsy akory,\nAza kivy hianao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('571', 'Raha misy ady mafy,\nIndro, Kristy herinao;\nRaha avy ny mpandrafy,\nRaiso koa ny sabatrao.\nRaha tamy hanangoly,\nIlay fahavalonao,\nKa mandrobo ny devoly,\nMba aingao ny vavakao.\nRaha misy mampahory,\nIndro, Jeso Tomponao,\nTsy afoiny tsy akory,\nAza kivy hianao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('571', 'Na marary mafy aza\nKa mangirifiry ao,\nAry na ho faty aza\nKa handao ny havanao,\nMbola misy antenaina,\nIndro, Jeso avotrao;\nFamonjena avotr’aina,\nIndro, raiso ho anao.\nRaha misy mampahory,\nIndro, Jeso Tomponao,\nTsy afoiny tsy akory,\nAza kivy hianao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF572',
+             '',
+             572
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('572', 'Jereo ny fahorianay\nAndriamanitra ô!\nMarary izao ny namanay,\nKa dia mba iantrao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('572', 'Raha sitrakao ry Tomponay!\nValio ny vavakay,\nFa mora reraka  izahay,\nTohano sy ampio.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('572', 'Ny fitondrana tianao\nNo iankinanay;\nNy didy avy aminao,\nIzay no sitrakay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('572', 'Sitrano ny fanahinay\nHo tonga zanakao,\nTariho lalana  izahay\nHankany aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF573',
+             '',
+             573
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('573', 'Mahereza, ry sakaiza\nVotom-pahoriana!\nMatokia, aza kivy,\nKristy mialoha anao;\n:,: Matokia :,:\nMahereza hianao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('573', 'Aza mba matoky tena,\nFoana ny herinao;\nTano mafy ny ampinga\n‘Zay atolony anao;\n:,: Raiso koa :,:\nNy Fanahy ho sabatrao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('573', 'Maizina izao ny andro,\nSarotra ny lalanao;\nAo ambony ny mazava\nAmpy hanazava  anao;\n:,: Mba jereo :,:\nIlay mazava amboninao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('573', 'Vetivety, afa-doza,\nVita ny alehanao;\nAo an-danitra ambony\nMisy hifalianao;\n:,: Miravoa :,:\nTapitra ny adinao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF574',
+             '',
+             574
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('574', 'Aza kivy hianao\nAzom-pahoriana,\nTany no fonenanao,\nMisy fihafiana.\nMatokia hianao\nRaha tratrin’ny manjo,\nJeso Tompo herinao,\nAza mety rera-po.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('574', 'Aza kivy hianao\nNoho ny manjo izao,\nRaha Jeso aminao,\nAfa-tahotra hianao;\nMatokia hianao\nFa ny Tompo tia tokoa,\nKa izao rehetra izao\nDia mety mahasoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('574', 'Aza kivy hianao\nNa dia  ory aza  etý,\nNy Mpanjaka Tomponao\nMba nihafy koa tetý;\nMatokia hianao\nNa inona mihatra izao,\nJeso Ilay Sakaizanao\nTsy mba mahafoy anao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF575',
+             '',
+             575
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('575', 'Ry Jeso ô! Sakaiza\nMpamonjy tia anay!\nRaha mbola mianjera\nNy rian-drano be;\nMifofofofo mafy\nNy rivo-doza be,\nVimbino izahay re,\nMba tsy ho faty ao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('575', 'Arovy izahay re,\nRy Jeso Tomponay!\nAmbara-pahalasan’\nNy loza izay manjo;\nDia ento izahay re\nHo any aminao,\nKa raiso ny fanahy\nHo faly aminao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('575', 'Kanefa raha mbola\nHijanona izahay\nAtý ambony tany\nKa malahelo fo,\nNa misy fahavalo\nMiady aminay,\nAvia Jeso Tompo,\nAmpio ny olonao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('575', 'Tsy tambonay isaina\nNy olona aminao;\nHiadana tokoa\nIzay horaisinao;\nFa Jeso no Sakaiza\nAnjely maro be\nNo hiaraka  aminay ao\nAn-dapa rahatrizay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF576',
+             '',
+             576
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('576', 'Ry Sakaizan’ny mpanota!\nFantatrao ny zanakao,\nFa malemy, mora lavo,\nKa mangataka aminao;\n:,: Mba todiho, mba todiho,\nKa henoy ny vavakay :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('576', 'Raha mitombo ny harena,\nNoho ny fanambinanao,\nNa matanjaka ny tena\nNoho ny fitahianao;\n:,: Mba tantano, mba tantano,\nSao tsy mahalala Anao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('576', 'Raha mamely ny devoly,\nFahavalon-janakao,\nKa mandroso manangoly\nHampisaraka aminao;\n:,: Mba tazòny, mba tazòny,\nFa tsy mahatana Anao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('576', 'Raha mangirifiry mafy,\nNoho ny tsorakazonao,\nKa ny havana rehetra\nTsy mahita izay hatao :\n:,: Mba tsidiho, mba tsidiho,\nFa maniry indrindra Anao :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('576', 'Raha tonga ilay fotoana\nHiverenana aminao,\nKa manahinahy foana\nNoho ny ratsy izay natao :\n:,: Mba tohano, mba tohano,\nHahatsiaro tsara Anao :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF577',
+             '',
+             577
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('577', 'Jeso Sakaizanay,\nSakaiza rahateo!\nIndreto izahay, vonjeo,\nFa be ny adinay :\nJeso, Sakaizanay,\nSakaiza rahateo!\nIndreto izahay, vonjeo,\nFa be ny adinay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('577', 'Jeso Sakaizanay,\nSakaiza be fitia!\nTariho izahay hanao\nNy zava-tianao :\nJeso, Sakaizanay,\nSakaiza rahateo!\nIndreto izahay, vonjeo,\nFa be ny adinay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('577', 'Jeso Sakaizanay,\nSakaiza tsy mandao!\nNa dia mpanota aza re\nIzahay mpanomponao :\nJeso, Sakaizanay,\nSakaiza rahateo!\nIndreto izahay, vonjeo,\nFa be ny adinay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('577', 'Jeso Sakaizanay,\nSakaiza tsy mamoy,\nNa ory na finaritra\nIzahay ankehitrio :\nJeso, Sakaizanay,\nSakaiza rahateo!\nIndreto izahay, vonjeo,\nFa be ny adinay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('577', 'Jeso Sakaizanay,\nOmaly sy anio,\nKa mbola ho Sakaizanay\nMandrakizay doria :\nJeso, Sakaizanay,\nSakaiza rahateo!\nIndreto izahay, vonjeo,\nFa be ny adinay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF578',
+             '',
+             578
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('578', 'Lohasahan-dranomaso\nIzao fiainantsika izao,\nKa misento lalandava\nIzay rehetra velona ao;\nKoa aiza re no misy\nHampionona ny fo ?\nIza no mahay mamonjy\nHampisava ny manjo ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('578', 'Manatòna ilay Mpamonjy,\nRy sakaiza ory ô!\nKa aza mba misalasala,\nMandrosoa hianao;\nFamonjena mahatoky\nTsy miova no anao,\nRaha manana an’i Kristy\nHo fanala-tahotrao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('578', 'Vola sy harena an-tany\nMety tsy hanananao;\nHavana, sakaiza koa\nDia hisaraka aminao;\nNefa Jeso no anjara\nTsy alaina aminao;\nIzy no sakaiza tsara\nIzay nanavotra aina anao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF579',
+             '',
+             579
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('579', 'Aza mba mandalo ahy,\nRy Mpamonjy ô!\nAza mba manary ahy,\nJeso Tompo ô!\nRy Mpanjaka, mihainoa re!\nMamonje fa mitaraina\nNy vahoakao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('579', 'Fantatrao fa malahelo\nNy mpanomponao;\nRaha mbola eto aho,\nMba tsinjovinao.\nRy Mpanjaka, mihainoa re!\nMamonje fa mitaraina\nNy vahoakao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('579', 'Indro! fa miandry eto\nNy navotanao;\nAoka tsy mba halahelo,\nMba falio izao.\nRy Mpanjaka, mihainoa re!\nMamonje fa mitaraina\nNy vahoakao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('579', 'Eny, manomeza hery\nMba ho ahy re,\nKa hahery sy handresy\nNy mpanomponao.\nRy Mpanjaka, mihainoa re!\nMamonje fa mitaraina\nNy vahoakao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF580',
+             '',
+             580
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('580', 'Ry be fiantra sy be indrafo!\nAo aminao misy soa;\nOry izahay noho ny zava-\nmanjo\nAo aminao misy soa;\nBe siasia an-dalana atý,\nSao tsy ho tratra ny tsara arý;\nTompo miantra, vonjeo\nizahay,\nAo aminao misy soa;', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('580', 'Rahona mainty manarona\nanay,\nAo aminao misy soa;\nMba hazavaonao izay dianay\nAo aminao misy soa;\nAmpaherezo hanaraka Anao,\nAmpaherezo hatoky Anao;\nTompo mahery, hazòny\nizahay,\nAo aminao misy soa;', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('580', 'Any an-danitra izay lapanao,\nAo aminao misy soa;\nKa dia matoky izahay \nzanakao,\nAo aminao misy soa;\nAza ilaozana akory izahay,\nSao dia very an-dalana indray\nTompo malala, tariho izahay,\nAo aminao misy soa;', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF581',
+             '',
+             581
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('581', 'Aiza re no hahitako\nIzay hampionona ny fo ?\nIza re no handrandraiko\nAndrao dia tolan’ny manjo ?\nO! ry ory sy mahantra\nManatòna Ahy izao.\nHe, ny foko feno antra,\nHampiadana anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('581', 'Aiza re no hahitako\nIzay hanala tahotra ?\nFa ny lalana ombako\nMahatoran-kovitra!\nAza kivy, ry mahantra;\nManatòna Ahy izao.\nHe, ny foko feno antra,\nAmpy hiafenanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('581', 'Aiza re no hahitako\nIzay hamela heloka ?\nIndrisy re ity fahotako\nTena mahaketraka!\nRy sakaizako mahantra!\nMba minoa Ahy izao;\nHe, ny foko feno antra,\nHanavotako anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('581', 'Ry Jesosy ô, malala!\nFialofako Hianao;\nIzaho tsy hisalasala\nHiantoraka Aminao.\nEny, manatòna Ahy\nFeno fitiavana;\nAza manana ahiahy;\nIzaho no mpiantoka.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF582',
+             '',
+             582
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('582', 'Ry Jeso ô! tahio izahay\nAtý am-pandehananay;\nNy hadalanay avelao,\nNy fonay koa ovay ho vao,\nArovy re ny olonao,\nNy lalanay mba hazavao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('582', 'Ny aizim-be alehanay,\nMamely koa ny rafinay;\nTsy fantatray izay hanjo\nKa be ny tahotra ao am-po.\nArovy re ny olonao,\nNy lalanay mba hazavao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('582', 'Mikasa mafy izahay\nHo tsara, nefa fantatray\nFa raha tsy ambininao,\nTsy misy azonay atao.\nArovy re ny olonao,\nNy lalanay mba hazavao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('582', 'Mba tano mafy izahay\nAmbara-pahafatinay,\nDia ento ao an-danitrao\nIzahay ho faly aminao.\nArovy re ny olonao,\nNy lalanay mba hazavao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF583',
+             '',
+             583
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('583', 'Mba tarihonao,\nTompo ô! izahay,\nFantatray fa mpivahiny;\nIzahy ankehitriny;\nAny aminao\nNo honenanay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('583', 'Mafy ny manjo,\nReraka ao am-po;\nNa dia be ny ady aza,\nTsy ho ketraka ny fonay;\nAny aminao\nNo halehanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('583', 'Alahelo be,\nRanomaso koa,\nAzon’ny fakam-panahy,\nSaiky resin’ny devoly;\nFa ny Sandrinao\nIankinanay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('583', 'Any aminao\nNo honenanay;\nRy Mpitari-dalan-tsara;\nMba tarihonao izahay re,\nHahatongavanay\nAny aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF584',
+             '',
+             584
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('584', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('584', 'Arovy ny fanahinay,\nAndriamanitra!\nTariho ny fanahinay, (in-2)\nHanaraka Anao. (in-3)', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('584', 'Hianao no hiankinanay,\nFa tsara Hianao;\nKa mamelà ny helokay (in-2)\nFa diso izahay. (in-3)', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('584', 'Izahay hiantso Anao,\nAndriamanitra!\nKa henoy ny fivavaka (in-2)\nAtaonay aminao. (in-3)', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('584', 'Mitsinjova ny mpanota\nMahantra indrindra,\nFa Jeso, Ilay \nMpanavotra (in-2)\nNo maty nisolo (in-3)', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF585',
+             '',
+             585
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('585', 'Mahantra aho, Tompo ô!\nKa mba tsarovinao\nManiry ho madio fo\nSy mendrika Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('585', 'Manolo-tena aho izao,\nRy Jeso Tompo ô!\nKa aza dia lavinao\nIzay atolotro.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('585', 'Izaho voasoratrao\nAo amim-bokinao\nHo isan’ny mpianatrao\nHianatra aminao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('585', 'Ataovy izay hahaizako\nHanaraka Anao\nAmin’ny fahadiovam-po\nHo voninahitrao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF586',
+             '',
+             586
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('586', 'Jesosy Kristy Tompo ô!\nHianao no antenaiko;\nTsy misy Mpamonjy toa\nAnao,\nRy Heriko sy Aiko,\nFa tsy mba misy olona\nMahafaka ny heloko;\nTsy zakakao ny entako,\nRy Jeso ô!\nHianao anefa tokiko.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('586', 'Ny otako dia lehibe,\nNy foko dia ory!\nMpamonjy ô, vonjeo re!\nNy heloko esory,\nNy Rainao tsara ilazao,\nFa izaho no navotanao,\nKa mba havela heloka,\nDia azoko\nNy fiadanana ao am-po.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('586', 'Finoa-marina ao am-po\nNo aoka mba homenao,\nMba hanandramako tokoa\nNy tsirom-pamonjenao,\nMba hitiavako Anao\nSy ireo rahalahinao;\nRaha  avy ny fotoako,\nO, mba vonjeo!\nKa mba reseo ny rafiko.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('586', 'Ny saotra, dera, ho Anao,\nRy Raiko be fiantra,\nSy ho Anao, ry Kristy ô,\nMpamonjy ny mahantra,\nAnao, Fanahy Masina!\nIzay tena Mpampionona!\nIzaho mba omeonao\nNy aim-baovao,\nHaharitra ho olonao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF587',
+             '',
+             587
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('587', 'Jehovah Tompo no itokiako,\nFa mampitombo ny fifaliako,\nNy fo sy saiko miankina\naminy;\nIzay ilaiko omen’ny taniny,\nKa tena aiko ny toro-heviny.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('587', 'Ampio aho, Jehovah Tompo\nô!\nFa mitalaho izao ny zanakao,\nOmeo hery hitanako ny to,\nMba tsy ho very ny rakitra\nao am-po;\nHianao irery no iankinako.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('587', 'Ry Kristy Tompo, mba \nmamonje anay\nMba ho mpanompo mazoto\nizahay,\nMpiasa tsara ankasitrahanao,\nIzay manambara ny fitiavanao\nKa hiafara eo anatrehanao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF588',
+             '',
+             588
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('588', 'Tompo Mpamindra fo!\nMahery sy Tsitoha\nIzay nidina tatý\nHamonjy ny mania!\nMivavaka Aminao\nMifona e! izahay,\nNy gadranay tapaho\nHahafaka anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('588', 'Tompo ô! Mpanjaka,\nAmin''ny olonao;\nFaingàna, iantrao\nIreo izay narovanao\nMiondreha, mijere,\nIzahay niandrandra Anao;\nNy herinao anie\nHatafinao ireo.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('588', 'Tompo Mpanova fo,\nMpampionona tokoa,\nMidina ka ampio\nIzahay hahery izao.\nToky mamy loatra\nNo omena anay;\nHatrany an-koatra,\nArovinao izahay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF589',
+             '',
+             589
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('589', 'Ry Jesosy Tompoko,\nIzay nanetry tena ô!\nNaka ny tarehinay\nHanavotanao anay\nMba omeo anay izao\nNy Fanahy Masinao,\nHanarahanay Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('589', 'Zanak''i Davida ô!\nMba midira ao am-po,\nRaiso ka diovinao\nIzy ho tempolinao;\nIzahay manasa Anao\nHonina ao am-po izao\nKoa mba ekeonao.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF590',
+             '',
+             590
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('590', 'Kristy Tsitoha, Tomponay\nmahery,\nMba mitodiha re ny olom-\nbery,\nKa mamonje anay izay\nmania;\nO, mba avia!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('590', 'He, Hianao kiadin’ny mivalo,\nKa mba reseonao ny fahavalo,\nNy ta-hanimba ny Anao\nsakano,\nIzahay tantano!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('590', 'Ny fiangonanao ampiadano,\nNy tanindrazanay re mba\ntohano\nNy tena sy fanahinay tahio,\nAmpifalio!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('590', 'Ny asanao, ry Zana-Janahary,\nDia manakalaza Anao\nmiharihary,\nKa izahay midera Anao\nMpamonjy,\nFa voavonjy!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF591',
+             '',
+             591
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('591', 'Ry Jesosy, Izay Mpiahy,\nMba henoy izao;\nRaha misy mamely ahy,\nMba reseonao!\nRy Jesosy, mba henoy izao :\nRaha misy mahory ahy,\nMba tsarovinao', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('591', 'Raha avy ny devoloy\nKa mandrahona,\nRaha ny nofo manangoly\nSy manintona.\nRy Jesosy, mba henoy izao :\nRaha misy mahory ahy,\nMba tsarovinao', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('591', 'Be ny fahavalo fetsy\nMampahory izao,\nIzay dia mora resy,\nKa vonjeonao!\nRy Jesosy, mba henoy izao :\nRaha misy mahory ahy,\nMba tsarovinao', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('591', 'Raha misalasala aho,\nMba toroy ny to!\nAry raha mitalaho,\nAmindraonao fo!\nRy Jesosy, mba henoy izao :\nRaha misy mahory ahy,\nMba tsarovinao', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('591', 'Miangavy mafy aho,\nRy Mpamonjy ô!\nMba vonoy ny fahotako\nAmin’ny ranao.\nRy Jesosy, mba henoy izao :\nRaha misy mahory ahy,\nMba tsarovinao', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('591', 'Raha tapitra ny andro\nIvelomako,\nHazavao, ry Masoandro,\nAo am-pasako,\nRy Jesosy, mba henoy izao :\nRaha misy mahory ahy,\nMba tsarovinao', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF592',
+             '',
+             592
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('592', 'Be ny mampahory\nAtý, Jesosy ô!\nKely, osa, ory,\nNy mpanomponao.\nRy Mpiandry lehibe,\nAnao ny tenako;\nHianao irery re,\nNo iankinako,\nTompo ô, ny foko\nManantena  Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('592', 'Miarova ahy,\nJesosy Tompo ô!\nTena sy fanahy\nHasoavinao.\nRy Mpamonjy lehibe,\nAnao ny tenako;\nHianao irery re,\nNo Vatolampiko,\nTompo ô, ny foko\nManantena  Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('592', 'Miarova ahy,\nJesosy Tompo ô!\nTena sy fanahy\nHasoavinao.\nRy Mpamonjy lehibe,\nAnao ny tenako;\nHianao irery re,\nNo Vatolampiko,\nTompo ô, ny foko\nManantena  Anao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF593',
+             '',
+             593
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('593', 'Ry Jeso ô, Mpanjakanay,\nHadinonao va izahay\nNo tsy omenao faingana\nNy rano mahavelona ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('593', 'He, maina sy mangentana\nSy ivesarana entana,\nKa mampiferinaina anay\nNy efitra onenanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('593', 'Tsy hitanao ve, ry Tompo ô,\nFa valaka sy rera-po,\nMalain-kanaraka Anao\nNy olom-boafidinao ?', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('593', 'Aidino ny Fanahinao\nSy fifaliam-po vaovao;\nNy ranon’aina anie\nHatondrakao ny tany re!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('593', 'Reseo ny fahavalonay,\nOmeo rariny  izahay\nTapahonao ny gadranay,\nAmpiadano izahay!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF594',
+             '',
+             594
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('594', 'Ry Tompoko malala,\nMpiandry tsara ô!\nHianao no mahalala\nNy hasasarako.\nNy ota an-tapitrisa\nIzao mandreraka!\nKa manomeza ahy\nFiadanana!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('594', 'Ry Tompoko malala,\nHe, zatra Hianao\nMampody ny adala\nNiala taminao;\nAmpiadano aho,\nTariho lalana,\nKa mahareta Tompo,\nAza sasatra!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('594', 'Ry Tompoko malala,\nTe-hody aho izao,\nFa manina ny vala\nNy ondrikelinao;\nKa mitalaho aho :\nVohay, ry Jeso ô,\nIzay mba efitrano\nHitoerako!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF595',
+             '',
+             595
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('595', 'Ry Raiko ô! mba raiso ny\ntanako\nTantano mba handroso ny \ndiako\nHazòny tsy hania ny zanakao,\nRy Raiko ô! avia, tarihonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('595', 'Ny foko ta-hanoa ny didinao,\nKanefa mora voan’ny ratsy\nizao\nKa dia mba fenoy ny herinao,\nRy Raiko ô! henoy ny \nzanakao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('595', 'Rehefa tsy mahita ny lalana\nKa toa tsy ho tafita ny lalina,\nFa ketraka ny aiko, dia \nraisonao\nTrotroy aho, Raiko,\nan-tratranao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF596',
+             '',
+             596
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('596', 'Indreto izahay mitomany,\nFa be alahelo ny fo;\nNy ota no fototr’izany,\nNy heloko sy ny manjo;\nFa reraka re, ny fanahy,\nMahantra sy be ahiahy,\nKa tena variana erý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('596', 'Ry Tompo, Izay mofon’ny\naina,\nRy rano mamelona  anay,\nTsinjovy izay mitaraina,\nMahantra izao izahay!\nOnòny ny fonay fa voa,\nOmeo izay mahasoa,\nMonena aminay Hianao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('596', 'Ny fonay dia be hetaheta,\nManiry indrindra Anao;\nRy Tompo, mba mampahareta\nAnay ho mpanaraka Anao;\nNy reraka ataovy mahery\nVonjeo izahay olom-bery;\nMatoky Anao izahay!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF597',
+             '',
+             597
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('597', 'O, ry Jesosy Mpamonjy\nmahery!\nIzaho maniry indrindra Anao,\nFa reraka aho ka mila ho very,\nNy foko saronan’ny ratsy izao.\nRy Tompo, tsilovy\nNy lalan’ny saiko,\nKa mba arovy\nNy fo sy ny saiko!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('597', 'Efa hanafotra ahy ny rano,\nFaingàna, Jesosy, vonjeonao\nre!\nHo difotra aho, ry Tompo,\nka tano,\nDiovy, afaho ny foko anie!\nRy Tompo, tsilovy\nNy lalan’ny saiko,\nKa mba arovy\nNy fo sy ny saiko!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('597', 'Efa akaikin’ny lalina aho,\nKa mila ho voa, hilentika ao;\nRy Tompo malala, ny foko\ntanjaho\nKa mba hazavao hahalala\nAnao :\nRy Tompo, tsilovy\nNy lalan’ny saiko,\nKa mba arovy\nNy fo sy ny saiko!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('597', 'Aiza izao Hianao, ry \nMpamonjy,\nRy Tokin’ny ory sy reraka ô.\nNo tsy mampiseho ny herin’ny\nvonjy\nHanafaka ahy, izay ory\nam-po ?\nRy Tompo, tsilovy\nNy lalan’ny saiko,\nKa mba arovy\nNy fo sy ny saiko!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('597', 'O, ry Jesosy, Izay maharara\nNy onja namely ny sambo tarý\nAnivon’i Genesareta ho tsara\nToneo ny onjan’ny foko atý!\nRy Tompo, tsilovy\nNy lalan’ny saiko,\nKa mba arovy\nNy fo sy ny saiko!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF598',
+             '',
+             598
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('598', 'Omeo mba handramako\nNy fitiavanao,\nHahaizako, ry Jeso ô,\n:,: Hihavana  Aminao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('598', 'Iriko re ny tavanao,\nRy Ilay malalako,\nFa tiako ny hahita Anao,\n:,: Izay Sakaizako :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('598', 'Hanjavona ny masoko,\nHamoy ny namako,\nFa Hianao Jesosy ô,\n:,: Ho eo anilako :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('598', 'Raha  ao ny ali-maizim-be\nIzay handehanako,\nHo eo an-tananao anie\n:,: No hahafatesako :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('598', 'Ka tsy mba hatahorako\nNy aizim-pasana,\nHatsanganao ny tenako\n:,: Ho tena sitrana :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF599',
+             '',
+             599
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('599', 'O, ry Jesosy, mifaly ny foko\nRaha tsy lavitra  Anao,\nKa mba mangataka  indrindra,\nre aho\nAry mifona Aminao;\nTano ny zanakao mba tsy ho\nvery,\nTano akaiky Anao!\nZaza adala ka mety miery,\nRaha dia lavitra Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('599', 'Aza manary izay mitalaho,\nFa mba vonjeo anie;\nTena mahantra sy ory re aho,\nDiso sy meloka be;\nNefa maniry hiova ho tsara,\nKa ta-hanoa Anao,\nAry ny zavatra izay voarara,\nTsy mba hataoko izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('599', 'Raiso, ry Tompoko, ny\nfikasako,\nRaiso ny foko anio!\nRaha ny marina no ialako,\nDia ahitsio sy ampio;\nFa Hianao, ry Mpamonjy\nmahery,\nNo tsy mba mety mandao,\nAry Izaho dia tsy mba irery,\nFa tsy ho lavitra Anao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF600',
+             '',
+             600
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('600', ':,: Ry Raiko ô! :,:\nIzaho atý mpivahiny\nManina ny tranonao,\nKa mba tariho\nNy zanakao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('600', ':,: Ry Raiko ô! :,:\nIndro, Satana milofo\nMba hanangoly anay,\nKa mba vonjeo\nNy zanakao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('600', ':,: Ry Raiko ô! :,:\nMaizina sady malama,\nSarotra ny lalanay,\nKa mba tantano\nNy zanakao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('600', ':,: Ry Raiko ô! :,:\nMaro ny zava-mihatra,\nIzay mampanahy anay,\nKa mba tohano\nNy zanakao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('600', ':,: Ry Raiko ô! :,:\nAoka  anie ny Fanahy\nNo mba hitarika anay\nHo tonga any\nAn-tranonao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF601',
+             '',
+             601
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('601', 'Misaotra Anao, Jesosy ô,\nNy olom-boavonjy,\nFa be dia  be ny indrafo\nNataonao, ry Mpamonjy;\nFa tonga ory Hianao,\nNy ainao no natolotrao\nNisolo ny mpanota', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('601', 'Ampibebaho izahay\nHo olonao manoa;\nNy ota ivesaranay\nEsory avokoa,\nNy fifaliana vaovao\nNo aoka mba hasolonao\nNy alahelom-ponay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('601', 'Ampio izahay izao\nHinoanay ny teny\nIzay nolazain''ny vavanao,\nFa tanjakay ireny :\nIzao no angatahinay,\nMba hatanjaho izahay\nHanaraka izany.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF602',
+             '',
+             602
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('602', 'Ry Andriamanitry ny\nfamonjena,\nSy Kintana antenain''ny\nfirenena,\nHenoy ny fangataham-\npandresena,\nRy Ray Tsitoha!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('602', 'Ilay fitopaton''alondrano\nSy reharehan-drafinao foano!\nNy olonao mahantra \nmba tantano,\nRy Ray Mpiaro!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('602', 'Raha  osa, Hianao mahay \nmitana,\nRaha  reraka\nasiam-pahotana,\nNy herinao\ntsy resin''i Satana,\nRy Ray Mahery!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('602', 'Ampionao izahay\nhandresy rafy,\nAmpionao mba haharitra\nny mafy,\nAmpionao tsy ho ketraka\nmihafy,\nRy Ray Mpanampy!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF603',
+             '',
+             603
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('603', 'He sambatra, Jesosy ô,\nNy ondry vitsinao!\nFa Hianao Mpiandry soa\nMaharo ny Anao;\nNy ainao no natolotrao\nHo an''ireo ondrinao,\nNy very tadiavinao\nHiaraka  Aminao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('603', 'Izaho voamarika,\nHo isan''ny Anao,\nAnefa mba matahotra\nSao dia lavinao\nKa aoka mba hotairinao\nNy foko, raha hitanao\nFa mila ho sondriana\nSy diso lalana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('603', 'Ny hafanana mahamay\nNo mahatrotraka,\nAnefa mbola tazanay\nNy fitsaharana.\nHo avy faingana anie\nNy andro soa lehibe,\nIzay hamelaranao ny lay\nHandrakotra anay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF604',
+             '',
+             604
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('604', 'Ento aho, ry Jehovah,\nMpivahiny raha etý;\nTano aho fa malemy\nRaha  tsy hazoninao\n:,: Mofon''aina :,:\nHo fihinako anie!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('604', 'Mba savao ny loharano\nHahazoako ny soa;\nAoka  hitari-dalana  ahy\nIzay andri-rahonao,  \n:,: Ry Tsitoha :,:\nFiarovana  Hianao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('604', 'Raha hita  an''i Jordana,\nAmpandrio ny tahotro;\nRy Mpandresy fanimbana,\nEnto any Kanana aho! \n:,: Fiderana :,:\nNo hatolotro Anao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF605',
+             '',
+             605
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('605', 'Jeso, Hery mahavonjy\nTena fialofana,\nFa miantra sy mamonjy\nZanak''olombelona\n:,: Hery soa, hery soa,\nItokianay tokoa :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('605', 'Raha misy ny tafiotra\nIzay mamely mafy anay\nNy fitiany tsy ho ritra\nTokinay mandrakizay\n:,: Tsy mandao, tsy mandao,\nIankinana hatrizay :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('605', 'Raha  mambomba sy miaro,\nMampitony tahotra,\nJeso Tompo tia, Mpiaro;\nResy re ny hovitra,\n:,: Fa matoky, fa matoky,\nIlay ampinga lehibe :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('605', 'Tianay tokoa  tokoa\nHo an-tratranao doria,\nMba hatoky ka ho soa\nRy Mpamonjy be fitia,\n:,: Tompo soa, Tompo soa,\nO! hazoninay tokoa :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF606',
+             '',
+             606
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('606', 'O, ry Raiko\nIzay Mpandahatra!\nVatofantsika mafonja!\nAminao no mifahatra\nItony foko safotra  onja,\nRy Tsitoha, ô! mijere!\n:,: Ry Mpamonjy ô!\nMamonje! :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('606', 'He manonja mafy loatra\nItony fiainako voafofo\nToa dia diso tafahoatra\nIreo akaso izay milofo,\nRy Tsitoha, ô! mijere!\n:,: Ry Mpamonjy ô!\nMamonje! :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('606', 'Nefa kosa tsy mamoy!\nIzany foko manantena!\nFa ny masonao manjohy,\nIandrandrako famonjena\nRy Tsitoha, ô! mijere!\n:,: Ry Mpamonjy ô!\nMamonje! :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF607',
+             '',
+             607
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('607', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('607', 'Jeso no Mpiambina antsika\nSy Mpiandry tsara,\nKa natolony ny ainy\nHisolo ny ondry.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('607', 'Matokia hianareo,\nRy ondry vitsy\nFa ny Raiko no mikasa\nHitandrina anareo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('607', 'Izaho no Mpitarika\nSy Mpitondra tsara\nIzay manaraka Ahy\nHandresy ny ratsy.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('607', 'Ary amin''ny farany,\nHalaiko ny Ahy\nTsy hisaraka amiko\nEla mandrakizay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF608',
+             '',
+             608
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('608', 'He miandrandra  Anao,\nJehovah Tompo ô!\nNy olonao;\nHenoy ny vavakay,\nVonoy ny helokay,\nHahafantaranay\nFa Zanakao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('608', 'Raha  hodiavinay\nNy tany maizina,\nTarihonao;\nFafao ry Jesosy\nNy ranomasonay!\nKa mba esorinao\nNy tahotray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('608', 'Mba manomeza anay\nNy hasoavanao,\nRy Tompo ô!\nMba hahazoanay\nNy hasambarana\nTsy mety levona,\nAn-danitra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('608', 'Tohanonao Izahay,\nRehefa tapitra\nNy andronay,\nRay ô! mba hamoray\nNy hanalana anay\nHo any Aminao,\nmandrakizay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF609',
+             '',
+             609
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('609', 'Hianao, Jehovah Tompo!\nNo hatoninay izao;\nAvy izahay hanompo\nSy hanao ny sitrakao;\n:,: Indro, raiso,\nRaiso ho Anao izahay :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('609', 'Mba tantano sy arovy,\nFa malemy izahay;\nHe! marary sy farofy\nHianao no herinay;\n:,: Ody aina\nHitsaboanao anay :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('609', 'Mpivahiny ka mahantra,\nEntonao, Fanahy ô!\nAna sy mangetaheta,\nAsehoy ny antranao;\n:,: Ranon’aina\nHosotrinay izao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('609', 'Tranonao madio no any,\nVorodamba no anay,\nFa hilaozanay ny tany,\nKa soloy ny lambanay;\n:,: Lamba fotsy\nHitafianay anie :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF610',
+             '',
+             610
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('610', 'Ny foko, ry Jehovah ô!\nFidio ho lapanao;\nEkeo ho fonenanao,\nKa ao no anjakao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('610', 'Ny foko, ry Jesosy ô!\nSasao ho voadio;\nIzay eritreri-dratsy ao\nLevoninao anio.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('610', 'Ny foko, ry Fanahy ô!\nMba hamasinonao;\nAvia, Fanahy Masina ô!\nOvay ho fo vaovao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('610', 'Ray, Zanaka, Fanahy ô!\nMpamonjy mahasoa,\nMpanafaka ahy Hianao,\nIsaorako tokoa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF611',
+             '',
+             611
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('611', 'Jehovah Ray Malala ô!\nIzay ao an-danitra ao,\nHenoy ny fivavahako\nAtaoko Aminao,\nFa Jeso Kristy Zanakao\nNo tena sorona\nIzay entiko ho Aminao,\nMpamela heloka.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('611', 'Jehovah Ray Malala ô!\nIzay ao an-danitra ao,\nHenoy ny fivavahako\nAtaoko Aminao,\nFa Jeso Kristy Zanakao\nNo tena sorona\nIzay entiko ho Aminao,\nMpamela heloka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('611', 'Ny fikapohana, izay\nAtaonao amiko,\nDia  misy fananarana\nMba hibebahako;\nNy fahafatesana, izay\nHo tonga koa  izao,\nDia  làlana halehako\nHo any Aminao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('611', 'Mba raisonao ny tanako,\nTantano aho izao,\nFa zazabodo, Raiko ô!\nAmpio ny zanakao\nNa tondraka ny rano re\nKa safononoka  ao,\nNy faty tsy ho tahotro\nHodiako Aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF612',
+             '',
+             612
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('612', 'Ry Ray, Mpiaro lehibe!\nMba mihainoa ahy e,\nKa ampio aho hanao hoe :\nHatao anie ny sitrakao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('612', 'Izay rehetra sitrakao\nNo aoka mba hatao izao\nFa mahasoa ny tianao :\nHatao anie ny sitrakao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('612', 'Na sarotra  aza ny hatao,\nMba manampia ny zanakao\nHanaraka ny teninao :\nHatao anie ny sitrakao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('612', 'Na tonga aza ny manjo\nKa ory sy mivadi-po,\nHo toy izao ny teniko :\nHatao anie ny sitrakao!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('612', 'Mba tanterahonao tokoa\nIzay kasainao hahasoa;\nNy tena sy fanahy koa;\nHatao anie ny sitrakao!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('612', 'He! Hianao dia tsy mandao\nIzay voaray ho olonao\nKa mankatò ny didinao :\nHatao anie ny sitrakao!', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF613',
+             '',
+             613
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('613', 'Mpiandry lehibe!\nVorio ny ondrinao\nHiray fisoko avokoa,\nHiadana  Aminao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('613', 'Sakaiza herinay!\nJereo ny ondrinao\nMitebiteby, ory fo,\nKa miandrandra Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('613', 'Manahy izahay,\nHe! ala be izao;\nSao dia ho very foana  atý,\nVonjeo ny ondrinao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('613', 'Henoy, ry Tokinay!\nVohay ny tranonao;\nRaha avy ny hodianay\nHitoetra  aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF614',
+             '',
+             614
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('614', 'O, Ray, jereo ny zanakao\nMivavaka  Aminao!\nHenoy ny fitarainanay\nIzay atao izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('614', 'O, Ray, vonjeo ny zanakao\nFa osa izahay;\nNy tananao no herinay,\nHandresy izahay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('614', 'O, Ray, tahio ny Zanakao!\nNy soa Aminao;\nKa arotsahy aminay\nNy fitahianao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('614', 'O, Ray, misaotra  Anao\nizahay!\nKa dera no atao;\nNy soa azonay atý\nIsaoranay Anao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('614', 'O, Ray, vahiny izahay!\nTsy taninay ity!\nKa raha hody raisonao\nHo Aminao arý.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF615',
+             '',
+             615
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('615', 'Ry Jehovah, Ray Mahery!\nIndreto ny mpanomponao;\nFa mpanota saiky very,\nNefa tsy mba foinao;\nFa ny masonao mijery\nNy fanahinay mania;\nNy fitaomanao mahery\nNo miantso hoe : Avia!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('615', 'Ry Jehovah, Ray Mpitahy\nIzay rehetra ory fo!\nNy tsy manana mpiahy\nMora resin’ny manjo;\nZovy ary no hanahy\nRaha  miankina Aminao ?\nEny, faly ny fanahy\nIzay matoky Aminao.\n\n.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF616',
+             '',
+             616
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('616', 'Rainay be fitia!\nAvy izahay\nHila zava-tsoa\nAto Aminao;\nMihainoa anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('616', 'Rainay tsy miova!\nMijere anay,\nZanaka nikomy,\nFa naverinao :\nManeke anay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('616', 'Rainay be fiantra!\nMenatra  izahay,\nDia mba mifona\nEo imasonao\nMiantrà anay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('616', 'Rainay be harena!\nMpanome ny soa!\nIzahay mahantra,\nMitaraina hoe :\nManomeza  anay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('616', 'Rainay be fitia!\nIndreto izahay\nAvy mba hitondra\nSaotra ho Anao :\nAza lavinao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF617',
+             '',
+             617
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('617', 'Aza manadino ahy,\nRy mpihaino vavaka!\nAza mba manary ahy\nHanalavitra Anao;\nMitodiha, ry Mpanjaka!\nKa jereo ny olonao;\nAza manadino ahy,\nRy mpihaino vavaka!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('617', 'Hianao no fiereko,\nVatolampy, heriko;\nNa kamboty aza aho,\nFaly manana Anao;\nAfa-tahotra ny foko\nRaha miandrandra Anao;\nAza manadino ahy,\nRy mpihaino vavaka!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('617', 'Eny, Hianao no Raiko,\nKa hatoniko izao;\nNefa ny fahadalako\nAza mba heverinao;\nO ! ampifalio aho,\nKa ombay ny elatrao\nAza manadino ahy,\nRy mpihaino vavaka!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('617', 'Tabataba lalandava\nNo mba hotako izao,\nKa izaho te-ho tonga\nAo am-pitsaharanao;\nMitenena, ry Jehovah!\nMamalia ahy izao;\nAza manadino ahy,\nRy mpihaino vavaka!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF618',
+             '',
+             618
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('618', 'Eny Raiko! mba tariho\nNy fanahin-janakao,\nKa ny saiko atodiho\nHankatò ny teninao;\nZaza be fisiasia,\nTano re ny zanakao,\nDia taomy mba ho tia\nSy hanao ny sitrakao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('618', 'Eny Raiko! mba tsilovy\nNy alehan-janakao,\nKa tantano sy arovy\nMba hankatý Aminao;\nMora reraka ny aina\nRaha tsy fahananao,\nKa tohano tsy halaina\nMba hanao ny sitrakao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('618', 'Eny Raiko! raha mafy\nIzany tsorakazonao,\nKa ny aiko tsy mahahafy\nMba vonjeo ny zanakao;\nKa ny foko izay adala\nMba ovay sy hazavao,\nDia taomy hahalala\nMba hanao ny sitrakao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('618', 'Eny Raiko! mba tohano\nRaha  mihatra ny manjo,\nKa vimbino sy tantano\nTsy ho kivy re ny fo;\nRaha tapitra ny aiko,\nRaiso hody Aminao;\nEny, ento aho, Raiko!\nFa izay no sitrakao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF619',
+             '',
+             619
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('619', 'Ry Raiko ô! tariho ny zanakao,\nTariho re!\nFa maizina izao lalako izao,\nTariho re!\nTsilovy, ka omeo finoana,\nTantano am-pandehanana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('619', 'Izay ela izay ny lalan-tsitrapo\nNo tiako;\nIzay ela izay izao tontolo izao\nNo mamiko;\nKanefa  izao, tariho ny zanakao,\nRy Raiko ô! handia ny lalanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('619', 'Tsy mba ahoako ny loza atý\nan-dalana;\nTsy te-hitsinjo koa ny arý\nan-koatra;\nFa isan-andro alaharonao,\nRy Raiko ô! \nny dian’ny zanakao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('619', 'Na mbola lavitra aza re izay\nalehako,\nTarihonao ambara-pahafaka\nny alina,\nDia vao hitsahatra ny zanakao,\nRy Raiko ô! arý an-danitrao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF620',
+             '',
+             620
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('620', 'Zanahary, Ray Mahery!\nIzahay tsy mana-kery,\nNefa he ny fahavalo,\nFa masiaka sady maro;\nO! ampio re izahay,\nFa ny zavatra mihatra\nTsy mba misy maharatra\nNy arovanao, ry Ray,\nZanahary, Ray Mahery,\nMba arovy izahay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('620', 'Zanahary, Ray Miantra!\nOlon-diso sy mahantra\nIzahay izay mitaraina,\nHianao no antenaina;\nIantrao re izahay!\nBe tokoa ny fahotana\nMahatonga fanimbana\nEfa vitanay tatý :\nZanahary, Ray Miantra,\nMamelà ny helokay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('620', 'Zanahary, Ray Malala!\nEnga  anie ka hahalala\nMba ho tia sy hanaiky,\nAry koa  mba hanakaiky,\nNy Mpamonjy izahay;\nTsy ny tahotray ny loza\nNo manaitra anay hiova,\nFa ny ran’ny Zanakao :\nZanahary, Ray Malala,\nMba hazòny izahay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF621',
+             '',
+             621
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('621', 'Ry Jeso be fitia!\nTariho izahay\nMba tsy haniasia,\nFa hiaraka Aminao,\nIndrisy! ela loatra\nNo nijanonanay\nNanaram-po nihoatra\nNy sitrapon’ny Ray.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('621', 'Ry Tompo ô! miarova\nNy fiainanay etý,\nIzay fohy, mora miova,\nFa tsy toy ny arý,\n‘Zay ianteherana eto\nMandalo avokoa;\nNy fo re no mba ento\nHikambana Aminao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('621', 'Tariho hahalala\nNy tianao hatao,\nKa tsy hisalasala\nHandà izay halanao;\nMandatsaka ao an-tsaina\nNy soa vitanao,\nKa dia hikely aina\nHanao ny sitrakao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF622',
+             '',
+             622
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('622', 'Mba tantano, Raiko ô!\nNy fanahin-janakao,\nAoka re ny sandrinao\nNo hiaro ahy izao;\nIndro! raiso,\nTano aho, Tompo ô!\nMba hanao ny sitrakao;\nSy hitoetra ao Aminao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('622', 'Ray malala Hianao,\nSady tia ny zanakao;\nAoka  re ny tavanao\nHanazava ahy izao!\nIndro! raiso,\nTano aho, Tompo ô!\nMba hanao ny sitrakao;\nSy hitoetra ao Aminao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('622', 'Na dia maizina aza atý,\nDia matoky ano izao\nFa Hianao dia mandao\nIzay miaraka Aminao :\nIndro! raiso,\nTano aho, Tompo ô!\nMba hanao ny sitrakao;\nSy hitoetra ao Aminao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF623',
+             '',
+             623
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('623', 'Mba omeo ahy\nFo madio kokoa\nAfaka ahiahy\nHo Anao tokoa\nIzaho dia malaina\nO! Mba hafanao re,\nMba hikely aina\nHahefako be.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('623', 'Mbola manangoly\nNy fakampanahy;\nAo koa ny devoly\nTa-hamotraka ahy;\nTompo ô! ampio\nNy mpanomponao izao,\nAry mba tafio\nHerim-po vaovao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('623', 'Atolory ahy\nZotom-po sy hery,\nFahendrem-panahy,\nFo mahay mietry.\nAmpianaro aho\nMba hanolo-tena,\nKa mba hatanjaho\nNy finoako.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('623', 'Dia hamasino\nNy saiko, ry Tompo!\nKa omeo fo mino,\nFo mahay manompo,\nFo mahay mihafy,\nFo miravoravo,\nNa dia voa mafy,\nFo toy ny Anao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF624',
+             '',
+             624
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('624', 'Jeso ô, Mpiandry tsara!\nSambatra ny ondrinao,\nHianao no mialoha\nHanarahanay Anao;\n:,: Mitariha, mitariha\nNy fanahinay izao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('624', 'Jeso ô, Mpiandry tsara!\nFohy ny fisainanay;\nHianao mahay manoro\nLalana halehanay :\n:,: Mitariha, mitariha\nNy fanahinay izao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('624', 'Jeso ô, Mpiandry tsara!\nTsinjonao ny dianay;\nOndry very ka ho faty\nRaha tsy hatoninao;\n:,: Mitariha, mitariha\nNy fanahinay izao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('624', 'Jeso ô, Mpiandry tsara!\nIzao alehanay izao\nAla be sy làla-mafy,\nMaty re ny ondrinao;\n:,: Miarova, miarova\nNy fanahinay izao :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('624', 'Jeso ô, Mpiandry tsara!\nMafy re ny tahotray;\nBibidia mamiravira\nMampivadi-po anay :\n:,: Miarova, miarova\nNy fanahinay izao :,:', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('624', 'Jeso ô, Mpiandry tsara!\nEnto mody izahay;\nAminao ny valan''ondry\nTsy mba misy tahotra,\n:,: Mitariha, mitariha\nNy fanahinay izao :,:', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF625',
+             '',
+             625
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('625', 'Mpamonjy soa malala ô!\nMba miandrandra Anao\nNy foko sy fanahiko\nAnkehitriny izao;\nFa Hianao irery\nNo tena Mpanome\nNy fahafinaretana\nSy fitsaharam-be.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('625', 'Mpiandry ondry mora ô!\nRy Jeso be fitia!\nHazony aho ondrinao\nMba tsy haniasia;\nAndraso isan-andro,\nArovinao anie,\nEndrey fa mahatahotra\nNy biby marobe.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('625', 'Ry Kristy be fitia!\nRy Tompo tsy mandao!\nNy sandrinao iondanako\nFa mamy Hianao;\nHianao nanolo-tena\nHo faty fahizay,\nHanangana olo-meloka\nHo zanakao indray.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('625', 'Ry Tompo Zanahary\nBe faharetam-po!\nIzaho te-ho olonao\nMahitsy sy madio;\nOvay ny toe-tsaiko,\nNy foko mba sasao,\nMba ho tempoly mendrika\nNy hitoeranao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('625', 'Ry Jeso tsy miova!\nRy Vonivatoko!\nRy Zanak''Andriamanitra ô!\nRy Aro lehibe!\nIzaho dia matoky\nNy fitiavanao;\nFa sambatra ny olonao \nMiankina Aminao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF626',
+             '',
+             626
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('626', 'Jeso Tompo, mamindrà fo\nAmin''ny mpanomponao,\nFa tsy misy famonjena\nAfa-tsy ao Aminao;\n:,: O! vonjeo :,:\nNy mifona Aminao. (in-2)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('626', 'Fa kamboty sy mahantra,\nOry, osa, reraka\nIzahay atý an-tany,\nRaha tsy vimbininao;\n:,: O! ampio :,:\nNy miankina Aminao. (in-2)', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('626', 'Tokinay sy Vatolampy,\nAro sy ampinganay!\nAfa-tahotra, afa-doza,\nTsy ho ketraka izahay;\n:,: O! arovy :,:\nNy mialoka Aminao. (in-2)', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF627',
+             '',
+             627
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('627', 'Vimbino tsara izahay\nRy Jeso Kristy Tomponay!\nMba tsy ho diso lalana\nAtý ambony rano be,\n:,: Ka na manonja aza re\nNy ria-dranomasina,\nTazòny mafy izahay\nMba tsy ho rendrika atý :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('627', 'Dia mitsangàna, ka avia,\nRy Jesosy, Mpamonjy tia!\nJereo ny fahorianay;\nAnaronao ny rivotra\n:,: Izay mampanonja toy  izao\nNy alon-dranomasina,\nIzay manafotra anay\nAtý am-pandehananay :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('627', 'Fa Hianao no aronay,\nKa dia sahy izahay \nHamaky sy hanohitra\nNy onjan-drano betsaka;\n:,; Ka aoka tsy ho fefika\nAtý an-dranomasina,\nFa mba ho tonga aminao\nNy sambonay,\nry Tompo ô! :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF628',
+             '',
+             628
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('628', 'Ry Mpamonjy olom-bery!\nRy Jesosy tia anay!\nIzahay tsy manan-kery\nTsy mba hendry, tsy\nmahay,\n:,: Koa Hianao irery\nNo mba iankinanay :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('628', 'Ry Mpamonjy be fitia!\nAza ilaozanao izahay;\nRy Jesosy ô! avia,\nHianao no tanjakay!\n:,: Miarova, manampia,\nBe ny fahavalonay :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('628', 'Ry Mpamonjy! mitantàna\nizao mpanomponao izao;\nBe tokoa ny fikasana\nTa-hanao ny sitrakao\n:,: Nefa be ny fahosana\nMomba ny mpanomponao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('628', 'Ry Mpamonjy, Jeso tia!\nMivimbina, mamonje;\nRy Mahery, manampia!\nMiambena, mijere;\nMiarova, mitariha,\nRy Sakaiza lehibe!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF629',
+             '',
+             629
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('629', 'Ry Jeso Mpamonjy,\nMpanavotra anay!\nTafangona eto  anio izahay\nHidera sy mba\nhankalaza Anao,\nFa Tompo namonjy\nanay Hianao :\nHaleloia! Haleloia! Hosana\nan''ny Avo!\nHaleloia! Haleloia! Hosana\nho Anao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('629', 'Ry Jeso, Sakaiza\ntsy mety mandao!\nSakaiza tsy mba mahafoy\nHianao\nMijery anay raha misy manjo,\nHo aron''ny tena\nsy tokin''ny fo :\nHaleloia! Haleloia! Hosana\nan''ny Avo!\nHaleloia! Haleloia! Hosana\nho Anao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('629', 'Ry Jeso Mpanjaka\nMpiaro anay!\nHandroso hiady tokoa izahay,\nKa dia vonjeo handresy izao,\nFa tsy mba ho resy\nizay manana Anao :\nHaleloia! Haleloia! Hosana\nan''ny Avo!\nHaleloia! Haleloia! Hosana\nho Anao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('629', 'Ry Jeso, Mpitarika\nanay ho arý\nTariho izahay tsy hivily atý.\nKa dia hamantana\nao Aminao,\nFa faly miandry anay Hianao\nHaleloia! Haleloia! Hosana\nan''ny Avo!\nHaleloia! Haleloia! Hosana\nho Anao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF630',
+             '',
+             630
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('630', 'Ry Jesosy mba tantàno,\nHo tafita soa arý\nKa ambeno sy sakano\nIzay rehetra loza atý.\nRano be mangeniheny\nIzao alehako izao,\nKa aoka Hianao hiteny\nMba ho tokiko hatrao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('630', 'Aza miandry ao am-pita\nSao dia  fefika aho atý;\nFa avia  hiara-mita,\nDia  ho tody soa arý.\nRaha sendra ka manonja\nIzany alon-drano be,\nAoka Hianao ho tonga\nHampitony azy re.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('630', 'Ao ny rivotra mahery\nMety hampivadi-po,\nFa ny feonao irery\nMampisava ny manjo\nAny koa ny vatolampy,\nSy ny biby maro be.\nFa ny herinao dia ampy,\nKa vonjeo ny zanakao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('630', 'Ry Jesosy! Mihainoa,\nIzao fivavako izao,\nMijoroa, misehoa,\nKa jereo ny diako izao;\nMbola lavitra ao am-pita\nKa tsy hita izay hanjo,\nToy ilay tao Genesareta,\nMisehoa Hianao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF631',
+             '',
+             631
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('631', 'Ry Jesosy Tompo tsara,\nRy Mpamonjy ô!\nSambatra aho, manan-jara,\nManana Anao;\nFa na maro ny mpandrafy\nTa-hamely ahy mafy\nHianao mahay manafy\nHery ny Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('631', 'Be ny manodidina ahy\nEfa lasana;\nManakaiky, mampanahy,\nRe ny fasana;\nNefa, ry Mpamonjy soa,\nTena sitrakao tokoa \nNy hitantana ahy koa\nAo an-dalana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('631', 'Eny, izaho manantena,\nRy Mpamonjy ô!\nFa hahazo famonjena \nAny Aminao,\nRaha ilaozako ny tany,\nIzaho tsy mba hitomany,\nFa hiakatra hankany\nAnatrehanao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF632',
+             '',
+             632
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('632', 'Ampianaro aho, Tompo,\nmba hiambina!\nMandalo tahaka ny rivotra \nny androko.\nKa mihalany isan-andro\nisan-alina,\nAmbara-pahatapitry\nny fe-potoako.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('632', 'Endrey ny voninkazo,\nraha vao maraina e!\nFa tsara ka mamirampiratra\nny endriny;\nKanefa maty izy amin''ny\nhainandro be\nKa raha hariva dia simba\nny tarehiny.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('632', 'Ny tenako no voninkazo\nka hihintsana,\nNy aiko tahaka ny\nzavona sy aloka\nIzay mandalo ka\ntsy manam-pijanonana;\nNy taonako mandroso\ntahaka ny riaka.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('632', 'Tsy manam-panorenana\natý ny heriko,\nMihelina ka tsy mba hita\nny alehany;\nMalaky tahaka ny tselatra\nny androko,\nKa tsy miatoato\nao am-pandehanany.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('632', 'Ry Tompo ô, ampio aho\nmba hiomana,\nKa mba hadio fo\nna aiza no alehako,\nAmpaherezo mafy aho\nmba ho malina,\nMba tsy ho tonga tampoka\namiko ny fetrako!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF633',
+             '',
+             633
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('633', 'Izaho tsy mba mahalala\nIzay hiainako atý;\nAnio angaha dia hiala\nKa hodimandry ho arý!\nNy ran''i Kristy, Raiko ô,\nNo amelao ny heloko.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('633', 'Ry Ray ô, mampianara ahy\nHanisa e, ny androko,\nHiantombenan''ny fanahy\nAo amin''ny Mpamonjiko.\nNy ran''i Kristy, Raiko ô,\nNo amelao ny heloko.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('633', 'Ny asa sy ny ahiahy,\nIzay maningotra  ahy izao,\nVahao mba tsy hisakana ahy\nHiainga raha antsoinao.\nNy ran''i Kristy, Raiko ô,\nNo amelao ny heloko.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('633', 'Ny fahotako an-tapitrisa\nSaronanao ny avotra,\nIzay nandraisako batisa\nSy ny sakafo masina.\nNy ran''i Kristy, Raiko ô,\nNo amelao ny heloko.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('633', 'Tsy misy mahasaraka ahy\nAmin’ny fitiavany;\nNy teniny no mahasahy\nNy olom-boafidiny.\nNy ran''i Kristy, Raiko ô,\nNo amelao ny heloko.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('633', 'Ka dia tsy mba mampanahy\nNy andro hahafatesako,\nJesosy no miantoka ahy,\nNy ainy no anjarako,\nNy ran''i Kristy, Raiko ô,\nNo amelao ny heloko.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF634',
+             '',
+             634
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('634', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('634', 'Ny lalana izay nataon''\nAndriamanitra\nTamin''ny olombelona\n:,: Marina indrindra :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('634', 'Raha manaraka izany,\nDia tsy manan-tsiny\nFa nanota ny olona\n:,: Ka nanan-keloka :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('634', 'Raha tsy mino an''i Kristy\nNy olombelona,\nFa matoky ny tenanay,\n:,: Tsy azo hitsina :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('634', 'Fa Jeso no manafaka\nNy ota rehetra,\nNy manaiky ny teniny\n:,: No azo hitsina :,:', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF635',
+             '',
+             635
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('635', 'Aina no fetra, ry Jesosy\nTompo\nIzany no tenin''ity zanakao\nVonon-kanaraka Anao sy\nhanompo\nAmin''ny mora sy sarotra\nhatao :\nMandrakizay no tokim-\npanompoana\nMamin''ny olona izay\nafakao,\nMandrakizay hekenay\nho faneva\nNy holatrao nanavotana\nanay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('635', 'Na ny mangidy heverina ho\nmamy\nRaha miray Aminao izahay,\nIza no tsy hahafoy ny ainy\nMba ho Anao izay nisolo\nanay!\nMandrakizay no tokim-\npanompoana\nMamin''ny olona izay\nafakao,\nMandrakizay hekenay\nho faneva\nNy holatrao nanavotana\nanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('635', 'Hianao, ry Jeso! no Ilay\nKapiteny\nIzay hampandresy tokoa\nanay;\nFa raha Hianao, Tompo, no\nmba miteny,\nLasa izay mahakivy anay;\nMandrakizay no tokim-\npanompoana\nMamin''ny olona izay\nafakao,\nMandrakizay hekenay\nho faneva\nNy holatrao nanavotana\nanay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('635', 'Vonon-kandeha na aiza\nna aiza,\nIreto mpanompo matoky\nAnao;\nNa dia ny fahafatesana aza,\nTsy hahaleo anay\nmpianatrao;\nMandrakizay no tokim-\npanompoana\nMamin''ny olona izay\nafakao,\nMandrakizay hekenay\nho faneva\nNy holatrao nanavotana\nanay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF636',
+             '',
+             636
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('636', 'Hianao, ry Jeso ô!\nNo mba hatoninay\n:,: Tompon''ny aina :,:\nMba mihainoa ka  avia.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('636', 'Mba ampangino re\nNy ao anatinay,\n:,: Tsy hisy renay :,:\nRaha tsy feonao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('636', 'Aoka izahay handray\nNy fanavaozanao\n:,: Ka mba hitovy :,:\nToe-tsaina Aminao', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('636', 'Mafy ny adinay,\nKa be ny tahotray;\n:,: Nefa tsy resy :,:\nIzay miankina Aminao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('636', 'Dia tafionao\nAmin’ny herinao\n:,: Mba ho mpandresy :,:\nIzahay mpianatrao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('636', 'Ny fonay hafanao\nMba hirehetanay\n:,: Amin’ny asa :,:\nIzay omenao hatao.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('636', 'Mba ho tanterakay\nIzay tena anjaranay,\n:,: Dia  manomeza :,:\nFo miray aminao.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF637',
+             '',
+             637
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('637', 'Mahareta, mahareta,\nRy mpihazakazaka ô!\nBe ny zava-mahalavo,\nAza kivy Hianao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('637', 'Mahareta, mahareta,\nRy mpihazakazaka ô!\nMahavesatra ny ota,\nAoka re harianao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('637', 'Mahareta, mahareta,\nRy mpihazakazaka ô!\nLavi-dalana haleha,\nAndrao tsy tonga Hianao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('637', 'Mahareta, mahareta,\nRy mpihazakazaka ô!\nIndreo ny maso izay mijery,\nTazany ny dianao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('637', 'Mahareta, mahareta,\nRy mpihazakazaka ô!\nAo ny Tomponao miandry,\nIzy no jereonao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF638',
+             '',
+             638
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('638', 'Ry Jeso Mpamonjy malala!\nIndreto ny mpanomponao;\nRaha misy izay mankahala,\nMatoky, fa manana  Anao.\nJereo, Jereo!\nFa vonon-kanaraka Anao.\n(in-2)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('638', 'Ny tafika ataon’i Satana\nMilofo hamotraka  anay;\nAvia, ry Jeso mitantàna,\nFa mioman-kandresy izahay.\nJereo, Jereo!\nFa vonon-kanaraka Anao.\n(in-2)', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('638', 'Na zovy mioman-kandrafy,\nIrinay hanaraka Anao ;\nNa iza hisakana mafy,\nHijoro, fa manana Anao.\nJereo, Jereo!\nFa vonon-kanaraka Anao.\n(in-2)', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('638', 'Ireo nentinao voatantara\nNo feo mampahery anay;\nNy tokin’ireo Maritiora\nFaneva mitarika anay;\nJereo, Jereo!\nFa vonon-kanaraka Anao.\n(in-2)', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF639',
+             '',
+             639
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('639', 'Ry miaramila! mandrosoa izao,\nKristy Kapiteny mialoha anao;\nAo aloha tafika, loza, ratra be,\nFitsaharana tsy misy,\nmisikina re :\nRy miaramila! mandrosoa\nizao,\nKristy Kapiteny mialoha anao;', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('639', 'Any lehy ratsy no manotrika,\nAny ny tsipìka no milatsaka;\nTano ny finoana ho\nampinganao,\nEntonao ho fandresena izao\nrehetra  izao :\nRy miaramila! mandrosoa\nizao,\nKristy Kapiteny mialoha anao;', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('639', 'Aza miambohona miherika,\nAo an-tratranao ny fiarovana;\nAza mba matahotra, fa\nsahia, fandrao\nRaha tsy mandresy, dia ho\nresy hianao;\nRy miaramila! mandrosoa\nizao,\nKristy Kapiteny mialoha anao;', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('639', 'Dia mandrosoa hianao izao,\nKa miraisa dia aminay ho ao;\nMilofosa fatratra, aza ketraka\n« Miadia ny ady tsaran’ny\nFinoana » :\nRy miaramila! mandrosoa\nizao,\nKristy Kapiteny mialoha anao;', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('639', 'Kristy Kapiteny tapitra ohatra,\nIzy no mpiaro ny mpanafika;\nMiankìna Aminy mafy hianao\nKa aza mba ny tenanao no\nitokianao\nRy miaramila! mandrosoa\nizao,\nKristy Kapiteny mialoha anao;', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF640',
+             '',
+             640
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('640', 'Misy fahavalo maro\nTe-hiady aminay,\nFaly sy miravoravo\nRaha mamotraka anay;\nIzahay tsy manan-kery\nHandresenay azy ireo;\nRy Mpamonjy olom-bery!\nJeso Tompo ô! vonjeo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('640', 'He! mibaiko ny devoly,\nIlay mpihaza aina soa,\nKa mikendry hanangoly\nSy handatsaka aina koa;\nTsy mba misy izay hanampy\nHampandositra azy izao;\nHianao no tsy manary\nJeso Tompo ô! vonjeo.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('640', 'Indreo ny fandrika harato\nIzay mivelatra avokoa,\nTsara sy milantolanto,\nToa fiainana tokoa;\nKanjo indrisy ny mahazo\nIzay fatoran’izy ireo;\nTsy mba hainy ny miala;\nJeso Tompo ô! vonjeo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('640', 'Miomana ry sakaiza!\nBe ny fahavalonao;\nMitandrema sy mahaiza,\nSarotra ny lalanao;\nAza mba matoky tena,\nFa ny Tompo no jereo;\nIndrisy re ny halemena;\nJeso Tompo ô! vonjeo.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF641',
+             '',
+             641
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('641', 'Ry Kapiteny, be ny ady manjo\nMila ho reraka sy kivy ny fo,\nKa hatanjaho mba\nhatoky Anao,\nTompo ô! avia mamonjy\nahy izao :\n“ Eny, Izaho mamonjy anao,\nKa mampahery sy miaro\nanao;\nAza matahotra mihitsy\nhianao,\nFa Izaho momba sy manampy\nanao.”', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('641', 'Ny fahavaloko atý mba reseo,\nKa taomy aho mba handray\nrahateo\nNy fiadiana avy ao Aminao;\nTompo ô! vimbino aho,\naza mandao;\n“ Eny, Izaho mamonjy anao,\nKa mampahery sy miaro\nanao;\nAza matahotra mihitsy\nhianao,\nFa Izaho momba sy manampy\nanao.”', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('641', 'Loza tokoa re ny tahotra teo,\nKa na mamely ahy aza ireo,\nTsy mba manahy  intsony\naho izao\nFa mamonjy sady\ntsy mandao Hianao.\n“ Eny, Izaho mamonjy anao,\nKa mampahery sy miaro\nanao;\nAza matahotra mihitsy\nhianao,\nFa Izaho momba sy manampy\nanao.”', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('641', 'Fa ny mpiady maharesy atý\nNo hosatroham-boninahitra\narý;\nMaro no efa tonga ao\nAminao,\nTompo ô! avia hitarika ahy\nhankao\n“ Eny, Izaho mamonjy anao,\nKa mampahery sy miaro\nanao;\nAza matahotra mihitsy\nhianao,\nFa Izaho momba sy manampy\nanao.”', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF642',
+             '',
+             642
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('642', 'Hitako izao, sakaiza!\nJeso no Mpanavotra :\nTsy mba lany ny fitia,\nJeso no Mpanavotra;\nNa dia  saiky lasa aza,\nKa ny olona mandao,\nIzao no mampiadana  ahy,\nJeso no Mpanavotra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('642', 'Raha miasy mafy aho,\nJeso no Mpanavotra :\nToky sy Ampinga Izy,\nJeso no Mpanavotra;\nManome ny soa Izy,\nFa ny rany mahadio\nNo mahafa-keloka ahy,\nJeso no Mpanavotra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('642', 'He! ilaozako ny eto,\nJeso no Mpanavotra :\nIndro lanitra no azo,\nJeso no Mpanavotra;\nIzy no Mpamonjy ahy,\nAina sy fanilo koa,\nFahendrena mahasoa,\nJeso no Mpanavotra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('642', 'Ray ô! Hianao deraiko,\nJeso no Mpanavotra :\nHianao naniraka Azy,\nJeso no Mpanavotra;\nHianao Mpiaro ahy,\nMpitahiry, Tokiko,\nNo deraiko lalandava,\nJeso no Mpanavotra.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF643',
+             '',
+             643
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('643', 'O! mandrosoa mba ho tena\nmpandresy,\nDia mazotoa, miasà,\nmitomboa\n:,: Raiso ny tsara, ka roahy\nny ratsy\nKa matokia an’i Jeso tokoa :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('643', 'O! mandrese, ny finoana tano,\nNa dia mafana ny ady hatao,\n:,: Ny fandresena homena ny\nmino\nAzy ny herin’ny Tompo izao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('643', 'Mba matokia ny hery tsy hita\nIzay voatahirin’ny Ray\nho anao,\n:,: Ka voatolotra tao Gologota\nMba ho antsika rehetra izao :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF644',
+             '',
+             644
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('644', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('644', 'Matahora, mangovita,\nFa, indro! ny devoly\nNo mihendry hisambotra\nNy saintsika rehetra;\n:,: Miambena :,:\nKa mivavaha tsara. (in-2)', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('644', 'Mifalia, mivavaha,\nJeso no arontsika,\nManaraha ny teniny,\nFa hovonjeny isika;\n:,: Tano Izy :,:\nHahazoana aina. (in-2)', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('644', 'Manandrata feo hihira\nHidera an’i Kristy,\nHanome voninahitra\nAn’Andriamanitra\n:,: Tompontsika :,:\nFa marina izany. (in-2)', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF645',
+             '',
+             645
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('645', 'Jesosy Kapiteninay\nIzao miantso izao,\nHiady no ilana anay\nKa zovy no hanao ?\nIzay mahafy hatratý,\nMahery fo tokoa\nKa tsy miraika hatrarý;\nIreny no hanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('645', 'Ny tany hotafihinay,\nIzao tontolo izao;\nNy tafika hikatrohanay,\nTsy ady mora atao;\nNy ota hotoherinay\nHo rava sy hikoa.\nNy tany hitorianay\nNy herinao tsy toha.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('645', 'Indreo, ny maritiora soa\nNo loha-lalanay,\nNalatsaka  aina avokoa,\nKa marika aminay;\nFandavan-tena lehibe\nNo vitan’izy  ireo\nHodian-tsy hita foana ve\nIreo maritiora ireo ?', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('645', 'Ry Jeso Kapiteninay!\nIzao anio izao,\nNo anavaozanay indray\nNy fanompoana Anao;\nAtolotray Anao tokoa\nIzao tenanay izao,\nKa hamasino avokoa\nHanao ny sitrakao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF646',
+             '',
+             646
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('646', 'Na aiza no alehako,\nDia  misy izay ahina,\nFa be ny fahavaloko\nMahery sy kirina.\nMikendry fatratra\nIreo mpamitaka,\nKa dia hazoniko ny to,\nNa aiza no alehako.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('646', 'Na aiza no alehako,\nDia  misy ady mafy;\nNy ota hotoheriko,\nHataoko tena rafy;\nNy fahoriana,\nIzay fikapohana,\nTsy maintsy hiaretako,\nNa aiza no alehako.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('646', 'Na aiza no alehako,\nNy fasana mangina\nMiandry eo alohako,\nFa aloka ny aina\nSy toy ny zavona\nMalaky levona;\nIzany no tsaroakao\nNa aiza no alehako.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('646', 'Na aiza no alehako,\nMomba ahy ny anjely,\nKa tsy mba hatahorako\nSatana izay mpamely,\nRy izao tontolo izao,\nHo resy hianao,\nAnjely re ho namako\nNa aiza no alehako.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('646', 'Na aiza no alehako,\nJesosy no kiady;\nNy ratrany no aroko\nSy herin’ny mpiady.\nNy dian-tongony\nArahiko atý,\nKa fandresena azoko\nNa aiza no alehako.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('646', 'Na aiza no alehako,\nNy lanitra andrandraiko,\nKa ravo ny fanahiko,\nFa ao ny Tompon’aiko,\nRy izao tontolo izao,\nNy voninahitrao\nDia  vovoka hitsahiko;\nNy lanitra  ao alohako.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF647',
+             '',
+             647
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('647', 'He! sarotra ny lalam-\npamonjena\nHitanana ny vonjy izay\nnomena\nHamelona hatrao am-parany\nNy fitiavana voalohany.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('647', 'Ny maro dia mazàna \nmankamamy\nIzao tontolo izao, ka mora lany\nNy zotom-po sy finoana\nDia tonga tia zava-poana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('647', 'Malaina izy ka tsy te-hiady\nNy ady masina izay maro fady,\nNy lalan-tery dia halany,\nFa ny malalaka no tiany.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('647', 'Mazàna mety menatra ireny\nRehefa voatsindron-toriteny,\nFa hitany ny ratsy ao am-po,\nKanefa tsy mba te-hiova fo.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('647', 'Ry Jeso, Hianao no tokin’aina,\nIzay novonoina sy \nnankahalaina,\nOmeo ahy faharetam-po,\nHiaritra izay anjarako.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('647', 'Raha reraka aho ka misalasala,\nDia  asehoinao, ry Ray malala,\nNy lovako arý an-danitra\nHihazona  ahy mba haharitra.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF648',
+             '',
+             648
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('648', 'Miambena  izao,\nRy fanahiko!\nMisy rafinao misaina\nHanangoly ny malaina;\nBe ny fandrika\nVoavelatra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('648', 'Miambena  izao,\nRy fanahiko!\nMba tsy ho andevon’ota,\nNa hotaomin’ny mpanota;\nMivavaha  izao,\nRy fanahiko!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('648', 'Miambena  izao,\nRy fanahiko!\nKa tohero ny devoly,\nRaha avy manangoly;\nKristy raisonao\nMba ho aronao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('648', 'Miambena  izao,\nRy fanahiko!\nTsy ho ela tsy akory\nDia ho lasa ny mahory,\nKa ho afaka\nNy mpiambina.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('648', 'Miambena  izao,\nRy fanahiko!\nFa ho avy  indray ny Tompo\nMba hampody ny mpanompo\nHo finaritra\nAo an-danitra.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF649',
+             '',
+             649
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('649', 'Ry mino, miambena re,\nFa manam-pahavalo be;\nJesosy no arahonao\nHitarika anao.\nEzahonao ny dianao,\nNy satroboninahitrao\nMiandry ao aloha ao,\nKa mba tratraronao!\nMba mivavaha, ry havako,\nA miomana ao am-po;\nAndeha  izao ilaozinao\nNy zavatra ho lo!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('649', 'Izao no fiadiana\nOmen’Andriamanitra,\nNy fahamarinana alao\nMba hisikinanao;\nHazony ny finoana\nAmpinga hanohanana;\nNy tenin’Andriamanitra\nNo tena sambatra;\nNy famonjena raisonao\nHo fiarovan-dohanao;\nIreo no hanoheranao\nNy ratsy ao am-po.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('649', 'Ry Havana malala ô,\nAndeha  isika hiray am-po\nHikatsaka ny lanitra,\nFa ao tsy misy manjo.\nHo faly ao an-danitra\nNy vita fanompoana,\nKa izao isika handao\nNy zava-poana!\nHo lasa faingana indray\nNy androntsika an-trano lay;\nVonjeonao ilay tany vao\nIzay mandry fahizay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF650',
+             '',
+             650
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('650', 'Miambena, mivavaha, fa tsy\nfantatrao\nNa ny andro, na ny ora\nfe-potoananao\nNy Mpanjaka masina ho\ntonga tampoka\nHampaneno ny trompetra\nao an-drahona.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('650', 'Amboaro ny fanilon’ny finoana\nSy ny solika fitaiza voaomana,\nKa Velomy re ny afom-\npitiavana\nMba hidiranao an-dapam-\npifaliana.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF651',
+             '',
+             651
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('651', 'Jeso ampio izahay mba\nhandresy!\nNy fahavalo mamely anay!\nIndro, ny aizina tsy mbola\nresy;\nAry Satana mamandrika anay,\nKa mba omeo anay ny\nmazava,\nHampahasahy anay lalandava.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('651', 'Jeso ampio izahay mba\nhandresy!\nKely finoana re izahay;\nKivy matetika, mila ho resy;\nAoka ny herinao homba anay;\nDia hatoky  izahay,\nry Mpandresy\nFa ny devoly dia  ho voasesy.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('651', 'O, ry Mpandresy, arovy\nny ainay!\nAdy mafy hiseho izao;\nKa mba tohany hatoky\nny fonay!\nDia hiainga hanaraka Anao;\nNa dia loza ny herin-tSatana,\nSahy izahay, Hianao no\nmitana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('651', 'Ampandreseo izahay,\nry Mpamonjy!\nKa raha vita ny ady atý,\nDia ho isan’izay voavonjy,\nAry ho faly sy tretrika erý;\nTsy mba hitsahatra intsony\nny hoby\nHankalazana Anao,\nry Mpamonjy.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF652',
+             '',
+             652
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('652', 'O, ry Jesosy, omeo ny hery,\nMba handreseko ny ota izao!\nOsa sy ketraka aho irery,\nRaha tsy avy izao Hianao.\nRaiso ny fo.\nTano tokoa,\nMba handreseko,\nry Tompoko ô!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('652', 'O, ry Jesosy, omeo ny hery,\nKa amboary ny fonay izao;\nO, mba esory izay mahavery,\nMitomoera aminay Hianao;\nKa hazavao\nNy fo izao\nAmpandosiro ny aizina ao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('652', 'O, ry Jesosy, omeo ny hery,\nKely finoana re izahay,\nAry ny lalanay ety sy tery,\nRy Jeso ô, mitantàna anay!\nTohanonao\nNy olonao,\nAmpandreseo izay manaraka\nAnao!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF653',
+             '',
+             653
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('653', 'Sakaiza, raha tia\nNy Tompo Hianao,\nFaingàna ka avia\nHanaraka Azy izao!\nO, mba tsarovinao\nFa Izy tsy nifaly,\nNaleony nijaly\nMba hamonjena  anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('653', 'Fanahy, mahereza,\nEfao ny adinao,\nFa làlana mideza\nNo hiakaranao;\nNy zava-tsoa atý\nDia  zavatra mandala;\nTsy azom-pahavalo\nNy lovanao arý.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('653', 'Ry Tompo manomeza\nAnay ny herinao;\nFinoana mateza\nMba atolorinao;\nMba hanarahanay\nNy lalam-pamonjena.\nHahita  Anao mitsena\nAnay rahatrizay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF654',
+             '',
+             654
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('654', 'Mba faingàna re, ry mino,\nAza mba tamana atý;\nAry aza manadino\nNy anjaranao arý.\nNy Mpamonjy anao\nNo manangana faneva,\nAry mampihevaheva\nAzy eo alohanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('654', 'Marobe no mba mitady\nNy fiainana vaovao,\nNefa kosa tsy miady\nAmin’izao tontolo izao.\nNy Mpamonjy anao\nNo manangana faneva,\nAry mampihevaheva\nAzy eo alohanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('654', 'Koa raiso ny ampinga,\nTano re ny sabatrao,\nFa izany mahakinga\nNy mpandeha toa anao.\nNy Mpamonjy anao\nNo manangana faneva,\nAry mampihevaheva\nAzy eo alohanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('654', 'He, akaiky anao Kanana,\nTany hovantaninao;\nAry any hy tanàna\nMisy ny anjaranao.\nNy Mpamonjy anao\nNo manangana faneva,\nAry mampihevaheva\nAzy eo alohanao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF655',
+             '',
+             655
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('655', 'Kristy miantso antsika hiady,\nIzy nandresy ilay ratsy sahady,\nKa mba Henoy, ry sakaiza\nizao :\nKristy miandry indrindra anao!\nMila antsika\nKristy Mpanjaka.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('655', 'Kristy Mpitarika amin’ny ady,\nKa mampandresy izay\nte-hifady\nNy fahotana, izay maimbo\nsy lo;\nIzy no manda mafin’ny fo.\nMiaro antsika\nKristy Mpanjaka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('655', 'Kristy mampiananatra antsika\nhahery,\nIzy miaro antsika sao very,\nKa mba avia hifahatra ao,\nIndro ny ady mandroso izao\nMiantso antsika\nKristy Mpanjaka.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('655', 'Kristy mamnjy antsika\nizay voa,\nAry tsaboiny ho entiny koa\nHo ao an-dapany mandrakizay\nHonina ao an-tranon’ny Ray.\nHaka antsika\nKristy Mpamonjy.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('655', 'O, ry Jesosy Mpanjaka,\nMpamonjy!\nTompon’ny dera aman-daza\nsy vonjy,\nIreo rafinao mba reseo izao,\nKa tanteraho izay sitrakao.\nO, mba avia,\nKristy Mpanjaka.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF656',
+             '',
+             656
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('656', 'Maty malala, ka ory ny fo;\nLasa ny tiana, ka mafy manjo;\nNefa isika tsy mba mamoy,\nFa manantena hihaona indray :\nAo aminao Tompo! izy izao,\nTsy mba marary na misy\nmanjo;\nNentina any ambony madio,\nDia ho sambatra mandrakizay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('656', 'Mba notandremana fatratra\nkoa,\nNefa tsy tana, fa lasa izao;\nEny, ry Tompo! ekena tokoa\nIzay sitrakao, fa izany no soa :\nAo aminao Tompo! izy izao,\nTsy mba marary na misy\nmanjo;\nNentina any ambony madio,\nDia ho sambatra mandrakizay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('656', 'Fantatra koa fa isika izao\nSamy vahiny ka hody indray;\nIndro! ny namana lasa izao,\nLasa miandry antsika arý :\nAo aminao Tompo! izy izao,\nTsy mba marary na misy\nmanjo;\nNentina any ambony madio,\nDia ho sambatra mandrakizay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('656', 'Ary isika, raha hiala atý,\nDia hotsenain’ireo havan-\ntsy foy\nEny, hihaona mifaly indray\nKa tsy hisaraka mandrakizay\nAo aminao Tompo! izy izao,\nTsy mba marary na misy\nmanjo;\nNentina any ambony madio,\nDia ho sambatra mandrakizay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF657',
+             '',
+             657
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('657', 'Lasa re ilay nazoto,\nNody ao an-tany soa,\nIzay nanompo tamin-joto\nKa nahefa be tokoa,\n:,: Indro, faly :,:\nFa mijinja voka-tsoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('657', 'Lasa nody fa voantso :\n“Miakara”, hoy ny Ray,\nKa fafao ny ranomaso,\nJeso Tompo no mandray.\n:,: Faly, ravo :,:\nFa tafakatra ao tokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('657', 'Lasa re ilay nihafy\nOry tena, be nanjo,\nFa nanohitra  ady mafy,\nNefa mba nahery fo.\n:,: Ka nandresy :,:\nFahavalo maro be.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('657', 'Afaka  ady ka mifaly,\nFa tsenaina hatratý;\nAfaka  ota, afa-jaly,\nKa mihoby hatrarý.\n:,: Hoy ny Tompo :,:\n“Mandrosoa, ka mifalia”.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF658',
+             '',
+             658
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('658', 'Tonga ny fahafatesana,\nAry jinjany ny velona;\nIzy manapaka ny lehibe\nSady mamira ny kely re!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('658', 'Nefa ny fasana maizina\nEfa nidiran’ny Masina;\nIzy nampody ny fiainana,\nResy ny fahafatesana.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('658', 'Amin’ny manam-pinoana,\nDia mazava ny fasana;\nIzy hitsangana finaritra\nNoho Jesosy Mpanavotra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('658', 'Resin’ny Tompo ny fasana,\nKoa, ry fahafatesana,\nAiza izao ny fanindronanao ?\nAiza, ry helo, ny herinao ?', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF659',
+             '',
+             659
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('659', 'Ry hava-malala misaona\nMangina fa mbola hihaona\nIsika sy izy nalaina,\nRaha  tonga indray ilay \nmaraina.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('659', 'Ny naman’ny tany ihany\nNo mody ho amin’ny tany,\nKa dia ny fanahy mifindra\nHo amin’ny Avo indrindra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('659', 'Tsy mainsty afafy aloha\nNy vary vao mety hamoa;\nNy faty halevina koa\nTsy very fa mbola hifoha.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('659', 'Dia miandrandrà,\nry mpisaona!\nHo avy ilay lohataona,\nKa dia haniry ny voa,\nIzay misy ny ain’ny Tsitoha.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('659', 'Ho avy ny Tompon’ny aina\nHiantso ny vovoka maina\nHitafy ny fahazavany\nSy hiditra ao am-panjakany.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('659', 'Faingàna, ry Kristy Mahery,\nRy Fanantenanay irery,\nNy fasanay iva tsarovy,\nNy toky nomenao mba tovy!', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF660',
+             '',
+             660
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('660', 'Sambatra ny nodimandry,\nNiala teto ka tafandry\nAo ampofoan’i Kristy;\nRavoravo izao ny fony\nKa tsy misasatra intsony,\nMby ao am-pitsaharany.\nNy asany tatý\nManaraka  azy arý,\nHaleloia!\nTafiditra  ao an-dapanao,\nRy Jeso, ny malalanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('660', 'Saotra, dera, laza, hery,\nMba raiso ho Anao irery,\nRy Zanakondry tokinay!\nHianao dia nialoha\nHanolotra anjara soa\nHo an’ilay malalanay.\nNy fahafatesanao\nNo misy aim-baovao,\nHaleloia!\nHahita Anao ny olonao\nHohazavain’ny tavanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('660', 'Tsy mba misy alina any,\nJesosy no fahazavany\nSy tena masoandrony.\nAzony izay niriny,\nKa sambatra ny mpivahiny,\nFa ao no tanindrazany,\nFa efa tapitra\nNy ali-maizina,\nHaleloia!\nFa foana ny fasana,\nMaraina no miposaka.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF661',
+             '',
+             661
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('661', 'He, lasa ny zaza malalan’ny\nfo!\nAtolotra ny tany ny tena ho lo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('661', 'Tsy maty anefa ny zaza, fa he\nJesosy no milaza :\n« Matory izy e! »', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('661', 'Jesosy hamoha ny zaza indray,\nHiara-paly amin’anjelin’ny \nRay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('661', 'Ka mba mionòna, ry havana\natý!\nHo hitanao ny zaza ao\nan-danitra arý.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF662',
+             '',
+             662
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('662', 'O, ry Mpamonjy, avia Hianao,\nIndro misento ny fonay izao;\nNy alahelo mamely anay,\nKoa mitady Anao izahay!\nIza no aron’izay ory fo;\nSady mpanampy ny mana-\nmanjo\nFa tsy ny Tompo mahery\nsy to ?\nDia Hianao, Izay be indrafo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('662', 'Jeso Mpamonjy ô, mba\niantrao,\nIzay malahelo miantso Anao!\nNy mitomany tsy hitanao va ?\nFantatray fa Hianao tsy handà\nDia  manatòna ka mba mijere\nNy ranomaso izay mitete!\nFa Hianao no mahay manome\nFampiononana be dia be.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF663',
+             '',
+             663
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('663', 'He, lasa izao ny malala!\nNifindra  ao an-dapan’ny\nRay;\nIsika rehefa miala,\nHo faly hahita azy indray,\nIsika izao mitomany,\nIharan’ny mafy manjo;\n:,: Jesosy mahita izany,\nKa Izy hanony ny fo :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('663', 'Matetika re ny mangidy\nAvela hihatra aminao,\nKa aoka mba tsy hanadidy,\nFa feon’ny Tompo izao,\nNy zanaka tian’ny rainy\nTsy maintsy anariny re!\n:,: Izay mahasoa ataony,\nOmbam-pitiavana be :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('663', 'Ny fo mora kivy ario,\nFa tsy mba hanary ny Ray;\nNy mamy tsy hita anio\nHaposany rahatrizay,\nHofaohiny ny ranomaso,\nSoloam-pifaliana be;\n:,: Ny toky omeny andraso,\nFa ho tanterahiny re! :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF664',
+             '',
+             664
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('664', 'Nalain’ny Mpahary ity\nzaza ity\nHo sambatra mandrakizay,\nMiandry antsika nilaozany atý\nFa mbola hihaona indray,\nOnony ny fonao,\nRy mana-manjo!\nAo an-danitra izy izao,\nRavo izy izao,\nFa ny lapan’ny Ray\nFonenana mandrakizay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('664', 'Nafahina amin’ny loza etý\nKa tretrika izy izao,\nNy nofo ho lo no alevina atý\nFa any ny tena vaovao.\nOnony ny fonao,\nRy mana-manjo!\nAo an-danitra izy izao,\nRavo izy izao,\nFa ny lapan’ny Ray\nFonenana mandrakizay.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF665',
+             '',
+             665
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('665', 'Ry mpisaona malahelo,\nMijere ny Tomponao,\nIzay namindra ny malala\nMba ho ao an-danitra;\nMba fafao ny ranomaso,\nAndrandrao ny lanitra\nMitsahara, ry mpisento,\nKa derao ny Tomponao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('665', 'Nofo no anterintsika\nAo am-pasana anio;\nNy fanahinay anefa\nTsy mba ao anatin’io.\nJeso no namindra azy,\nLasany ny havanao,\nFa navotany ho Azy,\nKa derao ny Tomponao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('665', 'Mangataha fahendrena,\nKa isao ny andronao;\nMikatsaha famonjena\nSy fiainana vaovao,\nMba horaisiny tokoa\nHonina  any Aminy,\nKa hekeny ho sakaiza,\nMba ho ao an-tranony.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF666',
+             '',
+             666
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('666', 'Eo an-kavanan-dRay Hianao,\nRy Zanakondry ô!\nKanefa loza mahamay\nNo niaretanao.\nNy henatra aman-kelokay\nNihatra taminao;\nNivesatra ny otanay\nNo nahafatesanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('666', 'Ry Zanakondry masina\nNijaly an-tsitrapo,\nTeren’ny fitiavana\nHanala otako!\nNy tongotra aman-tananao\nDia  voafantsika;\nNy gadranay dia  tapakao,\nIzay dia  afaka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('666', 'Vahoaka alinalina\nMitafy fotsy erý,\nKa samy miramirana\nMahita an’i Kristy.\nNy hira fihobiana\nManakoako ao,\nManeho fa navotana\nIzao tontolo izao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('666', 'Indreo ny vahoakanao\nAn-tapitrisany\nMitondra ny Anaranao\nEo an-kandriny.\nHe! toy ny rian-drano be\nNy fiderana Anao,\nVoasokatrao ny lanitra\nHo an’ny olonao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('666', 'Misaotra Anao izahay, ry Ray\nIzay navotanao,\nNatolotrao ho solonay\nNy Lahitokanao.\nRy Zanakondry, Avotray,\nDerainay Hianao,\nDerainay ho mandrakizay\nNy fitiavanao!', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF667',
+             '',
+             667
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('667', 'Zavatra iray ihany\nNo hotadiavina,\nFa izay atý an-tany\nDia tsy mampianina\nNy nofo dia zava-mandalo\nihany,\nSatria ho lo ao anatin’ny tany;\nRaha azoko kosa ny zavatra\niray,\nNy foko ho sambatra\nmandrakizay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('667', 'Tadiavinao tokoa va\nny zavatra iray ?\nMba hevero fa ny soa\nMomba ny mandrakizay;\nKa aza fatoran’ny eto intsony,\nKatsaho tokoa ny any \nambony,\nFa any no misy ny zavatra iray\nIzay hifalianao mandrakizay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('667', 'Ry Fanahy ô, ampio\nNy finoako izao!\nRy Mpamonjy ô, tahio\nNy mpangataka Aminao!\nTariho ny foko hitady tokoa\nNy any ambony izay \nmahasoa;\nJesosy ihany no zavatra iray,\nIzay ho anjarako mandrakizay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF668',
+             '',
+             668
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('668', 'Jesosy Tompoko no làlana,\nFahamarinana, fiainana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('668', 'Tsy afaka manatona ny Ray\nRaha tsy amin’ny alalany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('668', 'Jesosy Tompon’ny fiainana ô!\nAoka Hianao no ho fiainako.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('668', 'Etý an-tany : fiainam-bavaka,\nRahatrizay : fiainan-danitra.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('668', 'Iriko mafy ny hiakatra,\nHiaina izany fiainan-\ntsambatra!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('668', 'Jesosy tokana no hanome\nAhy ny fiainana mandrakizay.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF669',
+             '',
+             669
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('669', 'He, tazako ny lalan-tery,\nIzay misy fahoriam-be,\nKanefa feno hira, re;\nFa na miady, tsy ho very.\nNy mino izay mizotra eo,\nNa misy mafy aza eo,\nHahazo lakrona.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('669', 'He, tazako Sakaiza mora,\nMpanala fahoriam-be,\nMpiaro soa, Mpanome\nNy toky tsara isan-ora;\nSakaiza feno herim-po,\nMamonjy amin’ny manjo;\nSakaiza tsy manova.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('669', 'He, tazako ny lamba soa\nOmena ny voavotra\nHo fanesoran-keloka\nSy fanavaozana  azy koa;\nFa Jeso efa nanome,\nNy rany sarobidy re,\nHo fanadiovana  azy.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('669', 'He, tazako ny andro avy,\nIzay hialako sasatra,\nKa ny ririnin’efitra\nHanjary lohataona mamy;\nKa any vao hivelatra\nNy vonindraozin-danitra\nAo amin’ny Edena.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('669', 'He, tazako ny voavonjy\nAo amin’ny Mpampakatra,\nDia  ao an-tampon-danitra,\nIzay niakaran’ny Mpamonjy;\nMiravoravo izy ao,\nMihira fideram-baovao\nHo an’ny Zanakondry.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF670',
+             '',
+             670
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('670', 'Ny ony tsy miato, fa mitady\nNy ranomasina ihaviany;\nKa toy izany koa ny fanahy\nMitady ny Andriamaniny,\nAndriananahary\nNo Tompoko nahary\nNy faniriako,\nIzay mitady Azy, ka manary\nIzay misakana ny diako.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('670', 'Izay midongy sy mirehareha\nTsy hahatratra ny Edenany;\nLomorina ny rano tsy\nmandeha,\nKa samba ao am-pijanonany;\nKa toy izany koa :\nHo samba avokoa\nIzay mijanona,\nKa tsy manatona ny Tompo\nsoa\nIzay mitahy sy mamelona.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('670', 'Tsy misy zavatra atý an-tany\nMahafa-po ny faniriako;\nVahiny aho eto ka mankany\nAn-danitra izay fodiako.\nNy Tompoko malala\nHo avy hampiala\nNy olony atý;\nIzaho dia tsy misalasala\nHanaraka ny Tompo ho arý.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF671',
+             '',
+             671
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('671', 'Ao an-danitra\nDia ho sambatra\nIzay tia ny Tompo atý!\nMalahelo izao,\nRavoravo re, ao\nAmin-dRaintsika an-danitra\narý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('671', 'Fahoriana\nAo an-dalana,\nFa iharan’ny zava-manjo;\nAo an-danitra re,\nFiadanana be;\nMba hevero, ry havana ô!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('671', 'Aza kivy ô,\nRy fanahiko,\nNa dia  maizina aza atý;\nVetivety izao\nDia hody hianao\nAo am-pahazavana arý.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('671', 'Ry Mpanavotray,\nIndreto izahay\nMpivahiny an-dalana izao;\nTsy tamana atý,\nTe-hifindra arý\nAo an-danitra ao Aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF672',
+             '',
+             672
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('672', 'O, mamiratra fatratra erý\nIrony kintana tazana etý,\nKa manainga ny foko hankao\nAmin-tranon’ny Raiko izao,\nRaiko ô, mba vohay\nAho hiditra ao Aminao!\nRaiko ô, mba vohay\nFa iriko ny honina ao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('672', 'Feno ota ny tany atý;\nTsy mba misy izany arý,\nTena masina ireo mponina ao,\nKa mifaly mijery anao.\nRaiko ô, mba vohay\nAho hiditra ao Aminao!\nRaiko ô, mba vohay\nFa iriko ny honina ao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('672', 'O, fonenana mamiko re;\nFa Jesosy nirina elabe,\nSady aina iainako izao,\nNo miandry hndray ahy ao,\nRaiko ô, mba vohay\nAho hiditra ao Aminao!\nRaiko ô, mba vohay\nFa iriko ny honina ao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('672', 'Mba tsilovy ny lalako izao,\nRy Fanahy Mpitarika ô,\nHahitako ny tranon’ny Ray\nHovantaniko rahatrizay,\nRaiko ô, mba vohay\nAho hiditra ao Aminao!\nRaiko ô, mba vohay\nFa iriko ny honina ao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF673',
+             '',
+             673
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('673', 'Hevero ny fihaonambe\nArý an-danitra;\nVahoaka izany re!\n:,: He, samy sambatra :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('673', 'Ho vory ao ny iraky\nNy Tompom-bokatra,\nMitondra amboarany\n:,: Am-pihobiana :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('673', 'Ny isam-pirenena atý\nDia samy misy ao,\nNy teny izay ninoany\n:,: Tanteraka izao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('673', 'Ny feon’ny fisaorany\nHo toy ny riana,\nNy hira iray iraisany,\n:,: Ka samy mirana :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('673', 'Ny lanitry ny lanitra\nDia feno hobiny,\nNy Zanakondry masina\n:,: No ao anivony :,:', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('673', 'Ry Ray be fitiavana,\nIzahay mba taominao,\nMba samy ho tafangona\n:,: Ao anatrehanao :,:', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF674',
+             '',
+             674
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('674', 'Ry mpivahiny reraka sy ana,\nHerezonao  ny dia, fa irý\nNy lapa soan’ny fanantenana,\nKa aza mba mamoy fo etý,\nFa vetivety Hianao no eto,\nDia  tapitra ny alahelonao,\nKa dia mba ononinao ny sento,\n:,: Fa mihafohy ny alehanao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('674', 'Jesosy no mpitsinjo mpivahiny\nKa Izy dia ta-handray anao;\nNy fony dia toy ny fahiny\nKa vonona hitantana anao,\nKa miezaha hanatratra eny,\nAntsoiny hianao izao hoe :\nMinoa Ahy araka ny teny,\n:,: Ny tranon-dRaiko dia\nlehibe :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('674', 'Mangoraka anao izao ny fony\nNy tena aman-drany vatsinao,\nKa aza mba mihemotra\nintsony,\nFa ampy ho anao Jesosinao,\nKa raiso ny finoana ho\nampinga,\nNy teny masina ho sambatra,\nNy fahamarinana mba\nhahakinga,\n:,: Ny fitiavana hanandratra :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF675',
+             '',
+             675
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('675', 'Indreo ao an-danitra ny\nolo-marobe,\nMitsangana manatrika ny \nZanakondry, re! \nAkanjo fotsy lava no\nanaovany,\nKa sampa-palma fandresena\nno an-tànany.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('675', 'Ka iza moa ireo, ary avy\ntaiza re ?\nIreny dia avy tamim-\npahoriam-be,\nNanasa sy namotsy ny\nankanjony\nTao amin-dran’ny Zanakondry,\nIzay Mpanavony.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('675', 'Ny tia ny maloto tsy ho ao\nan-danitra,\nFa masina ny tonga any, sady\nsambatra\nMihira fiderana sy fisaorana\nNo zavatra ataony amim-\npifaliana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('675', 'Endrey, maniry mafy aho mba\nho isany,\nHiaraka hihoby sy hifaly\nAminy;\nAnefa an’ny Tompo ny \nfotoana,\nKa dia Izy no manendry\nny hodiana.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF676',
+             '',
+             676
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('676', 'Ny voarain’Andriamanitra arý\nKa afaka tatý\nAn-tany be mahory,\nDia lasa nody, fa tsy maty tsy\nakory.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('676', 'Ny tafafindra monina ao\nan-danitra ao,\nNankao an-tany vao\nFonenan’ny mazava,\nDia  tsy mba maty, fa nandao\nny mety rava.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('676', 'Ny voasatro-boninahitra\ntsy lo,\nKa ao manaram-po\nMisotro ranon’aina,\nDia tsy mba maty, fa nandray\nny nantenaina.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('676', 'Ny ondrinao izay manaraka\nAnao\nHo ao am-balanao,\nRy Ilay Mpiandry Tsara,\nDia tsy mba maty re, fa tsara\nfiafara.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('676', 'Ny fo mivantana aminao\nIzay nanome\nNy hasambaram-be\nNandramany sahady,\nDia  tsy mba maty, fa \nmpandresy afaka ady.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF677',
+             '',
+             677
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('677', 'He! tazana ao an-danitra\nVahoaka finaritra\nMitafy fotsy, ravo fo,\nKa mirana  avokoa.\nNy vazantany efitra\nNo nielezan-kafatra,\nDia  tonga izao\nNy ory tao,\nKa afaka  entana.\nNy ran’ilay Mpamonjiny\nNahafotsy ny ankanjony;\nKoa dia  ireo\nManandra-peo\nAm-pifaliana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('677', 'Ho an’Andriamanitra\nAn-tsezam-boninahitra\nNy famonjena anie!\nHobin’ny marobe,\nIlay Zanakondry avotra\nNo nanafahan-tahotra\nIzay voaray\nHo zana-dRay\nHobio mandrakizay!\nKa saotra voninahitra\nHo an’Andriamanitra,\nO, mba derao,\nAnkalazao,\nHaleloia! Amena!', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF678',
+             '',
+             678
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('678', 'Hajao ny olo-masina\nMpanaraka ny Tomponao,\nMiely sy Manerana\nIzao tontolo izao;\nIreo dia tonga ohatra,\nKa tokony harahinao,\nNa efa olon-dehibe,\nNa zaza hianao;\nTanteraka ny sasany,\nKa efa nody amin-dRay;\nNy sasany dia mbola atý\nMilasy amin-day.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('678', 'Ka betsaka ny isany,\nNa atý, na ao an-danitra;\nNy Rainy kosa dia iray,\nAndriamanitra;\nIreo maro namanao\nMiantso koa maka anao\nHiaraka hiezaka\nHankao an-danitra;\nKa dia miezaha re,\nKa aza kivy hianao;\nJereo ao aloha ao\nNy loka ho anao.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF679',
+             '',
+             679
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('679', '« Moa te-hiara-dia ?\nMoa te-hiara-dia,\nO, ry havana malala,\nHo ao Kanana izao ? »\n« Eny, te-hiara-dia,\nEny, te-hiara-dia,\nFa antsoin’Ilay Mpamonjy\nHo ao Kanana  izao! »\n:,: Dera, dera, haleloia! :,:\nAn’Andriamanitsika\nIzay ao ambony ao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('679', 'Kristy re no lalantsika,\nVatolampy, arontsika,\nIzy no mitondra antsika\nHo ao Kanana  izao.\nTano izahay ry Tompo,\nHatanjaho ny mpanompo,\nKa tsilovy ny haleha\nHo ao Kanana  izao!\n:,: Dera, dera, haleloia! :,:\nAn’Andriamanitsika\nIzay ao ambony ao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('679', 'Tazana erý sahady\nPerla re ny vavahady,\nVolamena ny tanàna\nErý Kanana  erý.\nE! hahita ny Mpamonjy,\nKa hifaly fa tra-bonjy,\nSy hidera re ny vonjy\nErý Kanana  erý.\n:,: Dera, dera, haleloia! :,:\nAn’Andriamanitsika\nIzay ao ambony ao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF680',
+             '',
+             680
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('680', 'Aingao ny masontsika\nHitsinjo tany soa ;\nFa ao ny Tompontsika\nManomana tokoa\nTanàna, trano tsara,\nFianan-tsambatra e!\nIzany no anjara\nHo an’ny mino re!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('680', 'Ny andro fifaliana\nHo avy ka  antenao ;\nNy andro nihafiana\nHo foana sy handao;\nNy taona fihobiana\nHomen’ny Tomponao;\nHo feno fifaliana\nIzao rehetra  izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('680', 'Ny andro maharavo\nTsy ho ela  intsony izao;\nHiarina ny lavo\nHandray ny tena vao,\nIrio ny Tompo Avo\nHo avy hanavao;\nHo faly izay mahazo\nIzao fiainan-tsoa izao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF681',
+             '',
+             681
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('681', 'Iza moa ireo mitsangana\nArý an-koatra arý ?\nNy seza fiandrianana\nNo eo anilany,\nHaleloia, mihobia!\nFa Mpandresy izy e!\nKa mitana ny rofia,\nVoninahi-dehibe.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('681', 'Fahorina mafy loatra\nNo nentin’izy ireo,\nKanefa tsy nitsoaka\nNijaly fa tsy leo,\nFamonjena firenena\nAdy masina tokoa,\nNanolorany ny tena\nHo mpitory “Teny Soa”.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('681', 'O! ry mponina ao an-danitra\nAnjely marobe,\nOmeo voninahitra\nNy maritiora e!\nIlay Kanana soa tokoa\nNo fonenany izao\nHetaheta, sanatria\nTsy haninona azy ao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('681', 'Mba avia, ry olom-belona\nAvia, ankalazao\nIlay maty nefa velona,\nJesosy Tomponao.\nDera, laza atolotray\nHaleloia, haleloia! \nHo Anao, Mpanjakanay,\nHo Anao, doria doria.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF682',
+             '',
+             682
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('682', 'Hianao, Jehovah Tompo\nNo itokiako\nKa tsy matahotra aho\nFa manana Anao.\nRy Harambato mafy,\nIzay ao mandrakizay\nNy foko tsy hanahy,\nFa miankina Aminao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('682', 'Mitsoka mafy loatra\nNy rivo-doza re,\nKanefa tsy hihoatra\nNy fefy lehibe.\nRy Aron’ny tanora,\nRy Tokin-dehibe\nHo heriko isan’ora\nNy herinao anie.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('682', 'Raha tonga re ny fetra,\nNy andro tapitra,\nHaneno ny trompetra,\nHihovitrovitra.\nKanefa matokia,\nRy foko fa Jeso\nHitantana ny dia\nHo eo anilanao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF683',
+             '',
+             683
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('683', 'Ao am-pitan’ilay lohasaha\nizay\nAlo-pahafatesana koa,\nMoa mba tsinjonao ve ‘rý\ntanàna iray\n‘Zay mamiratra toa vatosoa ?\nNy masoandrony tsy mba\nmilentika koa\n‘Zay rehetra mby ao voadio\navokoa\nKa mamiratra toa vatosoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('683', 'Ny Mpanjakany dia ‘Lay Ray\nbe fitia\nSady aina ho an’izay ao;\nRy mpanota mibebaka ô,\nmatokia\nHosasany hadio hianao,\nNy masoandrony tsy mba\nmilentika koa\n‘Zay rehetra mby ao voadio\navokoa\nKa mamiratra toa vatosoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('683', 'Nefa tsinjoko fa ny fidirana\nao\nDia am-pototr’ilay lakoroà!\nHe mideza sy ety ny lala-\nmankao\nO, ry foko, moa ho kivy va ?\nNy masoandrony tsy mba\nmilentika koa\n‘Zay rehetra mby ao voadio\navokoa\nKa mamiratra toa vatosoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('683', 'Olo-masina maro no tsinjoko\n‘ndreo\nAo mihira sy mitafy vao;\nIriko indrindra ho isan’ireo\nKa tantano, Jeso aho, ho ao.\nNy masoandrony tsy mba\nmilentika koa\n‘Zay rehetra mby ao voadio\navokoa\nKa mamiratra toa vatosoa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF684',
+             '',
+             684
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('684', 'Ao ny lanitra tsara tokoa\nIzay fonenana mandrakizay,\nTany be hasambarana koa;\nAo isika hihaona indray;\nMifalia, mihobia,\nFa ao isika hihaona indray.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('684', 'Ao ny lova izay mamin’ny fo\nSy fiainana mandrakizay,\nVoninahitra tsy mba ho lo;\nAo isika hihaona indray;\nMifalia, mihobia,\nFa  ao isika  hihaona indray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('684', 'Ao ny Ray, Loharanon’ny soa,\nHovantanina rahatrizay,\nIzay hampiditra hoe : \nmandrosoa\nAo isika hihaona indray;\nMifalia, mihobia,\nFa  ao isika  hihaona indray.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('684', 'Ao ny Zanaka be indrafo\nIzay nijaly tatý fahizay;\nNefa tsy mba nahita ny lo,\nFa  efa velona mandrakizay;\nMifalia, mihobia,\nFa ao isika hihaona indray.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('684', 'Ny fanahin’ny Ray ao tokoa\nIzay mitarika antsika izao\nSy mananatra antsika ho soa,\nNo mitondra antsika hankao\nMifalia, mihobia,\nFa ao isika hihaona indray.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('684', 'Matokia, miravoa, mifalia,\nFa azontsika ny lapan’ny Ray\nMidérà, mihirà, mihobia,\nFiadanana mandrakizay\nMifalia, mihobia,\nFa ao isika hihaona indray.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF685',
+             '',
+             685
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('685', 'Matokia, mpivahiny!\nAny an-tanàna arý\nMisy trano soa madio\nMandrosoa hianao :\nMisy fitsaharana any,\nMatokia hianao;\nMisy fitsaharana any,\nIzay ho azonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('685', 'Ao ny Tomponao miandry\nHanome anao ny soa;\nMisy fiadanana any\nVoavoatra ho anao :\nMisy fitsaharana any,\nMatokia hianao;\nMisy fitsaharana any,\nIzay ho azonao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('685', 'Any tsy mba misy rofy\nAmam-panaintainana;\nIzay rehetra tonga any\nAfa-pahoriana\nMisy fitsaharana any,\nMatokia hianao;\nMisy fitsaharana any,\nIzay ho azonao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('685', 'Tsy mba mamy va ny mody\nMba ho afa-tsatsatra\nSy horaisin’i Jesosy\nAmim-piadanana ?\nMisy fitsaharana any,\nMatokia hianao;\nMisy fitsaharana any,\nIzay ho azonao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF686',
+             '',
+             686
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('686', 'Maniry izahay\nHo any aminao,\nJerosalema tanànanay,\nTanàna masina;\nNy trano lay atý,\nTsy maintsy rovitra,\nKanefa tazanay erý\nIlay tsara lavitra;\nTazanay, tazanay\nNy tany masina.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('686', 'Mba tanterahonao,\nRy Tompo tia anay!\nNy fikasan’ny Zanakao\nNataony taminay;\n« Ho any amiko\nIzay nomenao Ahy,\nFa tiako ho hitany\nNy voninahitrao »\nTazanay, tazanay\nNy tany masina.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('686', 'Mankany aminao\nIzao ny dianay,\nNa sarotra ny làlana,\nMihira izahay;\nNy hasasaranay.\nTsy misy intsony izao,\nFa tazanay sahady re,\nNy tany masina :\nTazanay, tazanay\nNy tany masina.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF687',
+             '',
+             687
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('687', 'Ny tranon’ny Raiko, trano\nmadio,\nTsy misy mahory na zava-\nmanjo;\nAvia, ry malahelo, hankao,\nMizora, fa Izy hampiditra\nanao!\n:,: Sambatra re izay tonga\nao :,:\n:,: Faly tokoa :,:\nIzay tafiditra ao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('687', 'Mandalo izao fiainana izao,\nKa aza sondriana atý hianao;\nNy ratsy izay mitaona reseo,\nNy any an-danitra no mba\nirio!\n:,: Sambatra re izay tonga\nao :,:\n:,: Faly tokoa :,:\nIzay tafiditra ao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('687', 'He, ao no ho hitantsika tokoa\nNy tavan’Ilay Zanakondry\nmadio;\nNy mpino tetý no efa ao koa,\nManiry hihaona amintsika\ntokoa,\n:,: Sambatra re izay tonga\nao :,:\n:,: Faly tokoa :,:\nIzay tafiditra ao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('687', 'Tsy misy manjo izay afa-\nmankao,\nNa andro mahory hitseran’ny\nfo;\nFa any tsy misy alina koa,\nTanàna mazava, fonenana\nsoa,\n:,: Sambatra re izay tonga\nao :,:\n:,: Faly tokoa :,:\nIzay tafiditra ao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('687', 'Ny mino rehetra ory tetý\nTafakatra any ka faly tokoa,\nMihira ny famonjen’i Jeso,\nMidera ny fiandrianan’ny Ray.\n:,: Sambatra re izay tonga\nao :,:\n:,: Faly tokoa :,:\nIzay tafiditra ao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF688',
+             '',
+             688
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('688', 'Misy tany mahafaly,\nTany izay alehanay,\nTany misy an’i Jeso,\nJeso Tomponay!\nTany soa maharavo,\nTany tadiavinay!\nAfa-tahotra, afa-doza\nIzay tafiditra ao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('688', 'Tany tia mpivahiny,\nTany namboarinao,\nRy Jesosy be fitia,\nJeso Tomponay!\nHo anay atý an-tany\nIzay mba malahelo fo\nNoho ny fomban-tany ratsy\nMahazatra anay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('688', 'Maro be ny fahavalo\nIzay miady aminay;\nMafy ny fakam-panahy\nHitanay atý;\nSakan-dalana, ady mafy\nNo alehanay izao :\nBe tokoa ny mampahory,\nNefa fantatrao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('688', 'Eny, fantatrao, ry Jeso\nFa  izahay mpanomponao\nDia  handresy ny devoly\nNoho ny herinao;\nKoa  ampionao izahay re\nMba hiankina aminao\nHahatraranay ny tany\nNamboarinao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF689',
+             '',
+             689
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('689', 'Fandalovana atý,\nLanitra honenako;\nEfitra izao tany izao,\nLanitra honenako;\nVoahodidin-doza atý,\nReraka ao an-dalana,\nValaka sy sasatra;\nLanitra honenako.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('689', 'Na mandrivotra aza atý,\nLanitra honenako;\nTany no hilaozako,\nLanitra honenako;\nAlon-dranomasina\nSy ny rian-drano be\nTsy hisakan-dalana;\nLanitra honenako.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('689', 'Ao an-tratran’i Jeso,\nLanitra honenako;\nAfa-pahoriana\nLanitra honenako;\nAo ny olo-masina\nIzay mba tiako tatý,\nFaly raha hitako;\nLanitra honenako.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('689', 'Dia tsy halahelo aho,\nLanitra honenako;\nMafy ny manjo atý,\nLanitra honenako;\nAo no hitoerako\nFaly anatrehan-dRay,\nAo homeny toerana;\nLanitra honenako.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF690',
+             '',
+             690
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('690', 'He! misy re fonenana;\n:,: Tsara e! :,:\nKanefa tsy mba lavitra;\n:,: Tsara e! :,:\nNy trano ao voavoatra;\nHo an’izay mangataka;\nFa Jesosy no Tompony,\n:,: Tsara e! :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('690', 'Tsy misy fahoriana ao;\n:,: Tsara e! :,:\nTsy misy alahelo ao;\n:,: Tsara e! :,:\nNy ota tsy tafiditra ao,\nNy devoly tsy monina ao,\nFa ny anjely masina;\n:,: Tsara e! :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('690', 'Ny Tompo dia miantso anao;\n:,: Tsara e! :,:\nNy teniny henoinao;\n:,: Tsara e! :,:\n“ Avia atý ry zanako!\nKa mibebaha re anio,\nTsy misy ‘zay holaviko ”\n:,: Tsara e! :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('690', 'Efa azonay ny santatra;\n:,: Tsara e! :,:\nVoavelany ny heloka;\n:,: Tsara e! :,:\nHo any faingana izahay,\nFa Kristy manome anay\nFiainana mandrakizay;\n:,: Tsara e! :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF691',
+             '',
+             691
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('691', 'Ny lapan’Andriamanitra\nNo ivorian’olona\nTsy omby alinalina,\nIzay madio sy masina.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('691', 'Izao firenen-drehetra  izao\nDia samy afaka hankao;\nTsy fomban’Andriamanitra\nHizaha tavan’olona.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('691', 'Ireny no naharitra\nNy hazo fijaliana,\nNa dia nanao ny henatra\nHo zava-tsinontsinona.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('691', 'Endrey, ny hafaliany!\nMazava ny tarehiny;\nFafàn’Andriamanitra\nNy ranomaso latsaka.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('691', 'Ataony ao ny hira vao\nHoe : “ Voavono Hianao;\nNy ranao, Zanakondrinay!\nNo nanavotanao anay ”', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('691', 'Ry Jeso ô Mpanavotra!\nIzaho dia milatsaka\nHo isan’ny mpanomponao\nManaraka ny dianao.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF692',
+             '',
+             692
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('692', 'He! misy tany soa\nIzay tsy atý;\nMaro ny olona\nFaly arý;\nTsara fonenana\nSambatra sy tretrika\nSady finaritra\nIzay mponina  ao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('692', 'Aza sondriana\nFoana atý;\nO! miomàna re\nMba ho arý;\nBe fiadanana,\nTsara fitoerana,\nBe haravoana\nIzay mponina  ao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('692', 'Mafy izay manjo\nHita atý,\nKa misikìna re\nMba ho arý;\nJeso mitandrina,\nSy mitahy fatratra\nAry mahenina\nIzay mponina  ao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('692', 'Aza variana\nFoana atý;\nO! miaingà izao\nMba ho arý;\nJeso Sakaizanao\nNo Mpitari-dalana,\nKa dia hitondra  anao\nHo tonga ao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF693',
+             '',
+             693
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('693', 'Ao ambony ny lapan’ny Ray,\nAo an-danitra feno ny soa,\nHasambarana mandrakizay,\nKristy soa no iriko tokoa,\n:,: Kristy soa, Kristy soa\nNo iriko ho ahy tokoa :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('693', 'Misy tsara ihany atý,\nMba ho santatra eto izao;\nFa tsy mety ho toy ny arý,\nKa iriko tokoa mba ho ao,\n:,: Kristy soa, Kristy soa\nNo iriko ho ahy tokoa :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('693', 'Ny voavotra ravo izao,\nAfaka ota ka faly tokoa,\nAfa-paty izay tonga ao,\nAfa-doza, mahazo ny soa,\n:,: Kristy soa, Kristy soa\nNo iriko ho ahy tokoa :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('693', 'Tsy ny lanitra be zava-tsoa,\nFa ny Tompo malalaka ao;\nTsy mba tahotro helo tokoa,\nFa ny Tompo tsy foiko izao.\n:,: Kristy soa, Kristy soa\nNo iriko ho ahy tokoa :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF694',
+             '',
+             694
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('694', 'Enga ka hanana elatra soa\n:,: Aho etý :,:\nMba hanidinako avo tokoa\n:,: Hody erý! :,:\nFo malahelo ny ratsy natao\nNo ela-tsoa hitondra hankao;\nHanana elatra aho anie,\nMba hanidinako ao!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('694', 'Trano mamiratra tsara irý,\n:,: Raiko no ao :,:\nNa nahabe ahy aza ity,\n:,: Mamiko ao :,:\nHavako maro no sambatra ao,\nFaly ny foko hankeny izao;\nEnga ka hanana elatra aho,\nMba hanidinako ao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('694', 'Na dia an-danitra aza erý,\n:,: Lavitra va ? :,:\nRaha tarihin’i Jeso etý,\n:,: Ketraka va ? :,:\nTsia, fa hiainga tokoa aho\nizao!\nIndro akaiky ny lala-mankao;\nEnga ka hanana elatra soa,\nMba hanidinako ao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('694', 'Andriamanitra Ray no erý,\n:,: Tsara tokoa :,:\nJesosy koa ‘Lay Mpamonjy\ntetý,\n:,: Zanaka soa :,:\nAo ny Fanahy Masina re!\nTapitra ao avokoa ny soa;\nHanana elatra aho anie,\nMba hanidinako ao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF695',
+             '',
+             695
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('695', 'Arý an-koatra arý\nIlay Paradisa soa\nToa takona atý,\nKanefa ao tokoa,\nMamirapiratra   ao,\nNy endriky ny Ray;\nJesosy Tompo ao\nMiandry mba handray.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('695', 'Tsy misy ny hanjo\nIzay tafiditra ao;\nNy ranomaso koa\nTsy afaka hankao\nNy hazavana soa\nManelatrelatra ao;\nNy zava-mahasoa\nTsy misy izay tsy ao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('695', 'Anjely marobe\nMihira any koa;\nIreo olo-masina  e\nMifaly avokoa.\nAndeha re izao,\nSakaiza marobe,\nArio ny tahotrao,\nKa dia mizora re!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('695', 'Raha misy loza etý,\nJereo ny Tomponao;\nFa izy raha tetý\nNitondra toy izao.\nIreo fahoriana atý\nOdio tsy hita re,\nHandraisantsika  arý\nNy fiadanam-be.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF696',
+             '',
+             696
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('696', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('696', 'Raha ho faty aho\nKa handao ny havako\nAry dia hisaonany,\nFa handeha  hifaly aho;\nRaha afaka ny aiko,\nDia ho finaritra aho.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('696', 'He! antsoiny aho,\nHo any an-danitra,\nDia faly ny foko,\nSy ravo ny kiboko,\nFa  azoko ny iriko\nSy nantenaiko ela.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('696', 'Havelako ny tany,\nFa efa azoko tokoa\nNy fifaliam-be;\nLovako ny lanitra,\nDia tsy matahotra\nNy hafatesana aho.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF697',
+             '',
+             697
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('697', 'Any ambony fonenana tsara\nDia tsy mba misy itseran’ny\nfo;\nEny iriko ho tsara miafara\nHiara-manjaka  aminao ry\nJeso!\nIsaoranay ny Tomponay,\nRaha ‘mby any dia faly\ntokoa;\nIsaoranay ny Anaranao soa!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('697', 'Rehefa tonga ilay andro\nmalaza\nIzay hanatrehana Anao, ry\nJeso!\nIzay no heveriko ho tena\nlaza :\nDia ny hidera Anao,\nTompo ô!\nIsaoranay ny Tomponay,\nRaha ‘mby any tsy mba ory\nkoa;\nIsaoranay ny Anaranao soa!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('697', 'Ao izany havana tena malala\n‘Zay mahafaly fa hita indray,\nNefa izay hampifaly tokoa\nDia ny mihaona aminao ry \nJeso!\nIsaoranay ny Tomponay,\nRaha ‘mby any tsy misy\nmanjo;\nIsaoranay ny Anaranao soa!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF698',
+             '',
+             698
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('698', 'Iza re ireto avy,\nVoatafy lamba soa,\nSamy voasatroka avy\nSatro-bolamena koa ?\nAvy taiza izy ireo,\nKa ho aiza izy ireo ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('698', 'Izy   ireo dia voavonjy,\nVoavela heloka;\nSamy nino an’i Kristy\nFony mbola velona;\nBe ny ratsy nentiny,\nFa izao dia sambatra.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('698', 'Maro be ny fahavalo\nNiadiany tatý,\nFa tsy mba misy izany\nintsony;\nAfaka ny sarotra,\nAfa-pahoriana,\nHe, ny hafaliany!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('698', 'Miramirana tarehy,\nIndreo, avy izy   ireo\nMba hihoby an’i Kristy,\nTompo sy Mpanjaka koa,\nFa nahazo zava-tsoa,\nKa dia tretrika tokoa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF699',
+             '',
+             699
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('699', 'Midera Anao ny olo-masina\nNoho ny fandresena \nnomenao;\nRy Jeso ô! Mpitari-dalana!\nHaleloia! Haleloia!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('699', 'Ory sy lao, fadiranovana,\nNatao ho zava-tsinontsinona\nNefa ireo no tsy nivadi-po;\nHaleloia! Haleloia!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('699', 'Mafy ny ady aman-tafika,\nIzay nihatra tao an-dalana,\nFa Hianao no nitokiany;\nHaleloia! Haleloia!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('699', 'Indro! mpandresy no idirany\nAo afovoan’ny ao an-danitra,\nHandray ny satro-boninahitra;\nHaleloia! Haleloia!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('699', '« Mpanompo tsara sady\nmahasoa,\nMidira am-pifalian’ny\nTomponao »\nHe, sambatra izy, fa efa\nvoaray;\nHaleloia! Haleloia!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('699', 'Aoka ireo no hotahafinay\nAmin’ny ady iadiana,\nHiraisam-boninahitra aminy :\nHaleloia! Haleloia!', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('699', 'Ankehitrio, Anao ny fiderana,\nRy Ray sy Zanaka, Fanahy koa\nEran’ny tany aman-danitra :\nHaleloia! Haleloia!', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF700',
+             '',
+             700
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('700', 'Ao ny andro lehibe\nMisy fifaliam-be,\nDia ny andro hahatongavana\nAmin’ny fonenana\nFeno fiadanana.\nTsy mba misy ota na heloka,\nEny, tena andro malaza tokoa\nizay.\nJeso Ilay nandresy ny fasana,\nIzy no hitantana\nAo am-pahafatesana,\nKa ho mora ny handehanana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('700', 'Ao ny andro lehibe\nMisy fifaliam-be,\nIzay hihaonana any an-danitra,\nAfa-pahoriana,\nAfa-pijaliana,\nSambatra tokoa sy tretrika.\nEnga ka ho ao avokoa isika\nizao\nKa tsy hisy very na dia iray!\nTava miramirana,\nEndrika mamiratra\nNo hananantsika mandrakizay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('700', 'Ao ny andro lehibe\nMisy fifaliam-be,\nHahitana an’Andriamanitra\nSy Jesosy Zanany\nMbamin’ny Fanahiny.\nHoby no hameno ny lanitra.\nSerafima sy arkanjely no\nnamana\nMankalaza ilay feno indrafo.\nNy fitomaniana\nSy ny fisentoana\nTapitra, fa afaka ny manjo.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF701',
+             '',
+             701
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('701', 'Ny hiran’ny lanitra\nTsara tokoa\nSy mahafinaritra, re!\nHenoy izany feon’ny\nolona maro\nizay faly tokoa mihira hoe :\n(Feo 1)\nHaleloia, Amen!\nHaleloia, Amen!\nHaleloia, Amen!\nHaleloia, Amen! \n(Feo 2)\nNy dera aman-daza,\nsy hery anie\nHo Anao, ry Zanak’ondry!\nNy dera aman-daza,\nsy hery anie\nHo Anao, Anao, Amen!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('701', 'Toy ny feon’ny rano\nmahery ny hira ataon’ny\ntra-bonjy arý;\nManerana ny lanitra\nny fiderany,\nFa vita ny adiny mafy tatý,\nHaleloia, Amen!\nHaleloia, Amen!\nHaleloia, Amen!\nHaleloia, Amen! \n(Feo 2)\nNy dera aman-daza,\nsy hery anie\nHo Anao, ry Zanak’ondry!\nNy dera aman-daza,\nsy hery anie\nHo Anao, Anao, Amen!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('701', 'Tsy mety mangina\nny hiran’ny lanitra\nVelona mandrakizay!\nEndrey ny fihaonana\nany an-danitra\nsy ny fiainana mandrakizay!\nHaleloia, Amen!\nHaleloia, Amen!\nHaleloia, Amen!\nHaleloia, Amen! \n(Feo 2)\nNy dera aman-daza,\nsy hery anie\nHo Anao, ry Zanak’ondry!\nNy dera aman-daza,\nsy hery anie\nHo Anao, Anao, Amen!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF702',
+             '',
+             702
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('702', 'An-danitra, an-danitra\nTempolin’i Jehovah,\nNo hahitàna Azy, re\nAm-boninahitra!\n:,: Ka masina i Jehovah :,:\nNo hohiraina ao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('702', 'An-danitra, an-danitra\nNo mba hamiratra\nNy voninahi-dehibe\nHananantsika e!\n:,: Raha tonga\nny fihaonana :,:\nAo amin’ny Jehovah.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('702', 'An-danitra, an-danitra\nNo ho finaritra\nNy tena izay nijaly be\nAm-pahoriana\n:,: Fa any no hifaly e :,:\nFahasambarana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('702', 'Ny fo sy ny fanahy e,\nNo faly anie,\nFa afaka ny entana,\nIzay nivesarany;\n:,: Ka fitsaharan-dehibe :,:\nOmen’i Jehovah..', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('702', 'Tsy hain’ny lela anie\nHanonona izao\nNy soa antenaina e,\nRaha Anatrehany,\n:,: Manenika ny lanitra :,:\nNy fitiavany.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('702', 'Ry Jeso Kristy Tomponay\nTariho izahay,\nKa mamelà ny helokay,\nMba hitokianay,\n:,: Fa tsy ho menatra\nizahay :,:\nFa ao i Jehovah.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('702', 'Raha avy ny hodianay\nHo anatrehany\nTariho izahay,\nMba ento, Jeso, izahay\nHankany Aminy!\n:,: Mba ho anay \nmandrakizay  :,:\nNy fitsaharana!', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF703',
+             '',
+             703
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('703', 'Ry Jehovah, Ray Tsitoha\nVory eto izahay,\nRay hatramin’ny taloha,\nMihainoa ny vavakay,\n:,: Mitsangàna :,:\nEto afovoanay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('703', 'Andro fampakaram-bady,\nFifaliam-be izao;\nHianao no mampivady\nRaha voatendrinao;\n:,: Vady hendry :,:\nLova avy aminao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('703', 'Ry Jehovah Ray malala!\nMba tezao ireo ho soa,\nSamy tsy hisalasala,\nFa hifankatia tokoa;\n:,: Hamasino :,:\nMba ho olonao ireo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('703', 'Ho fanahy mifandanja\nSady tsy ho toy ny roa,\nHo mpivady mifanaja\nSady mifamaly soa;\n:,: Akambano :,:\nMba ho fo iray tokoa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF704',
+             '',
+             704
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('704', 'Ry olon-kanao fanekena\nmasina,\nMisaora ny Tompo, fa ny\nsitrapony\nNo nampikambana\nAmim-pitiavana;\nKa dia tsy olona roa intsony,\nNy tany Edena tsahivina\nindray.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('704', 'Ny fahamarinan’\nAndriamanitra\nNo haingo manendrika ny\ntokantrano\nHo toy ny lanitra\nMamirapiratra.\nRy mpivady marina, Kristy no\ntano\nHandamina ny tokantrano\nvaovao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('704', 'Ny fahasoavan’Andriamanitra\nNo andry manohana ny\ntokantrano\nKa mampisandratra\nNy te ho sambatra,\nIzay ankohonanareo\natsangano\nHidera ny famindrampo\nlehibe.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('704', 'Ny fanaky ny tokantrano\nmasina,\nManoatra be noho ny\nvolamena;\nNy fivavahana\nSy ny finoana,\nFisaorana sy fiderana homena\nMarain-tsy hariva ny\nMpamonjy e!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('704', 'Jehovah Mpitana ny\nfanekena ô!\nTahio ny toky nomeny ho\nmafy,\nHo masina sy to,\nHo marina am-po;\nKa izy handresy izay\nta-handrafy;\nHo azy ny lova ho\nmandrakizay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF705',
+             '',
+             705
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('705', 'Tompo Zanaharinay!\nJereo ny fivorianay,\nIzao fampakaram-bady izao\nTahio sy hamasinonao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('705', 'Ireo zatovo roa ireo\nManketo anatrehanao,\nFa mifanaiky izy izao\nHivady sy hifanasoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('705', 'Mangataka aminao izahay\nHitahy ireo havanay,\nRaha ory mba ononinao\nRaha faly, aza ilaozanao', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('705', 'Arovinao ny tenany,\nTsinjovy ny taranany;\nHo-tsara fara anie ireo,\nHo ravoravo toy izao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('705', 'Ny fifalianay anio\nHitohy hatrarý anie!\nIty andro lehibe ity\nHo santatry ny soa arý.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF706',
+             '',
+             706
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('706', 'Izao manatrika Anao,\nRy Jesosy, izahay,\nIndro tokantrano vao\nNo hoarina indray.\nIzahay mangataka;\nNy tsodranonao omeo,\nKa avia hanapaka\nNy fiainan’izy ireo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('706', 'Ho Kristiana velona\nAnie ny zanany,\nHo vavolombelona\nFa Anao ny tenany.\nAoka mba hamiratra\nNy filazantsaranao,\nVelona hanaraka\nNy fonay ka hazavao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('706', 'Ka ny fiangonana\nHanompoanay Anao,\nHanana olom-banona\nFaly ny hiasa ao.\nAntenainay marina,\nFa Hianao hanohana\nIzay firaisa-masina,\nHisy fahasoavana.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF707',
+             '',
+             707
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('707', 'Ry Jesosy be fitia!\nManatreha, manampia,\nNy mpanomponao izao\nIzay mivavaka aminao,\nFifaliana madio\nNo omena anay anio.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('707', 'Indreo ny havanay jereo,\nMba ho soa anie ireo!\nTanan-droa mifandray,\nNofo roa, tonga iray\nMifaniry soa tokoa,\nMifanampy, mifanoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('707', 'Ilay tso-drano hatrizay\nNo omeo ireo havanay;\nMba ho marofara anie,\nHanam-panambinana,\nFeno fiadanana\nNoho ny fitahianao', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('707', 'Raha ory mba vangio,\nMitaraina mba valio;\nMitoera aminy\nAo an-tokantranony\nHamasino, hafanao\nNy fitiavany Anao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF708',
+             '',
+             708
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('708', 'Ry Jehovah Ray kiady\nSy mpikarakara anay,\nKa nitahy ny mpivady\nTao Edena fahizay,\nIndro misy tonga koa\nEto anatrehanao,\nManam-pikasana soa\nHo mpivady hatr’izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('708', 'Mba tahio, ry Ray mpiahy,\nNy firaisany izao,\nHifanaraka am-panahy\nSy hiankina aminao.\nNy tsodranonao fahiny\nAngatahinay indray,\nMba hatao ankehitriny\nHahatò ny hatakay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('708', 'Raha omenao zaza izy,\nDia mba ampio re,\nHitaizany ny ankizy\nAmim-pahendrena be;\nAza avela ho irery\nRaha tratry ny manjo,\nFa tafionao ny hery\nMahatanjaka ny fo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('708', 'Raha ao ny andro tony\nMila haharenoka,\nDia taironao ny fony,\nRy Mpamela heloka.\nRaha tapitra ny taona\nEfa voafetranao,\nEnga ka ho tafahaona\nAo an-danitra aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF709',
+             '',
+             709
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('709', 'Jehovah ô, mba mihainoa!\nIndreo misy olon-droa izao\nIzay manam-pikasana soa\nHanorin-tokantrano vao :\nO! tahio, O! tahio,\nMba ho tokantrano soa\nmadio\nO! tahio, O! tahio,\nMba ho tokantrano soa!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('709', 'Dia angatahinay, ry Ray\nNy fitahianao ho azy ireo\nHo nofo sy fanahy iray\nKa hifanaja hatrizao.\nO! tahio, O! tahio,\nMba ho tokantrano soa\nmadio\nO! tahio, O! tahio,\nMba ho tokantrano soa!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('709', 'Fenoy ny fiadananao\nNy tokantranon’izy ireo\nKa mba hamirapiratra  ao\nNy fivavahana  Aminao.\nO! tahio, O! tahio,\nMba ho tokantrano soa\nmadio\nO! tahio, O! tahio,\nMba ho tokantrano soa!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('709', 'Tahio ireo, ry Tompo soa,\nMba ho mpivady marina,\nHitana sy hanaja koa\nNy fanekena masina.\nO! tahio, O! tahio,\nMba ho tokantrano soa\nmadio\nO! tahio, O! tahio,\nMba ho tokantrano soa!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('709', 'Tahio, hifampitantana\nMandritra ny fiainany,\nKa dia ny fahafatesana\nNo fetra isarahany.\nO! tahio, O! tahio,\nMba ho tokantrano soa\nmadio\nO! tahio, O! tahio,\nMba ho tokantrano soa!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('709', 'Ho maro fara anie ireo\nKa mba hitaiza ho Anao\nIreo solofo ho tia  Anao,\nHanompo sy hanaja  Anao.\nO! tahio, O! tahio,\nMba ho tokantrano soa\nmadio\nO! tahio, O! tahio,\nMba ho tokantrano soa!', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF710',
+             '',
+             710
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('710', 'Nakambanao, ry Tompo ô!\nAdama sy Eva nankatò\nNy fampakaram-bady,\nTahio sy vimbinonao\nIreto anatrehanao\nManaiky ho mpivady,\nHahay handray\nNy anjara izay hihatra\nIzy roa\nAry hifanisy soa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('710', 'Dia nifanaiky izy izao;\nRy Tompo ô! vimbinonao\nMba ho iray tokoa;\nNy fony mba tarihonao\nHanaraka ny didinao\nNomenao azy roa;\nIzao handao\nRay sy reny, ka ny teny\nNolazainy\nEnga anie ka tsy hovany.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF711',
+             '',
+             711
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('711', 'Tompo ô, endrey ny fitahiana\nIzay natondrakao ny zanakao\nVory eto, feno fifaliana\nAmpoky ny fahasoavanao.\nIzay rehetra nikelezan’aina\nDia nombàn’ny fitantananao\nVonona avokoa izay nilaina\nTsy mba lany ny harenanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('711', 'Indro trano efa novitaina\nHanasoavana taranaka\nHitaizàna, hanolokoloana\nIreo tanora halain-tahaka,\nIzay voafafy, antenaina\nMba hamokatra tsy tapaka;\nDia ho vanona ny firenena\nKa hitombo, hisandrahaka.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('711', 'Izany re, ry Tompo, no\nfinoana\nTananay, ka mba herezonao,\nIzahay handroso tsy hivoana,\nEo ambany fiarovanao,\nKa ny fangataham-pitahiana\nTompo ô! akarina Aminao\nNy Anaranao no iaingàna\nHoderaina ny Anaranao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF712',
+             '',
+             712
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('712', 'Raha tsy Jehovah\nNo manao ny trano,\nDia miasa foana\nNy mpanorina.\nRaha tsy Jehovah\nNo miambina àzy,\nMiari-tory foana\nNy mpiambina.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('712', 'Nahavita trano\nNy mpianakavy,\nKa mifaly, ravo\nNahatsangana\nNefa koa tsaroana\nFa Jehovah Tompo,\nFeno fitahiana,\nNo nanambina.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('712', 'Mankasitraka aho,\nAry koa misaotra\nAn’Ilay Nahary\nBe fitiavana.\nIzay rehetra ahy\nDia nomen’ny Ray;\nEny, ity trano\nDia avy taminy.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('712', 'Tompo ô! tahio\nIzay miditra ato;\nDia arovy koa\nIzay mivoaka;\nMba monena ato,\nMiaraka aminay\nAnjakao ny trano,\nHiadananay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF713',
+             '',
+             713
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('713', 'Miposaka indray ny\nmasoandro,\nNy ali-maizim-be dia tonga\nandro;\nRy foko, mba derao ny Ray\nTsitoha,\nKa dia andrandrao,\nDerao, ankalazao\nNy Rainao soa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('713', 'Ny loza marobe atý an-tany\nDia  niarovanao anay izany,\nKa zava-mahafaly no omeny,\nDia fiarovana\nSy fitiavana\nTsy hita lany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('713', 'Ry Masoandronay, mba\nmitariha\nNy dianay anio mba tsy\nhania;\nMahery Hianao ka maharara\nNy fahavalonay\nTsy hahataona anay\nHandà ny tsara.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('713', 'Ny zavatra manjo tsy\nmampanahy\nNapetraka aminao ny ahiahy,\nKa dia matoky aho, ry\nTsitoha!\nOmeo ny zanakao\nIzay heverinao\nHo mahasoa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF714',
+             '',
+             714
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('714', 'Jehovah Zanahary,\nIzahay miderà Anao;\nNy alina nanjary\nHo firaketanao.\nMaraina izao ny andro,\nKa lao ny maizina;\nSavao, ry Masoandro,\nIzay fahoriana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('714', 'Ry Kintan’ ny maraina,\nJesosy Havanay,\nArovinao ny aina,\nTahio izahay;\nNy asanay anio\nMba hasoavinao,\nNy dianay tariho\nHo any aminao.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF715',
+             '',
+             715
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('715', 'Tonga ny maraina,\nDimbin’alina,\nKa ny Tompon’aina\nNo isaorana.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('715', 'Raha mbola nandry\nAho Tompo ô,\nHianao Mpiandry\nDia aroko.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('715', 'Tano sy ampio\nNy madinikao,\nSao hanota anio,\nKa handao Anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('715', 'Aoka ny anjara\nFanompoako\nMba ho vita tsara\nKa ho sitrakao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('715', 'Ary raha lany\nNy fotoako,\nIzaho hody any\nAnatrehanao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF716',
+             '',
+             716
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('716', 'Ry Tompo ô, tahio\nIzao dianay izao;\nNy lehibe ampio,\nNy kely mba tezao.\nFa ny Anaranao\nNo iaingana anio;\nTantano sy vimbino\nAn-dalana izahay.', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF717',
+             '',
+             717
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('717', 'Andeha raha  maraina,\nRaha antoandro koa,\nAndeha raha  hariva\nHivavaka tokoa;\nFo marina no ento,\nArio ny tahotrao,\nMiondreha ao an-trano,\nKa mivavaha ao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('717', 'Tsarovy ny sakaiza,\nNy havan-tianao;\nRaha misy fahavalo,\nMifona ho azy koa,\nKa dia mangataha\nNy soa ho anao,\nJesosy Ilay Mpamonjy,\nAlao ho tokinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('717', 'Na tsy irery aza,\nFa be ny olona ao,\nKa misy hevi-tsara\nMiposaka ao am-po,\nNy hataka mangina\nVoaeritreritrao\nHo ren’ny Rainao tia,\nJehovah Tomponao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('717', 'Mba manatòna Azy\nRaha  azon’ny manjo;\nTsarovy koa raha faly\nHisaotra ao am-po;\nTsy misy hafaliana\n‘Zay mamy toy izao;\nNy fahazoantsika\nMivavaka aminy.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF718',
+             '',
+             718
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('718', 'He torimaso mamy\nNo atolory ahy,\nRy Raiko Mpiandany,\nSy herin’ny fanahy.\nNy sandrinao mahery\nNo hiampofo ahy;\nNy masonao mijery,\nManala ahiahy.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('718', 'Ny otako androany\nKoseho, Raiko ô!\nIreo ory mitomany\nAmpaherezonao,\nNy havako rehetra\nSy ny sakaiza koa,\nTahio tsy hanjoretra\nAmpifalio tokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('718', 'Ireo sahiran-tsaina\nSy mandry fotsy izao\nNy kivy, mitaraina\nVonjeo, ry Tompo ô!\nIreo marary maro\nSy ny mpitsabo koa,\nTahio, ry Mpiaro,\nArovy tsy ho voa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('718', 'Hianao no tokinay\nKa dia hatory izao\nIreto nofonay\nAm-pelatananao.\nSakano re ny ratsy\nMba tsy hamely   izao\nRy Jeso Mpiambina ahy\nSy voninahitra   ô!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF719',
+             '',
+             719
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('719', 'Efa lasan-davitra,\nKa hariva izao ny andro;\nHianao no Masoandro,\nRy Andriamanitra,\nMba arovinao ny aiko,\nFa atolotro Anao;\nAmpidiro ao am-poko\nIzao ny fiadananao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('719', 'Raiso ny fisaorako,\nKa tondraho ranon’aina\nNy fanahy aman-tsaina,\nMba ho velona izao,\nDia hamoa voa tsara\nAmiko ny teninao,\nKa ho tiako hambara \nNy fahasoavanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('719', 'Ry Andriamanitra ô!\nHitanao ny fahotako,\nFantatrao ny fahosako;\nMamindrà fo amiko;\nIzaho tsy misalasala\nMba hanatona Anao,\nFa ny Zanakao malala\nMaty noho ny otako.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('719', 'Izaho ta-hatory izao,\nFa mba sasatra niasa;\nTsy heveriko ny lasa,\nFa apetraka aminao\nAoka aho mba hahazo\nFitsaharana izao;\nRaha maraina mba fohazy,\nDia hankalaza  Anao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('719', 'Kintan’i Jakoba ô,\nSady Masoandron’aina,\nHazavao ny fo sy saina,\nMba tsy hatahorako\nNy mpanimba sy mpandoza,\nLiona mierona,\nIzay minia hampidi-doza\nAndro aman-alina.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('719', 'Arosoy ny teninao,\nHazavao ny firenena,\nMba ho samy hanantena\nFamonjena aminao;\nKa ny manam-pahefana\nAoka hotarihinao,\nMba hitondra fanjakana\nAraka ny sitrakao.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('719', 'Fantatrao, Jesosy ô,\nIzay rehetra mitaraina\nKa miandry ny maraina\nSy ny fahasitranana;\nNy kamboty sy mahantra\nAoka hotsarovanao;\nRy Sakaizanay Mpiantra,\nIantrao ny olonao.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF720',
+             '',
+             720
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('720', 'Lany indray ny andro;\nHianao ry Ray,\nNo ho masoandro\nSy ampinganay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('720', 'Be ny zava-tsoa\nAzo taminao;\nSaotra aman-dera\nEntinay izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('720', 'Andronay mandalo\nToy ny rivotra;\nBe ny fahavalo\nMampitahotra.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('720', 'Jeso ô, Mpiandry,\nIzaho ondrinao,\nAoka re mba handry\nEo an-tratranao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('720', 'Mpivahiny ihany\nIzahay atý,\nKa mba te-ho any\nAminao arý.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF721',
+             '',
+             721
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('721', 'Ny andro efa lany\nMangina  izao ny tany,\nMiala sasatra;\nHeveronao, ry saina,\nFa mendri-koderaina\nNy Raiko  ao an-danitra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('721', 'Na maty masoandro,\nKa alina ny andro,\nTsy mampaninona.\nFa Jeso, Izay sakaiza,\nDia  ao fa tsy mankaiza,\nHo tena Masoandroko.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('721', 'Hatory  izao ny maso,\nRy Tompo mba andraso\nNy ondrikelinao;\nNy teny sy fanahy \nSy izay rehetra ahy\nAtolotro harovanao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF722',
+             '',
+             722
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('722', 'He alina ny andro,\nKa mba esorinao\nNy fahotako maro,\nMba tsy ho hitanao;\nReseo ny mpamely\nNy zanakao, ry Ray;\nIraho ny anjely\nHiambina anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('722', 'Raha  maizina ny tany,\nNy andro tapitra,\nTsaroanay ihany\nNy fasa-maizina;\nArovy lalandava\nIzahay, ry Tomponay,\nKa aoka ho mazava\nNy hitsangananay.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF723',
+             '',
+             723
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('723', 'He, alina indray izao,\nJesosy Tompo ô ,\nKa aoka ny mpanomponao\n:,: Homban’ny elatrao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('723', 'Fa iza no hahita anay,\nRaha  azon-doza  izao,\nKanefa kosa aronay\n:,: Ireo anjelinao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('723', 'Ka raha hatory izahay,\nRy Rainay tsara ô!\nNy tena sy fanahinay\n:,: Dia mba arovinao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('723', 'Ka raha  haposakao indray\nNy masoandronao,\nFohazy tsara izahay\n:,: Hisaoranay Anao :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF724',
+             '',
+             724
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('724', 'Mpamonjy, Masoandronay!\nFahazavan’ny alinay\nNy zavon-tany mba savao\nTsy hanakonany Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('724', 'Tontolo andro Hianao\nNo anton’ny iainanay;\nRaha alina, mombà anay,\nNy faty tsy ho tahotray.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('724', 'Ny aizina mba hazavao,\nTarihonao ny lalana\nHalehanay an-efitra\nHo tonga any aminao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('724', 'Izay marary mba tsaboy,\nNy ory aza  afoinao,\nHo toy ny torin-jaza anie\nNy fiadananay izao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('724', 'Tahio ny hifohazanay\nHanaovanay ny sitrakao\nAmbara-pahatapitra\nNy andro ivelomanay.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('724', 'Raha mby aminao izahay,\nHahita fiadanana,\nFa ao tsy misy alina,\nHianao no Masoandronay.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF725',
+             '',
+             725
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('725', 'Alina ny andro\nKa  efa mba hatory\nNy masonay;\nHianao Jehovah ô!\nIzay tsy mety sasatra,\nNo aronay. (in-2)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('725', 'Lasa ny mazava,\nKa ny masoandro\nTsy hitanay;\nTsy matahotra izahay,\nHianao an-danitra\nMahita  anay. (in-2)', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('725', 'Fa ny kintana  eny\nEfa manazava\nNy dianay;\nKoa tsy nafoinao,\nFa nasehonao ireo\nHo tokinay. (in-2)', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('725', 'Alina sy andro\nSamy mba manaiky\nNy tendrinao;\nTonga re ny maizina,\nNefa tsy ilaozanao\nNy olonao. (in-2)', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('725', 'Eto ny mazava\nDia manam-petra;\nFa ao aminao\nTsy mba misy alina,\nFa mamirapiratra\nNy tavanao. (in-2)', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF726',
+             '',
+             726
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('726', 'Efa hariva, Jeso tia!\nTomoera aminay;\nNy fanahinay tahio,\nFa hatory izahay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('726', 'Fa ny helokay ekenay,\nMahavonjy Hianao;\nNy manjo anay lazainay,\nFa miantra ny fonao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('726', 'Alina maharitra ela,\nAizi-mampivadi-po,\nFa ny olona fidinao\nTsy mba takona aminao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('726', 'Hianao no mitahiry\nNy miankina aminao;\nVoahodidin’ny anjely\nNy mialoka  aminao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('726', 'Raha  anio no tapitra andro\nIzahay mpanomponao,\nAoka izahay hifoha\nAo an-dapa soanao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF727',
+             '',
+             727
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('727', 'Andriananahary\nNikarakara   anay,\nKa nampitsiry vary\nHo fivelomanay!\nNy haninay tahio\nHo tonga tanjakay,\nNy hevitray tariho\nMba hiadananay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('727', 'Ry Rainay ao ambony\nMisaotra Anao izahay,\nFa zava-tsoa itony\nIzay nohaninay.\nNy zavatra rehetra\nDia   manantena Anao,\nFa tsy mba misy fetra\nNy fitiavanao.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF728',
+             '',
+             728
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('728', 'Atreho ny sakafonay,\nJehovah, mpanome ny soa!\nVelominao ny tenanay,\nNy sainay hatanjaho koa.\nAmen!', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF729',
+             '',
+             729
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('729', 'Ry Jehovah, Ray Tsitoha!\nMba avia hialoha\nSy hiaro ny mpandeha;\nLavi-dalana haleha,\nMba jereo ny olonao;\nSarak’olona, irery,\nSady tsy mba manan-kery,\n:,: Ka jereo, ry Tomponay! :,:\nMba tazano ny mpandeha;\n(in-3)\nHianao no herinay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('729', 'Ao ny andro mamanala,\nSakambino ao an’ala;\nRaha mandeha mita rano,\nMba hazòny sy tantano,\nKa vonjeo ny olonao;\nBe ny zavatra mihatra\nIzay manimba sy mandratra,\n:,: Ka vonjeo,\nry Tomponay! :,:\nMba arovy ny mpandeha;\n(in-3)\nHianao no aronay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('729', 'Raha ory, mba tohano,\nKa vimbino sy tantano\nTsy ho reraka ny fony,\nAza afoy, fa mba hazòny,\nIantrao ny olonao;\nRaha mahantra izy any,\nOry sady mitomany,\n:,: Dia vangio,\nry Tomponay! :,:\nMba tsarovy ny mpandeha\n(in-3)\nHianao no tokinay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF730',
+             '',
+             730
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('730', 'O! tahio ny havanay re\nIzay handeha lavitra;\nBe tokoa ny alahelo\nNoho ny fisarahana;\n:,: Manatreha :,:\nIzao veloma atao izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('730', 'Mba sakanonao ny loza\nTsy hamely azy izao,\nRaha misy mampahosa,\nAsehoy ny herinao;\n:,: Mba tantano :,:\nTsy hisaraka aminao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('730', 'Aoka mba ho tonga soa,\nTsy ho azon-tsampona;\nAoka mba hampodina\nEto aminay indray,\n:,: Ka hisaotra :,:\nNoho ny fivimbinanao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF731',
+             '',
+             731
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('731', 'Enga anie ka homba anao\nJeso!\nHanadio sy hanazava\nHampahery lalandava,\nEnga anie ka homba anao\nJeso!\nHomba anao, homba anao\nHomba anao anie Jeso\nHomba anao, homba anao\nEnga anie ka homba anao\nJeso!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('731', 'Raha mitambatra ny rahona,\nKa mikimpy ny masoandro,\nRaha Jeso momba isan’andro,\nHo tantely koa ny vahona.\nHomba anao, homba anao\nHomba anao anie Jeso\nHomba anao, homba anao\nEnga anie ka homba anao\nJeso!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('731', 'Mangamanga indray ny\nlanitra\nLoharanom-pitahiana\nSady foto-pifaliana,\nJeso Zanakan’Andriamanitra\nHomba anao, homba anao\nHomba anao anie Jeso\nHomba anao, homba anao\nEnga anie ka homba anao\nJeso!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('731', 'Raha mitolona ady sarotra\nMatokia fa tsy ho irery,\nHomba anao Jeso mahery\nHomba anao tsy miady\nvarotra\nHomba anao, homba anao\nHomba anao anie Jeso\nHomba anao, homba anao\nEnga anie ka homba anao\nJeso!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('731', 'Raha hilaozana ny havana,\nSady mainty koa Jordana,\nHo mazava ny fitàna\nAo Jeso hanangana avana\nHomba anao, homba anao\nHomba anao anie Jeso\nHomba anao, homba anao\nEnga anie ka homba anao\nJeso!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('731', 'Raha Jesosy no mitantana,\nParadisa koa ny tany,\nHasambarana hatrany,\nAo Kanana no hamantana.\nHomba anao, homba anao\nHomba anao anie Jeso\nHomba anao, homba anao\nEnga anie ka homba anao\nJeso!', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF732',
+             '',
+             732
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('732', 'Velona indrindra,\nry havana ô!\nVelona e, mandra-pihaona;\nRy Tompo, vimbino\nan-dalana ao\nNy havana izay vao handeha;\nKa ny mifanao\nVeloma izao\nTahio, mba ho tafahaona!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('732', 'Ry Jeso Mpamonjy, tariho\nizahay\nHihaona indray ao ambony,\nHiara-pinaritra mandrakizay,\nRehefa tafita ny ony,\nHiara-manao\nNy hira vaovao,\nFa tsy mba hisaraka intsony!', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF733',
+             '',
+             733
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('733', 'Ny fihaonana an-tany,\nRy Jesosy Tomponay,\nVetivety, mora lany,\nKa mangoraka izahay;\nNamana nifankazatra\nHifanao veloma anio,\nRy Jesosy be fiantra,\nNy mpandeha mba tahio.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('733', 'Ny ho lasa mba tantano\nTsy ho voa an-dalana;\nNy hitoetra koa tohano,\nDia mba hiadana.\nNa maraina na hariva,\nNa aiza alehany etý,\nMba ombay mandrakariva\nMandra-podiny arý.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('733', 'Any volana, any taona,\nNy misaraka izao\nEnga anie ho tafahaona\nRaha mbola sitrakao.\nIlay fihaonana ao ambony\nNo irinay fatratra,\nTsy hisaraka intsony\nIzahay ka sambatra.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF734',
+             '',
+             734
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('734', 'Zanahary ô, tahio\nny Tanindrazanay\nHandroso lalandava,\nHandry fahizay.\nEnga anie hanjaka ao\nNy saina mahay miray,\nDia ho tany sambatra,\nIlay Madagasikaranay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('734', 'Ireo mpitondra anay\narovy lalandava koa\nTolory saina hendry,\nkinga sy mahay.\nKa ny marina anie no\nmba hanjaka ao tokoa,\nDia ho tany sambatra\nIlay Madagasikaranay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('734', 'Ny taranakay tahio ho\nvanona tokoa;\nIreo no solofo, dimby,\nrahatrizay\nMba ho tena mahatoky,\nFeno fahendrena koa,\nDia ho tany sambatra\nIlay Madagasikaranay.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF735',
+             '',
+             735
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('735', 'Arovy ry Tsitoha,\nNy Tanindrazanay,\nVimbino avokoa\nIzay mitondra anay;\nIty Nosy ity tahio\nMba handry fahizay;\nTantano sy ampio\nHandroso izahay.\nNy tsara mba tohano,\nRy Zanaharinay,\nNy ratsy mba sakano,\nMba hiadananay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('735', 'Tahio ny mpitsara\nNampanapahinao,\nHahay hitondra tsara\nIzao olonao izao;\nNy lehibe rehetra\nVangio sy hafanao,\nMba hanam-po miantra,\nHatahotra Anao,\nNy tsara mba tohano,\nRy Zanaharinay,\nNy ratsy mba sakano,\nMba hiadananay!', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF736',
+             '',
+             736
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('736', 'Mba tahionao, ry Jehovah!\nNy tanindrazanay,\nHo tsara sy hiova;\nHambininao anie!\nHo tany izay mandroso\nSy sambatra tokoa,\nKa hanjakan’i Jeso\nMpamonjy Tompo soa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('736', 'Mba tahio ny firenena\nIzay monina eto izao,\nHandroso hihatsara,\nHatahotra Anao,\nHandao ny fomba ratsy\nIzay manadala re;\nHanary koa ny sampy\nMampidi-doza è!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('736', 'Mba tahionao ny mpitondra\nNampanapahinao,\nArovy isan’andro\nMba tsy handà Anao,\nTariho lalandava\nHiankina aminao,\nOmeo fahendrena\nHanao ny sitrakao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('736', 'Mba tahio koa, ry Jehovah!\nNy fiangonanao\nHandroso lalandava\nHomban’ny heerinao.\nHanerana ny tany\nItoeranay izao,\nKa isam-bazantany\nHiondrika aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF737',
+             '',
+             737
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('737', 'Ry Ray, tahionao,\ni Madagasikara,\nIzay nohasoavinao, ka\nvoakarakara,\nKa nandefasanao ny teny\nmasinao;\nDia angatahanay \n:,: ny fitahianao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('737', 'Ny Fiangonanao,\nry Rain’ny fahazavana\nIzay natsanganao hatao\nfahazavana\nKa nodidianao hanao ny\nasanao,\nDia angatahanay\n:,: ny fitahianao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('737', 'Ny asa marobe sy izay\nfanaovan-tsoa\nMiorina eto izao, ka sitrakao\ntokoa\nNy fanjakana koa, izay\nnatsanganao,\nDia angatahanay\n:,: ny fitahianao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('737', 'Ny tokantranonay, ny tena\nsy fanahy,\nNy fivelomanay, ry Ray Izay\nMpiahy,\nIreo rehetra ireo dia iantsoana\nAnao.\nKa angatahanay\n:,: ny fitahianao :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF738',
+             '',
+             738
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('738', 'Havaozy, Tompo ô,\nNy endriky ny tany,\nNy voninahitrao hatao\nFahazavany,\nIzao aizim-pito izao\nLevoninao tokoa\nIzao ratsy be izao\n:,: esory avokoa :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('738', 'Havaozy Tompo ô,\nNy endriky ny tany,\nReseo ny rafinao,\nRavao ny fanjakany,\nAmpanjakao tokoa\nJesosy Zanakao,\nIzao rehetra izao\n:,: hanao ny sitrakao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('738', 'Havaozy, Tompo ô,\nNy endriky ny tany,\nKoa averenonao indray\nNy hatsaràny;\nFanahy Mpanavao,\nNy famelomanao\nTadiavinao izao\n:,: vitao ny asanao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('738', 'Havaozy, Tompo ô,\nNy endriky ny tany,\nNy olonao izao maniry\nIndrindra izany.\nHenoy ny sentonay\nMiakatra aminao,\nKa hafainganonao\n:,: ny fanavaozanao :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF739',
+             '',
+             739
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('739', 'Ry Jehovah Tompon’aina,\nO, tahio ny taninay!\nMba fohazy, re ny saina\nSy fanahinay hahay\nMankatò sy mankalaza\nNy Anaranao,\nMba ho fantatray mazava\nNy fitiavanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('739', 'Iantranao, ry Jesosy,\nHazavao ny Nosinay,\nKa ny fon’ny Malagasy\nDiovy re ka mba ovay,\nTsy hanompo sampy intsony\nFa hazava re,\nKa ho sitraky ny fony\nNy ho masina e!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('739', 'O, tahio ny Faritany\nMba handray ny teninao\nNa ambony na ambany\nMba tsarovy, iantrao!\nNy mpitory mba iraho,\nKa hiely anie,\nOmeo hery, hatanjaho\nHahavita be!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('739', 'O, Jehovah, Ray mahery,\nSakambino izahay,\nEny, Hianao irery\nNo mba hany tokinay;\nKa ny ratsy mba sakano\nTsy hanimba anay,\nFa ny tsara no tohano\nHiadananay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('739', 'Ao koa ny mpanao lalàna\nMba toroy ny marina,\nIreo manam-pahefana\nOmeonao sain-dalina!\nKa ny tany mba ampio\nHandry fahizay!\nO, arovy sy tahio\nNy mpitondra anay!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('739', 'Indreo ny isan-tokantrano\nMba tsidiho, hafanao,\nKa ny zanakay tantano\nSy trotroy ho olonao!\nEny, Tompo, mandrosoa,\nAnjakao izahay\nKa onenonao tokoa\nIzao ny Nosinay.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF740',
+             '',
+             740
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('740', 'He! ny tany manontolo\nMba ambinonao, ao izao,\nRy Jeso Mpanolokolo,\nTena Tompo tsy mandao,\nMba vontosy andon’aina\nMba ho lonaka tokoa,\nTsy ho tany karankaina\nFa ho vokatra tokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('740', 'Mba tahio ny fanjakana\nIzay mitondra anay izao\nIreo mpitana ny lalàna\nMba omeo ny hevitrao.\nNy mpifehy isan-toko,\nNy mpikarakara izao\nAnehoy ilay vokovoko\nMba hitondra marina ao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('740', 'Ny komity sy voamiera\nRaha miady hevitra ao\nTsy hitompo hevi-tena\nFa handray ny sitrakao\nKa ny didinao hatrany\nNo mba hijoroany izao\nFa ny tetiky ny tany\nDia ho laviny tokoa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('740', 'Ry Mpanjakan’ny mpanjaka,\nMiasà mahery izao\nIreo mpitondra samihafa\nMba toroy ny sitrakao.\nIreo mpanjaka an-tany hafa,\nRevon-diadema koa,\nMba sintony re hitafa\nAminao ry Tompo soa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF741',
+             '',
+             741
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('741', 'Jehovah Tompo ô!\nTahio sy hatsarao\nNy taninay;\nTahio ny namanay\nHo tia ny teninao,\nDia mba hazavao\nNy nosinay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('741', 'Ovay ny fombanay\nHo foin’ny taninay\nNy sampiny;\nOmeo fo marina\nIzao rehetra izao,\nKa dia mba iantrao\nNy nosinay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('741', 'Jehovah Tompo ô\nTahio ny olonao\nNy zanakay,\nTahio ho zanakao\nTahio ho marina\nKa dia mba ho taninao\nNy nosinay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('741', 'Izay mpitondra anay\nTahio ho tia Anao,\nJehovah ô!\nOmeo sai-marina\nHanao ny sitrakao,\nKa ampanompoy Anao\nNy nosinay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF742',
+             '',
+             742
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('742', '(Maintimolaly)', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('742', 'Zanahary no mahela\nIzay fe-taona iainanay,\nKa miantra sy mamela\nTombon’andro ho anay;\n:,: Nefa vitsy :,:\nNo ho andronay atý.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('742', 'Betsaka ny andro lany\nNanaranam-po izao;\nMisy feo manontany :\nVita ve ny asanao ?\n:,: Miezaha :,:\nAvy re ny alim-be.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('742', 'Mamindrà fo, Zanahary!\nMamelà ny helokay;\nTompo! aza mba manary,\nAndrao ho very izahay;\n:,: Mihainoa :,:\nNy mifona aminao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('742', 'Ry Jehovah! manomeza\nIzay ilainay olonao;\nMitahia, mampahereza,\nMba ho tonga ao aminao,\n:,: Ka hahazo :,:\nSatro-boninahitra ao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF743',
+             '',
+             743
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('743', 'Ny andronay mandalo\nLany foana taminay;\nNy mandrakizay no hatoninay,\nNefa adala izahay.\nRy mpanota, ifony ny\nhelokao,\nFa Jeso tia anao\nMba tsy ho very mandrakizay,\n:,: Avoty ny ainao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('743', 'Ny fiadanan-dratsy\nNo mba manadala anay\nHijanona foana atý izao\nHanadino ny Rainay,\nMba hevero ry olon-ko\nfaty e!\nTsy ela no etý;\nTsarovinao fa hody tokoa;\n:,: Antsoiny hianao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('743', 'Ny taninay havela,\nMpivahiny izahay;\nTsy maintsy hiainga hiala atý\nAny no hodianay.\nTsara sady mazava\nNy tranonao,\nMiomàna, fa hankao;\nTazano, fa mivoha izao;\n:,: Midira hianao :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF744',
+             '',
+             744
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('744', 'He! ny andro mora lasa,\nO, ry mpivahiny ô!\nTsy ho ela, kely sisa,\nDia hody hianao!\nTsy mba fantatrao akory\nIzay hahafatesanao;\nKoa aza mba matory,\nSao ho very hianao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('744', 'Miomàna ry sakaiza,\nAza mba tamàna atý,\nFa ny eto tsy mateza,\nMiaingà mba ho arý!\nAo ny Tomponao Jesosy,\nHampihaingo tsara anao,\nFa ny rany no mamofsy\nNy akanjo ho anao.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF745',
+             '',
+             745
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('745', 'Henoy, ry Jeso Tompo!\nNy fitarainanay,\nFa amin’alahelo \nNo ipetrahanay;\nNy fonay maniry\nHitovy aminao,\nKanefa be ny ratsy \nMasakana anay ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('745', 'Nateraky ny nofo,\nKa nofo izahay;\nNanompo tompo ratsy,\nKa very hatrizay!\nNy razanay nanota\nKa nodimbiasànay\nRy Tomponay Tsitoha,\nHavaozy izahay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('745', 'Ny asam-pamonjena\nNatolotra Anao;\nTsy hisy tsy ho vita\nIzay natombokao;\nRaha resy avokoa\nNy fahavalonao\nHiposaka tokoa\nNy tena taom-baovao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('745', 'Ny tavanao malala,\nRy Jeso Tomponay,\nHo tena masoandro,\nIzay hifalianay.\nRy nosatrohan-tsilo,\nFaingàna Hianao,\nHanangana ny maty,\nHitondra aim-baovao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF746',
+             '',
+             746
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('746', 'Mifalia, ry sakaiza!\nFa nahazo taom-baovao,\nZanahary no mitaiza,\nKa isaory sy hajao;\nMihirà sy mihobia,\nJeso Tompo no derao;\nMiravoa, mifalia,\nVelona aina hianao.\nMifalia ry sakaiza!\nFa nahazo taom-baovao\nZanahary no mitaiza,\nKa isaory sy hajao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('746', 'Izao no andro mampifaly,\nAndro lehibe anio,\nDia hira mahafaly\nNo hatao ankehitrio;\nZanahary no mitàna,\nMifalia hianao;\nTonon-kira hoe : Hosana!\nNo hatao atý izao.\nMifalia ry sakaiza!\nFa nahazo taom-baovao\nZanahary no mitaiza,\nKa isaory sy hajao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('746', 'He! Hosana, he! Hosana\nHo Anao, ry Tompo ô!\nFihirana fiderana,\nNo asandratray izao;\nDera, saotra, hery, laza,\nHo Anao, Mpanjakanay;\nHo Anao anie ny haja,\nRaiso ho Anao izao.\nMifalia ry sakaiza!\nFa nahazo taom-baovao\nZanahary no mitaiza,\nKa isaory sy hajao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF747',
+             '',
+             747
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('747', 'Haleloia! Sambasamba!\nHitanay ny taom-baovao;\nAvy izahay, Jehovah!\nMba hifaly aminao;\nFihirana no atao,\nSaotra, vavaka,\nNo atolotray Anao,\nRy Mpamelona!\nHaleloia! Sambasamba!\nFaly izahay izao :\nHaleloia! Sambasamba!\nHitanay ny taom-baovao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('747', 'Lasana ny andro maro,\nBe ny zavatra natao,\nNa ny mety, na ny diso,\nSamy efa fantatrao;\nAoka anie ny tsininay\nHovonoinao,\nFa ny mety vitanay\nMba haharitra :\nHaleloia! Sambasamba!\nFaly izahay izao :\nHaleloia! Sambasamba!\nHitanay ny taom-baovao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('747', 'Ka ny taom-baovao, Jehovah!\nAoka hanomezanao\nFahendrena ny mpitondra,\nHahasoa ny olonao;\nKa ny Fiangonana\nHamasinonao\nMba handroso marina\nHahalala Anao:\nHaleloia! Sambasamba!\nFaly izahay izao :\nHaleloia! Sambasamba!\nHitanay ny taom-baovao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('747', 'Mitsingerina ny taona,\nFohy andro izahay,\nVetivety dia hihaona\nAminao, ry Tomponay!\nEnga ka ho hitanay\nAo an-danitra\nNy Sabata tsara izay\nTsy ho tapitra :\nHaleloia! Sambasamba!\nFaly izahay izao :\nHaleloia! Sambasamba!\nHitanay ny taom-baovao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF748',
+             '',
+             748
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('748', 'Havaozy, Tompo ô!\nIzao rehetra izao\nKa aoka mba ho hita ao\nNy voninahitrao.\nRy Tompo Mpanasoa\nLevony avokoa\nHo fongatra tsy hisy re\nNy ratsy marobe.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('748', 'Izao taona vaovao\nDiavinay izao\nHo fanavaozan-dehibe\nNy tenanay anie!\nKa ny fiainanay\nIzay ratsy hatrizay,\nOvay hatramin’ny anio\nHo tsara sy madio.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('748', 'Havaozy, Tompo ô!\nNy Fiangonanao\nO! akambanao ho iray,\nHiray mandrakizay.\nRy Tompo be fitia,\nTongava, mamangia;\nMba tanteraho aminay\nNy fanavaozanao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF749',
+             '',
+             749
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('749', 'Ny taom-baovao dia tonga\nindray\nHo fiantsoanao anay\nMba hanoloranay Anao\nNy tenanay voavotrao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('749', 'Fa maro be, ry Tomponay!\nNy zava-tsoa nomena anay\nTamin’izao taon-dasa izao,\nIzay isaoranay Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('749', 'Ny mafy izay manjo anay,\nTsy tonga foana aminay,\nFa mba ho fitahianao\nIzay miankina aminao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('749', 'Ka enga anie ny otanay,\nIzay mitambesatra aminay\nNo hibebahanay izao,\nHanaovanay ny sitrakao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('749', 'Ny taom-baovao, diavinay,\nNy taona teo, tafitanay,\nKa dia ny fitarihanao\nNo mba irinay aminao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF750',
+             '',
+             750
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('750', 'Dera, laza, ry Mpanjaka!\nNo atolotray Anao\nNoho Hianao nitahy;\nTratranay ny taom-baovao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('750', 'Andro maro izay no lasa,\nBe ny soa hitanay;\nFitahia-mahagaga\nAzo taminao, ry Ray!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('750', 'Marobe ny ratsy vita,\nLehibe ny helokay,\nKa tsy mendrika hiantso\nNy Anaranao izahay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('750', 'Miantrà, ry Zanahary!\nMamelà ny helokay,\nKa sasao ny ran’i Jeso,\nMba hadio izahay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('750', 'Aoka re ny andro sisa\nHanompoanay Anao;\nHatanjaho, ry Jehovah!\nIzahay mpanomponao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF751',
+             '',
+             751
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('751', 'He, vaovao ny taona,\nRy Jesosinay,\n:,: Ka mba te hihaona\nAminao izahay :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('751', 'Hianao mitahy\nNy mpanomponao\n:,: Koa tsy manahy\nIzay tarihinao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('751', 'Ary izaho koa\nMba tantanonao\n:,: Dia hahita soa\nAo an-danitrao :,:', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF752',
+             '',
+             752
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('752', 'O, ry Jesosy, ny Anaranao\nManatsika  ahy izao hanatona,\nHanolotra ny foko ho Anao,\nMpamonjy tia sy Mpamelona.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('752', 'Manatona aho, ka miondrika\nHanoroka ny tongo-masinao;\nIzaho olona tsy mendrika,\nKa mba havaozy, Tompo,\nho Anao!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('752', 'Antsoiko isan-andro Hianao\nRy Toky tsara mahafatra-po,\nKa amin’ny Anara-masinao\nNo anankinako izay hanjo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('752', 'Raha io no entiko mangataka,\nHisokatra amiko ny lanitra,\nKa dia ho azoko malalaka\nNy zava-tsoa izay maharitra.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('752', 'Mamirifiry izao tontolo izao\nTsy misy tena fitsaharana;\nFa fiereko ny Anaranao\nKa ahitako fiadanana.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('752', 'O, ry Anaran’i Jesosiko,\nRy Paradisa atý an-tany ô!\nRy voninkazo mampifaly fo!\nRy tohan’aina ao an-dalako.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('752', 'Iriko andro aman-alina\nNy hanana Anao ho ao\nam-po,\nHo Tokiko raha mbola\nvelona\nSy amin’ny hahafatesako.\n\nNY FIVORIAN’NY TANORA', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF753',
+             '',
+             753
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('753', 'Hiaraka Aminao aho, ô ry Jesoa Tompoko\nTsy manana olon-kafa aho,\nFa Hianao no fiainako\nHanara-dia Anao, izay no faniriako\nHifikitra Aminao aho Jesoa \nFiv: Tiako ny hiaraka Aminao\nJesoa\nNa aiza na aiza hitondranao ahy\nTiako hiaraka Aminao Jesoa\nFa Hianao no miantso ahy.!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('753', 'Hiaraka Aminao aho, ô ry Jesoa Tompoko\nHitory teny soa amin’ireo havako\nHanara-dia Anao, izay no faniriako\nHifantsika aminao aho Jesoa!\nTiako ny hiaraka \nFiv: Tiako ny hiaraka Aminao\nJesoa\nNa aiza na aiza hitondranao ahy\nTiako hiaraka Aminao Jesoa\nFa Hianao no miantso ahy.!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('753', 'Hiaraka Aminao aho, ô ry\nJesoa   Tompoko\nHo zary famonjena anie\nny fahoriako\nHanara-dia anao izay no\nfaniriako\nHifantsika Aminao aho\nJesoa!\nTiako ny hiaraka \nFiv: Tiako ny hiaraka Aminao\nJesoa\nNa aiza na aiza hitondranao ahy\nTiako hiaraka Aminao Jesoa\nFa Hianao no miantso ahy.!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('753', 'Hiaraka Aminao aho, ô ry\nJesoa   Tompoko\nHibanjina ny Ray, Tompo\nAndriamanitro.\nHanara-dia Anao, izay no\nfaniriako,\nIzay misy Anao, no hisy ahy,\nJesoa,\nTiako ny hiaraka \nFiv: Tiako ny hiaraka Aminao\nJesoa\nNa aiza na aiza hitondranao ahy\nTiako hiaraka Aminao Jesoa\nFa Hianao no miantso ahy.!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF754',
+             '',
+             754
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('754', 'Mitsangàna, mandehana,\nRy zatovo be laolao!\nManatòna ny Mpamonjy,\nAvelao ny sitrapo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('754', 'He, tsarovy fa mahantra\nSady ory hianao,\nKa hatòny ny Mpamonjy,\nDieny mbola hitanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('754', 'Mandehana, mianara,\nMba ho hendry hianao;\nJeso Tompo no miandry\nHampianatra anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('754', 'Ry zatovo! mandehana,\nMba vitao ny asanao,\nMahereza, aza osa,\nNy Mahery homba anao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF755',
+             '',
+             755
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('755', 'O! ry tanora mba tsarovy\nIlay Tompo soa maty noho\nny helokao;\nIzy miantso anao moramora\nVohay ny fonao hidirany izao.\nNy saina sy ny safidy nomeny.\nKa mba fidio ny ho\nmpanaraka\nAn’i Jesosy, Mpanjaka\nTsitoha,\nNy fonao atolory hanjakany\nao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('755', 'O! ry tanora miambena,\nFa ny devoly dia mpamitaka\nmahay\nMaro ny fandrika ka\nmitandrema\nTsy ho tra-nenina re\nmandrakizay.\nKa ekeo anatrehan’ny Tompo,\nHandao ny ratsin’izao\ntontonlo izao.\nRaha Jeso no iankinanao\nmafy,\nIzy hiaro mba mba tsy\nhivadihanao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('755', 'O! ry tanora, mivavaha\nFa Jeso Tompo dia Mpihaino\nvavaka\nAzy irery ny hery rehetra,\nDia matokia mba ho\nafa-tahotra.\nKa raha ory sy mila ho kivy,\nDia andrandraonao Ilay\nTompo be fitia;\nNy fitarainanao dia hohenoiny\nAry ny fonao dia\nhampiadaniny.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('755', 'O! ry Jesosy, mba ampio\nIzaho mpianatrao mba ho\nmadio fo\nTantano aho, vimbino ry Jeso,\nFa sarotra ny lalana alehako;\nIriko ny ho mpandresy ny ratsy,\nIriko hahatanteraka ny soa;\nOmeo hery sy tanjaka aho.\nEfao ny asa tsara ao anatiko.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF756',
+             '',
+             756
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('756', 'Avia ry sakaiza ô!\nAntsoin’ny Mpanjaka   izao\nHandray fiadiana\nHoentina hanafaka.\nVelona ny baikonao,\nAndrandrainay Hianao\nKa arahinay tokoa,\nRy Mpandresy ao Ziona!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('756', 'Ny sabatra atolony\nDia ny teny masina,\nAmpinga fiarovana\nMahery ny finoana.\nVelona ny baikonao,\nAndrandrainay Hianao\nKa arahinay tokoa,\nRy Mpandresy ao Ziona!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('756', 'Ny vatsy izay atolony\nDia ny ra sy tenany\nHo herintsika olony\nIzay miaramilany.\nVelona ny baikonao,\nAndrandrainay Hianao\nKa arahinay tokoa,\nRy Mpandresy ao Ziona!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('756', 'Jesosy ô, arahinay\nNy fiantsoanao anay,\nKa manampia ny olonao\nHiady sy handresy izao.\nVelona ny baikonao,\nAndrandrainay Hianao\nKa arahinay tokoa,\nRy Mpandresy ao Ziona!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF757',
+             '',
+             757
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('757', 'Tsarovy, ry sakaiza,\nNy RAY an-danitra e,\nFa Izy no nitaiza\nSy nahalehibe;\nFa raha mbola zaza\nNampitomboiny,\nKa na ho antitra aza,\nTsy mba hafoiny.\nNy saina sy safidy\nNomeny ho anao,\nKa tiany hifidy\nNy tsara hianao', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('757', 'Tsarovy, ry tanora,\nJESOSY, avotrao,\nMahay mitondra mora,\nMitandrina anao.\nMiaraka mibata\nNy fahorina,\nKa dia mahareta\nNy hatrotrahana,\nFa Izy no miaro\nIzay mpianany\nKa dia mba fantaro\nNy fitiavany!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('757', 'Tsarovy ry zatovo,\nNy MPANAMASINA\nFa Izy no manovo\nNy rano velona,\nKa dia mba mampandro\nNy ta-hadio fo.\nLazaina isan-andro\nNy marina sy to,\nKa ny masirasira\nEsoriny aminao,\nIzay maniratsira\nNo halavironao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('757', 'Tohero, ry zatovo,\nIzay mamitaka,\nSatana ta hamono\nNy tsy miambina\nNy nofo mitsikilo\nNy voninahitrao;\nMamono ny fanilo\nIzao tontlo izao\nKa raisony ampinga\nAlao ny sabatra,\nIzany mahakinga\nNy te ho sambatra.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF758',
+             '',
+             758
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('758', 'Tsarovy e! rankizy\nIlay Mpanao anao!\nKa tadiavo Izy!\nDieny hitanao;\nDieny mbola kely,\nTsarovy rahateo,\nKa aza manadino\nIlay Mpanao anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('758', 'Tsarovy ry zatovo\nIlay Mpanao anao!\nIlaozy ny mpanota,\nFandrao manimba anao.\nTsarovy ny Jehovah \nNamorona anao,\nMampanantena lova\nSy nahatoy izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('758', 'Tsarovy, ry sakaiza,\nJehovah Tomponao!\nFa Izy no mitaiza\nSy manasoa anao;\nKoa aza manadino\nIlay Mpanao anao;\nNy teniny araho,\nFa Izy no Rainao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF759',
+             '',
+             759
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('759', 'Ry Sakaizan’ny tanora!\nZoky be fitia,\nSakambino moramora\nIzahay mpania.\nTompo ô! arovy\nNy madinikao\n:,: Aza afoy, fa mba tsarovy\nTano mafy ho Anao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('759', 'Ry Sakaizan’ny tanora!\nTsinjonao arý\nIzany ady tsy mba mora\nHitanay etý.\nTompo ô! arovy\nNy madinikao\n:,: Aza afoy, fa mba tsarovy\nTano mafy ho Anao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('759', 'Ry Sakaizan’ny tanora!\nTanonao izahay\nHe! fa be ny mpanakora\nRaha lavo indray.\nTompo ô! arovy\nNy madinikao\n:,: Aza afoy, fa mba tsarovy\nTano mafy ho Anao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('759', 'Ry Sakaizan’ny tanora!\nEny, sitrakay,\nIsan’andro, isan’ora\nHo Anao, izahay.\nTompo ô! arovy\nNy madinikao\n:,: Aza afoy, fa mba tsarovy\nTano mafy ho Anao :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF760',
+             '',
+             760
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('760', 'Aza mba manadino ny ray\nsy reninao;\nFa izy no nitaiza sy nanasoa\nanao,\nKa na aiza na aiza aleha\nan-tany lavitra,\nAza mba manadino ny ray sy\nreninao :\nTsara izay! tsara izay!\nEny, tsy ho hadinonay ny\nray sy reninay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('760', 'Aza mba manadino ny\nTanindrazanao,\nTsarovy ny tanàna izay nahabe\nanao.\nFadio izay tsy mety fanaony\nfahizay.\nAza mba manadino ny\nTanindrazanao :\nTsara izay! Tsara izay!\nEny, tsy ho hadinonay ny\ntanindrazanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('760', 'Aza mba manadino ireo\nmpitondra anao,\nAraho ny lalàna mba\nhiadananao.\nKa na aiza, na aiza aleha \nan-tany lavitra.\nAza mba manadino izay\nmpitondra anao :\nTsara izay! Tsara izay!\nEny, tsy ho hadinonay izay\nmpitondra anay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('760', 'Aza mba manadino ny\nfivavahanao,\nAtaovy isan’andro mba\nhamonjena anao;\nMpitondra, ray, sy reny,\nny tany, tena koa,\nAza mba manadino ny\nfivavahanao :\nTsara izay! tsara izay!\nEny, tsy ho hadinonay ny\nfivavahanay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF761',
+             '',
+             761
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('761', 'Ry Jeso, Zoky be fitia!\nAvia, mitantàna\nFandrao izahay maniasia\nAvilin’i Satana.\nRy Jeso ô! tahio izahay\nFa mbola kely saina,\nHe! tsy mba hendry, tsy \nmahay\nKa mora ambakaina.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('761', 'Maniry izahay, Jeso!\nHo zandry izay manoa,\nKa dia  ampaherezonao\nHo tia Anao tokoa.\nRy Jeso ô! tahio izahay\nFa mbola kely saina,\nHe! tsy mba hendry, tsy \nmahay\nKa mora ambakaina.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('761', 'Indreto izahay, Jeso!\nTariho hahalala\nHanaraka ny sitrakao\nIzay Zokinao malala.\nRy Jeso ô! tahio izahay\nFa mbola kely saina,\nHe! tsy mba hendry, tsy \nmahay\nKa mora ambakaina.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF762',
+             '',
+             762
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('762', 'Modia, modia,\nFandrao very tokoa,\nFa ny efitra be\nNo diavina  izao;\nRy zanako ô!\nModia  izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('762', 'Modia, modia,\nFa miandry ny Ray\nHampandroso anao\nSady hanome soa;\nRy zanako ô!\nModia  izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('762', 'Modia, modia,\nFa nanavotra anao\nJeso ilay be fitia\nIzay nisolo anao;\nRy zanako ô!\nModia  izao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('762', 'Modia, modia,\nKa ilaozy izao\nIzay ratsy natao\nNahameloka anao,\nRy zanako ô!\nModia  izao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('762', 'Modia, modia,\nHovantaninao ao\nNy tranon’ny Ray\nSy ny lamba madio\nRy zanako ô!\nModia  izao.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF763',
+             '',
+             763
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('763', 'Tanora ô!\nNy Nosin-drazanao\nMiandry   izao\nManasa   anao.\nIngao anio\nIlay fanevanao,\nO! tafio\nNy herinao.\nO! mifohaza izao,\nTafio ny herinao\nInjao ny Nosinao,\nManantena anao!\nJereo ny namanao,\nTaninin-doza izao\nO! vonjeo\nFa mitoreo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('763', 'Avia, jereo\nNy Fiangonanao;\nO! mba vonjeo\nFa mila anao.\nTanora soa\nNo mba ilaina koa\nO! avia\nHiara-dia,\nO! mifohaza izao,\nTafio ny herinao\nInjao ny Nosinao,\nManantena anao!\nJereo ny namanao,\nTaninin-doza izao\nO! vonjeo\nFa mitoreo.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('763', 'Omeo anio\nNy herinao izao,\nKa dia falio\nIreo tapakao.\nIreo didy soa\nSy baikon’ny Tsitoha,\nTanteraho\nSy hajao.\nO! mifohaza izao,\nTafio ny herinao\nInjao ny Nosinao,\nManantena anao!\nJereo ny namanao,\nTaninin-doza izao\nO! vonjeo\nFa mitoreo.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF764',
+             '',
+             764
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('764', 'Tsy mangataka  aho, Tompo\nZava-py, harena, zo,\nFa ny tena mba iriko\nDia  izao : ny fo madio.\nFo madio izay akàny\nFeno eritreri-tsoa\nFo madio : haren-tsy lany\nSarobidy avokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('764', 'Indrisy, ny soan’ny tany\nManodoka, mora lo\nNy haren-tsy mety lany\nDia  izao : ny fo madio.\nFo madio izay akàny\nFeno eritreri-tsoa\nFo madio : haren-tsy lany\nSarobidy avokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('764', 'Na maraina na hariva,\nDia ity no hatako :\nMba ho ahy ilay soa indrindra,\nDia  izao : ny fo madio.\nFo madio izay akàny\nFeno eritreri-tsoa\nFo madio : haren-tsy lany\nSarobidy avokoa.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF765',
+             '',
+             765
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('765', 'Henoy ny antson’ny Tompo;\n« Iza no ho irakay,\nVonon-kandeha sy hanompo,\nHiasa an-tany hay ? »\nAdidy sarotra hefaina\nAsa mangetana re,\nMaty handritra ny aina,\nIza no vonona re ?', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('765', 'Tsy didy miendrika baiko\nNefa mahery tokoa;\nNanindry mafy ny saiko\nNy antsonao, Tompo soa\nSatriko lavina anefa\nManery ahy hanoa,\nAny am-po no miantefa,\nNy ako, onjany koa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('765', 'Inty, ry Tompo malala\nIzaho ho irakao,\nNofo ka misalasala\nRaha toa tsy tohananao.\nNy foko  omeo fahendrena\nHanao ny sitrakao,\nNy saiko mora mivena\nFenoy ny hasoavanao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('765', 'Vonona ka hamasino\nHanefa ny irakao;\nEny, ry Tompo, vimbino\nHandia ny lalanao.\nSarotra nefa hataoko\nNy asa atolotrao,\nNy sitrapo dia  hafoiko,\nTohano ny herinao.\n\nNY HIRAN’NY ANKIZY', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF766',
+             '',
+             766
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('766', 'Jeso Mpanjaka Malaza\nNefa sakaizan’ny ankizy koa,\nMamin’ny foko ny fitiavanao\nSintony e, ny foko ho tia anao,\nJeso malala ô! Tompo be\nfitia\nTano ny foko tsy haniasia,\nHo zaza hendry,\nhahay hanompo,\nHo tia Anao anie,\nry Tompo ô!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('766', 'Mamin’ny foko hotantaninao,\nTiako Jeso hiaraka Aminao\nNy foko e, arovy ho madio\nNy faniriako Tompo ô, valio!\nJeso malala ô! Tompo be\nfitia\nTano ny foko tsy haniasia,\nHo zaza hendry,\nhahay hanompo,\nHo tia Anao anie,\nry Tompo ô!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('766', 'Ny hazazako ry Tompo, tahio,\nEnga ho zaza tia ny madio\nHo zaza hendry, zaza\nmpankatò\nAnao Mpanjaka, Tompo\nmanan-jo,\nJeso malala ô! Tompo be\nfitia\nTano ny foko tsy haniasia,\nHo zaza hendry,\nhahay hanompo,\nHo tia Anao anie,\nry Tompo ô!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF767',
+             '',
+             767
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('767', 'Ry Jeso, Zaza masina ô!\nIzay tonga zaza toa anay;\nNafoinao ny lapanao\nHitondra vonjy ho anay,\nRy Jeso, Zaza masina ô!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('767', 'Ry Jeso, Zaza masina ô!\nNanetry tena Hianao;\nNilaozanao ny lanitrao\nNoho ny fitiavanao,\nRy Jeso, Zaza masina ô!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('767', 'Ry Jeso, Zaza masina ô!\nHianao no fihavanana;\nIzahay izay nandà ny Ray\nTadiavanao ho Azy indray,\nRy Jeso, Zaza masina ô!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('767', 'Ry Jeso, Zaza masina ô!\nHihira ho Anao izahay,\nHianao nanondrotra anay;\nNy lapan-dRay ho azonay,\nRy Jeso, Zaza masina ô!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF768',
+             '',
+             768
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('768', 'Endrey! endrey! Tompo ô!\nHe, ny hasoavanao,\nFa tsy tapaka hatrany\nIzany fitahianao;\nNotantananao, ry Tompo\nItony ondrikelinao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('768', 'Endrey! endrey! Tompo ô!\nHe, ny fitiavanao;\nEfa elabe tokoa no mba\nniheveranao\nIzany zaza Malagasy\nIzay irinao mba ho soa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('768', 'Anio izahay, Tompo ô!\nMankasitraka Anao,\nFa ny sandrinao mahery\nNo niaro toy izao\nTratranay mandrakariva\nNy androm-pahasoavanao!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('768', 'Tahio tokoa, Jeso ô!\nMadagasikaranay\nMba handroso ka ho tonga\nMadagasikaranao;\nIzany re no faniriana\nHo tanteraka anie!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF769',
+             '',
+             769
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('769', 'Misy toerana voafidy\nManan-daza lehibe,\nDia saha saro-bidy,\nTena mahavokatra e!\nSaha feno fitahiana,\nMisy voka-tsoa erý;\nAo no mendrika haniriana\nSaha masina izy ity!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('769', 'Ny Sekoly Alahady,\nIo no sahanao, ry Ray\nNy Baiboly no angady\nHanasoavanao anay;\nMahavatra ny Mpamboatra,\nKa mirobona tokoa;\nVoakarakara loatra,\nKa mitombo  sy  mamoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('769', 'Midadasika ny tany,\nNefa karakaina koa;\nFa ny sahanao ihany\nNo tsy manam-paharoa.\nMisy rano tsy mba ritra\nDia Teny Masinao;\nIzay toriana eran-tany\nMikoriana lava izao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('769', 'Ny ankizy sesehena\nNo mivory eto izao;\nIreo no hazo ambolena\nAo anaty Sahanao,\nRaha mirona mba tohano,\nRaha lavo, ajoroy,\nZaza osa, ka tantano,\nMbola kely ka toroy!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF770',
+             '',
+             770
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('770', 'Hajain’ny saiko\nFototry ny aiko,\nItsaohan’ny fanahiko,\nTokana iriko,\nMalala tiako :\nHianao, Jeso Mpamonjiko!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('770', 'Mety malazo\nNy voninkazo,\nNy ahi-maintso koa re!\nFa misy lova\nTsy mba miova :\nJesosy Perla soa e!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('770', 'Ao lalandava\nNy andro mazava,\nNy kintana, ny volana;\nJesosy irery\nTompon’ny hery :\nTsy azo ihoarana.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('770', 'He, igagàna\nNy hatanorana,\nFa na mahafinaritra,\nMety mihena\nNy herin-tena :\nJesosy no maharitra.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('770', 'Tsy misy fetra\nZavatra rehetra\nHianao Jesosy, Tokiko,\nAkaiky ahy,\nZoky Mpiahy,\nNy tsara indrindra amiko.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('770', 'Raha ho lasa,\nFa vita ny asa,\nTohano aho, Jeso ô!\nAmpio aho\nSy atanjaho,\nHo sambatra eo an-tratranao.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF771',
+             '',
+             771
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('771', 'Tsinjovinao ny vorona,\nFa tsy mamafy na mijinja,\nNefa ao Ilay Mpamelona\nMiahy sy mikojakoja,\nJereo ny voninkazo soa,\nFa tsy miasa na mamoly;\nIreo ahin’ny Tompo koa,\nKa velona  ao an-tanimboly.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('771', 'Isika izay malalany\nNo dia andrian’ny fony\nindrindra,\nKa mifalia, ry zanany!\nNy Zanahary no mpitondra,\nRy Tompo, Ray malalanay!\nHatoky tsy hanahy  intsony\nNy tena sy fanahinay,\nFa manana ny Ray ambony.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF772',
+             '',
+             772
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('772', 'Vakio Mat. xi 28.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('772', 'Manatòna, manatòna\nAn’i Jeso izao;\nManatòna an’i Jeso izao.\n\nVakio Jao. iii. 16', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('772', 'Mba minoa, mba minoa\nAn’i Jeso izao,\nMba minoa an’i Jeso izao.\n\nVakio Heb. vii. 25', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('772', 'Mahavonjy Jeso Tompo\nMahavonjy izao\nMahavonjy Jeso Tompo izao.\n\nVakio Jak. v.11.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('772', 'Be fiantra, be fiantra\nJeso Tompo izao,\nBe fiantra Jeso Tompo izao.\n\nVakio Jao. vi. 37', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('772', 'Tsy hanary Jeso Tompo,\nTsy hanary anao,\nJeso Tompo tsy hanary anao.\n\nVakio Mat. x. 47', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('772', 'Miantsoa, miantsoa\nAn’i Jeso izao\nMiantsoa an’i Jeso izao.', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('772', 'Fa mamaly Jeso Tompo\nFa hamaly anao,\nFa hamaly Jeso Tompo izao.\n\nVakio 1 Jao. i. 7', '8', '8');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('772', 'Fo madio, fo madio\nNo homeny anao \nFo madio no homeny anao.\n\nVakio Apok. iii. 5', '9', '9');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('772', 'Lamba fotsy, lamba fotsy\nNo hatafy anao,\nLamba fotsy no hatafy anao.', '10', '10');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF773',
+             '',
+             773
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('773', 'Hianao, ry Jehovah no\nRainay tokoa,\nKa manatona Anao izahay,\nAry Jeso no Hava-malalanay\nkoa.\nDia matoky Anao ny fonay,\nMivoria ry ondry madinika ô!\nMba ho ao am-pisokoanio;\nMihainoa ny feon’ny Mpiandry\nizao\nO, faingàna, modia hianao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('773', 'Eny, mamy tokoa ny mihaino\nAnao\nRy Mpamonjy mpanavotra\nAnay!\nFa Sakaiza malala tokoa\nHianao,\nTe hihaino Anao izahay,\nO! andeha, rankizy madinika\ne!\nFa miantso Jesosy erý,\nMahafaly antsika ny teniny\nHoe :\n« Avelao izy mba hankatý! »', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('773', 'O! ry Tompo tsy toha!\nTsinjovy ‘zahay,\nFa masiaka ny lion-dozabe,\nKa manenjika mba hahafaty\nanay\nSy mihaza ny ain-dehibe,\nMitsangàna, zaza \nmadinika ô!\nMandosira ny loza etý\nManatòna an’i Jeso\nMpamonjy izao,\nKa modia ho an-danitra  arý.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF774',
+             '',
+             774
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('774', 'Fony Jeso nivahiny\nNisy zazakely koa\nTonga tao, ka notahiny\nSy noraisiny tokoa :\n:,: He, rankizy!\nHy fitiavan-dehibe :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('774', 'Manatòna, izao, rankizy!\nAn’i Jeso Tompo soa,\nFa mandray ny zaza Izy\nKa mitahy azy koa :\n:,: He, rankizy!\nHy fitiavan-dehibe :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('774', 'Maro be ny zaza faly\nAo an-dapan-dRainy ao,\nAfaka ota, afa-jaly,\nSambatra izay tonga ao :\n:,: He, rankizy!\nHy fitiavan-dehibe :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('774', 'Mihobia izao, rankizy!\nFa isika koa hankao;\nEny, mifalia, fa Izy\nHo Sakaizantsika ao :\n:,: He, rankizy!\nHy fitiavan-dehibe :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF775',
+             '',
+             775
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('775', 'Ry Jesosy Tomponay!\nMamindrà fo aminay;\nBe ny hasoavanao,\nBe ny fitiavanao;\nZazakely izahay,\nMamindrà fo aminay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('775', 'Fony teto aminay\nHianao sakaizanay,\nTia zaza Hianao,\nZaza notrotroinao :\nZazakely izahay,\nMamindrà fo aminay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('775', 'Masina sy marina\nHianao, ry Tomponay!\nHamasino izahay\nMba ho zanakao tokoa :\nZazakely izahay,\nMamindrà fo aminay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('775', 'Be ny fahavalonay\nO! arovy izahay;\nManomeza fo madio,\nFo miankina aminao :\nZazakely izahay,\nMamindrà fo aminay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('775', 'Ary raha tapitra\nNy iainanay atý,\nEnto ny fanahinay\nHonina ao an-danitra :\nZazakely izahay,\nMamindrà fo aminay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF776',
+             '',
+             776
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('776', 'Mba ekeo, ry Jeso Tompo,\nIzahay madinikao,\nFa maniry te-hanompo\nSy hanao ny sitrakao;\nTsy mba zaza noterena,\nNa nomena zava-tsoa,\nFa minia manolo-tena,\nHo Anao  tokoa  tokoa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('776', 'Tsy ny manan-kery ihany,\nNa ny lalin-tsaina koa\nNo mahazo miandany\nAminao, Mpamonjy soa;\nFa ny mbola zaza osa,\nKa malemy toa anay,\nIzay mba te-hidodododo\nHomba Anao, Mpanjakanay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('776', 'Maminay ny fanompoana\nIzay natolotrao anay,\nKa hataonay sasa-poana\nIzay mamily dia anay,\nFa ny hany mba ilaina,\nDia ny fanohananao;\nMba ho azonay vitaina\nIzay rehetra sitrakao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('776', 'Enga anie ny faniriana,\nIzay anananay izao,\nKa harahim-pitahiana\nSy hotanterahinao\nDia ho feno fifaliana\nNy fanahy anatinay,\nKa tsy hisy hakiviana\nHanan-kery aminay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF777',
+             '',
+             777
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('777', 'He! zaza maro be tokoa\nArý an-danitra,\nMifaly amin’i Jeso,\nFinaritra avokoa :\nHe! mihoby mafy izy,\nKa miderà an’i Jeso!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('777', 'Moa nentin’iza izy ireo\nHo ao an-danitra ao\nNo miramirana endrika\nSy faly toy izao ?\nHe! mihoby mafy izy,\nKa miderà an’i Jeso!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('777', 'Jesosy Tompo no nandao\nNy lapa fahizay,\nKa nahatonga azy ireo\nHo aminy arý :\nHe! mihoby mafy izy,\nKa miderà an’i Jeso!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('777', 'Ny lambany novàny soa,\nDia lamba tena vao,\nNy fony nosasany koa,\nKa faly izy izao :\nHe! mihoby mafy izy,\nKa miderà an’i Jeso!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF778',
+             '',
+             778
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('778', 'Vory izahay izao\nEto anatrehanao,\nRy Jeso Tomponay!\nHe! faly ny fonay,\nFaly, faly, faly,\nHe! faly ny fonay,\nAvy mba hidera Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('778', 'Saotra tsara entinay,\nDera koa atolotray\nAnao, ry Tompo ô!\nHe! faly ny fonay,\nFaly, faly, faly,\nHe! faly ny fonay,\nAvy mba hidera Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('778', 'Zazakely izahay\nFohy ny fisainanay,\nTarihonao izao :\nHe! faly ny fonay,\nFaly, faly, faly,\nHe! faly ny fonay,\nAvy mba hidera Anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('778', 'Ela no nasianao\nSoa ny mpanomponao,\nRy Tompo be fitia!\nHe! faly ny fonay,\nFaly, faly, faly,\nHe! faly ny fonay,\nAvy mba hidera Anao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('778', 'Ao ny ray sy reninay,\nAry koa ny havanay,\nAtaovy olonao :\nHe! faly ny fonay,\nFaly, faly, faly,\nHe! faly ny fonay,\nAvy mba hidera Anao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('778', 'Zaza, ray, sy reny koa\nDia hihaona avokoa\nAn-danitrao arý :\nHe! faly ny fonay,\nFaly, faly, faly,\nHe! faly ny fonay,\nAvy mba hidera Anao.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF779',
+             '',
+             779
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('779', 'Jeso Kristy, Tomponay!\nJeso Kristy, Avotray!\nAvy mba hidera Anao\nIzahay mpianatrao,\n:,: Mihainoa, ry Jeso \nTompo ô! :,:\nFa ny fonay, fa ny fonay\nMidera Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('779', 'Zazakely izahay,\nZava-bitsy fantatray,\nKoa ny mahasoa anay\nDia ankinina aminao.\n:,: Mihainoa, ry Jeso \nTompo ô! :,:\nFa ny fonay, fa ny fonay\nMidera Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('779', 'Mamindrà fo aminay,\nMamelà ny helokay,\nMba hiraisana aminao,\nFa izay no maminao.\n:,: Mihainoa, ry Jeso \nTompo ô! :,:\nFa ny fonay, fa ny fonay\nMidera Anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('779', 'Mba tahionao izahay\nAry koa ny havanay\nAtsangano ho Anao,\nFa izay no sitrakao\n:,: Mihainoa, ry Jeso \nTompo ô! :,:\nFa ny fonay, fa ny fonay\nMidera Anao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF780',
+             '',
+             780
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('780', 'He, dera, laza, hery,\nAnao, Jeso ô!\nNy zaza no hilaza\nNy voninahitrao\nHianao Mpanjaka tia,\nHianao no Tomponay\nIzay tonga ho Mpamonjy\nSy ho Mpisolonay.\nHe, dera, laza, hery,\nAnao, ry Jeso ô!\nNy zaza no hilaza\nNy voninahitrao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('780', 'Midera Anao, ry Jeso!\nAnjely marobe\nKa izahay an-tany\nTa hankalaza Anao,\nToy  izay nataon’ny zaza\nIzay tao Jerosalema,\nNitondra ny rofia\nHo fanajana Anao.\nHe, dera, laza, hery,\nAnao, ry Jeso ô!\nNy zaza no hilaza\nNy voninahitrao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('780', 'Raha mbola tsy nijaly\nHianao, ry Tompo ô!\nNidera Anao ny zaza,\nKa faly Hianao;\nKoa mbola hoderaina\nHianao ankehitrio,\nRy Jeso Tompo tia!\nMandrakizay doria.\nHe, dera, laza, hery,\nAnao, ry Jeso ô!\nNy zaza no hilaza\nNy voninahitrao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF781',
+             '',
+             781
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('781', 'Mijere, ry ray sy reny!\nIreto sombinainareo;\nAoka tsy hirenireny,\nTano toy ny ainareo;\nAza avela ho adala\nRay sy reny ô! jereo,\nAza mahafoy malala,\nFa tezao ho anareo.\nIndro ô! indro ô!\nIndro ny zanakareo, jereo!\nJeso ô! Jeso ô!\nIndro ny zanakay mba vonjeo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('781', 'Ray sy reny! mananara,\nAza mampanaram-po;\nManomeza teny tsara,\nFa ny zaza hankatò :\nAza avela mba hanompa,\nAoka ho tezainareo;\nMampahory raha manota,\nAoka tsy hafoinareo.\nIndro ô! indro ô!\nIndro ny zanakareo, jereo!\nJeso ô! Jeso ô!\nIndro ny zanakay mba vonjeo.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF782',
+             '',
+             782
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('782', '« Lazao, lazao rankizy!\nIzay nandaozan’i\nJeso ny fanjakany\nMba honina tetý »\n« Ry mpampianatray ô!\nHamonjy sy handio\nAntsika olom-bery\nNo nihaviany »\n:,: Mifalia izao :,:\nMisy avotra sy vonjy\nHo antsika atý.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('782', '« Rankizy ô, rankizy!\nMpitrosa hianao,\nKa inona no homenao\nHanefa trosanao ? »\n« Ry mpampianatray ô!\nNy saina amam-po\nHomenay mba ho Azy\nRaha velona izahay »\n:,: Mifalia izao :,:\nMisy avotra sy vonjy\nHo antsika atý.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('782', '« Rankizy ô, rankizy!\nHamonjy sy handray\nAnao ve Jeso Tompo \nRaha mino hianao ? »\n« Ry mpampianatray ô!\nMatoky izahay\nFa efa maty Izy\nHo avotray tokoa »\n:,: Mifalia izao :,:\nMisy avotra sy vonjy\nHo antsika atý.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('782', '« Rankizy! angataho\nNy indrafony izao »\n« Ry Jeso ô, Mpamonjy!\nMba iantrao izahay »\nRy Tompo ô! ry Tompo!\nHenoy, henoy izahay,\nNa kely na vaventy,\nIzay mitaraina izao;\n:,: Mifalia izao :,:\nMisy avotra sy vonjy\nHo antsika atý.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF783',
+             '',
+             783
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('783', 'He, maharavoravo!\nMiantso zaza e\nNy Andriamanitra avo,\nMpanjaka lehibe;\nKa andeha hanatona Azy,\nFa hoy ny Tomponao :\n“Mba avelao ny zaza\nHanatona Ahy izao.”', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('783', 'Isika mbola zaza\nKanefa tian’ny Ray,\nNa dia tsy hendry aza,\nNa dia tsy mba mahay!\nKa andeha hanatona Azy,\nFa hoy ny Tomponao :\n“Mba avelao ny zaza\nHanatona Ahy izao.”', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('783', 'Ny tahotra esory,\nNy henatra ario;\nTsy laviny akory,\nKa manatòna anio :\nKa andeha hanatona Azy,\nFa hoy ny Tomponao :\n“Mba avelao ny zaza\nHanatona Ahy izao.”', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('783', 'Manetry tena izy,\nKa saotra no atao;\nIsika mbola ankizy\nMatoky Azy izao,\nKa andeha hanatona Azy,\nFa hoy ny Tomponao :\n“Mba avelao ny zaza\nHanatona Ahy izao.”', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('783', 'He maharavoravo!\nHe, mahafaly fo!\nFa zanaky ny Avo\nIsika atý anio :\nKa andeha hanatona Azy,\nFa hoy ny Tomponao :\n“Mba avelao ny zaza\nHanatona Ahy izao.”', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF784',
+             '',
+             784
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('784', 'Jeso, be fitia!\nZaza izahay,\nAvy mitaraina;\nMihainoa anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('784', 'Bodo sy adala,\nIndreo ny zanakao;\nJeso ô, malala!\nAza lavinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('784', 'Mpiandry ondry mora!\nMba tarihonao;\nTano tsy hania\nNy ondrikelinao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('784', 'Aza avela hitady\nLaza aman-jo!\nFa Hianao irery\nNo mahafa-po.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('784', 'Tianao ny zaza,\nJeso! fantatray\nKa manolo-tena\nHo Anao  izahay.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('784', 'Jeso be fitia!\nZaza izahay,\nAvy mba hidera :\nMihainoa anay.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF785',
+             '',
+             785
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('785', 'Izahay ankizy\nTe hidera Anao,\nRy Jeso Mpamonjy!\nKa henoy izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('785', 'Zanaky ny Avo,\nJeso Tomponay,\nFaly sady ravo\nRaha hatoninay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('785', 'Te hifalifaly\nIzahay izao;\nHira mifamaly,\nTianay hatao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('785', 'Te hiravoravo\nMiaraka aminao\nNefa mavomavo\nKa antsoy izao.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('785', 'Te hisoka-bava\nHankalaza Anao;\nHira lalandava\nSatrinay hatao.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('785', 'Sambatra ny zaza!\nIzay trotroinao;\nNa kamboty aza,\nTonga zanakao.', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF786',
+             '',
+             786
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('786', 'Ny teninao, Jehovah!\nIzay ianaranay,\nDia tsara tsy miova,\nKa ifalianay,\nHe, tena manan-jara\nIzahay ankehitrio,\nFa lova tsara fara\nNo azo amin’io.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('786', 'Ireo zaza teo aloha,\nDia tsy nahita izao,\nTsy nisy hampifoha\nNatory foana tao;\nNahantra sady ory,\nNiferina aina koa,\nTsy fantany akory\nIzay tena foto-tsoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('786', 'Mamiratra indrindra\nNy masoandronay,\nMilanto sy mirindra\nNy antom-piainanay;\nNy teninao ihany\nNo nahatonga izao,\nHe! sambatra ny tany,\nFa mahalala Anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('786', 'Irinay mba hihombo\nIzay ianaranay,\nAmpio koa mba hitombo\nNy saina anananay;\nHo avo zato heny\nNy voan’ny teninao,\nHiely eran-tany\nNy voninahitrao!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF787',
+             '',
+             787
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('787', 'Izay mahakolokolo\nNo manana ny soa;\nZahao ny tanimboly,\nIzay fatratra tokoa,\nFa he ireo voninkazo\nMamerovero ao,\nToa nofy izay handazo,\nAndeha mba jereo.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('787', 'Ireo izay mahavatra,\nHandray ny voka-tsoa,\nKa tena tsy hahantra\nTsy reraka tokoa;\nJereo ireo taninketsa\nMampanantena voa,\nFa soa tsy manam-petra\nSy hanim-be tokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('787', 'Izahay, ry ray sy reny,\nNo voninkazo koa,\nHamerovero any\nAn-tokantrano soa;\nTezao mba hihatsara\nNy fofo-manitray;\nMba tsy harahin-tsento\nNy toetra  anananay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('787', 'Izahay no toy ny ketsa\nHo vanona tokoa,\nHamoa tsy misy fetra,\nSy tena hahasoa;\nNy fiangonantsika\nHahita valiny,\nNy fivavahantsika\nHandroso hery koa.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF788',
+             '',
+             788
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('788', 'Ry Jeso Sakaizan’ny zaza,\nKanefa Mpanjaka Malaza;\nMidera ny Anaranao re\nIzahay vory eto izao.\n:,: Ny saotra sy dera aman-daza\nno atolotray ho Anao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('788', 'Ry Jeso, malemy fanahy!\nManatona Anao tsy manahy\nNy zaza mivory atý izao,\nEkeo mba ho mponina arý.\n:,: Ny saotra sy dera aman-daza\nno atolotray ho Anao :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('788', 'Fahiny Hianao tonga teto\nNanala ny rofy sy sento,\nAvia mitahy anay re,\nMatoky Anao izahay.\n:,: Ny saotra sy dera aman-daza\nno atolotray ho Anao :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('788', 'Ry Jeso, Mpamonjy sy Zoky\nIzay ampy tokoa mba ho toky,\nMifaly ny manana Anao izao,\nArovy ka aza mandao.\n:,: Ny saotra sy dera aman-daza\nno atolotray ho Anao :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF789',
+             '',
+             789
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('789', 'Zaza izahay, ry Jeso ô!\nNefa Hianao dia tia anay;\nInjany re ny feonao\nMiantso hoe : “ Avia! Avia!”\nMba raisonao re, mba\nraisonao re, ry Tompo ô!\nMba raisonao re, mba\nraisonao re izahay izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('789', 'Zaza izahay, ry Jeso ô!\nHianao tatý mba zaza koa;\nTarihonao ny hevitray\nHanahaka ny hevitrao!\nMba raisonao re, mba\nraisonao re, ry Tompo ô!\nMba raisonao re, mba\nraisonao re izahay izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('789', 'Zaza izahay, ry Jeso ô!\nNy tenanay malemy koa;\nKanefa he, ny herinao\nMiaro ny fanahinay!\nMba raisonao re, mba\nraisonao re, ry Tompo ô!\nMba raisonao re, mba\nraisonao re izahay izao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF790',
+             '',
+             790
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('790', 'Jeso ô! Sakaiza tsara,\nBe ny fitiavanao;\nTsy mba misy voarara\nTsy hihavana aminao;\n:,: Mahagaga :,:\nNy haben’ny antranao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('790', 'Jeso ô! mba manampia\nIzao madinikao izao\nTsy hivily, tsy hania,\nFa hanara-dia Anao,\n:,: He, malemy :,:\nNefa be ny herinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('790', 'Jeso ô! Mpamonjy mora!\nManampia, mamonje,\nFa isan-andro, isan-ora\nMisy fahavalo be\n:,: ’Zay mamely :,:\nKa harovanao anie.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF791',
+             '',
+             791
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('791', 'Tonga ny hariva,\nKa ny aizina\nEfa mba madiva\nHo mpanarona.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('791', 'Jeso ô, tsinjovy\nKa tahio izahay,\nEny, mba arovy\nHandry fahizay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('791', 'Maniraha anjely\nMba hiambina\nAhy zazakely\nRaha maizina.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('791', 'Ary raha maraina\nMba fohazy indray\nHo madio sy tsara\nEo imasonao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF792',
+             '',
+             792
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('792', 'Misy zaza marobe\nFaly, sambatra ao ambony;\nNy devoly lozabe\nTsy mamely azy intsony,\nIzy ireo dia zazakely\nTonga naman’ny anjely.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('792', 'Mba irionao tokoa\nNy ho naman’izy ireny,\nIndro, misy zava-tsoa\nHo anao raha tonga eny,\nDia afoizo sy ario\nIzay rehetra tsy madio.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('792', 'Tompo, raiso izahay\nMba ho zanakao handova\nLapa soa rahatrizay\nLova tsy miovaova;\nManan-jara aoka izany\nIzay rehetra tonga any.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF793',
+             '',
+             793
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('793', 'Mba tsarovy re, rankizy\nAo am-piangonana,\n:,: Tsy hatory fa haniry\nMba ho zaza maotina :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('793', 'Tonga ao Jesosy Tompo,\nKa mihaino vavaka;\n:,: Ny manatona hanompo\nRaisiny ho zanaka :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('793', 'Mba hirao ny fiderana,\nKa ezaho mafy hoa :\n:,: “ Arahaba re, hosana!\nRy Mpanjaka lehibe ” :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('793', 'Eny, Tompontsika Izy,\nTompo tsara, mora fo,\n:,: Ka hatoninao, rankizy,\nO! hatòny eram-po :,:', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('793', 'Aza mba misalasala,\nAtolory izao ny fo,\n:,: Fa ny Tomponao malala\nFaly ta-hamindra fo :,:', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('793', 'Ry Mpamonjiko mahery,\nRaiso aho ho Anao,\n:,: Raiso ho Anao irery,\nRaiso re, ka anjakao :,:', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF794',
+             '',
+             794
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('794', 'Ry Jesosy tsara\nAo an-danitra\nIzahay dia zaza\nSaro-tahotra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('794', 'Koa ny anjely\nMba irahonao\nHo anay izay kely,\nRaha sitrakao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('794', 'Dia mba tantano,\nJeso, izahay,\nAry mba fahano\nNy fanahinay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('794', 'Hianao, Mpamonjy,\nDia tianay;\nIzahay voavonjy\nTia Anao indray.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF795',
+             '',
+             795
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('795', 'Jeso ô, Sakaizanay,\nAo an-danitra aminao\nMisy zaza namanay\nMifaly ravo ao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('795', 'O, ry tia zaza ô!\nMba ampio izahay\nMba hifaly aminao\nAtý an-dasinay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('795', 'Raha mbola ho atý,\nMba tantano izahay,\nKa tariho ho arý,\nRy Zoky tia anay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('795', 'Ary raha tapitra\nNy anjaranay atý\nRaisonao mba hiditra\nAo aminao arý.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF796',
+             '',
+             796
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('796', 'Henoy izany hira vao\nErý an-danitra,\nFa teraka Jesosinao,\nKa mahafinaritra.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('796', 'Ianaronao matetika\nNy fitiavany,\nFa sambatra sy tretrika\nIzay sakaizany.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('796', 'Atero zava-manitra\nSy volamenam-po\nIlay Mpanjakan-danitra,\nMpanjakantsika koa.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('796', 'Valio fitiavana\nIlay Zoky tia  anao,\nAteronao fisaorana,\nDerao fa Tomponao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF797',
+             '',
+             797
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('797', 'Ry Jeso Zaza masina,\nMitsaoka Anao izahay,\nAtolotray ho hasina\nNy tena kelinay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('797', 'Mihoby ny fanahinay\nMihaona aminao;\nRy Zanak’Andriamanitray,\nTsy misy toa Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('797', 'Ny zavatra anananay\nDia aoka ho Anao,\nNy tena sy fanahinay\nMba hasoavinao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('797', 'Ny lanitra nafoinao,\nNilaozanao ny Ray\nMba hanavao ny olonao\nHo velona indray.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF798',
+             '',
+             798
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('798', 'Izahay zazakely manatona\nAnao,\nRy Jeso izay teraka androany\nFa tonga hanavotra anay\nHianao,\nKa faly izahay izany;\nMitehafa tànana\nDera no asandratra,\nMihobia, mifalia,\nFa Kristy Tompo teraka\nHo antsika!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('798', 'Izahay zazakely maniry izao\nHo tena sakaiza tokoa,\nKa avy izahay mba hanaraka\nAnao\nRy Jeso Mpanjaka Tsitoha;\nMitehafa tànana\nDera no asandratra,\nMihobia, mifalia,\nFa Kristy Tompo teraka\nHo antsika!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('798', 'Izahay zazakely mangataka\nAnao\nHamory ny zaza rehetra,\nFa be ny ankizy miandry Anao\nHo Tompon’ny tany rehetra.\nMitehafa tànana\nDera no asandratra,\nMihobia, mifalia,\nFa Kristy Tompo teraka\nHo antsika!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF799',
+             '',
+             799
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('799', 'Zaza sambatra tokoa,\nRy Jesosy, izahay,\nFa ny Tompo Zanahary\nNo mamelona anay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('799', 'Zaza sambatra tokoa,\nRy Jesosy, izahay,\nHianao nijaly mafy\nHanavotanao anay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('799', 'Zaza sambatra tokoa,\nRy Jesosy, izahay,\nNy Fanahy Mpanadio\nManamasina anay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('799', 'Zaza sambatra tokoa,\nRy Jesosy, izahay,\nFiarovanay tsy toha\nHianao, ry Tomponay!', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF800',
+             '',
+             800
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('800', 'Haleloia, asandratray\nHo Anao, ry Jeso ô!\nResinao ny rafinay,\nFa nitsangana Hianao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('800', 'Foana ny fasana\nFa tsy nahatana Anao;\nNy fahafatesana\nDia nofolahinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('800', 'Ka mihira izahay,\nFa nandresy Hianao,\nKa ho velona indray\nIzahay madinikao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('800', 'Hianao hisaoranay\nRaha hitsangana izahay\nKa handao ny fasanay,\nMba handray ny lovanay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('800', 'Dera no ventesinay\nHo Anao, ry Zokinay;\nHoby no asandratray,\nRy Mpanjaka maminay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF801',
+             '',
+             801
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('801', 'Izaho dia zaza\nMalemy, osa fo,\nFa na izany aza,\nMba ondrin’ny Jeso.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('801', 'Arý an-danitra  Izy\nMitsinjo ahy koa,\nSatria ny ankizy\nDia tiany tokoa.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('801', 'Anefa ko akaiky\nJesosy mamiko,\nFa Izy dia manaiky\nHo eto amiko.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('801', 'Manafa-tahotra ahy\nNy tsorakazony,\nManaisotra ahiahy\nNy fitiavany.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('801', 'Izao tsy mbola hita\nNy endrik’Izy izay,\nFa raha arý am-pita\nHiahona izahay.', '5', '5');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF802',
+             '',
+             802
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('802', 'Misy ny fonenana\nVita re, ho ahy,\nTany ifaliana,\nMamin’ny fanahy;\nAo, tsy misy tahotra,\nAo ny Tompon’avotra,\nHira mahafinaritra\nNo ataon’ny any.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('802', 'Saotra no hataoko ao,\nFaly fa nandresy;\nHiakanjo fotsy vao,\nHaingon’ny mpandresy.\nNy anjely masina\nHiaraha-monina,\nJeso Tompo marina\nHiampofo ahy.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('802', 'Izaho voavidinao,\nRy Mpamonjy tsara,\nSady namboaranao\nLova tsara fara.\nKoa mba arovinao\nToy ny ondrikelinao\nIzaho izay fanananao\nRy Mpiandry Tsara!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF803',
+             '',
+             803
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('803', 'Avia, ry Fanahy ô!\nHo eto aminay,\nNy fanahinay mba fenoinao\nNy hasoavanao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('803', 'Maloto ny fanahinay,\nKa mba diovinao;\nTsy mahomby re ny\nfihevitray,\nMba amboarinao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('803', 'He, zaza osa izahay,\nKa mba tantanonao,\nBe ny ratsy izay te-hitaona\nanay,\nAmpio ny olonao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('803', 'O, ry Fanahy hendry ô,\nMiandry izahay,\nManantena Anao hanadio\nny fo\nHe, zaza osa izahay,\nKa mba tantanonao,\nBe ny ratsy izay te-hitaona\nanay,\nHenoy ny hatakay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF804',
+             '',
+             804
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('804', 'O, ry Fanahy Masina!\nIzahay ampionao,\nFa izahay madinika\nManiry ho Anao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('804', 'Ny fonay dia maizina,\nKa tsy mba fantatray\nNy tena lala-marina :\nTariho izahay.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('804', 'Koa amoròny fo vaovao\nIzahay mpanomponao;\nNy ratsy mba esorinao\nHitiavanay Anao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('804', 'O, ry Fanahy Masina!\nMangataka izahay :\nMombà anay madinika,\nHenoy ny hatakay.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF805',
+             '',
+             805
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('805', 'Izao rehetra izao dia\nmankalaza Anao,\nRy Ray Mahery, Tomponay\ntokoa,\nNy zava-boahary no asan-\ntananao\nKa tsara  indrindra  sady  soa.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('805', 'Miondrika aminao izahay\nmadinikao\nMidera Anao, ry Rainay be\nfitia!\nAmpio izahay, ary mba\narovinao\nNy fonay mba tsy haniasia.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('805', 'Ry Rainay be fiantra, tariho\nizahay\nHo tonga zaza tia ny mazava,\nHifaly ao an-danitra ao\nrahatrizay\nHo sambatra any lalandava.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF806',
+             '',
+             806
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('806', 'Avia ry zaza, avia izao,\nFa indro ny Tompo miandry\nanao;\nLazao an’i Jeso ny zava-\nmanjo,\nFa Izy onena ny ory am-po.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('806', 'Jesosy Mpamonjy nanavotra\nanao,\nKa zaza malalany koa hianao,\nKa dia matokia tokoa \neram-po\nFa Izy Mpanjaka mahery\nsy to.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('806', 'Jesosy no tsy manadino anao,\nTsarovy izany ka mba\nandrandrao\nNy Tompo malala Izay be\nindrafo;\nAnao re ny lova tsy mety\nho lo.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('806', 'Sasaonao ny foko,\nMpanavotra ô!\nHo tonga madio sy mendrika\nAnao\nHo sambatra aho hahita Anao,\nMpamonjiko tsara ao\nan-danitra ao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF807',
+             '',
+             807
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('807', 'Manatòna re, rankizy,\nNy Mpamonjy avotrao,\nFa henoy, miantso Izy,\nIzao fotoana anio izao :\n« Zaza be faniasia,\nMiverena hianao;\nOndry kely, malakia,\nManaraka Ahy izao! »', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('807', 'Ny devoly andosiro,\nKa ny ota ialao,\nFa ny tsara no fikiro,\nTiavo re Jesosinao;\nMiovà ka manenena\nNoho ny ota izay natao,\nRaisonao ny famonjena\nKa hazony  hatrizao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('807', 'Miaingà ka manompoa\nAn’i Jeso Tomponao,\nTanteraho avokoa\nNy anjara asanao;\nHalaviro re ny laina,\nMiasà ka mazotoa,\nHatanjaho re ny saina\nMahareta, mandrosoa.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF808',
+             '',
+             808
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('808', 'Eo an-tratranao, Jesosy,\nDia mahafinaritra\nFa ny hafa mampahory\nKa tsy  mahasambatra.\nRaha Hianao no aro,\nAfaka ny tahotro,\nRaiso ho Anao ny foko,\nRy Jesosy tia ô!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('808', 'Mampifaly ahy koa,\nJeso, ny fitianao;\nZara mamiko tokoa\nIzany ampofoinao;\nNa matory na mifoha;\nDia eo an-tratranao;\nRy Mpamonjy Tompo soa,\nHoderaiko Hianao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('808', 'Izaho tena tsy tamana,\nRaha lavitra Anao,\nFa mitebiteby lava\nIzay tsy eo akaikinao.\nEo an-tratranao, Jesosy,\nTsara hitoerako;\nEo ihany e no misy\nZava-tsoa  mahafa-po.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF809',
+             '',
+             809
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('809', 'Jeso Sakaizan’ny zaza,\nTompo koa,\nJeso Sakaiza Malaza!\nMihainoa!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('809', 'Zaza izahay mitaraina\nAminao;\nMbola marefo ny aina,\nTanonao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('809', 'Jeso Sakaiza malala,\nTokinay;\nAoka mba tsy ho adala\nIzahay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('809', 'Jeso ô! ampianaro\nIzahay,\nJeso! avia hiaro\nNy dianay.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('809', 'Zaza izahay,ka sakano\nTsy hania;\nKely izahay ka tantano\nJeso tia!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('809', 'Ary ny ray aman-dreny\nRaisonao,\nAoka ny fony homeny\nHo Anao.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('809', 'Jeso Sakaizan’ny zaza,\nTompo koa!\nJeso Sakaiza malala\nMihainoa.', '7', '7');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF810',
+             '',
+             810
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('810', 'Tompo manampia ny\nmpianatrao,\nAry mitahia ny madinikao,\nMba ho tonga zaza sitrakao\nizahay,\nZaza mankalaza ny \nMpanavotray.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('810', 'Maminay tokoa ny Anaranao,\nSambatra avokoa re ny\nhavanao;\nManana anjara any aminao,\nRy Mpamonjy tsara ny\nmadinikao.', '2', '2');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF811',
+             '',
+             811
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('811', 'O, rankizy izay mivory,\nMba derao ny Tompo soa,\nKa ny fonao atolory,\nNy fanahy, tena koa\n:,: Mba venteso re ny hira,\nKa derao ny Tomponao :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('811', 'O, ry Tompo be fitia,\nMba henoy ny zanakao;\nFa miantso hoe : Avia!\nManatreha anay izao!\n:,: Izay hataonay re tahio\nHo madio sy masina :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('811', 'Mba tolory fahendrena\nIzahay madinikao,\nKa omeo ny famonjena\nHifikirana aminao;\n:,: O, tarihonao ny dia\nHahitana Anao, ry Ray! :,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('811', 'He, ny fonay manontolo,\nIzay mangetaheta re,\nDia atolotray daholo,\nAza dia lavina e!\n:,: Mba onenonao ny fonay\nHo Anao mandrakizay :,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF812',
+             '',
+             812
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('812', 'Ry Jeso Zokinay ô!\nJeso malalanay,\nHenoy ny vavakay izao,\nFa zandrinao izahay.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('812', 'Ny batisa no nandio\nAnay ho zandrinao,\nKa dia mba tahio\nHanaraka Anao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('812', 'Ry Zokinay malala,\nArovy izahay,\nFa be ny manadala,\nManimba ny fonay.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('812', 'Ry Zokinay malala,\nTrotroy ny zandrinao,\nRehefa mba hiala\nHo any aminao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF813',
+             '',
+             813
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('813', 'Tia zaza\nTia zaza\nNy Jesosinay!\nLanitra nafoiny,\nZaza notrotroiny,\nTia zaza \nTia zaza \nNy Jesosinay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('813', 'Trano tsara\nTany tsara\nNamboariny;\nTrano be anjely,\nHo anay izay kely,\nTrano tsara\nTany tsara\nNamboariny.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('813', 'Voankazo,\nVoninkazo \nTsara fofona,\nTsy halazo intsony\nAo Edena ambony,\nVoankazo,\nVoninkazo \nTsara fofona.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('813', 'Zazakely\nSy anjely\nSamy sambatra;\nHira no hirainy\nAo an-tranon-dRainy.\nZazakely,\nSy anjely\nSamy sambatra.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('813', 'Seza tsara,\nLamba tsara\nHo antsika ao\nHiakanjo lava \nFotsy lalandava\nSeza tsara,\nLamba tsara\nHo antsika ao', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('813', 'Ento mora,\nEnto mody\nJeso, izahay,\nHo an-tranon-dRainao,\nFa ao no tranonay ô!\nEnto mora,,\nEnto mody\nJeso, izahay', '6', '6');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF814',
+             '',
+             814
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('814', 'Tsara re, ny lanitra\nSady mahafinaritra!\nAo ny Rainay be fitia,\nAo ny zaza tsy mania,\n:,: Ao ny fifaliam-be :,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('814', 'Ondry kely izahay,\nAry tsy mba fantatray\nNy hanjo etý an-tany,\nKa maniry mba ho any\n:,: Aminao, ry Tomponay :,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('814', 'Ry Mpiandry Tsara ô!\nAoka mba hamindra fo\nAminay izay mbola kely,\nMba iraho ny anjely\n:,: Ho mpiambina anay :,:\n\nLITANIA', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF815',
+             '',
+             815
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('815', 'Ry Andriamanitra Rainay,\nMihainoa! (in-3)\nMiondrika eto anatrehanao\nizahay,\nFa Hianao no Andriamanitray,\nKa henoy izahay!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('815', 'Ry Jeso Kristy, Zanak’\nAndriamanitray,\nMamonje! (in-3)\nFa Hianao no Mpamonjy\nizao tontolo izao,\nAry ny Ranao no nanavotanao\nanay,\nKa vonjeo izahay!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('815', 'Ry Fanahy Masina,\nMpananatra anay!\nDiovinao! (in-3)\nFa Hianao no mahay manadio\nny fonay\nMba ho tempoly mendrika\nny hitoeranao,\nDiovinao izahay!', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF816',
+             '',
+             816
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('816', 'Ry Zanakondry ô, Mpisolo ny\nmpanota!\nMamindrà fo aminay!\nRy Zanakondry ô, Mpisolo ny\nmpanota!\nMamindrà fo aminay!\nRy Zanakondry ô Mpisolo ny\nmpanota!\nOmeo anay ny fiadananao!\nTompo ô, mba miantrà!\nMamelà re, ny helokay\nNiara nanota izahay tamin-\ndrazanay\nKa tsy madio, fa ratsy ny\ntoetray!\nRy Tompo ô, aza ataonao\naminay\nAraka ny fahotanay\nKa aza averina aminay ny\nhelokay!\nHenoy ny hatakay,\nKa raisonao fifonanay!\nAmen!', '1', '1');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF817',
+             '',
+             817
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Fizarana I', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Andriamanitra Tompo ô!\nRay, Fanahy, Zanaka,\nMihainoa anay izao\nRy Telo Izay Iray!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Jeso Zanak’i Maria,\nNaka endrik’olona,\nTonga zaza toa anay :\nMihainoa, Jeso ô!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Notafian-dreninao\nLamban-jaza Hianao\nTao anaty vilona :\nMihainoa, Jeso ô!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Novangian’olona\n‘Zay niandry ondriny\nTao an-tsaham-Betlehema :\nMihainoa, Jeso ô!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Notezaina Hianao,\nNotrotroin’i Simeona,\nNotompoin’i Ana koa,\nMihainoa, Jeso ô!\n\nFizarana II', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Amin’ny avonavona,\nAmin’ny fahatezerana,\nAmin’ny fialonana :\nMamonje, ry Jeso!', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Amin’ny hevi-tsy madio,\nAmin’ny teny ratsy koa,\nAmin’ny fahasarotam-po :\nMamonje, ry Jeso!', '8', '8');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Hankatò ny didinao,\nHankahala heloka,\nMba ho zanakao tokoa :\nMitariha, Jeso!', '9', '9');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Mba hazoto izahay,\nTia fivavahana,\nTsy ho resin’i Satana :\nMitariha, Jeso!\n\nFizarana III', '10', '10');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Noho ny nahaterahanao\nNoho ny ranomasonao,\nNoho ny fahorianao :\nMamonje, ry Jeso ô!', '11', '11');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Noho ny satro-tsilonao,\nNoho ny ra nalatsakao,\nNoho ny nitsangananao\nMamonje, ry Jeso ô!', '12', '12');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Noho ilay Anaranao\nIondrehon’olona\nSy ny ao an-danitra :\nMamonje, ry Jeso ô!', '13', '13');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('817', 'Noho ny herinao tsy toha\nNoho ny voninahitrao,\nNoho ny famindramponao\nMamonje, ry Jeso ô!', '14', '14');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF818',
+             '',
+             818
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('818', 'Jeso Kristy Tomponay,\nZanaka malalan-dRay,\nNo naetry ho anay;\nMamonje anay anie.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('818', 'He! ny fahatsoranao\nSy ny fahadiovanao,\nTsy mpanota Hianao :\nMamonje anay anie.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('818', 'Hianao no marina,\nMora fo sy masina,\nAry tsy mialona :\nMamonje anay anie.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('818', 'Tsy niala sasatra,\nTsy nandà ny sarotra,\nFa nitondra henatra :\nMamonje anay anie.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('818', 'Heloka tsy rariny,\nHianao najaliny\nTao an-tampon-Kalvary :\nMamonje anay anie.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('818', 'Lasanao ny helokay,\nRaha mibebaka izahay\nTsy manao ny sitrakay :\nMamonje anay anie.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('818', 'He! ny fitsangananao,\nResy ny fahavalonao\nTamim-boninahitra :\nMamonje anay anie.', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('818', 'Hianao, ry Jeso ô!\nAnateranay izao\nSaotra  izay anjaranao :\nMamonje anay anie.', '8', '8');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('818', 'Fo, fanahy, tena koa,\nHo anao mba hahasoa\nIzay rehetra tia tokoa :\nMamonje anay anie.', '9', '9');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF819',
+             '',
+             819
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('819', 'Rainay ô, Mpamorona!\nJeso ô, Mpanavotra,\nAry ny Mpananatra :\nMihainoa, ry Tompo!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('819', 'Hianao no foto-tsoa\nSy harem-panahy koa,\nHandrosoanay tokoa :\nMihainoa, ry Tompo!', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('819', 'Be ny heloka natao,\nBe ny famindramponao,\nMamelà anay izao :\nMihainoa ry Tompo!', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('819', 'Malahelo izahay,\nFa maditra hatrizay,\nAza mba mandao anay :\nMihainoa ry Tompo!', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('819', 'Mba diovy ny fonay,\nHatanjaho ny sainay,\nAhitsio ny dianay :\nMihainoa, ry Tompo!', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('819', 'Be tokoa ny indrafo\nIzay naseho ho anay,\nTena latsaka ao am-po :\nMihainoa, ry Tompo!', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('819', 'Eny, famonjena re,\nHahitanay aim-be,\nNo efa vitanao tetý :\nMihainoa, ry Tompo!', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('819', 'Aina, hery, andro koa\nNo atolotray tokoa,\nMba hahaizanay ny soa :\nMihainoa, ry Tompo!', '8', '8');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('819', 'Ho Anao tsy tapitra\nHaja, dera, saotra koa\nHo Anao mandrakizay :\nMihainoa, ry Tompo!\n\n----oOo----', '9', '9');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF820',
+             '',
+             820
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('820', 'Jeso Kristy Tomponay,\nZanaka malalan-dRay,\nNo naetry ho anay;\nMamonje anay anie.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('820', 'He! ny fahatsoranao\nSy ny hadiovanao\nTsy mpanota Hianao;\nMamonje anay anie.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('820', 'Hianao no marina,\nMora fo sy masina,\nAry tsy mialona;\nMamonje anay anie.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('820', 'Tsy niala sasatra,\nTsy nandà ny sarotra,\nFa nitondra henatra.\nMamonje anay anie.', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('820', 'Heloka, tsy rariny;\nHianao najaliny\nTao an-tampon’i Kalvary;\nMamonje anay anie.', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('820', 'Lasanao ny helokay\nRaha mibebaka izahay\nTsy manao ny sitrakay\nMamonje anay anie.', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('820', 'He! ny fitsangananao,\nResy ny fahavalonao\nTamim-boninahitrao,\nMamonje anay anie.', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('820', 'Hianao, ry jeso ô!\nAnateranay izao\nSaotra izay anjaranao;\nMamonje anay anie.', '8', '8');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('820', 'Fo, fanahy, tena koa,\nHo anao mba hahasoa\nIzay rehetra tia tokoa;\nMamonje anay anie.', '9', '9');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF821',
+             '',
+             821
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('821', 'Rainay ô, Mpamorona!\njeso ô, Mpanavotra,\nAry ny Mpananatra;\nMihainoa, ry Tompo!', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('821', 'Hianao no foto-tsoa\nSy harem-panahy koa,\nHandrosoanay tokoa;\nMihainoa, ry Tompo', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('821', 'Be ny heloka natao,\nBe ny famindramponao,\nMamelà anay izao;\nMihainoa, ry Tompo', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('821', 'Malahelo izahay,\nFa maditra hatrizay,\nAza mba mandao anay;\nMihainoa, ry Tompo', '4', '4');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('821', 'Mba diovy ny fonay,\nHatanjaho ny sainay,\nAhitsio ny dianay;\nMihainoa, ry Tompo', '5', '5');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('821', 'Be tokoa ny indrafo\nIzay naseho ho anay,\nTena latsaka ao am-po;\nMihainoa, ry Tompo!', '6', '6');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('821', 'Eny, famonjena re,\nHahitanay aim-be,\nNo he, vitanao tety;\nMihainoa, ry Tompo', '7', '7');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('821', 'Aina, hery, andro koa\nNo atolotray tokoa,\nMba hahaizanay ny soa;\nMihainoa, ry Tompo', '8', '8');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('821', 'Ho Anao tsy tapitra;\nHaja, dera, saotra koa,\nHo Anao mandrakizay;\nMihainoa, ry Tompo\nAmena.', '9', '9');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF822',
+             '',
+             822
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('822', 'Nohariana mba ho tsara ny tontolo\nKa ho sambatra, ho mendrika ny Ray\nNihasimba, simban’ota dia nisolo\nFanjakan’ny haratsiana mahamay,\nNisy anefa Tompo izay nampanantena\nMba hamerina ny soa ‘zay efa very\nKristy fiainana mizara famonjena,\nTokana no azo antok’Izy irery.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('822', 'Noharina mba ho iray isika mpino\nKa hanompo Tompo tokana Tsitoha\nNdrisy anefa, fa mikipy manadino\nFa matory am-pisarahana tsy mifoha\nNisy anefa, mbola misy Tompo iray\nAzo toky fa hamory ny mania\nKristy fiainana, hanangona indray\nNy Fiangonany hiray raha toa minia', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('822', 'Tsia, tsy nisy nohariana mba hijaly\nTsia, tsy nisy voatokana ho faly\nTsy hi-fandrafy sy hiady sanatria\nNo namoronana ny olona, ô, tsia!\nFa ireny vokatry ny kihotana\nKa mamikitra, tapisaka, lovàna\n‘Reo rehetr’ireo ho levona sy foana\nRaha Kristy Fiainana no ho Tomponao.', '3', '3');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF823',
+             '',
+             823
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('823', 'Hoderaina tokoa\nHianao, ô ry Ray\nNoho ny teny soa,\nIzay nomenao anay\nFiv : \nTeninao ny Baiboly\nAndriamanitra Ô!\nTeny fiainana\nHo an’izao tontolo izao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('823', 'Fa ny Teny nomenao,\nTompo ô, Ray Tsitoha,\nManadio, manavao,\nMampahery ny fo!\nFiv : \nTeninao ny Baiboly\nAndriamanitra Ô!\nTeny fiainana\nHo an’izao tontolo izao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('823', 'Mitsangàna hanompo\nO! ry mino izao,\nKa ny tenin’ny Tompo\nNo torio, ambarao.\nFiv : \nTeninao ny Baiboly\nAndriamanitra Ô!\nTeny fiainana\nHo an’izao tontolo izao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('823', 'Dia tariho lalandava\nMba hiely, ry Ray,\nTeny soa hanazava\nIty firenenay!\nFiv : \nTeninao ny Baiboly\nAndriamanitra Ô!\nTeny fiainana\nHo an’izao tontolo izao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF824',
+             '',
+             824
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('824', 'Ry Andriamanitra nahary,\nIsaoranay ny Anaranao\nNasehonao miharihary\nNy herin’ny fitiavanao:\nFiv : \nFa ny Fiangonanao najoro\nHo fiorenam-pahamarinana,\nDia vatolampy tsy hikoro\nSy andry azo ifikirana,', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('824', 'Ny teninao, Jeso Mpandresy,\nNo nifahiran-dRasalama\nTanaty memy nifanesy\nSy fiakarana malama:\n\nFiv : \nFa ny Fiangonanao najoro\nHo fiorenam-pahamarinana,\nDia vatolampy tsy hikoro\nSy andry azo ifikirana,', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('824', 'Ny tranomaizim-pijaliana,\nNampian’ny lefona mifofo,\nNanjary hiram-pihobiana\nNandresy lahatra ny nofo:\n\nFiv : \nFa ny Fiangonanao najoro\nHo fiorenam-pahamarinana,\nDia vatolampy tsy hikoro\nSy andry azo ifikirana,', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('824', 'Ilay nantsoina ho maritiora,\nFitarikandro nanazava,\nNamerovero toy ny miora,\nNandroaka aizina hisava:\n\nFiv : \nFa ny Fiangonanao najoro\nHo fiorenam-pahamarinana,\nDia vatolampy tsy hikoro\nSy andry azo ifikirana,', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF825',
+             '',
+             825
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('825', 'Raha manjavona ny andro\nvoasarona avokoa\nNy tendrombohitra avo\nsy ny lohasaha koa\nSy ny renirano tsara izay\nmangarana madio.\nTsy hita ankehitriny\nfa manjavona anio.\nFiv : Na manjavona aza anio\nNefa ao ambony ao\nNy mazava lalandava\nTsy miova na mandao :,:\nMatokia, ry sakaiza\nAza kivy hianao.', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('825', 'Raha misava indray ny andro,\ndia ho hita avo-koa\nNy tendrombohitra avo\nsy ny lohasaha koa\nSady ao ny renirano\nka mangarana izao,\nKa afaka ny zavona\nnanarona azy tao:\nFiv : Na manjavona aza anio\nNefa ao ambony ao\nNy mazava lalandava\nTsy miova na mandao :,:\nMatokia, ry sakaiza\nAza kivy hianao.', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('825', 'Raha mbola aty an-tany\nka vahiny izahay,\nManjavona matetika\ntokoa ny andronay.\nNa dia ao ny masoandro aza,\ntakona izy ‘zao\nFa maizina ny andro,\nka tsy fantatra fa ao:\nFiv : Na manjavona aza anio\nNefa ao ambony ao\nNy mazava lalandava\nTsy miova na mandao :,:\nMatokia, ry sakaiza\nAza kivy hianao.', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('825', 'Raha tapitra ny dian’ny fanahinao aty,\nFatiny Ka lasan’Andriamanitra\nho aminy ary,\nTsy hanjavona ny andro,\nfa tsy misy rahona ao,\nHazava ery an-danitra avokoa\nny andronao.\nFiv : Na manjavona aza anio\nNefa ao ambony ao\nNy mazava lalandava\nTsy miova na mandao :,:\nMatokia, ry sakaiza\nAza kivy hianao.', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF826',
+             '',
+             826
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('826', 'Taona tokana sarobidy\nKa isaorana Ilay Tsitoha\nTena taona mba fitadidy\nFa tsingerina mampifoha\nNy hafalian’ny lohantaona\nNo manenika izato lasy\n:,:Fa naharitra ka tsy foana\nNy Baibolin’ny Malagasy:,:', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('826', 'Ny vahoakan’ny firenena\n‘Njao mianoka fifaliana\nFa ny Tenin’ny Famonjena\nNo rnivimbina fitahiana\nKa manenika ny eran-tany\nSy manerana ny tontolo\n:,:Ary isany tamin’izany\nNy taninay ka niova volo.:,:', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('826', 'Be ny sarotra nosetraina\nBe ny sakana izay nandrara\nNisy aza famoizana aina\n‘Zay voarakitry ny tantara.\nNefa, tao Andriamanitra\nKa ny Teniny tsy mba resy\n:,:No sabatra iray maranitra\nNampahatoky sy nampandresy:,:', '3', '3');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('826', 'Irina indrindra ho tafatoetra\nHitondrana ny firenena,\nHo filamatra, tarigetra\nIzany tenin’ny Famonjena:\nNy fitiavana hahazo laka,\nFilaminana no hiseho,\n:,:Fiadanana no hanjaka,\nNy fahantrana ho foana hatreo:,:', '4', '4');INSERT INTO song (author_id, category_id, reference, title, id)
+         VALUES (
+             1,
+             2,
+             'FF827',
+             '',
+             827
+         );INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('827', 'Na mamely ny tafiotra lehibe\nSy mandrivotra fatratra\nKa efa mila hahavery saina re!\nHozakaiko fa lahatra\nJeso Tompo no amiko izao\nKa ny loza resiny avokoa\nIzy no mitondra ahy mba ho ao\nAmin-dRainy handova ny soa.\nFiv : Mandrosoa hoy ny Tompo\nFa Izaho hitondra anao\nKa hitandrina anao\nSy hanatitra anao\nAny Ziona fonenan’ny Ray', '1', '1');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('827', 'Na dia maizina ny lalako ety,\nSady be fahavalo koa\nKelikely foana dia ho tonga ary\nKa ho tretrika ao tokoa.\nJeso Tompo no misakambina\nSy mihazona ny tanako roa,\nSady be fitia ka te-hiambina\nNy fanahy sy ny aiko koa.\nFiv : Mandrosoa hoy ny Tompo\nFa Izaho hitondra anao\nKa hitandrina anao\nSy hanatitra anao\nAny Ziona fonenan’ny Ray', '2', '2');INSERT INTO verses (
+    song_id,
+    lyrics,
+    reference,
+    id
+) VALUES ('827', 'Reko re ny alon-drano lehibe\n‘Zay mamely ankehitrio;\nKa toa kivy ny fanahiko mandre,\nKanjo tsara ho ahy io.\nFa tsy tiako ny hanalavitra\n‘Lay Mpanafaka ny zava-manjo,\nRaha toa ny saiko tsy finaritra,\nKa mangovitra mafy ny fo.\nFiv : Mandrosoa hoy ny Tompo\nFa Izaho hitondra anao\nKa hitandrina anao\nSy hanatitra anao\nAny Ziona fonenan’ny Ray', '3', '3');
