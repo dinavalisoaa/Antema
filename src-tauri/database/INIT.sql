@@ -1,0 +1,21 @@
+
+delete from types;
+delete from author;
+delete from category;
+delete from song;
+delete from verses;
+UPDATE sqlite_sequence SET seq = 0;INSERT INTO types (name) VALUES ('FJKM');
+INSERT INTO types (name) VALUES ('Katolika');
+INSERT INTO types (name) VALUES ('FLM');
+INSERT INTO author (name) VALUES ('FJKM');
+INSERT INTO category (type_id, name) VALUES (1, 'FFPM');
+INSERT INTO category (type_id, name) VALUES (1, 'Fihirana Fanampiny');
+INSERT INTO category (type_id, name) VALUES (1, 'Antema');
+INSERT INTO category (type_id, name) VALUES (1, 'Tsanta');
+INSERT INTO category (type_id, name) VALUES (1, 'Salamo');
+INSERT INTO category (type_id, name) VALUES (1, 'Fifohazana');
+INSERT INTO category (type_id, name) VALUES (1, 'Jobily');
+INSERT INTO category (type_id, name) VALUES (1, 'STK');
+UPDATE sqlite_sequence SET seq = 9 WHERE name = 'category';
+UPDATE sqlite_sequence SET seq = 4 WHERE name = 'types';
+UPDATE sqlite_sequence SET seq = 2 WHERE name = 'author';
