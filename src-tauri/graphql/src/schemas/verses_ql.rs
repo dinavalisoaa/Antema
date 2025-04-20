@@ -16,6 +16,7 @@ pub struct VerseDTO {
     pub lyrics: String,
     pub reference: String,
     pub song: Option<SongDTO>,
+    pub song_reference:String
 }
 
 // Structure pour les requêtes GraphQL
@@ -45,8 +46,11 @@ impl VerseQuery {
                     reference: s.reference,
                     category: None,
                     author: None,
+                    content: None,
                     verses: vec![],
                 }),
+
+                song_reference: "".to_string(),
             };
 
             Ok(Some(verse_dto))
@@ -88,10 +92,12 @@ impl VerseQuery {
                     id: s.id,
                     title: s.title,
                     reference: s.reference,
+                    content: s.content,
                     category: None,
                     author: None,
                     verses: vec![],
                 }),
+                song_reference: "".to_string(),
             };
             verse_dtos.push(verse_dto);
         }
@@ -140,8 +146,10 @@ impl VerseMutation {
                 reference: s.reference,
                 category: None,
                 author: None,
+                content: None,
                 verses: vec![],
             }),
+            song_reference:"".to_string(),
         })
     }
 
@@ -186,8 +194,10 @@ impl VerseMutation {
                 reference: s.reference,
                 category: None,
                 author: None,
+                content: None,
                 verses: vec![],
             }),
+            song_reference:"".to_string(),
         })
     }
 }
