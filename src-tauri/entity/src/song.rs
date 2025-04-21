@@ -15,6 +15,7 @@ pub struct Model {
     pub author_id: i32,
     pub reference: String,
     pub content: Option<String>,
+    pub image: Option<String>,
   #[sea_orm(ignore)]
     pub category: Option<category::Model>,
   #[sea_orm(ignore)]
