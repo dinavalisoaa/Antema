@@ -1,0 +1,248 @@
+/* Custom Slide Engine — transitions and themes */
+
+/* ─── Container ─────────────────────────────────── */
+.se-viewport {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.se-slide {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 400ms ease, opacity 400ms ease;
+  will-change: transform, opacity;
+  background-size: cover;
+  background-position: center;
+}
+
+/* ─── Slide transition ───────────────────────────── */
+.se-slide.active {
+  transform: translateX(0) translateY(0);
+  opacity: 1;
+  z-index: 2;
+}
+
+/* Horizontal: enter from right */
+.se-slide.enter-right {
+  transform: translateX(100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+/* Horizontal: exit to left */
+.se-slide.exit-left {
+  transform: translateX(-100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+/* Horizontal: enter from left */
+.se-slide.enter-left {
+  transform: translateX(-100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+/* Horizontal: exit to right */
+.se-slide.exit-right {
+  transform: translateX(100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+/* Vertical: enter from bottom */
+.se-slide.enter-bottom {
+  transform: translateY(100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+/* Vertical: exit to top */
+.se-slide.exit-top {
+  transform: translateY(-100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+/* Vertical: enter from top */
+.se-slide.enter-top {
+  transform: translateY(-100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+/* Vertical: exit to bottom */
+.se-slide.exit-bottom {
+  transform: translateY(100%);
+  opacity: 0;
+  z-index: 1;
+}
+
+/* ─── Concave transition ─────────────────────────── */
+.se-concave .se-slide.enter-right {
+  transform: perspective(1000px) rotateY(-90deg);
+  opacity: 0;
+}
+.se-concave .se-slide.exit-left {
+  transform: perspective(1000px) rotateY(90deg);
+  opacity: 0;
+}
+.se-concave .se-slide.enter-left {
+  transform: perspective(1000px) rotateY(90deg);
+  opacity: 0;
+}
+.se-concave .se-slide.exit-right {
+  transform: perspective(1000px) rotateY(-90deg);
+  opacity: 0;
+}
+
+/* ─── Convex transition ──────────────────────────── */
+.se-convex .se-slide.enter-right {
+  transform: perspective(1000px) rotateY(90deg);
+  opacity: 0;
+}
+.se-convex .se-slide.exit-left {
+  transform: perspective(1000px) rotateY(-90deg);
+  opacity: 0;
+}
+.se-convex .se-slide.enter-left {
+  transform: perspective(1000px) rotateY(-90deg);
+  opacity: 0;
+}
+.se-convex .se-slide.exit-right {
+  transform: perspective(1000px) rotateY(90deg);
+  opacity: 0;
+}
+
+/* ─── Fade transition ────────────────────────────── */
+.se-fade .se-slide.enter-right,
+.se-fade .se-slide.enter-left,
+.se-fade .se-slide.enter-top,
+.se-fade .se-slide.enter-bottom {
+  transform: none;
+  opacity: 0;
+}
+.se-fade .se-slide.exit-left,
+.se-fade .se-slide.exit-right,
+.se-fade .se-slide.exit-top,
+.se-fade .se-slide.exit-bottom {
+  transform: none;
+  opacity: 0;
+}
+
+/* ─── Hidden slides ──────────────────────────────── */
+.se-slide.hidden {
+  display: none;
+}
+
+/* ─── Fragments ──────────────────────────────────── */
+.se-fragment {
+  opacity: 0;
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+.se-fragment.visible {
+  opacity: 1;
+}
+.se-fragment-slide.visible {
+  transform: translateX(0);
+}
+.se-fragment-slide {
+  transform: translateX(-30px);
+}
+.se-fragment-fade {
+  /* just opacity, already handled */
+}
+
+/* ─── Controls ───────────────────────────────────── */
+.se-controls {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  z-index: 100;
+}
+
+.se-controls button {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.4);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 200ms;
+}
+.se-controls button:hover {
+  background: rgba(0, 0, 0, 0.65);
+}
+.se-controls button:disabled {
+  opacity: 0.25;
+  cursor: default;
+}
+
+/* ─── Progress bar ───────────────────────────────── */
+.se-progress {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background: rgba(255, 255, 255, 0.5);
+  transition: width 300ms ease;
+  z-index: 100;
+}
+
+/* ─── Slide number ───────────────────────────────── */
+.se-slide-number {
+  position: fixed;
+  bottom: 0.75rem;
+  left: 1rem;
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.5);
+  z-index: 100;
+}
+
+/* ─── Themes ─────────────────────────────────────── */
+
+/* sky */
+.se-theme-sky {
+  background: #f5f5f5;
+  color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+.se-theme-sky .se-slide {
+  color: #333;
+}
+
+/* moon */
+.se-theme-moon {
+  background: #002b36;
+  color: #93a1a1;
+  font-family: 'Lato', sans-serif;
+}
+
+/* black */
+.se-theme-black {
+  background: #191919;
+  color: #fff;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* white */
+.se-theme-white {
+  background: #fff;
+  color: #222;
+  font-family: 'Source Sans Pro', sans-serif;
+}
