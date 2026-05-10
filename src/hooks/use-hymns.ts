@@ -24,11 +24,15 @@ export function useHymns() {
         Promise.all([
             fetch('/ressources/hira/01_fihirana_ffpm.json').then(r => r.json()),
             fetch('/ressources/hira/02_fihirana_fanampiny.json').then(r => r.json()),
+            fetch('/ressources/hira/03_antema.json').then(r => r.json()),
+            fetch('/ressources/hira/04_hira_salamo.json').then(r => r.json()),
         ])
-            .then(([ffpm, fanampiny]) => {
+            .then(([ffpm, fanampiny, antema, salamo]) => {
                 setHymns([
                     ...parseFile(ffpm, 'ffpm'),
                     ...parseFile(fanampiny, 'fanampiny'),
+                    ...parseFile(antema, 'antema'),
+                    ...parseFile(salamo, 'salamo'),
                 ])
                 setLoading(false)
             })

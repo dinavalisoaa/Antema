@@ -22,5 +22,5 @@ export interface Hymn {
     lohateny: string;
     mpanoratra: string[];
     hira: HymnVerse[];
-    source: 'ffpm' | 'fanampiny';
+    source: 'ffpm' | 'fanampiny' | 'antema' | 'salamo';
 }
