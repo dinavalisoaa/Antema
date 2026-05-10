@@ -37,3 +37,4 @@ next-env.d.ts
 # dev on MacOS
 .DS_Store
 .vscode
+/.idea

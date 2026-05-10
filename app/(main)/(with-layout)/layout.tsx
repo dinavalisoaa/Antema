@@ -1,35 +1,23 @@
-import AppSidebar from '@/src/components/layout/app-sidebar';
-import Header from '@/src/components/layout/header';
-import { SidebarInset, SidebarProvider } from '@/src/components/ui/sidebar';
-import type { Metadata } from 'next';
-import { cookies } from 'next/headers';
-import React from "react";
-import KBar from "@/src/components/kbar";
+import AppSidebar from '@/src/components/layout/app-sidebar'
+import Header from '@/src/components/layout/header'
+import type { Metadata } from 'next'
+import React from 'react'
 
 export const metadata: Metadata = {
-  title: 'Next Shadcn Dashboard Starter',
-  description: 'Basic dashboard with Next.js and Shadcn'
-};
+    title: 'Hira Pro',
+    description: 'Liturgical Control'
+}
 
-export default async function DashboardLayout({
-  children
-}: {
-  children: React.ReactNode;
-}) {
-  // Persisting the sidebar state in the cookie.
-  // const cookieStore = await cookies();
-  // const defaultOpen = cookieStore.get('sidebar:state')?.value === 'true';
-  return (
-      <KBar>
-      <SidebarProvider defaultOpen={true}>
-        <AppSidebar />
-        <SidebarInset>
-          <Header />
-          {/* page main content */}
-          {children}
-          {/* page main content ends */}
-        </SidebarInset>
-      </SidebarProvider>
-      </KBar>
-  );
+export default function DashboardLayout({ children }: { children: React.ReactNode }) {
+    return (
+        <div className="flex flex-col h-screen bg-slate-950 overflow-hidden">
+            <Header />
+            <div className="flex flex-1 overflow-hidden">
+                <AppSidebar />
+                <main className="flex-1 overflow-hidden bg-slate-950">
+                    {children}
+                </main>
+            </div>
+        </div>
+    )
 }
